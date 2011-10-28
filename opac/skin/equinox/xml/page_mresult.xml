@@ -1,9 +1,0 @@
-<div>
-	<script language='javascript' type='text/javascript' src='<!--#echo var="OILS_OPAC_JS_HOST"-->/skin/equinox/js/sidebar_extras.js'></script>
-	<script language='javascript' type='text/javascript' src='<!--#echo var="OILS_OPAC_JS_HOST"-->/skin/equinox/js/mresult.js'></script>
-	<script language='javascript' type='text/javascript' src='<!--#echo var="OILS_OPAC_JS_HOST"-->/skin/equinox/js/result_common.js'></script>
-	<script language='javascript' type='text/javascript' src='<!--#echo var="OILS_OPAC_JS_HOST"-->/skin/equinox/js/tips.js'></script>
-	<script language='javascript' type='text/javascript' src='<!--#echo var="OILS_OPAC_JS_HOST"-->/skin/equinox/js/holds.js'></script>   
-	<!--#include virtual="result/result_common.xml"-->
-</div>
-
