@@ -1,0 +1,216 @@
+<!-- Common Entities -->
+<!ENTITY reports.common.logged_in_as "Vous avez ouvert une session en tant que ">
+<!ENTITY reports.common.loading "Chargement...">
+
+<!ENTITY reports.oils_rpt.title "Evergreen: Rapports">
+<!ENTITY reports.oils_rpt.insufficient_permissions "Vous n'êtes pas autorisé de générer des rapports">
+<!ENTITY reports.oils_rpt.my_folders "Mes répetoires">
+<!ENTITY reports.oils_rpt.shared_folders "Répertoires partagé">
+<!ENTITY reports.oils_rpt.manage_folder_contents "Gérer le contenu du répertoire">
+<!ENTITY reports.oils_rpt.manage_folder "Gérer répertoire">
+<!ENTITY reports.oils_rpt.created_by "créé par">
+<!ENTITY reports.oils_rpt.create_new_sub_folder "Créer un nouveau sous-répertoire">
+<!ENTITY reports.oils_rpt.folder_type "Type de répertoire :">
+<!ENTITY reports.oils_rpt.folder_name "Nom du répertoire :">
+<!ENTITY reports.oils_rpt.share_folder "Partager ce répertoire :">
+<!ENTITY reports.oils_rpt.do_not_share "Ne pas partager">
+<!ENTITY reports.oils_rpt.share "Partager">
+<!ENTITY reports.oils_rpt.share_with "Partager avec :">
+<!ENTITY reports.oils_rpt.create_sub_folder "Créer sous-répertoire">
+
+
+<!ENTITY reports.oils_rpt_builder.title "Evergreen: Constructeur de rapports">
+<!ENTITY reports.oils_rpt_builder.reports_home "Rapports Accueil">
+<!ENTITY reports.oils_rpt_builder.cloning_template "Modèle de clonage">
+<!ENTITY reports.oils_rpt_builder.template_name "Nom du modèle : ">
+<!ENTITY reports.oils_rpt_builder.template_description "Description du modèle : ">
+<!ENTITY reports.oils_rpt_builder.template_type "Type de modèle : ">
+<!ENTITY reports.oils_rpt_builder.save_this_template "Enregistrer ce modèle : ">
+<!ENTITY reports.oils_rpt_builder.filtering_note "Indique que lorsqu'un filtre s'applique à l'article, une liste de choix sera générée">
+<!ENTITY reports.oils_rpt_builder.temp_disp_items "Modèle d'articles d'affichage">
+<!ENTITY reports.oils_rpt_builder.remove_selected "Supprimer les articles sélectionnés">
+
+<!ENTITY reports.oils_rpt_builder.move_up "Déplacer vers le haut">
+<!ENTITY reports.oils_rpt_builder.move_down "Déplacer vers le bas">
+<!-- The below two entity strings were the contents of the .xhtml file but I don't think that works when using XML entities -->
+<!-- ENTITY reports.oils_rpt_builder.move_up "Move &uarr;" -->
+<!-- ENTITY reports.oils_rpt_builder.move_down "Move &darr;" -->
+
+<!ENTITY reports.oils_rpt_builder.template_filters "Filtres de modèles">
+<!ENTITY reports.oils_rpt_builder.report_aggregate_filters "Report Aggregate Filters">
+<!ENTITY reports.oils_rpt_builder.hint "Indice :">
+<!ENTITY reports.oils_rpt_builder.hint_item_details "Double-cliquer sur un article pour voir ses détails.">
+<!ENTITY reports.oils_rpt_builder.template_types "Types de modèles">
+<!ENTITY reports.oils_rpt_builder.display_items "Articles d'affichage">
+<!ENTITY reports.oils_rpt_builder.filters "Filtres">
+<!ENTITY reports.oils_rpt_builder.aggregate_filters "Aggregate Filters">
+<!ENTITY reports.oils_rpt_builder.create_aggregate_filter "Create Aggregate Filter">
+<!ENTITY reports.oils_rpt_builder.field_editor_window.label "Sélectionner comment ce champ devrait être affiché :">
+<!ENTITY reports.oils_rpt_builder.add_item "Ajouter article">
+<!ENTITY reports.oils_rpt_builder.select_filter_to_apply "Sélectionner le filtre qui devrait être appliqué sur ce champ :">
+<!ENTITY reports.oils_rpt_builder.choose_a_transform "Choisir une transformation : ">
+<!ENTITY reports.oils_rpt_builder.choose_a_filter "Choisir un filtre : ">
+<!ENTITY reports.oils_rpt_builder.create_filter "Créer un filtre">
+<!ENTITY reports.oils_rpt_builder.aggregate_filter_to_apply "Select what aggregate filter should be applied to this field:">
+<!ENTITY reports.oils_rpt_builder.selected_to_sort_columns "Sélectionner comment les colonnes devraient être triées">
+<!ENTITY reports.oils_rpt_builder.choose_column "Choisir une colonne : ">
+<!ENTITY reports.oils_rpt_builder.choose_sorting_direction "Choisir la direction du tri :">
+<!ENTITY reports.oils_rpt_builder.ascending "Ascendant">
+<!ENTITY reports.oils_rpt_builder.descending "Descendant">
+<!ENTITY reports.oils_rpt_builder.add_sort "Ajouter un tri">
+<!ENTITY reports.oils_rpt_builder.close_window "Fermer la fenêtre">
+<!ENTITY reports.oils_rpt_builder.confirm_new_report "Cette action détruira le rapport sur lequel vous travaillez en ce moment. Désirez-vous vraiment le détruire?">
+
+
+<!ENTITY reports.oils_rpt_common.action_succeeded "Action réussie">
+<!ENTITY reports.oils_rpt_common.action_failed "Action échouée">
+<!ENTITY reports.oils_rpt_common.generic_calendar_button "Sélecteur de date">
+
+
+<!ENTITY reports.oils_rpt_editor.template_name "Nom du modèle : ">
+<!ENTITY reports.oils_rpt_editor.template_creator "Createur de modèle :">
+<!ENTITY reports.oils_rpt_editor.template_description "Description du modèle :">
+<!ENTITY reports.oils_rpt_editor.report_name "Nom du rapport :">
+<!ENTITY reports.oils_rpt_editor.report_description "Description du rapport :">
+<!ENTITY reports.oils_rpt_editor.report_columns "Colonnes du rapport :">
+<!ENTITY reports.oils_rpt_editor.pivot_label_column "Pivoter la colonne d'étiquette">
+<!ENTITY reports.oils_rpt_editor.select_option "Sélectionner une (facultatif)">
+<!ENTITY reports.oils_rpt_editor.pivot_data_column "Pivoter la colonne de données">
+<!ENTITY reports.oils_rpt_editor.store_report_definition "Choisir un répertoire dans lequel la définition du rapport sera sauvegardée : ">
+<!ENTITY reports.oils_rpt_editor.selected_folder "Répertoire sélectionné : ">
+<!ENTITY reports.oils_rpt_editor.output_options "Options de sortie">
+<!ENTITY reports.oils_rpt_editor.excel_output "Sortie Excel">
+<!ENTITY reports.oils_rpt_editor.csv_output "Sortie CSV">
+<!ENTITY reports.oils_rpt_editor.html_output "Sortie HTML">
+<!ENTITY reports.oils_rpt_editor.bar_charts "Graphiques à barres">
+<!ENTITY reports.oils_rpt_editor.line_charts "Graphiques à lignes">
+<!ENTITY reports.oils_rpt_editor.recurring_report "Rapport récurrent : ">
+<!ENTITY reports.oils_rpt_editor.recurring_interval "Intervalle de récurrence : ">
+<!ENTITY reports.oils_rpt_editor.days "Jour(s)">
+<!ENTITY reports.oils_rpt_editor.weeks "Semaine(s)">
+<!ENTITY reports.oils_rpt_editor.months "Mois">
+<!ENTITY reports.oils_rpt_editor.run_asap "Exécuter aussitôt que possible">
+<!ENTITY reports.oils_rpt_editor.sent_to_email "Envoyer un avis de d'accomplissement a cette adresse de courriel : ">
+<!ENTITY reports.oils_rpt_editor.midnight "Minuit">
+<!ENTITY reports.oils_rpt_editor.noon "Midi">
+<!ENTITY reports.oils_rpt_editor.storage_folder_for_output "Choisir un répertoire où sauvegarder la sortie de ce rapport :">
+<!ENTITY reports.oils_rpt_editor.save_report "Enregistrer le rapport">
+<!ENTITY reports.oils_rpt_editor.empty_parameter "Une ou plusieurs paramètres défini par l'utilisateur sont vide. Veuillez remplir tous les champs.">
+<!ENTITY reports.oils_rpt_editor.same_name "Un rapport avec ce nom existe déjà dans ce répertoire.">
+
+
+<!ENTITY reports.oils_rpt_folder_manager.change_folder_name "Changer le nom du répertoire">
+<!ENTITY reports.oils_rpt_folder_manager.delete_folder "Supprimer ce répertoire">
+<!ENTITY reports.oils_rpt_folder_manager.create_new_sub_folder "Créer un nouveau sous-répertoire">
+<!ENTITY reports.oils_rpt_folder_manager.share_this_folder "Partager ce répertoire">
+<!ENTITY reports.oils_rpt_folder_manager.hide_folder "Cacher (ne pas partager) ce répertoire">
+<!ENTITY reports.oils_rpt_folder_manager.disable_recurrence "Désactiver la récurrence">
+<!ENTITY reports.oils_rpt_folder_manager.fldr_mngr_actions_submit "Exécuter">
+<!ENTITY reports.oils_rpt_folder_manager.change_name "Entrez le nouveau nom :">
+<!ENTITY reports.oils_rpt_folder_manager.submit "Transmettre">
+<!ENTITY reports.oils_rpt_folder_manager.folder_name "Nom du répertoire :">
+<!ENTITY reports.oils_rpt_folder_manager.do_not_share "Ne pas partager">
+<!ENTITY reports.oils_rpt_folder_manager.share "Partager">
+<!ENTITY reports.oils_rpt_folder_manager.share_with "Partager avec :">
+<!ENTITY reports.oils_rpt_folder_manager.create_sub_folder "Créer sous-répertoire">
+<!ENTITY reports.oils_rpt_folder_manager.change_name_confirm "Désirez-vous vraiment changer le nom de ce répertoire?">
+<!ENTITY reports.oils_rpt_folder_manager.delete_name_confirm "Désirez-vous vraiment supprimer ce répertoire?">
+<!ENTITY reports.oils_rpt_folder_manager.cannot_delete "Ce répertoire ne peut pas être supprimé parce qu'il n'est pas vide.">
+<!ENTITY reports.oils_rpt_folder_manager.already_shared "Ce répertoire est déjà partagé">
+<!ENTITY reports.oils_rpt_folder_manager.folder_not_shared "Ce répertoire n'est pas partagé">
+<!ENTITY reports.oils_rpt_folder_manager.confirm_hide_folder "Désirez-vous vraiment cacher ce répertoire?">
+
+
+<!ENTITY reports.oils_rpt_folder_window.new_report_from_template "Créer un nouveau rapport à partir du modèle sélectionné">
+<!ENTITY reports.oils_rpt_folder_window.clone_template "Cloner le modèle sélectionné">
+<!ENTITY reports.oils_rpt_folder_window.delete_template "Supprimer le modèle sélectionné">
+<!ENTITY reports.oils_rpt_folder_window.clone_report "Cloner le rapport">
+<!ENTITY reports.oils_rpt_folder_window.schedule_report "Programmer le rapport">
+<!ENTITY reports.oils_rpt_folder_window.delete_reports "Supprimer les rapports sélectionnés">
+<!ENTITY reports.oils_rpt_folder_window.view_report_output "Afficher la sortie du rapport">
+<!ENTITY reports.oils_rpt_folder_window.delete_output "Supprimer les sorties sélectionnées">
+<!ENTITY reports.oils_rpt_folder_window.move_templates "Déplacer les modèles sélectionné dans un autre répertoire">
+<!ENTITY reports.oils_rpt_folder_window.move_reports "Déplacer les rapports sélectionné dans un autre répertoire">
+<!ENTITY reports.oils_rpt_folder_window.move_output "Déplacer les sorties sélectionné dans un autre répertoire">
+<!ENTITY reports.oils_rpt_folder_window.submit "Transmettre">
+<!ENTITY reports.oils_rpt_folder_window.limit_output "Limiter la sortie à ">
+<!ENTITY reports.oils_rpt_folder_window.all "Tout">
+<!ENTITY reports.oils_rpt_folder_window.pending_items "Articles en suspens">
+<!ENTITY reports.oils_rpt_folder_window.new_template "Créer un nouveau modèle pour ce répertoire">
+<!ENTITY reports.oils_rpt_folder_window.no_items_to_display "Aucun article à afficher">
+<!ENTITY reports.oils_rpt_folder_window.completed_items "Articles complétés">
+<!ENTITY reports.oils_rpt_folder_window.selected_folder "Répertoire sélectionné : ">
+<!ENTITY reports.oils_rpt_folder_window.select_folder "Sélectionner un répertoire">
+<!ENTITY reports.oils_rpt_folder_window.cancel "Annuler">
+<!ENTITY reports.oils_rpt_folder_window.confirm_delete "Désirez-vous vraiment supprimer les articles sélectionnés?">
+<!ENTITY reports.oils_rpt_folder_window.dependant_reports_no_delete "One or more of the selected templates could not be deleted because there are reports that depend on them.">
+<!ENTITY reports.oils_rpt_folder_window.dependant_outputs_no_delete "One or more of The selected reports could not be deleted because there are outputs that depend on them.">
+<!ENTITY reports.oils_rpt_folder_window.cannot_delete_another_users_data "Vous ne pouvez pas supprimer les articles d'un autre utilisateur">
+<!ENTITY reports.oils_rpt_folder_window.cannot_move_another_users_data "Vous ne pouvez pas déplacer les articles d'un autre utilisateur">
+<!ENTITY reports.oils_rpt_folder_window.delete_all_attached_reports "
+        This will also delete all of your attached reports and outputs for
+        this template.  
+
+        If other users have reports or outputs attached to this template,
+        those will be left untouched and the template will not be deleted.
+        
+        Do you wish to continue?">
+<!ENTITY reports.oils_rpt_folder_window.delete_all_attached_outputs "
+        This will also delete all of your attached outputs for
+        this report.  
+        
+        If other users have outputs attached to this report,
+        those will be left untouched and the report will not be deleted.
+        
+        Do you wish to continue?">
+
+
+<!ENTITY reports.oils_rpt_param_editor.column "Colonne">
+<!ENTITY reports.oils_rpt_param_editor.transform "Transformation">
+<!ENTITY reports.oils_rpt_param_editor.action "Action">
+<!ENTITY reports.oils_rpt_param_editor.user_params "Paramètres d'utilisateur">
+<!ENTITY reports.oils_rpt_param_editor.or "OU">
+<!ENTITY reports.oils_rpt_param_editor.use_relative_date "Plûtôt utiliser une date relative">
+<!ENTITY reports.oils_rpt_param_editor.days "Jour(s)">
+<!ENTITY reports.oils_rpt_param_editor.weeks "Semaine(s)">
+<!ENTITY reports.oils_rpt_param_editor.months "Mois">
+<!ENTITY reports.oils_rpt_param_editor.ago " ago">
+
+
+<!ENTITY reports.xul.template_builder.db_source_browser.label "Navigateur de sources de bases de données">
+<!ENTITY reports.xul.template_builder.sources_menulist.label "Sources">
+<!ENTITY reports.xul.template_builder.source_name.label "Nom de la source">
+<!ENTITY reports.xul.template_builder.source_nullable.label "Nullable">
+<!ENTITY reports.xul.template_builder.nullability_select.label "Enable nullability selection">
+<!ENTITY reports.xul.template_builder.source_specifier.label "Déterminant de la source :">
+<!ENTITY reports.xul.template_builder.field_name.label "Nom du champ">
+<!ENTITY reports.xul.template_builder.data_type.label "Type de donnée">
+<!ENTITY reports.xul.template_builder.field_transform.label "Transformation de champ">
+<!ENTITY reports.xul.template_builder.params.label "Paramètres">
+<!ENTITY reports.xul.template_builder.applicable_datatypes.label "Types de donnéées applicables">
+<!ENTITY reports.xul.template_builder.output_type.label "Type de sortie">
+<!ENTITY reports.xul.template_builder.source_add.label "Ajouter les champs sélectionnés">
+<!ENTITY reports.xul.template_builder.template_config_caption.label "Configuration des modèles">
+<!ENTITY reports.xul.template_builder.name.label "Nom :">
+<!ENTITY reports.xul.template_builder.description.label "Description :">
+<!ENTITY reports.xul.template_builder.save.label "Enregistrer">
+<!ENTITY reports.xul.template_builder.displayed_fields.label "Champs affichés">
+<!ENTITY reports.xul.template_builder.base_filters.label "Filtres de base">
+<!ENTITY reports.xul.template_builder.aggregate_filters.label "Aggregate Filters">
+<!ENTITY reports.xul.template_builder.display_name.label "Nom d'affichage">
+<!ENTITY reports.xul.template_builder.field_transform_type.label "Type de transformation de champ">
+<!ENTITY reports.xul.template_builder.alter_display_header.label "Modifier la rubrique">
+<!ENTITY reports.xul.template_builder.move_up.label "Déplacer vers le haut">
+<!ENTITY reports.xul.template_builder.move_down.label "Déplacer vers le bas">
+<!ENTITY reports.xul.template_builder.remove_selected_field.label "Supprimer le champ sélectionné">
+<!ENTITY reports.xul.template_builder.filter_field.label "Champ de filtre">
+<!ENTITY reports.xul.template_builder.operator.label "Opérateur">
+<!ENTITY reports.xul.template_builder.value.label "Valeur">
+<!ENTITY reports.xul.template_builder.change_transform.label "Changer la transformation">
+<!ENTITY reports.xul.template_builder.change_operator.label "Changer l'opérateur">
+<!ENTITY reports.xul.template_builder.change_value.label "Changer la valeur">
+<!ENTITY reports.xul.template_builder.remove_value.label "Supprimer la valeur">
+<!ENTITY reports.xul.template_builder.remove_selected_fields.label "Supprimer les champs sélectionnés">
+<!ENTITY reports.xul.template_builder.table_name.label "Nom du tableau">
+<!ENTITY reports.xul.template_builder.sql_alias.label "Alias SQL">
+<!ENTITY reports.xul.template_builder.relationship.label "Rapport">

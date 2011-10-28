@@ -1,0 +1,53 @@
+***************
+*** 2,8 ****
+  var cpdCounter = 0;
+  var cpdNodes = {};
+  
+- function cpdBuild( contextTbody, contextRow, record, callnumber, orgid, depth ) {
+  var i = cpdCheckExisting(contextRow);
+  	if(i) return i;
+  
+--- 2,8 ----
+  var cpdCounter = 0;
+  var cpdNodes = {};
+  
++ function cpdBuild( contextTbody, contextRow, record, callnumber, orgid, depth, copy_location ) {
+  var i = cpdCheckExisting(contextRow);
+  	if(i) return i;
+  
+***************
+*** 48,53 ****
+  		orgid				: orgid,
+  		depth				: depth,
+  		templateRow		: templateRow, /* contains everything */
+  		mainTbody		: mainTbody, /* holds the copy rows */
+  		extrasRow		: extrasRow, /* wrapper row for all extras */
+  		counter			: counter
+--- 48,54 ----
+  		orgid				: orgid,
+  		depth				: depth,
+  		templateRow		: templateRow, /* contains everything */
++ 		copy_location		: copy_location,
+  		mainTbody		: mainTbody, /* holds the copy rows */
+  		extrasRow		: extrasRow, /* wrapper row for all extras */
+  		counter			: counter
+***************
+*** 195,200 ****
+  	var copy = r.getResultObject();
+  	var row  = r.row;
+  
+  	$n(row, 'barcode').appendChild(text(copy.barcode()));
+  	$n(row, 'location').appendChild(text(copy.location().name()));
+  	$n(row, 'status').appendChild(text(copy.status().name()));
+--- 196,206 ----
+  	var copy = r.getResultObject();
+  	var row  = r.row;
+  
++     if (r.args.copy_location && copy.location().name() != r.args.copy_location) {
++         hideMe(row);
++         return;
++     }
++ 
+  	$n(row, 'barcode').appendChild(text(copy.barcode()));
+  	$n(row, 'location').appendChild(text(copy.location().name()));
+  	$n(row, 'status').appendChild(text(copy.status().name()));

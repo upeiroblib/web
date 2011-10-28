@@ -1,0 +1,48 @@
+***************
+*** 23,28 ****
+  			<tr>
+  				<td  class='rdetail_copy_info_header_cell'>&rdetail.copyInfo.library;</td>
+  				<td  class='rdetail_copy_info_header_cell'>&rdetail.copyInfo.callnumber;</td>
+  				<td  class='rdetail_copy_info_header_cell'>&rdetail.copyInfo.actions;</td>
+  				<td  nowrap='nowrap' class='rdetail_copy_info_header_cell' id='rdetail_copy_info_status'> 
+  					<div name='rdetail_status_cell'> </div>
+--- 23,29 ----
+  			<tr>
+  				<td  class='rdetail_copy_info_header_cell'>&rdetail.copyInfo.library;</td>
+  				<td  class='rdetail_copy_info_header_cell'>&rdetail.copyInfo.callnumber;</td>
++ 				<td  name='rdetail_copylocation_header' class='rdetail_copy_info_header_cell hide_me'>&rdetail.copyInfo.copylocation;</td>
+  				<td  class='rdetail_copy_info_header_cell'>&rdetail.copyInfo.actions;</td>
+  				<td  nowrap='nowrap' class='rdetail_copy_info_header_cell' id='rdetail_copy_info_status'> 
+  					<div name='rdetail_status_cell'> </div>
+***************
+*** 38,51 ****
+  					</a>
+  				</td>
+  				<td name='rdetail_callnumber_cell'> </td>
+  				<td name='rdetail_actions_cell'> 
+  					<div style='padding-bottom: 1px;'>
+  						<a style='font-size: 8pt;'
+- 							name='details' class='classic_link'>&rdetail.copyInfo.details;</a>
+  					</div>
+  					<div style='margin-top: 2px;'>
+  						<a name='browse' style='font-size: 8pt;'
+- 							class='classic_link'>&rdetail.copyInfo.browse;</a>
+  					</div>
+  					<div style='margin-top: 2px;' name='hold_div' class='hide_me'>
+  						<a name='hold' style='font-size: 8pt;' href='javascript:void(0);'
+--- 39,53 ----
+  					</a>
+  				</td>
+  				<td name='rdetail_callnumber_cell'> </td>
++ 				<td class="hide_me" name='rdetail_copylocation_cell'> </td>
+  				<td name='rdetail_actions_cell'> 
+  					<div style='padding-bottom: 1px;'>
+  						<a style='font-size: 8pt;'
++ 							name='details' class='hide_me classic_link'>&rdetail.copyInfo.details;</a>
+  					</div>
+  					<div style='margin-top: 2px;'>
+  						<a name='browse' style='font-size: 8pt;'
++ 							class='hide_me classic_link'>&rdetail.copyInfo.browse;</a>
+  					</div>
+  					<div style='margin-top: 2px;' name='hold_div' class='hide_me'>
+  						<a name='hold' style='font-size: 8pt;' href='javascript:void(0);'

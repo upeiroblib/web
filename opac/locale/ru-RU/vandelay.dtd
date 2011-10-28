@@ -1,0 +1,112 @@
+<!ENTITY vandelay.add.existing.queue "или добавить в существующую очередь">
+<!ENTITY vandelay.auth.attrs "Авторитетные атрибуты">
+<!ENTITY vandelay.auth.records "Авторитетные записи">
+<!ENTITY vandelay.auto.import.noncolliding "Auto-Import Non-Colliding записи">
+<!ENTITY vandelay.auto.import.auto_overlay_exact "Auto Merge/Overlay Exact Matches">
+<!ENTITY vandelay.auto.import.auto_overlay_1match "Auto Merge/Overlay When Exactly 1 Match is Found">
+<!ENTITY vandelay.auto.import.merge_profile "Merge/Overlay Profile">
+<!ENTITY vandelay.auto.width "Автоматическая ширина">
+<!ENTITY vandelay.back.to.import.queue "Назад в очередь импорта">
+<!ENTITY vandelay.bib.attrs "Библиографические атрибуты">
+<!ENTITY vandelay.bib.records "Библиографические записи">
+<!ENTITY vandelay.cancel "Отмена">
+<!ENTITY vandelay.edit "Редакция">
+<!ENTITY vandelay.code "Код">
+<!ENTITY vandelay.column "Колонка">
+<!ENTITY vandelay.create.attr.def "Создать атрибут Определения">
+<!ENTITY vandelay.create "Создать">
+<!ENTITY vandelay.create.date "Создать дату">
+<!ENTITY vandelay.create.upload.queue "Создать очередь новой загрузки">
+<!ENTITY vandelay.creator "Создатель">
+<!ENTITY vandelay.delete.queue "Удалить очередь">
+<!ENTITY vandelay.delete.record "Удалить запись">
+<!ENTITY vandelay.descrip "Описание">
+<!ENTITY vandelay.dest.match.point "Точка совпадения назначения">
+<!ENTITY vandelay.display "Отображение">
+<!ENTITY vandelay.done "Выполнен">
+<!ENTITY vandelay.edit.attributes "Редакция атрибута">
+<!ENTITY vandelay.edit.attrs "Редакция атрибута">
+<!ENTITY vandelay.edit.profiles "Edit Merge / Overlay Profiles">
+<!ENTITY vandelay.edit.import_item_attrs "Edit Import Item Attributes">
+<!ENTITY vandelay.false "Лож">
+<!ENTITY vandelay.file.to.upload "Документ для Загрузки:">
+<!ENTITY vandelay.for.example "пример">
+<!ENTITY vandelay.identifier "Идентификатор">
+<!ENTITY vandelay.id.field "Идентификатор поля?">
+<!ENTITY vandelay.id "ID">
+<!ENTITY vandelay.import.matches "Импорт соответствует">
+<!ENTITY vandelay.import.records "Импорт записей">
+<!ENTITY vandelay.import.selected "Импорт отобран">
+<!ENTITY vandelay.import.all "Импортируйте Все">
+<!ENTITY vandelay.import.time "Время импорта">
+<!ENTITY vandelay.inspect.queue "Проверьте очередь">
+<!ENTITY vandelay.last.edit.date "Дата последнего  Редактирования">
+<!ENTITY vandelay.limit.to.collision.matches "Ограничить соответствующими коллизиями">
+<!ENTITY vandelay.limit.to.non.imported "Ограничить неимпортированными записями">
+<!ENTITY vandelay.marc.file.upload "Загрузка документа Evergreen MARC">
+<!ENTITY vandelay.marc.record "Запись MARC">
+<!ENTITY vandelay.matches "Совпадения">
+<!ENTITY vandelay.next.page "Next Page &#187;">
+<!ENTITY vandelay.overlay.selected.record "Накладывать  выбранный запись с импортированной записью">
+<!ENTITY vandelay.overlay.target "Накладывать мишень">
+<!ENTITY vandelay.page "Страница">
+<!ENTITY vandelay.powered.by.evergreen "Powered by Evergreen!">
+<!ENTITY vandelay.prev.page "&#171; Previous Page">
+<!ENTITY vandelay.processing "Обработка ">
+<!ENTITY vandelay.queue "Очередь">
+<!ENTITY vandelay.queue.type "Тип очереди">
+<!ENTITY vandelay.record.queue "Очередь записи">
+<!ENTITY vandelay.record.type "Тип записи">
+<!ENTITY vandelay.refresh "Освежить">
+<!ENTITY vandelay.remove.advanced "Удалить (продвинутый)">
+<!ENTITY vandelay.remove "Удалить">
+<!ENTITY vandelay.results.per.page "Результаты по страничная">
+<!ENTITY vandelay.retrieve.queue "Восстановить очередь">
+<!ENTITY vandelay.return "Возврат">
+<!ENTITY vandelay.select.cols "Выберите колонки">
+<!ENTITY vandelay.select.queue "Выберите очередь, чтобы инспектировать">
+<!ENTITY vandelay.source.match.point "Точка совпадентя источника">
+<!ENTITY vandelay.source "Источник">
+<!ENTITY vandelay.subfields "Подполя">
+<!ENTITY vandelay.subfield "Подполе">
+<!ENTITY vandelay.sure.to.delete "Вы уверены, что хотите удалить эту запись ?">
+<!ENTITY vandelay.sure.to.delete.queue "Вы уверены, что хотите удалить эту очередь?">
+<!ENTITY vandelay.tags "Теги">
+<!ENTITY vandelay.tag "Тег">
+<!ENTITY vandelay.tcn.source "Источник TCN">
+<!ENTITY vandelay.tcn.value "TCN значение">
+<!ENTITY vandelay.tooltip.subfields "Вы можете ввести несколько подполей, отделенные пробелами и/или запятыми.">
+<!ENTITY vandelay.tooltip.tags "Вы можете ввести несколько тегови, отделенные пробелами и/или запятыми.">
+<!ENTITY vandelay.true "Верно">
+<!ENTITY vandelay.update "Обновление">
+<!ENTITY vandelay.uploading "Загрузка">
+<!ENTITY vandelay.upload.status "Статус загрузки">
+<!ENTITY vandelay.upload "Загрузка">
+<!ENTITY vandelay.vandelay "Vandelay">
+<!ENTITY vandelay.view.marc "MARC просмотр">
+<!ENTITY vandelay.xpath.advanced "XPath (продвинутый)">
+<!ENTITY vandelay.xpath "XPath">
+<!ENTITY vandelay.save "Сохранить Изменения">
+<!ENTITY vandelay.record_saved "Запись сохранена">
+<!ENTITY vandelay.export.records "Экспорт записей">
+<!ENTITY vandelay.export.use_field_no "Используйте номер поля">
+<!ENTITY vandelay.export.from_csv "Из CSV документа">
+<!ENTITY vandelay.export.record_id "ID Записи">
+<!ENTITY vandelay.export.or "или">
+<!ENTITY vandelay.export.format "Формат записи">
+<!ENTITY vandelay.export.format.marc21 "MARC21">
+<!ENTITY vandelay.export.format.unimarc "UNIMARC">
+<!ENTITY vandelay.export.format.xml "MARC XML">
+<!ENTITY vandelay.export.format.bre "Ввод записи Evergreen">
+<!ENTITY vandelay.export.encoding "Кодировка записи">
+<!ENTITY vandelay.export.utf8 "UTF-8">
+<!ENTITY vandelay.export.marc8 "MARC8">
+<!ENTITY vandelay.export.holdings "Включите хранения в библиографической записи">
+<!ENTITY vandelay.export.retrieve "Поиск записей">
+<!ENTITY vandelay.export.field_no_hint "(Начиная с 0)">
+<!ENTITY vandelay.export.bucket "ID букета Записи">
+<!ENTITY vandelay.select_actions "-- Действие --">
+<!ENTITY vandelay.queue.total "Итого:">
+<!ENTITY vandelay.queue.imported "Импортированный:">
+<!ENTITY vandelay.queue.column_picker.title "Сборщик Колонки">
+<!ENTITY vandelay.import.bib_sources "Выберите источник записи">

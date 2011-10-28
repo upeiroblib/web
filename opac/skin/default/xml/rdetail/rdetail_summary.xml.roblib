@@ -1,0 +1,152 @@
+
+<abbr class="unapi-id" title='tag:<!--#echo var="HTTP_HOST"-->,<!--#echo var="OILS_TIME_YEAR"-->:biblio-record_entry/<!--#echo var="OILS_OPAC_RID"-->'></abbr>
+<!-- This holds the record summary information -->
+<div>
+	<table id='rdetail_details_table'>
+		<tbody id='rdetail_details_tbody'>
+
+			<tr>
+				<td id='rdetail_image_cell' rowspan='20'>
+					<a id='rdetail_img_link'>
+						<img style='border: none;' id='rdetail_image' 
+                            onerror='
+                                hideMe($("rdetail.jacket_attrib_div"));
+                                hideMe($("rdetail_img_link"));'/>
+					</a>
+                    <!-- vendor attribution link -->
+                    <div class='jacket_attrib hide_me' id='rdetail.jacket_attrib_div'>
+                        <div>&opac.image_provided;</div>
+                        <div><a target='_blank' href='&vendor.base_link;' 
+                            class='classic_link' id='rdetail.jacket_attrib_link'>&vendor.name;</a></div>
+                    </div>
+				</td>
+				<td nowrap='nowrap' class='rdetail_desc'>&common.title;</td>		
+				<td class='rdetail_item' id='rdetail_title'> <span style="float:right;"><a id="refworks_export" title="Export this citation to Refworks. (UPEI users only)"><img border="0" target="_top" src="/opac/images/refworks5.gif" /></a></span></td>
+			</tr>
+
+			<tr>
+				<td nowrap='nowrap' class='rdetail_desc'>&common.author;</td>		
+				<td class='rdetail_item'>
+					<a title='&rdetail.author.search;' id='rdetail_author'> </a>
+				</td>
+			</tr>
+
+           <tr>
+				<td nowrap='nowrap' class='rdetail_desc'>Originator</td>		
+				<td class='rdetail_item' id='rdetail_originator'><span><MARC datafield="245" subfield="c"></MARC></span></td>
+			</tr>
+
+			<tr>
+				<td nowrap='nowrap' class='rdetail_desc'>&common.isbn;</td>			
+				<td class='rdetail_item' id='rdetail_isbn'> </td>
+			</tr>
+
+			<tr>
+				<td nowrap='nowrap' class='rdetail_desc'>&common.edition;</td>		
+				<td class='rdetail_item' id='rdetail_edition'> </td>
+			</tr>
+
+			<tr>
+				<td nowrap='nowrap' class='rdetail_desc'>&common.pubdate;</td>		
+				<td class='rdetail_item' id='rdetail_pubdate'> </td>
+			</tr>
+
+			<tr>
+				<td nowrap='nowrap' class='rdetail_desc'>&common.publisher;</td>		
+				<td class='rdetail_item' ><span><MARC datafield="260" subfield="a" newline="no"></MARC></span><span id='rdetail_publisher'></span> </td>
+			</tr>
+
+			<tr>
+				<td nowrap='nowrap' class='rdetail_desc'>&common.physical;</td>		
+				<td class='rdetail_item' id='rdetail_physical_desc'> </td>
+			</tr>
+
+            <tr>
+                <td nowrap='nowrap' class='rdetail_desc'>&rdetail.subjects;</td>
+                <td class='rdetail_item' id='rdetail_categories'> <MARC datafield="600|610|611|650|651|69." separator="&#187;" searchfield="keyword"></MARC>
+                												  </td>
+            </tr>
+
+            <tr>
+			<td nowrap='nowrap' class='rdetail_desc'>&common.format;</td>			
+				<td class='rdetail_item'>
+					<img id='rdetail_tor_pic' class='tor_pic' />
+					<span id='rdetail_tor' style='padding-left: 5px;'> </span>
+				</td>
+			</tr>
+
+			<tr>
+				<td nowrap='nowrap' class='rdetail_desc'>&rdetail.detailMain.abstract;</td>	
+				<td class='rdetail_item' id='rdetail_abstract'> </td>
+			</tr>
+
+			<tr>
+				<td nowrap='nowrap' class='rdetail_desc'>&rdetail.thesisNote;</td>		
+				<td class='rdetail_item' id='rdetail_thesis_note'> <MARC datafield="502"></MARC> </td>
+			</tr>
+
+			<tr>
+				<td nowrap='nowrap' class='rdetail_desc'>&rdetail.contents;</td>		
+				<td class='rdetail_item' id='rdetail_contents'> <MARC datafield="505"></MARC> </td>
+			</tr>
+
+			<tr>
+				<td nowrap='nowrap' class='rdetail_desc'>&rdetail.localNotes;</td>		
+				<td class='rdetail_item' id='rdetail_localNotes'> <MARC datafield="590"></MARC> </td>
+			</tr>
+
+			<tr>
+				<td nowrap='nowrap' class='rdetail_desc'>&rdetail.localHoldings;</td>		
+				<td class='rdetail_item' id='rdetail_localHoldings'> <MARC datafield="591"></MARC> </td>
+			</tr>
+
+			<tr>
+				<td nowrap='nowrap' class='rdetail_desc'>&rdetail.credits;</td>		
+				<td class='rdetail_item' id='rdetail_credits'> <MARC datafield="508"></MARC> </td>
+			</tr>
+
+			<tr>
+				<td nowrap='nowrap' class='rdetail_desc'>&rdetail.performers;</td>		
+				<td class='rdetail_item' id='rdetail_performers'> <MARC datafield="511"></MARC> </td>
+			</tr>
+
+			<tr>
+				<td nowrap='nowrap' class='rdetail_desc'>&rdetail.source;</td>		
+				<td class='rdetail_item' id='rdetail_source'> <MARC datafield="773"></MARC> </td>
+			</tr>
+
+
+			<tr class='hide_me' id='rdetail_online_row'>
+				<td nowrap='nowrap' class='rdetail_desc'>&rdetail.summary.online;</td>
+				<td class='rdetail_item' id='rdetail_online'> </td>
+			</tr>
+
+			<tr>
+				<td nowrap='nowrap' class='rdetail_desc'>&rdetail.meeting;</td>		
+				<td class='rdetail_item' id='rdetail_meeting'> <MARC datafield="711"></MARC> </td>
+			</tr>
+
+		</tbody>
+	</table>
+
+	<!-- Empty span used for creating unAPI links -->
+	<abbr name="unapi" class="unapi-id">
+		<!-- unAPI URI goes here -->
+	</abbr>
+
+	<script language='javascript' type='text/javascript'>
+		config.ids.rdetail.details_body		= 'rdetail_details_body'; 
+		config.ids.rdetail.title				= 'rdetail_title';
+		config.ids.rdetail.author				= 'rdetail_author';
+		config.ids.rdetail.isbn					= 'rdetail_isbn';
+		config.ids.rdetail.edition				= 'rdetail_edition';
+		config.ids.rdetail.pubdate				= 'rdetail_pubdate';
+		config.ids.rdetail.publisher			= 'rdetail_publisher';
+		config.ids.rdetail.tor					= 'rdetail_tor';
+		config.ids.rdetail.abstr				= 'rdetail_abstract';
+		config.ids.rdetail.image				= 'rdetail_image';
+		config.ids.rdetail.tor_pic				= 'rdetail_tor_pic';
+	</script>
+
+</div> <!-- details_body -->
+

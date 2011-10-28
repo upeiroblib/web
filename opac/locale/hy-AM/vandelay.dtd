@@ -1,0 +1,112 @@
+<!ENTITY vandelay.add.existing.queue "կամ Ավելացրու առկա Հերթին">
+<!ENTITY vandelay.auth.attrs "Հեղինակավորի բաղկացուցիչներ">
+<!ENTITY vandelay.auth.records "Հեղինակավոր գրառումներ">
+<!ENTITY vandelay.auto.import.noncolliding "Չկոնֆլիկտավորովող գրառումների ավտո ներմուծում">
+<!ENTITY vandelay.auto.import.auto_overlay_exact "Auto Merge/Overlay Exact Matches">
+<!ENTITY vandelay.auto.import.auto_overlay_1match "Auto Merge/Overlay When Exactly 1 Match is Found">
+<!ENTITY vandelay.auto.import.merge_profile "Merge/Overlay Profile">
+<!ENTITY vandelay.auto.width "Ավտո լայնություն">
+<!ENTITY vandelay.back.to.import.queue "Հետ դեպի ներմուծման հերթ">
+<!ENTITY vandelay.bib.attrs "Մատենագիտական բաղկացուցիչներ">
+<!ENTITY vandelay.bib.records "Մատենագիտական գրառումներ">
+<!ENTITY vandelay.cancel "Չեղյալ անել">
+<!ENTITY vandelay.edit "Խմբագրել">
+<!ENTITY vandelay.code "Կոդ">
+<!ENTITY vandelay.column "Սյունակ">
+<!ENTITY vandelay.create.attr.def "Ստեղծիր Բնութագրիչի Սահմանում">
+<!ENTITY vandelay.create "Ստեղծել">
+<!ENTITY vandelay.create.date "Ստեղծիր ամսաթիվ">
+<!ENTITY vandelay.create.upload.queue "Ստեղծիր բեռնավորման նոր հերթ">
+<!ENTITY vandelay.creator "Ստեղծող">
+<!ENTITY vandelay.delete.queue "Ջնջիր հերթը">
+<!ENTITY vandelay.delete.record "Ջնջիր գրառումը">
+<!ENTITY vandelay.descrip "Նկարագրություն">
+<!ENTITY vandelay.dest.match.point "Նպատակակետի վճռորոշ միավոր">
+<!ENTITY vandelay.display "Արտածում">
+<!ENTITY vandelay.done "Կատարված">
+<!ENTITY vandelay.edit.attributes "Խմբագրի բնութագրիչները">
+<!ENTITY vandelay.edit.attrs "Խմբագրի բնութագրիչները">
+<!ENTITY vandelay.edit.profiles "Edit Merge / Overlay Profiles">
+<!ENTITY vandelay.edit.import_item_attrs "Edit Import Item Attributes">
+<!ENTITY vandelay.false "Սխալ">
+<!ENTITY vandelay.file.to.upload "Բեռնավորման ենթակա ֆայլ">
+<!ENTITY vandelay.for.example "Օրինակ">
+<!ENTITY vandelay.identifier "Նկարագրիչ">
+<!ENTITY vandelay.id.field "Նկարագրիչի դա՞շտ">
+<!ENTITY vandelay.id "ID">
+<!ENTITY vandelay.import.matches "Ներմուծումը համընկնում է">
+<!ENTITY vandelay.import.records "Ներմուծիր գրառումներ">
+<!ENTITY vandelay.import.selected "Ներմուծումը ընտրված է">
+<!ENTITY vandelay.import.all "Ներմուծիր բոլորը">
+<!ENTITY vandelay.import.time "Ներմուծման ժամանակ">
+<!ENTITY vandelay.inspect.queue "Զննիր հերթը">
+<!ENTITY vandelay.last.edit.date "Վերջին խմբագրման ամսաթիվ">
+<!ENTITY vandelay.limit.to.collision.matches "Սահմանափակիր կոնֆլիկտների համընկնումով">
+<!ENTITY vandelay.limit.to.non.imported "Սահմանափակվիր չներմուծված գրառումներով">
+<!ENTITY vandelay.marc.file.upload "Evergreen ՄԱՐԿ ֆայլի բեռնավորում">
+<!ENTITY vandelay.marc.record "MARC գրառում">
+<!ENTITY vandelay.matches "Համընկնումներ">
+<!ENTITY vandelay.next.page "Next Page &#187;">
+<!ENTITY vandelay.overlay.selected.record "Վերադրել ընտրված գրառումը ներմուծված գրառման հետ">
+<!ENTITY vandelay.overlay.target "Վերադրման թիրախ">
+<!ENTITY vandelay.page "Էջ">
+<!ENTITY vandelay.powered.by.evergreen "Սպասարկվում է Evergreen-ի կողմից">
+<!ENTITY vandelay.prev.page "&#171; Previous Page">
+<!ENTITY vandelay.processing "Ընթացքում է... ">
+<!ENTITY vandelay.queue "Հերթ">
+<!ENTITY vandelay.queue.type "Հերթի տեսակ">
+<!ENTITY vandelay.record.queue "Գրառման հերթ">
+<!ENTITY vandelay.record.type "Գրառման տեսակ">
+<!ENTITY vandelay.refresh "Թարմացրու">
+<!ENTITY vandelay.remove.advanced "Հեռացրու (ընդլայնված)">
+<!ENTITY vandelay.remove "Հեռացնել">
+<!ENTITY vandelay.results.per.page "Արդյունքները ըստ էջի">
+<!ENTITY vandelay.retrieve.queue "Վերականչիր հերթը">
+<!ENTITY vandelay.return "Վերադարձիր">
+<!ENTITY vandelay.select.cols "Ընտրիր սյունակները">
+<!ENTITY vandelay.select.queue "Ընտրիր զննման ենթակա հերթը">
+<!ENTITY vandelay.source.match.point "Սկզբնական աղբյուրի համընկնման կետ">
+<!ENTITY vandelay.source "Աղբյուր">
+<!ENTITY vandelay.subfields "Ենթադաշտ(եր)">
+<!ENTITY vandelay.subfield "Ենթադաշտ">
+<!ENTITY vandelay.sure.to.delete "Վստա՞հ ես որ ցանկանում ես ջնջել այս գրառումը">
+<!ENTITY vandelay.sure.to.delete.queue "Վստա՞հ ես որ ցանկանում ես ջնջել այս հերթը">
+<!ENTITY vandelay.tags "Ցուցիչ(ներ)">
+<!ENTITY vandelay.tag "Ցուցիչ">
+<!ENTITY vandelay.tcn.source "TCN աղբյուր">
+<!ENTITY vandelay.tcn.value "TCN արժեք">
+<!ENTITY vandelay.tooltip.subfields "Կարող ես մուտք անել մի քանի ենթադաշտեր, բաժանված բացատներով և/կամ ստորակետներով։">
+<!ENTITY vandelay.tooltip.tags "Կարող ես մուտք անել մի քանի ցուցիչ, բաժանված բացատներով և/կամ ստորակետներով։">
+<!ENTITY vandelay.true "Ճիշտ">
+<!ENTITY vandelay.update "Թարմացրու">
+<!ENTITY vandelay.uploading "Բեռնավորում...">
+<!ENTITY vandelay.upload.status "Բեռնավորման կարգավիճակ">
+<!ENTITY vandelay.upload "Բեռնավորում">
+<!ENTITY vandelay.vandelay "Vandelay">
+<!ENTITY vandelay.view.marc "Դիտիր MARC">
+<!ENTITY vandelay.xpath.advanced "XPath (ընդլայնված)">
+<!ENTITY vandelay.xpath "XPath">
+<!ENTITY vandelay.save "Հիշիր փոփոխությունները">
+<!ENTITY vandelay.record_saved "Գրառումը հիշվեց">
+<!ENTITY vandelay.export.records "Արտահանիր գրառումներ">
+<!ENTITY vandelay.export.use_field_no "Օգտագործիր դաշտի համարը">
+<!ENTITY vandelay.export.from_csv "CSV ֆայլից">
+<!ENTITY vandelay.export.record_id "Գրառման ID">
+<!ENTITY vandelay.export.or "Կամ">
+<!ENTITY vandelay.export.format "Գրառման ձևաչափ">
+<!ENTITY vandelay.export.format.marc21 "MARC21">
+<!ENTITY vandelay.export.format.unimarc "UNIMARC">
+<!ENTITY vandelay.export.format.xml "MARC XML">
+<!ENTITY vandelay.export.format.bre "Evergreen գրառման մուտք">
+<!ENTITY vandelay.export.encoding "Գրառման կոդավորում">
+<!ENTITY vandelay.export.utf8 "UTF-8">
+<!ENTITY vandelay.export.marc8 "MARC8">
+<!ENTITY vandelay.export.holdings "Ներառ պահումները Մատենագիտական գրառումում">
+<!ENTITY vandelay.export.retrieve "Վերականչիր գրառումները">
+<!ENTITY vandelay.export.field_no_hint "(սկսում է 0)">
+<!ENTITY vandelay.export.bucket "Գրառման փնջի ID">
+<!ENTITY vandelay.select_actions "-- Գործողություններ --">
+<!ENTITY vandelay.queue.total "Ընդամենը։">
+<!ENTITY vandelay.queue.imported "Ներմուծված։">
+<!ENTITY vandelay.queue.column_picker.title "Սյունակի ընտրիչ">
+<!ENTITY vandelay.import.bib_sources "Ընտրիր գրառման աղբյուրը">

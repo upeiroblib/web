@@ -1,0 +1,112 @@
+<!ENTITY vandelay.add.existing.queue "o añadir a una cola existente">
+<!ENTITY vandelay.auth.attrs "Atributos de la autoridad">
+<!ENTITY vandelay.auth.records "Registros de la autoridad">
+<!ENTITY vandelay.auto.import.noncolliding "Auto importar registros no coincidentes">
+<!ENTITY vandelay.auto.import.auto_overlay_exact "Auto Merge/Overlay Exact Matches">
+<!ENTITY vandelay.auto.import.auto_overlay_1match "Auto Merge/Overlay When Exactly 1 Match is Found">
+<!ENTITY vandelay.auto.import.merge_profile "Merge/Overlay Profile">
+<!ENTITY vandelay.auto.width "Ancho automático">
+<!ENTITY vandelay.back.to.import.queue "Volver a la cola de importación">
+<!ENTITY vandelay.bib.attrs "Atributos bibliográficos">
+<!ENTITY vandelay.bib.records "Registros bibliográficos">
+<!ENTITY vandelay.cancel "Cancelar">
+<!ENTITY vandelay.edit "Editar">
+<!ENTITY vandelay.code "Código">
+<!ENTITY vandelay.column "Columna">
+<!ENTITY vandelay.create.attr.def "Crear una definición de atributo">
+<!ENTITY vandelay.create "Crear">
+<!ENTITY vandelay.create.date "Fecha de creación">
+<!ENTITY vandelay.create.upload.queue "Crear una nueva cola de subida">
+<!ENTITY vandelay.creator "Creador">
+<!ENTITY vandelay.delete.queue "Eliminar cola">
+<!ENTITY vandelay.delete.record "Eliminar registro">
+<!ENTITY vandelay.descrip "Descripción">
+<!ENTITY vandelay.dest.match.point "Punto de destino no corresponde">
+<!ENTITY vandelay.display "Mostrar">
+<!ENTITY vandelay.done "Hecho">
+<!ENTITY vandelay.edit.attributes "Editar atributos">
+<!ENTITY vandelay.edit.attrs "Editar atributos">
+<!ENTITY vandelay.edit.profiles "Edit Merge / Overlay Profiles">
+<!ENTITY vandelay.edit.import_item_attrs "Edit Import Item Attributes">
+<!ENTITY vandelay.false "Falso">
+<!ENTITY vandelay.file.to.upload "Archivo a subir:">
+<!ENTITY vandelay.for.example "Ejemplo">
+<!ENTITY vandelay.identifier "Identificador">
+<!ENTITY vandelay.id.field "¿Campo del identificador?">
+<!ENTITY vandelay.id "ID">
+<!ENTITY vandelay.import.matches "Importar coincidencias">
+<!ENTITY vandelay.import.records "Importar registros">
+<!ENTITY vandelay.import.selected "Importar seleccionados">
+<!ENTITY vandelay.import.all "Importar todo">
+<!ENTITY vandelay.import.time "Importar hora">
+<!ENTITY vandelay.inspect.queue "Inspeccionar cola">
+<!ENTITY vandelay.last.edit.date "Última fecha editada">
+<!ENTITY vandelay.limit.to.collision.matches "Limite de colision no Corresponde">
+<!ENTITY vandelay.limit.to.non.imported "Limitar a registros no importados">
+<!ENTITY vandelay.marc.file.upload "Subir archivo MARC de Evergreen">
+<!ENTITY vandelay.marc.record "Registro MARC">
+<!ENTITY vandelay.matches "Coincide">
+<!ENTITY vandelay.next.page "Next Page &#187;">
+<!ENTITY vandelay.overlay.selected.record "Superposición del registro seleccionado con el registro de importación">
+<!ENTITY vandelay.overlay.target "Superposición de Destino">
+<!ENTITY vandelay.page "Página">
+<!ENTITY vandelay.powered.by.evergreen "¡Powered by Evergreen!">
+<!ENTITY vandelay.prev.page "&#171; Previous Page">
+<!ENTITY vandelay.processing "Procesando... ">
+<!ENTITY vandelay.queue "Cola">
+<!ENTITY vandelay.queue.type "Tipo de cola">
+<!ENTITY vandelay.record.queue "Cola de registros">
+<!ENTITY vandelay.record.type "Tipo de registro">
+<!ENTITY vandelay.refresh "Actualizar">
+<!ENTITY vandelay.remove.advanced "Eliminar (avanzado)">
+<!ENTITY vandelay.remove "Eliminar">
+<!ENTITY vandelay.results.per.page "Resultados por página">
+<!ENTITY vandelay.retrieve.queue "Obtener cola">
+<!ENTITY vandelay.return "Volver">
+<!ENTITY vandelay.select.cols "Seleccionar Columnas">
+<!ENTITY vandelay.select.queue "Seleccionar la cola a inspeccionar">
+<!ENTITY vandelay.source.match.point "Source Match Point">
+<!ENTITY vandelay.source "Origen">
+<!ENTITY vandelay.subfields "Sub-campo(s)">
+<!ENTITY vandelay.subfield "Sub-campo">
+<!ENTITY vandelay.sure.to.delete "¿Está seguro que desea eliminar este registro?">
+<!ENTITY vandelay.sure.to.delete.queue "¿Está seguro que desea eliminar esta cola?">
+<!ENTITY vandelay.tags "Etiqueta(s)">
+<!ENTITY vandelay.tag "Etiqueta">
+<!ENTITY vandelay.tcn.source "Fuente TCN">
+<!ENTITY vandelay.tcn.value "Valor TCN">
+<!ENTITY vandelay.tooltip.subfields "Puede ingresar múltiples sub-campos, separados por espacios y/o comas.">
+<!ENTITY vandelay.tooltip.tags "Puede ingresar múltiples etiquetas, separadas por espacios y/o comas.">
+<!ENTITY vandelay.true "Verdadero">
+<!ENTITY vandelay.update "Actualizar">
+<!ENTITY vandelay.uploading "Subiendo...">
+<!ENTITY vandelay.upload.status "Subir estado">
+<!ENTITY vandelay.upload "Subir">
+<!ENTITY vandelay.vandelay "Vandelay">
+<!ENTITY vandelay.view.marc "Ver MARCA">
+<!ENTITY vandelay.xpath.advanced "XPath (avanzado)">
+<!ENTITY vandelay.xpath "XPath">
+<!ENTITY vandelay.save "Guardar cambios">
+<!ENTITY vandelay.record_saved "Registro guardado">
+<!ENTITY vandelay.export.records "Exportar registros">
+<!ENTITY vandelay.export.use_field_no "Usar campo numérico">
+<!ENTITY vandelay.export.from_csv "Desde archivo CSV">
+<!ENTITY vandelay.export.record_id "Id de registro">
+<!ENTITY vandelay.export.or "O">
+<!ENTITY vandelay.export.format "Formato de registro">
+<!ENTITY vandelay.export.format.marc21 "MARC21">
+<!ENTITY vandelay.export.format.unimarc "UNIMARC">
+<!ENTITY vandelay.export.format.xml "MARC XML">
+<!ENTITY vandelay.export.format.bre "Entrada de registro Evergreen">
+<!ENTITY vandelay.export.encoding "Codificación del registro">
+<!ENTITY vandelay.export.utf8 "UTF-8">
+<!ENTITY vandelay.export.marc8 "MARC8">
+<!ENTITY vandelay.export.holdings "Las existencias incluyen en registros bibliográficos">
+<!ENTITY vandelay.export.retrieve "Obtener registros">
+<!ENTITY vandelay.export.field_no_hint "(empezando desde 0)">
+<!ENTITY vandelay.export.bucket "cubo de ID de registro">
+<!ENTITY vandelay.select_actions "-- Acciones --">
+<!ENTITY vandelay.queue.total "Total:">
+<!ENTITY vandelay.queue.imported "Importado:">
+<!ENTITY vandelay.queue.column_picker.title "Selector de columnas">
+<!ENTITY vandelay.import.bib_sources "Seleccione una fuente de registros">

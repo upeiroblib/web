@@ -1,0 +1,208 @@
+<!-- Common Entities -->
+<!ENTITY reports.common.logged_in_as "Вы подключены как ">
+<!ENTITY reports.common.loading "Загрузка...">
+
+<!ENTITY reports.oils_rpt.title "Evergreen: Отчеты">
+<!ENTITY reports.oils_rpt.insufficient_permissions "Вы не имеете достаточных привелигий управления отчетами">
+<!ENTITY reports.oils_rpt.my_folders "Мои папки">
+<!ENTITY reports.oils_rpt.shared_folders "Общие папки">
+<!ENTITY reports.oils_rpt.manage_folder_contents "Управление содержимого папок">
+<!ENTITY reports.oils_rpt.manage_folder "Управлять папкой">
+<!ENTITY reports.oils_rpt.created_by "создан ">
+<!ENTITY reports.oils_rpt.create_new_sub_folder "Создайте новую папку">
+<!ENTITY reports.oils_rpt.folder_type "Ти папки: ">
+<!ENTITY reports.oils_rpt.folder_name "Имя папки:">
+<!ENTITY reports.oils_rpt.share_folder "Эту папку используйте совместно">
+<!ENTITY reports.oils_rpt.do_not_share "Не используйте совместно">
+<!ENTITY reports.oils_rpt.share "Используйте совместно">
+<!ENTITY reports.oils_rpt.share_with "Используйте совместно с:">
+<!ENTITY reports.oils_rpt.create_sub_folder "Создайте под папку">
+
+
+<!ENTITY reports.oils_rpt_builder.title "Evergreen: построитель локладов">
+<!ENTITY reports.oils_rpt_builder.reports_home "Дом записей">
+<!ENTITY reports.oils_rpt_builder.cloning_template "Клонирование шаблона">
+<!ENTITY reports.oils_rpt_builder.template_name "Имя шаблона: ">
+<!ENTITY reports.oils_rpt_builder.template_description "Описание шаблона: ">
+<!ENTITY reports.oils_rpt_builder.template_type "Тип шаблона: ">
+<!ENTITY reports.oils_rpt_builder.save_this_template "Сохраните этот шаблон: ">
+<!ENTITY reports.oils_rpt_builder.filtering_note "Указывает, что при фильтрации единицы, список именованных выборок будет сгенерирован">
+<!ENTITY reports.oils_rpt_builder.temp_disp_items "Шаблон отображения материалов">
+<!ENTITY reports.oils_rpt_builder.remove_selected "Удалить выбранные">
+
+<!ENTITY reports.oils_rpt_builder.move_up "Двигать  вверх">
+<!ENTITY reports.oils_rpt_builder.move_down "Двигать  вниз">
+<!-- The below two entity strings were the contents of the .xhtml file but I don't think that works when using XML entities -->
+<!-- ENTITY reports.oils_rpt_builder.move_up "Move &uarr;" -->
+<!-- ENTITY reports.oils_rpt_builder.move_down "Move &darr;" -->
+
+<!ENTITY reports.oils_rpt_builder.template_filters "Шаблон фильтров">
+<!ENTITY reports.oils_rpt_builder.report_aggregate_filters "Отчет фильтров Aggregate">
+<!ENTITY reports.oils_rpt_builder.hint "Подсказка: ">
+<!ENTITY reports.oils_rpt_builder.hint_item_details "Дважды щелкните на материале, чтобы увидеть по подробнее">
+<!ENTITY reports.oils_rpt_builder.template_types "Типы шаблонов">
+<!ENTITY reports.oils_rpt_builder.display_items "Отображение материалов">
+<!ENTITY reports.oils_rpt_builder.filters "Фильтры">
+<!ENTITY reports.oils_rpt_builder.aggregate_filters "Совокупный Фильтр">
+<!ENTITY reports.oils_rpt_builder.create_aggregate_filter "Создайте  Совокупный Фильтр">
+<!ENTITY reports.oils_rpt_builder.field_editor_window.label "Выбирите как это поле должно отображаться">
+<!ENTITY reports.oils_rpt_builder.add_item "Добавьте материал">
+<!ENTITY reports.oils_rpt_builder.select_filter_to_apply "Выберите, какой фильтр должен применяться для этого поля:">
+<!ENTITY reports.oils_rpt_builder.choose_a_transform "Выбирите  преобразование ">
+<!ENTITY reports.oils_rpt_builder.choose_a_filter "Выберите фильтр ">
+<!ENTITY reports.oils_rpt_builder.create_filter "Создайте фильтр">
+<!ENTITY reports.oils_rpt_builder.aggregate_filter_to_apply "Выберите как должен применяться совокупный фильтр к этму полю:">
+<!ENTITY reports.oils_rpt_builder.selected_to_sort_columns "Выберите как должны быть отсортированы столбцы">
+<!ENTITY reports.oils_rpt_builder.choose_column "Выберите  столбец: ">
+<!ENTITY reports.oils_rpt_builder.choose_sorting_direction "Выберите  направление сортировки, которое должно состояться ">
+<!ENTITY reports.oils_rpt_builder.ascending "Восхождение">
+<!ENTITY reports.oils_rpt_builder.descending "По убыванию">
+<!ENTITY reports.oils_rpt_builder.add_sort "Сортировка">
+<!ENTITY reports.oils_rpt_builder.close_window "Закройте окно">
+<!ENTITY reports.oils_rpt_builder.confirm_new_report "Это уничтожит отчет, который вы ныне создаете. Вы уверены, что хотите это сделать?">
+
+
+<!ENTITY reports.oils_rpt_common.action_succeeded "Успех действия">
+<!ENTITY reports.oils_rpt_common.action_failed "Неудачное действие">
+<!ENTITY reports.oils_rpt_common.generic_calendar_button "Отбор даты">
+
+
+<!ENTITY reports.oils_rpt_editor.template_name "Имя шаблона">
+<!ENTITY reports.oils_rpt_editor.template_creator "Создатель шаблона">
+<!ENTITY reports.oils_rpt_editor.template_description "Описание Шаблона:">
+<!ENTITY reports.oils_rpt_editor.report_name "Имя отчета:">
+<!ENTITY reports.oils_rpt_editor.report_description "Описание отчета:">
+<!ENTITY reports.oils_rpt_editor.report_columns "Столбики отчета:">
+<!ENTITY reports.oils_rpt_editor.pivot_label_column "Главная  колонка наклеек:">
+<!ENTITY reports.oils_rpt_editor.select_option "Выберите один (по желанию)">
+<!ENTITY reports.oils_rpt_editor.pivot_data_column "Главная  колонка данных:">
+<!ENTITY reports.oils_rpt_editor.store_report_definition "Выберите папку для хранения этого определенного доклада ">
+<!ENTITY reports.oils_rpt_editor.selected_folder "Выбранная  папка ">
+<!ENTITY reports.oils_rpt_editor.output_options "Выходные опции">
+<!ENTITY reports.oils_rpt_editor.excel_output "Excel вывод">
+<!ENTITY reports.oils_rpt_editor.csv_output "CVS вывод">
+<!ENTITY reports.oils_rpt_editor.html_output "HTML вывод">
+<!ENTITY reports.oils_rpt_editor.bar_charts "Bar Charts">
+<!ENTITY reports.oils_rpt_editor.line_charts "Линейный график">
+<!ENTITY reports.oils_rpt_editor.recurring_report "Повторяющийся  отчет ">
+<!ENTITY reports.oils_rpt_editor.recurring_interval "Интервал повторения ">
+<!ENTITY reports.oils_rpt_editor.days "День (и)">
+<!ENTITY reports.oils_rpt_editor.weeks "Неделя (и)">
+<!ENTITY reports.oils_rpt_editor.months "Месяц (ы)">
+<!ENTITY reports.oils_rpt_editor.run_asap "Выполнить как можно скорее">
+<!ENTITY reports.oils_rpt_editor.sent_to_email "Отправьте окончательное уведомление  на эту электронную почту:">
+<!ENTITY reports.oils_rpt_editor.midnight "Полночь">
+<!ENTITY reports.oils_rpt_editor.noon "Полдень">
+<!ENTITY reports.oils_rpt_editor.storage_folder_for_output "Выберите папку для хранения вывода данного отчета">
+<!ENTITY reports.oils_rpt_editor.save_report "Сохранить отчет">
+<!ENTITY reports.oils_rpt_editor.empty_parameter "Один или несколько пользовательских параметров были пустыми. Пожалуйста, заполните все поля.">
+<!ENTITY reports.oils_rpt_editor.same_name "Существует еще один отчет  в этой папке с заданным именем">
+
+
+<!ENTITY reports.oils_rpt_folder_manager.change_folder_name "Измените имя папки">
+<!ENTITY reports.oils_rpt_folder_manager.delete_folder "Удалите эту папку">
+<!ENTITY reports.oils_rpt_folder_manager.create_new_sub_folder "Создайте новую под папку">
+<!ENTITY reports.oils_rpt_folder_manager.share_this_folder "Используйте совместно эту папку">
+<!ENTITY reports.oils_rpt_folder_manager.hide_folder "Спрячьте эту папку">
+<!ENTITY reports.oils_rpt_folder_manager.disable_recurrence "Disable recurrence">
+<!ENTITY reports.oils_rpt_folder_manager.fldr_mngr_actions_submit "Идти">
+<!ENTITY reports.oils_rpt_folder_manager.change_name "Введите новое имя">
+<!ENTITY reports.oils_rpt_folder_manager.submit "Утверждать">
+<!ENTITY reports.oils_rpt_folder_manager.folder_name "Имя папки">
+<!ENTITY reports.oils_rpt_folder_manager.do_not_share "Не использовать совместно">
+<!ENTITY reports.oils_rpt_folder_manager.share "Используйте совместно">
+<!ENTITY reports.oils_rpt_folder_manager.share_with "Используйте совместно с">
+<!ENTITY reports.oils_rpt_folder_manager.create_sub_folder "Создать под папку">
+<!ENTITY reports.oils_rpt_folder_manager.change_name_confirm "Вы уверены, что хотите переименовать имя папки?">
+<!ENTITY reports.oils_rpt_folder_manager.delete_name_confirm "Вы уверены, что хотите удалить эту папку?">
+<!ENTITY reports.oils_rpt_folder_manager.cannot_delete "Эта папка не может быть удалена, потому что полная">
+<!ENTITY reports.oils_rpt_folder_manager.already_shared "Эта папка уже используется совместно">
+<!ENTITY reports.oils_rpt_folder_manager.folder_not_shared "Эта папка не используется совместно">
+<!ENTITY reports.oils_rpt_folder_manager.confirm_hide_folder "Вы уверены, что хотите  скрыть эту папку?">
+
+
+<!ENTITY reports.oils_rpt_folder_window.new_report_from_template "Создайте новый отчет из отобранного шаблона">
+<!ENTITY reports.oils_rpt_folder_window.clone_template "Клон выбранного шаблона">
+<!ENTITY reports.oils_rpt_folder_window.delete_template "Удалить выбранные  шаблоны">
+<!ENTITY reports.oils_rpt_folder_window.clone_report "Клон отчета">
+<!ENTITY reports.oils_rpt_folder_window.schedule_report "Планировать отчет">
+<!ENTITY reports.oils_rpt_folder_window.delete_reports "Удалить выбранные отчеты">
+<!ENTITY reports.oils_rpt_folder_window.view_report_output "Посмотреть  выход отчета">
+<!ENTITY reports.oils_rpt_folder_window.delete_output "Удалить выбранные отчеты">
+<!ENTITY reports.oils_rpt_folder_window.move_templates "Переместить отобранные шаблоны в другую папку">
+<!ENTITY reports.oils_rpt_folder_window.move_reports "Переместить отобранные отчеты в другую папку">
+<!ENTITY reports.oils_rpt_folder_window.move_output "Переместить отобранные выходы в другую папку">
+<!ENTITY reports.oils_rpt_folder_window.submit "Утверждать">
+<!ENTITY reports.oils_rpt_folder_window.limit_output "Ограничить вывод к ">
+<!ENTITY reports.oils_rpt_folder_window.all "Все">
+<!ENTITY reports.oils_rpt_folder_window.pending_items "Незавершенные единицы">
+<!ENTITY reports.oils_rpt_folder_window.new_template "Создать новый шаблон для этой папки">
+<!ENTITY reports.oils_rpt_folder_window.no_items_to_display "Нет единиц для отображения">
+<!ENTITY reports.oils_rpt_folder_window.completed_items "Заполненные единицы">
+<!ENTITY reports.oils_rpt_folder_window.selected_folder "Отмеченная папка ">
+<!ENTITY reports.oils_rpt_folder_window.select_folder "Выбрать папку">
+<!ENTITY reports.oils_rpt_folder_window.cancel "Отклонить">
+<!ENTITY reports.oils_rpt_folder_window.confirm_delete "Вы уверены , что хотите удалить отмеченные единицы?">
+<!ENTITY reports.oils_rpt_folder_window.dependant_reports_no_delete "Один или несколько отобранных шаблонов не могут быть удалены, так как есть  отчеты зависящие от них">
+<!ENTITY reports.oils_rpt_folder_window.dependant_outputs_no_delete "Один или несколько отобранных отчетов не могут быть удалены, так как есть  выводы зависящие от них">
+<!ENTITY reports.oils_rpt_folder_window.cannot_delete_another_users_data "Вы не можете удалить  единицы  другого пользователя">
+<!ENTITY reports.oils_rpt_folder_window.cannot_move_another_users_data "Вы не можете перемещать единицы  другого пользователя">
+<!ENTITY reports.oils_rpt_folder_window.delete_all_attached_reports "        Это также удалит все ваши приложенные отчеты и продукции для 
+этого шаблона. 
+ 
+Если у других пользователей есть отчеты или продукции приложенные к данному шаблону, 
+эти останутя нетронутымы и шаблон не будет удален. 
+ 
+Хотите продолжить?">
+<!ENTITY reports.oils_rpt_folder_window.delete_all_attached_outputs "        Это также удалит все ваши приложенные продукции для">
+
+
+<!ENTITY reports.oils_rpt_param_editor.column "Столбец">
+<!ENTITY reports.oils_rpt_param_editor.transform "Трансформация">
+<!ENTITY reports.oils_rpt_param_editor.action "Действие">
+<!ENTITY reports.oils_rpt_param_editor.user_params "Параметры клиента">
+<!ENTITY reports.oils_rpt_param_editor.or "или">
+<!ENTITY reports.oils_rpt_param_editor.use_relative_date "Используйте относительную дату вместо этого.">
+<!ENTITY reports.oils_rpt_param_editor.days "День (дни)">
+<!ENTITY reports.oils_rpt_param_editor.weeks "Неделя (недели)">
+<!ENTITY reports.oils_rpt_param_editor.months "Месяц (ы)">
+<!ENTITY reports.oils_rpt_param_editor.ago " Тому назад">
+
+
+<!ENTITY reports.xul.template_builder.db_source_browser.label "Исходный источник баз данных">
+<!ENTITY reports.xul.template_builder.sources_menulist.label "Источники">
+<!ENTITY reports.xul.template_builder.source_name.label "Имя источника">
+<!ENTITY reports.xul.template_builder.source_nullable.label "Обнуляемо">
+<!ENTITY reports.xul.template_builder.nullability_select.label "Включить выбор обнуляемости">
+<!ENTITY reports.xul.template_builder.source_specifier.label "Спецификатор источника">
+<!ENTITY reports.xul.template_builder.field_name.label "Имя поля">
+<!ENTITY reports.xul.template_builder.data_type.label "Тип данных">
+<!ENTITY reports.xul.template_builder.field_transform.label "Видоизменения поля">
+<!ENTITY reports.xul.template_builder.params.label "Параметры">
+<!ENTITY reports.xul.template_builder.applicable_datatypes.label "Соответствующие типы данных">
+<!ENTITY reports.xul.template_builder.output_type.label "Тип вывода">
+<!ENTITY reports.xul.template_builder.source_add.label "Добавить отмеченные поля">
+<!ENTITY reports.xul.template_builder.template_config_caption.label "Конфигурация шаблона">
+<!ENTITY reports.xul.template_builder.name.label "Имя:">
+<!ENTITY reports.xul.template_builder.description.label "Описание:">
+<!ENTITY reports.xul.template_builder.save.label "Сохранить">
+<!ENTITY reports.xul.template_builder.displayed_fields.label "Отображенные поля">
+<!ENTITY reports.xul.template_builder.base_filters.label "Основные фильтры">
+<!ENTITY reports.xul.template_builder.aggregate_filters.label "Агрегат фильтров">
+<!ENTITY reports.xul.template_builder.display_name.label "Имя дисплея">
+<!ENTITY reports.xul.template_builder.field_transform_type.label "Тип трансформации поля">
+<!ENTITY reports.xul.template_builder.alter_display_header.label "Изменить заголовок дисплея">
+<!ENTITY reports.xul.template_builder.move_up.label "Двигаться  вверх">
+<!ENTITY reports.xul.template_builder.move_down.label "Двигаться вниз">
+<!ENTITY reports.xul.template_builder.remove_selected_field.label "Удалить выбранные поля">
+<!ENTITY reports.xul.template_builder.filter_field.label "Фильтр поля">
+<!ENTITY reports.xul.template_builder.operator.label "Оператор">
+<!ENTITY reports.xul.template_builder.value.label "Значение">
+<!ENTITY reports.xul.template_builder.change_transform.label "Change Transform">
+<!ENTITY reports.xul.template_builder.change_operator.label "Изменить оператор">
+<!ENTITY reports.xul.template_builder.change_value.label "Изменить Значение">
+<!ENTITY reports.xul.template_builder.remove_value.label "Удалить Значение">
+<!ENTITY reports.xul.template_builder.remove_selected_fields.label "Удалить выбранные поля">
+<!ENTITY reports.xul.template_builder.table_name.label "Имя таблицы">
+<!ENTITY reports.xul.template_builder.sql_alias.label "SQL псевдоним">
+<!ENTITY reports.xul.template_builder.relationship.label "Взаимосвязь">

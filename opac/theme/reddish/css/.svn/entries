@@ -1,0 +1,40 @@
+8
+
+dir
+9740
+svn://svn.open-ils.org/ILS/branches/rel_1_2_2/Open-ILS/web/opac/theme/reddish/css
+svn://svn.open-ils.org/ILS
+
+
+
+2007-07-04T17:37:08.199191Z
+7511
+erickson
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+dcc99617-32d9-48b4-a31d-7c20da2025e4
+
+colors.css
+file
+
+
+
+
+2008-05-31T01:06:12.000000Z
+6f6ff898877a9369172028f20c66bcb8
+2007-07-04T17:37:08.199191Z
+7511
+erickson
+

@@ -1,0 +1,10 @@
+***************
+*** 99,101 ****
+  
+  .hold_expire_warning { color:red; }
+  
+--- 99,102 ----
+  
+  .hold_expire_warning { color:red; }
+  
++ #result_low_hits { border-top: 2px solid #A7EA9D }

@@ -1,0 +1,46 @@
+8
+
+dir
+9740
+svn://svn.open-ils.org/ILS/branches/rel_1_2_2/Open-ILS/web/opac
+svn://svn.open-ils.org/ILS
+
+
+
+2008-04-30T12:30:08.199113Z
+9493
+miker
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+dcc99617-32d9-48b4-a31d-7c20da2025e4
+
+locale
+dir
+
+theme
+dir
+
+skin
+dir
+
+images
+dir
+
+extras
+dir
+
+common
+dir
+

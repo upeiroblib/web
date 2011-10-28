@@ -1,0 +1,112 @@
+<!ENTITY vandelay.add.existing.queue "ou ajouter à une file d’attente existante">
+<!ENTITY vandelay.auth.attrs "Attributs de l’autorité">
+<!ENTITY vandelay.auth.records "Enregistrements de l’autorité">
+<!ENTITY vandelay.auto.import.noncolliding "Importer automatiquement les enregistrements qui ne sont pas en conflit">
+<!ENTITY vandelay.auto.import.auto_overlay_exact "Auto Merge/Overlay Exact Matches">
+<!ENTITY vandelay.auto.import.auto_overlay_1match "Auto Merge/Overlay When Exactly 1 Match is Found">
+<!ENTITY vandelay.auto.import.merge_profile "Merge/Overlay Profile">
+<!ENTITY vandelay.auto.width "Largeur automatique">
+<!ENTITY vandelay.back.to.import.queue "Retour à la file d’attente">
+<!ENTITY vandelay.bib.attrs "Attributs bibliographiques">
+<!ENTITY vandelay.bib.records "Enregistrements bibliographiques">
+<!ENTITY vandelay.cancel "Annuler">
+<!ENTITY vandelay.edit "Éditer">
+<!ENTITY vandelay.code "Code">
+<!ENTITY vandelay.column "Colonne">
+<!ENTITY vandelay.create.attr.def "Créer une définition d’attribut">
+<!ENTITY vandelay.create "Créer">
+<!ENTITY vandelay.create.date "Créer une date">
+<!ENTITY vandelay.create.upload.queue "Créer une nouvelle file de téléchargement vers le serveur">
+<!ENTITY vandelay.creator "Créateur">
+<!ENTITY vandelay.delete.queue "Supprimer la file">
+<!ENTITY vandelay.delete.record "Supprimer l’enregistrement">
+<!ENTITY vandelay.descrip "Description">
+<!ENTITY vandelay.dest.match.point "Point de correspondance de destination">
+<!ENTITY vandelay.display "Afficher">
+<!ENTITY vandelay.done "Terminé">
+<!ENTITY vandelay.edit.attributes "Modifier les attributs">
+<!ENTITY vandelay.edit.attrs "Modifier les attributs">
+<!ENTITY vandelay.edit.profiles "Edit Merge / Overlay Profiles">
+<!ENTITY vandelay.edit.import_item_attrs "Edit Import Item Attributes">
+<!ENTITY vandelay.false "Faux">
+<!ENTITY vandelay.file.to.upload "Fichier à téléverser :">
+<!ENTITY vandelay.for.example "Exemple">
+<!ENTITY vandelay.identifier "Identificateur">
+<!ENTITY vandelay.id.field "Identifier Field?">
+<!ENTITY vandelay.id "ID">
+<!ENTITY vandelay.import.matches "Importer les correspondances">
+<!ENTITY vandelay.import.records "Importer les enregistrements">
+<!ENTITY vandelay.import.selected "Importer la sélection">
+<!ENTITY vandelay.import.all "Importer tout">
+<!ENTITY vandelay.import.time "Importer l’heure">
+<!ENTITY vandelay.inspect.queue "Examiner la file">
+<!ENTITY vandelay.last.edit.date "Date de la dernière édition">
+<!ENTITY vandelay.limit.to.collision.matches "Limiter aux correspondances en conflit">
+<!ENTITY vandelay.limit.to.non.imported "Limiter aux enregistrements non importés">
+<!ENTITY vandelay.marc.file.upload "Téléversement de fichier MARC d’Evergreen">
+<!ENTITY vandelay.marc.record "Enregistrement MARC">
+<!ENTITY vandelay.matches "Correspondances">
+<!ENTITY vandelay.next.page "Next Page &#187;">
+<!ENTITY vandelay.overlay.selected.record "Superposer l’enregistrement sélectionné sur l’enregistrement importé">
+<!ENTITY vandelay.overlay.target "Superposer la cible">
+<!ENTITY vandelay.page "Page">
+<!ENTITY vandelay.powered.by.evergreen "Une application d’Evergreen!">
+<!ENTITY vandelay.prev.page "&#171; Previous Page">
+<!ENTITY vandelay.processing "Traitement en cours...">
+<!ENTITY vandelay.queue "File d’attente">
+<!ENTITY vandelay.queue.type "Type de file d’attente">
+<!ENTITY vandelay.record.queue "Enregistrer la file">
+<!ENTITY vandelay.record.type "Type d’enregistrement">
+<!ENTITY vandelay.refresh "Actualiser">
+<!ENTITY vandelay.remove.advanced "Supprimer (avancé)">
+<!ENTITY vandelay.remove "Supprimer">
+<!ENTITY vandelay.results.per.page "Nombre de résultats par page">
+<!ENTITY vandelay.retrieve.queue "Récupérer une file d’attente">
+<!ENTITY vandelay.return "Retourner">
+<!ENTITY vandelay.select.cols "Sélectionner les colonnes">
+<!ENTITY vandelay.select.queue "Sélectionner une file à examiner">
+<!ENTITY vandelay.source.match.point "Point de correspondance de source">
+<!ENTITY vandelay.source "Source">
+<!ENTITY vandelay.subfields "Champ(s) secondaire(s)">
+<!ENTITY vandelay.subfield "Champ secondaire">
+<!ENTITY vandelay.sure.to.delete "Voulez-vous vraiment supprimer cet enregistrement?">
+<!ENTITY vandelay.sure.to.delete.queue "Voulez-vous vraiment supprimer cette file?">
+<!ENTITY vandelay.tags "Balise(s)">
+<!ENTITY vandelay.tag "Balise">
+<!ENTITY vandelay.tcn.source "Numéro TCN de source">
+<!ENTITY vandelay.tcn.value "Valeur du TCN">
+<!ENTITY vandelay.tooltip.subfields "Vous pouvez entrer plusieurs champs secondaires en les séparant par des espaces et/ou des virgules.">
+<!ENTITY vandelay.tooltip.tags "Vous pouvez entrer plusieurs balises en les séparant par des espaces et/ou des virgules.">
+<!ENTITY vandelay.true "Vrai">
+<!ENTITY vandelay.update "Mise à jour">
+<!ENTITY vandelay.uploading "Téléchargement en cours...">
+<!ENTITY vandelay.upload.status "État du téléchargement">
+<!ENTITY vandelay.upload "Téléchargement">
+<!ENTITY vandelay.vandelay "Vandelay">
+<!ENTITY vandelay.view.marc "Voir le MARC">
+<!ENTITY vandelay.xpath.advanced "XPath (avancé)">
+<!ENTITY vandelay.xpath "XPath">
+<!ENTITY vandelay.save "Sauvegarder les changements">
+<!ENTITY vandelay.record_saved "Enregistrement sauvegardé">
+<!ENTITY vandelay.export.records "Exporter des enregistrements">
+<!ENTITY vandelay.export.use_field_no "Utiliser un numéro de champ">
+<!ENTITY vandelay.export.from_csv "À partir d’un fichier CSV">
+<!ENTITY vandelay.export.record_id "ID d’enregistrement">
+<!ENTITY vandelay.export.or "ou">
+<!ENTITY vandelay.export.format "Format de l’enregistrement">
+<!ENTITY vandelay.export.format.marc21 "MARC21">
+<!ENTITY vandelay.export.format.unimarc "UNIMARC">
+<!ENTITY vandelay.export.format.xml "MARC XML">
+<!ENTITY vandelay.export.format.bre "Entrée d’enregistrement Evergreen">
+<!ENTITY vandelay.export.encoding "Codage d’enregistrement">
+<!ENTITY vandelay.export.utf8 "UTF-8">
+<!ENTITY vandelay.export.marc8 "MARC8">
+<!ENTITY vandelay.export.holdings "Inclure les avoirs dans les enregistrements bibliographiques">
+<!ENTITY vandelay.export.retrieve "Récupérer des enregistrements">
+<!ENTITY vandelay.export.field_no_hint "(à partir de 0)">
+<!ENTITY vandelay.export.bucket "ID de la case d’enregistrement">
+<!ENTITY vandelay.select_actions "-- Actions --">
+<!ENTITY vandelay.queue.total "Total :">
+<!ENTITY vandelay.queue.imported "Importés :">
+<!ENTITY vandelay.queue.column_picker.title "Sélectionneur de colonnes">
+<!ENTITY vandelay.import.bib_sources "Select a Record Source">

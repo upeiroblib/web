@@ -1,0 +1,737 @@
+<!--	================================================================= 
+		Some generic stuff 
+		================================================================= -->
+<!ENTITY lang.version "Удаленный том 1">
+<!ENTITY lang.description "Английский">
+<!ENTITY lang.author "PINES">
+<!ENTITY common.all "Все">
+<!ENTITY common.currency "$">
+<!ENTITY common.language "Язык: ">
+<!ENTITY common.name "Имя">
+<!ENTITY common.none "Ни один из">
+<!ENTITY common.title "Заглавие">
+<!ENTITY common.author "Автор">
+<!ENTITY common.authors "Авторы">
+<!ENTITY common.callnumber "Шифр">
+<!ENTITY common.edition "Издание">
+<!ENTITY common.subject "Тематика">
+<!ENTITY common.series "Серии">
+<!ENTITY common.keyword "Ключевое слово">
+<!ENTITY common.type "Тип поиска">
+<!ENTITY common.isbn "ISBN">
+<!ENTITY common.format "Формат">
+<!-- Message displayed while search results are loading -->
+<!ENTITY common.loading "Загрузка...">
+<!ENTITY common.login "Регистрация">
+<!ENTITY common.logout "Выйти из системы">
+<!ENTITY common.physical "Физическое описание">
+<!ENTITY common.pubdate "Дата издания">
+<!ENTITY common.publisher "Издательство">
+<!ENTITY common.results "Результаты">
+<!ENTITY common.select "Выбирать">
+<!ENTITY common.status "Статус">
+<!ENTITY common.at "в">
+<!ENTITY common.of "с">
+<!ENTITY common.no "Нет">
+<!ENTITY common.yes "Да">
+<!ENTITY common.cancel "Отменить">
+<!ENTITY common.library "Библиотека">
+<!ENTITY common.username "Имя пользователя">
+<!ENTITY common.password "Пароль">
+<!ENTITY common.submit "Запустить">
+<!ENTITY common.close "Закрыть">
+<!ENTITY common.and "и">
+<!ENTITY common.user_not_found "Пользователь не найден">
+<!ENTITY opac.advanced.wizard.title "Расширенный поиск">
+<!ENTITY common.nowSearching "Поиск ">
+<!ENTITY common.ofAtLeast " of about ">
+<!ENTITY common.relevancy "Сочетай очки ">
+<!ENTITY common.tips "Советы:">
+<!ENTITY common.tips.tip1 "Щелкните на папку в отдельной ставке на странице, чтобы получить доступ к быстрому поиску">
+<!ENTITY common.tips.tip2 "Если вы не нашли то что искали постарайтесь расширить ваш запрос используя искатель интервала на правой части поискового панеля">
+<!ENTITY common.org.openAll "Расширить все">
+<!ENTITY common.org.closeAll "Закрыть все">
+<!ENTITY common.org.cancel "Отклонить">
+<!ENTITY common.org.loading "Загрузка библиотечного искателя...">
+<!ENTITY common.org.note "Совет:">
+<!ENTITY common.org.notetext "Нажмите на названия местоположения, чтобы выбрать это. Нажмите иконку папки, чтобы расширить выбор.">
+<!ENTITY opac.login.login "Регистрация">
+<!ENTITY opac.basic "Основной каталог (HTML только)">
+<!ENTITY common.password_criteria "Пароль должен быть не менее из 7 символов в длину, 
+содержать хотя бы одну букву (a-z/A-Z), 
+и содержать хотя бы одну цифру.">
+<!ENTITY common.a2z.title "Заглавия: от А до Я">
+<!ENTITY common.z2a.title "Заглавия: от Я до А">
+<!ENTITY common.a2z.author "Автор: от А до Я">
+<!ENTITY common.z2a.author "Автор: от Я до А">
+<!ENTITY common.new2old.pubdate "Дата: с нового к старым">
+<!ENTITY common.old2new.pubdate "дата: со старых на новые">
+
+<!ENTITY opac.style.reddish "Красноватый">
+
+<!ENTITY holds.where_am_i "Листы хранения не так просты как 
+'первым вошел, первым обслужился.' Сложная матрица с комбинацией 
+рассматривающий собственника единицы, домашнюю библиотеку читателя, и даты заказанной единицы 
+определяет предпочтения для хранения; список динамичный, изменяющийся 
+с каждым хранением. Потому, любая индикация места
+в списке хранения будет неточным. Система хранения спроектирована чтобы 
+приобрести единицу наибыстрым и  наиэффективным путем. 
+Ваша библиотека свяжется с Вами когда единица станет 
+доступным.">
+
+<!ENTITY holds.advanced_options "Если вы хотите расширить сферу вашего хранения включая и другие  
+версии этого заглавия, выберите форматы которые будут приемлемы. 
+Первая доступная копия будет выслана.">
+<!--	================================================================= 
+		Events and Permissions 
+		================================================================= -->
+
+<!ENTITY ilsevent.0 "Операция удалась">
+<!ENTITY ilsevent.1000 "Логин неправильный. Имя пользователя или пароль введены неправильно">
+<!ENTITY ilsevent.1001 "Логин сессии просрочен или не существует">
+<!ENTITY ilsevent.1002 "Пользователь не найден в базе данных">
+<!ENTITY ilsevent.1200 "Данное имя пользователя уже существует в базе данных">
+<!ENTITY ilsevent.5000 "Привелегия отвергнута">
+<!ENTITY ilsperm.CREATE_HOLD "Пользователю не разрешается  создать хранения для других  других пользователей на этом месте">
+<!--	================================================================= 
+	common/pages
+	================================================================= -->
+
+
+<!ENTITY common.cn.loading "Загрузка страницы шифра...">
+<!ENTITY common.cn.browsing "Вы находитесь в режиме просмотра">
+<!ENTITY common.cn.previous "&lt;&lt; Предыдущая страница">
+<!ENTITY common.cn.shelf "Браузер полок">
+<!ENTITY common.cn.next "Следующая страница &gt;&gt;">
+
+<!ENTITY common.textsize.title "Размер текста ">
+<!ENTITY common.textsize.regular "Нормальный">
+<!-- Regular / Large -->
+<!ENTITY common.textsize.separator "Нормальный/ большой">
+<!ENTITY common.textsize.large "Широкий">
+<!ENTITY common.googlechromeframe.why "Installing the Google Chrome Frame plugin for Internet Explorer will improve your Evergreen experience with more speed and advanced features!">
+<!ENTITY common.googlechromeframe.install "Install Now!">
+<!ENTITY common.googlechromeframe.dontask "Don't ask me again">
+
+<!ENTITY home.js.disabled "JavaScript должен быть включен для того, чтобы использовать нормальный Evergreen каталог. 
+Но кажется JavaScript или выключен или не поддерживается твоим броузерем. 
+Чтобы использовать нормальный Evergreen каталог, включи JavaScript изменяя настройки броузера, потом 
+<a style='color: blue; text-decoration: underline;' href='/'>попробуй снова</a>. 
+<br/><br/>Альтернативно, можешь использовать основной HTML-каталог 
+<a style='color: blue; text-decoration: underline;' href='/opac/extras/slimpac/start.html'>отсюда</a>.">
+<!--	================================================================= 
+	 MyOPAC bookbag page
+	================================================================= -->
+
+<!ENTITY myopac.delete.bookbag "Это приведет к удалению выбранной папки и всех элементов, содержащиехся  в ней. 
+Вы уверены, что хотите продолжить?">
+<!ENTITY myopac.no.bookbags "Вы не создали ни одной папки">
+<!ENTITY myopac.bookbags.title "Мои папки">
+<!ENTITY myopac.bookbag.items "# единиц">
+<!ENTITY myopac.bookbag.shared "Совместного пользования">
+<!ENTITY myopac.bookbag.toggle "Совместно использовать / Скрыть">
+<!ENTITY myopac.bookbag.delete "Удалить эту папку?">
+<!ENTITY myopac.items "Единицы">
+<!ENTITY myopac.view "(Вид)">
+<!ENTITY myopac.atom.feed "ATOM Feed">
+<!ENTITY myopac.bookbag.hide "Скрыть">
+<!ENTITY myopac.delete "Удалить">
+<!ENTITY myopac.bookbag.create "Создать новую папку">
+<!ENTITY myopac.bookbag.naming "Введите имя новой папки ">
+<!ENTITY myopac.bookbag.share "Совместно используйте эту папку">
+<!ENTITY myopac.bookbag.refworks "Экспорт в RefWorks">
+<!ENTITY myopac.bookbag.no.items "Выбранная папка  не содержит единиц">
+<!ENTITY myopac.bookbag.remove "Удалить эту единицу?">
+<!ENTITY myopac.remove.link "удалить">
+<!ENTITY myopac.publish.text 'Совместное использование папки означает, что содержимое этой папки будет видна другим пользователям. 
+Чтобы увидеть общий вид совместного Bookbag, нажмите ссылку "Вид"  в 
+колонке "Совместное" из списка Bookbag в верхней части этой страницы.'>
+<!ENTITY myopac.item.confirm "Вы уверены, что хотите удалить единицу папки?">
+<!ENTITY myopac.publish.confirm "Совместное использование этой папки позволит содержимое 
+видеть  другим. Вы уверены, что хотели бы распределить эту папку?">
+<!ENTITY myopac.unpublish.confirm "Вы уверены, что хотите  скрыть эту папку?">
+<!ENTITY myopac.update.success "Папка  успешно была обновлена.">
+<!ENTITY myopac.updated.success "Папка  успешно  обновлена.">
+<!ENTITY myopac.create.warning "Внимание: Добавление единиц в папку создает связь между Вами и 
+единицами в базе данных. Содержимое папки  не публично 
+для просмотра если папка не общее. Однако, если Вы предпочитаете не иметь 
+связь между записью  Вашего патрона и конкретной единицы или единицaми, 
+мы рекомендуем Вам не размещать единицы в папку или Вы 
+избегали полaьзоватся всеми папками вместе. Спасибо.">
+<!ENTITY myopac.describe.bookbags "Папки....">
+<!--	================================================================= 
+	MyOPAC Checked Page 
+	================================================================= -->
+
+<!ENTITY myopac.checked.out "Всего выдано единиц:">
+<!ENTITY myopac.checked.overdue "Всего просроченных единиц:">
+<!ENTITY myopac.checked.renew "Возобновление выбранных единиц">
+<!ENTITY myopac.checked.renewing "Возобновление...">
+<!ENTITY myopac.checked.renew.remaining "Восстановление оставшихся">
+<!ENTITY myopac.checked.noitems "У вас нет выданных единиц на данный момент">
+<!ENTITY myopac.checked.other.circ "Другие циркуляции">
+<!ENTITY myopac.checked.circ.lib "Циркулирующая библиотека">
+<!ENTITY myopac.checked.item.type "Тип циркуляций">
+<!ENTITY myopac.checked.circ.time "Пожалуйста, верните на ...">
+<!ENTITY myopac.checked.renew.success "единица(ы) успешно восстановлены">
+<!ENTITY myopac.checked.renew.confirm "Вы уверены, что хотите обновить выбранные единицы?">
+<!ENTITY myopac.checked.renew.fail "Система не в состоянии обновить выбранную единицу в данный момент.  Это означает, что данная единица в процессе хранения. Пожалуйста, обратитесь к библиотекарю за помощью.">
+<!ENTITY myopac.checked.renew.fail2 "Регуляции библиотеки предотвращают обновление этой единицы на данном этапе. Информируйте  библиотекаря, для подробной информации.">
+<!--	================================================================= 
+	MyOPAC Fines Page 
+	================================================================= -->
+
+<!ENTITY myopac.fines.title "Summary">
+<!ENTITY myopac.fines.owed "Всего причиталось">
+<!ENTITY myopac.fines.paid "Всего оплачено">
+<!ENTITY myopac.fines.balance "Баланс причитался">
+<!ENTITY myopac.fines.status "Загрузка...">
+<!ENTITY myopac.fines.overdue "Просроченные Материалы">
+<!ENTITY myopac.fines.checkout "Дата выдачи">
+<!ENTITY myopac.fines.due "Дата возврата">
+<!ENTITY myopac.fines.returned "Дата сдачи">
+<!ENTITY myopac.fines.accruing "(начисление штрафов)">
+<!ENTITY myopac.fines.other "Другие тарифы">
+<!ENTITY myopac.fines.time.start "Время сделки">
+<!ENTITY myopac.fines.time.paid "Время последнего платежа">
+<!ENTITY myopac.fines.owed.initial "Первоначальная сумма задолженности">
+<!ENTITY myopac.fines.paid.amount "Общая выплаченная сумма">
+<!ENTITY myopac.fines.type "Тип счета">
+<!--	================================================================= 
+	MyOPAC Holds Page 
+	================================================================= -->
+
+<!ENTITY myopac.holds.formats "Форматы">
+<!ENTITY myopac.holds.location "Библиотека получения">
+<!ENTITY myopac.holds.edit "Редактировать">
+<!ENTITY myopac.holds.status.none "В это время у Вас нет единиц в хранении">
+<!ENTITY myopac.holds.status.waiting "Ожидание копии">
+<!ENTITY myopac.holds.status.intransit "В переходе">
+<!ENTITY myopac.holds.status.available "Готов для получения">
+<!ENTITY myopac.holds.cancel "Отменить">
+<!ENTITY myopac.holds.verify "Если Вы хотите отменить выбранное хранение, нажмите OK, в противном случае нажмите Cancel">
+<!ENTITY myopac.holds.freeze_selected "Приостанавливать">
+<!ENTITY myopac.holds.thaw_selected "Активизировать">
+<!ENTITY myopac.holds.thaw_date_selected "Установить дату Аактивизирования">
+<!ENTITY myopac.holds.cancel_selected "Отменить">
+<!ENTITY myopac.holds.processing "Обработка хранений..Это может занять некоторое время.">
+<!ENTITY myopac.holds.actions "Действия для выделенных хранений">
+<!ENTITY myopac.holds.cancel.confirm "Вы уверены, что хотите отменить выбранные хранения?">
+<!ENTITY myopac.holds.freeze.confirm "Вы уверены, что хотите приостанавливать выбранные хранения? 
+Если единица уже выбрана для выполнения хранения, она не будет приостановлена">
+<!ENTITY myopac.holds.thaw.confirm "Вы уверены, что хотите активировать выбранные хранения?">
+<!ENTITY myopac.holds.thaw_date.confirm "Вы уверены, что хотите изменить дату активации для выбранных хранений?">
+<!ENTITY myopac.holds.freeze.select_thaw "Выберите автоматическуя активацию даты. Если дата не выбрана, хранения останутся приостановленнымы, пока  не активировать вручную.">
+
+<!ENTITY opac.holds.freeze "Приостановить это хранение">
+<!ENTITY opac.holds.freeze.help "Приостановленное хранение останется в очереди, и до активации не будет выполнена">
+<!ENTITY opac.holds.freeze.thaw_date "Автоматический активизировать хранение">
+<!ENTITY opac.holds.expire_time "Дата истечения">
+<!ENTITY myopac.holds.estimated_wait "Расчетное ожидание (дней)">
+<!--	================================================================= 
+	MyOPAC Preferences Page 
+	================================================================= -->
+
+<!ENTITY myopac.prefs.title "Предпочтения">
+<!ENTITY myopac.prefs.hits "Постраничный поиск попаданий">
+<!ENTITY myopac.prefs.font "Размер шрифта по умолчанию">
+<!ENTITY myopac.prefs.font.regular "Нормальный шрифт">
+<!ENTITY myopac.prefs.font.large "Большой шрифт">
+<!ENTITY myopac.prefs.holds.notify "Метод извещения хранений по умолчанию">
+<!ENTITY myopac.prefs.holds.both "Употребите телефон и эл. почту">
+<!ENTITY myopac.prefs.holds.phone "Употребите только телефон">
+<!ENTITY myopac.prefs.holds.email "Употребите только эл. почту">
+<!ENTITY myopac.prefs.search.location "Место поиска  по умолчанию">
+<!ENTITY myopac.prefs.search.home "По умолчанию всегда осуществить поиск в моей  библиотеке">
+<!ENTITY myopac.prefs.search.range "Интервал поиска по умолчанию">
+<!ENTITY myopac.prefs.save "Сохранить измененные настройки">
+<!ENTITY myopac.prefs.save.success "Настройки успешно обновлены">
+<!ENTITY myopac.prefs.save.failed "Ошибка при обновлении настроек!">
+<!ENTITY myopac.prefs.help "Эта настройка определяет как Вы будете предупреждены про хранения готовые к получению из библиотеки. 
+По умолчанию, хранения будут использовать выбранные Вами стили предупреждений. 
+Как бы ни было, Вы можете изменить индивидуальные хранения независимо от этих настроек.">
+<!ENTITY myopac.holds.unfrozen "Активный">
+<!ENTITY myopac.holds.frozen.until "Активировать на...">
+<!--	================================================================= 
+	 MyOPAC Summary page
+	================================================================= -->
+
+<!ENTITY myopac.summary.expired "Ваш аккаунт истек <span id='myopac.expired.date'/>! 
+Информируйте библиотекаря чтобы обновить ваш аккаунт.">
+<!ENTITY myopac.summary.notes "* Заметки  персонала *">
+<!ENTITY myopac.summary.phone.day "Дневной телефон">
+<!ENTITY myopac.summary.phone.evening "Вечерний телефон">
+<!ENTITY myopac.summary.phone.other "Другой телефон">
+<!ENTITY myopac.summary.change "Изменить">
+<!ENTITY myopac.summary.username.enter "Введите новое имя пользователя">
+<!ENTITY myopac.summary.password.text "(не показанный)">
+<!ENTITY myopac.summary.password.current "Введите текущий  пароль">
+<!ENTITY myopac.summary.password.new "Введите новый пароль">
+<!ENTITY myopac.summary.password.reenter "Повторно введите новый пароль">
+<!ENTITY myopac.summary.email "эл. адрес">
+<!ENTITY myopac.summary.email.new "Введите новый эл. адрес">
+<!ENTITY myopac.summary.id.primary "Начальная идентификация">
+<!ENTITY myopac.summary.barcode "Активный штрих-код">
+<!ENTITY myopac.summary.home "Домашняя библиотека">
+<!ENTITY myopac.summary.genesis "Дата создания аккаунта">
+<!ENTITY myopac.summary.addresses "Адреса">
+<!ENTITY myopac.summary.addresses.pending "Ожидающие адреса">
+<!ENTITY myopac.summary.address.type "Тип Адреса">
+<!ENTITY myopac.summary.address.street "Улица">
+<!ENTITY myopac.summary.address.city "Город">
+<!ENTITY myopac.summary.address.county "Округ">
+<!ENTITY myopac.summary.address.state "Штат">
+<!ENTITY myopac.summary.address.country "Страна">
+<!ENTITY myopac.summary.address.zip "Zip">
+<!ENTITY myopac.summary.address.edit "Изменить адрес">
+<!ENTITY myopac.summary.address.invalid "Некорректный адрес">
+
+<!ENTITY myopac.summary.username.error "Пожалуйста введите имя пользователя">
+<!ENTITY myopac.summary.username.dup "Запрашиваемое имя пользователя не доступна. Пожалуйста, выберите другое имя пользователя.">
+<!ENTITY myopac.summary.username.success "Имя пользователя успешно возобновлена">
+<!ENTITY myopac.summary.username.failure "Ошибка при обновлении имени пользователя">
+<!ENTITY myopac.summary.username.invalid "Имя пользователя не может содержать пробелов или иметь такой же формат, как штрих-код">
+<!ENTITY myopac.summary.email.error "Введите правильный адрес электронной почты">
+<!ENTITY myopac.summary.email.success "Адрес электронной почты успешно обновлен">
+<!ENTITY myopac.summary.email.failed "Ошибка при обновлении адреса эл. почты">
+<!ENTITY myopac.summary.password.error "Пароли являются пустыми или не совпадают">
+<!ENTITY myopac.summary.password.success "Пароль успешно обновлен">
+<!ENTITY myopac.summary.password.failure "Не удалось обновить пароль">
+<!--	================================================================= 
+	Advanced Search Page 
+	================================================================= -->
+
+<!ENTITY opac.advanced.wizard.contains "Выбранное поле содержит следующие слова:">
+<!ENTITY opac.advanced.wizard.nocontains "Выбранное поле <u> не </ U> содержит следующие слова:">
+<!ENTITY opac.advanced.wizard.exact "Выбранное поле содержит <u>  точно </ U> фразу">
+<!ENTITY opac.advanced.refined.title "Уточненный расширенный поиск">
+<!ENTITY opac.advanced.refined.title_contains "Заглавие содержит следующие слова">
+<!ENTITY opac.advanced.refined.author_contains "Автор содержит следующие слова">
+<!ENTITY opac.advanced.refined.subject_contains "Тема содержит следующие слова">
+<!ENTITY opac.advanced.refined.series_contains "Серия содержит следующие слова">
+<!ENTITY opac.advanced.refined.contains "Содержит">
+<!ENTITY opac.advanced.refined.nocontains "Не содержит">
+<!ENTITY opac.advanced.refined.exact "Точно соответствует">
+<!ENTITY opac.advanced.marc.warning "Для библиотекарей">
+<!ENTITY opac.advanced.marc.title "MARC Эксперт Поиск">
+<!ENTITY opac.advanced.marc.tag "MARC Тег">
+<!ENTITY opac.advanced.marc.ind1 "Индикатор 1">
+<!ENTITY opac.advanced.marc.ind2 "Индикатор 2">
+<!ENTITY opac.advanced.marc.subfield "Подполе">
+<!ENTITY opac.advanced.marc.value "Величина">
+<!ENTITY opac.advanced.marc.addrow "Добавить новую строку">
+<!ENTITY opac.advanced.quick.title "Быстрый поиск">
+<!ENTITY opac.advanced.quick.isbn "ISBN">
+<!ENTITY opac.advanced.quick.issn "ISSN">
+<!ENTITY opac.advanced.quick.lccn "LCCN">
+<!-- title control number -->
+<!ENTITY opac.advanced.quick.tcn "TCN">
+<!ENTITY opac.advanced.quick.barcode "Штрих-код единицы">
+<!ENTITY opac.advanced.quick.cn "Шифр">
+<!ENTITY opac.advanced.copy_loc_filter "Местоположение">
+<!-- ==========================================================
+     MARC expert search
+     ========================================================== -->
+
+<!ENTITY search.marc "MARC Эксперт Поиск">
+<!ENTITY search.marc.tag "Тег:">
+<!ENTITY search.marc.subfield "Подполе:">
+<!ENTITY search.marc.value "Величина:">
+<!ENTITY search.marc.add.row "Добавить строку">
+<!-- ==========================================================
+     Status bar
+     ========================================================== -->
+
+
+<!ENTITY status.results "В том числе по результатам">
+<!-- ==========================================================
+     Tips
+     ========================================================== -->
+
+
+<!ENTITY tips.label "Совет:">
+<!-- ================================================================= 
+		More generic stuff 
+		================================================================= -->
+
+<!ENTITY opac.session_expiring "Ваш логин выключится через минуту, если не активировать">
+<!ENTITY opac.session_expired "Ваш логин истек">
+<!ENTITY navigate.home "Дом">
+<!ENTITY navigate.home.title "Перейти на главную страницу">
+<!ENTITY opac.navigate.advanced "Расширенный поиск">
+<!ENTITY opac.navigate.advanced.title "Перейти на страницу расширенного поиска">
+<!ENTITY navigate.myopac "Мой аккаунт">
+<!ENTITY opac.navigate.myopac "Мой аккаунт">
+<!ENTITY navigate.myopac.title "Перейти на OPAC">
+<!ENTITY navigate.login "Войти">
+<!ENTITY navigate.login.title "Войти для персонализации  функций">
+<!ENTITY navigate.logout "Выйти">
+<!ENTITY navigate.logout.title "Выйти">
+<!ENTITY opac.navigate.selectNewOrg "Выберите другую библиотеку">
+<!ENTITY opac.navigate.selectOrg "Выберите библиотеку для поиска">
+<!ENTITY navigate.loggedinas "Вы вошли как ">
+<!ENTITY navigate.loggedinas.title "Зарегистрированный как...">
+<!ENTITY navigate.titleGroupResults "Результаты моего поиска">
+<!ENTITY navigate.titleResults "Результаты моего Заглавия">
+<!ENTITY navigate.facetRefine "Refine your search">
+<!ENTITY navigate.title.details "Детали моего Заглавия">
+<!ENTITY navigate.record.details "Детали данных">
+<!--	================================================================= 
+	Footer
+	================================================================= -->
+
+<!ENTITY footer.basic "Основной каталог (только HTML)">
+<!ENTITY footer.find.library "Найти библиотеку рядом со мной">
+<!ENTITY footer.find.url "http://www.georgialibraries.org/lib/directories/pineslibdir.html">
+<!ENTITY footer.help.url "http://open-ils.org/dokuwiki/doku.php?id=evergreen-user:opac_help">
+<!ENTITY footer.help "Помощь">
+<!ENTITY footer.library.url "http://www.georgialibraries.org/public/pines.html">
+<!ENTITY footer.library.about "О PINES">
+<!ENTITY footer.union.url "http://www.galileo.usg.edu/">
+<!ENTITY footer.union "GALILEO">
+<!ENTITY footer.copyright "Copyright &#xA9; 2006-2010 Georgia Public Library Service, and others">
+<!-- Introduces the logo for the project -->
+<!ENTITY footer.logo "Powered by">
+<!--	================================================================= 
+	My OPAC
+	================================================================= -->
+
+<!ENTITY myopac.account "Сводка аккаунта">
+<!ENTITY myopac.checkouts "Выданные Единицы">
+<!ENTITY myopac.holds "Единицы удержаны">
+<!ENTITY myopac.fines "Штрафы">
+<!ENTITY myopac.preferences "Предпочтения аккаунта">
+<!ENTITY myopac.bookbags "Мои корзинки">
+<!--	================================================================= 
+	Sidebar 
+	================================================================= -->
+
+<!ENTITY sidebar.relevantSubjects.headerLabel "Соответствующие Темы">
+<!ENTITY sidebar.relevantAuthors.headerLabel "Соответствующие авторы">
+<!ENTITY sidebar.relevantSeries.headerLabel "Соответствующие серии">
+<!ENTITY sidebar.relevantReviews.headerLabel "Обзоры">
+<!ENTITY sidebar.quick.search "Быстрый поиск">
+<!ENTITY sidebar.copy.not.found "Не найдено копий с требуемым  штрих-кодом">
+<!--	================================================================= 
+		Search formats
+		================================================================= -->
+
+<!ENTITY opac.search.books "Книги">
+<!ENTITY opac.search.allFormats "Все форматы">
+<!ENTITY opac.search.largePrint "Большие форматные книги">
+<!ENTITY opac.search.ebook "E-Books">
+<!ENTITY opac.search.audioBooks "Аудиокниги">
+<!ENTITY opac.search.videoRecordings "Видеозаписи">
+<!ENTITY opac.search.music "Музыка">
+<!ENTITY opac.search.electronic "Электронные ресурсы">
+<!ENTITY opac.search.nowSearching "Поиск">
+<!--	================================================================= 
+		Page Titles
+		================================================================= -->
+
+
+<!ENTITY opac.title.home "Домашний Evergreen">
+<!ENTITY opac.title.mresult "Название групп Evergreen">
+<!ENTITY opac.title.rresult "Evergreen заглавия">
+<!ENTITY opac.title.myopac "Мой аккаунт  Evergreen-a">
+<!ENTITY opac.title.rdetail "Подробности заглавия Evergreen">
+<!ENTITY opac.title.advanced "Расширенный поиск Evergreen">
+<!ENTITY opac.title.reqitems "Запрос  единиц Evergreen">
+<!ENTITY opac.title.cnbrowse "Просмотр Шифров Evergreen">
+
+
+<!ENTITY opac.holds.forMe "Сделайте хранение вместо меня">
+<!ENTITY opac.holds.xulRecipient "Введите штрих-код получателя">
+<!ENTITY opac.holds.recipient "Адресат">
+<!ENTITY opac.holds.placeHold "Поставить хранение">
+<!ENTITY opac.holds.exportRefWorks "Экспорт в RefWorks">
+<!ENTITY opac.holds.contactPhone "Контактный телефон">
+<!ENTITY opac.holds.contactEmail "Контактный адрес электронной почты">
+<!ENTITY opac.holds.pickupLocation "Местоположение получения">
+<!ENTITY opac.holds.success "Хранение была  успешно  размещена">
+<!ENTITY opac.holds.failure "Хранение не  размещена успешно">
+<!--	================================================================= 
+	Advanced
+	================================================================= -->
+<!ENTITY advanced.search.title "Введите поиск">
+<!ENTITY advanced.add.row "Добавьте строку поиска">
+<!ENTITY advanced.search.submit "Подтвердите поиск">
+<!ENTITY advanced.search.reset "Повторная установка формы">
+<!ENTITY advanced.search.filters "Фильтры поиска">
+<!ENTITY advanced.item.form "Форма единицы">
+<!ENTITY advanced.item.type "Тип единицы">
+<!ENTITY advanced.link "Расширенный">
+<!ENTITY advanced.basic.link "Основной">
+<!ENTITY advanced.literary.form "Литературная форма">
+<!ENTITY advanced.non.fiction "Не художественный">
+<!ENTITY advanced.fiction "Художественный">
+<!ENTITY advanced.language "Язык">
+<!ENTITY advanced.audience "Аудитория">
+<!ENTITY advanced.adult "Взрослый">
+<!ENTITY advanced.juvenile "Молодой">
+<!ENTITY advanced.general "Общий">
+<!ENTITY advanced.sort.criteria "Критерий сортировки">
+<!ENTITY advanced.search.library "Поиск  библиотеки">
+<!ENTITY advanced.relevance "Актуальность">
+<!ENTITY advanced.pubdate "Дата публикации">
+<!ENTITY advanced.sort.asc "Возрастающий от А до Я">
+<!ENTITY advanced.sort.desc "Убывающий от Я до А">
+<!ENTITY advanced.frbrize "Группа Форматов  и изданий">
+<!ENTITY advanced.go "Идти">
+<!ENTITY advanced.biblevel "Библ. степень">
+<!ENTITY advanced.filter.pubyear "Год издания">
+<!ENTITY advanced.filter.pubyear.equals "Сейчас">
+<!ENTITY advanced.filter.pubyear.before "До">
+<!ENTITY advanced.filter.pubyear.after "После">
+<!ENTITY advanced.filter.pubyear.between "Между">
+<!--	================================================================= 
+	Rdetail
+	================================================================= -->
+
+<!ENTITY rdetail.print "Печать этих данных">
+<!ENTITY rdetail.cn.barcode "Штрих-код">
+<!ENTITY rdetail.cn.location "Место">
+<!ENTITY rdetail.cn.hold.age "Защита хранения по возрасту">
+<!ENTITY rdetail.cn.genesis "Создать дату">
+<!ENTITY rdetail.cn.holdable "Хранимый">
+<!ENTITY rdetail.cn.due "Дата возврата">
+<!ENTITY rdetail.cn.more "еще информация...">
+<!ENTITY rdetail.cn.less "меньше информации">
+<!ENTITY rdetail.cn.hold "Поставить хранение">
+<!ENTITY rdetail.cn.reserve "book now">
+<!ENTITY rdetail.cn.disabled "- Поврежденный -">
+<!ENTITY rdetail.cn.note "Копия заметки">
+<!ENTITY rdetail.cn.category "Копия категории">
+<!ENTITY rdetail.cn.print "Печать страницы">
+<!ENTITY rdetail.page.results "Первая страница результатов">
+<!-- Result # &common.of; # -->
+<!ENTITY rdetail.result "Результат">
+<!ENTITY rdetail.start "Начало">
+<!ENTITY rdetail.page.previous "Предыдущая  страница">
+<!ENTITY rdetail.page.previous.short "&#171;">
+<!ENTITY rdetail.page.next "Следующая страница">
+<!ENTITY rdetail.page.next.short "&#187;">
+<!ENTITY rdetail.page.last "Последняя страница результатов">
+<!ENTITY rdetail.end "конец">
+<!ENTITY rdetail.more "Дополнительные действия ...">
+<!ENTITY rdetail.bookbag.add "Добавить корзину">
+<!ENTITY rdetail.bookbag.create "Создать новую корзину">
+<!ENTITY rdetail.record.deleted "Эта запись была удалена из базы данных. 
+Мы рекомендуем удалить это заглавие из всех корзин , где было добавлено.">
+<!ENTITY rdetail.none "(ни один из)">
+<!ENTITY rdetail.bookbag.add.success "Единица успешно добавлена в корзину">
+<!ENTITY rdetail.bookbag.name "Введите имя новой корзины">
+<!ENTITY rdetail.bookbag.create.success "Корзина успешно создана">
+<!ENTITY rdetail.detailMain.headerLabel "Краткое изложение  записи">
+<!ENTITY rdetail.detailMain.subjects "Тематики">
+<!ENTITY rdetail.detailMain.abstract "Абстракт">
+<!ENTITY rdetail.detailMain.viewMarc "Вид MARC">
+<!ENTITY rdetail.detailMain.hideMarc "Возвратиться к деталям заглавия">
+<!ENTITY rdetail.author.search "Выполнить поиск по автору">
+<!ENTITY rdetail.copyInfo.headerLabel "Информация Копии">
+<!ENTITY rdetail.copyInfo.library "Библиотека">
+<!ENTITY rdetail.copyInfo.callnumber "Шифр">
+<!ENTITY rdetail.copyInfo.copylocation "Местоположение копии">
+<!ENTITY rdetail.copyInfo.local "Просмотр Информации Копии только для этого места">
+<!ENTITY rdetail.copyInfo.all "Просмотр Информации Копии для всех библиотек">
+<!ENTITY rdetail.copyInfo.actions "Действия">
+<!ENTITY rdetail.copyInfo.print "Печать шифров для этой библиотеки">
+<!ENTITY rdetail.copyInfo.details "Подробнее о копии">
+<!ENTITY rdetail.copyInfo.browse "Обзор телефоннных номеров">
+<!ENTITY rdetail.copyInfo.hold "Поставить хранение">
+<!ENTITY rdetail.extras.summary "Копия резюме">
+<!ENTITY rdetail.extras.browser "Shelf Browser">
+<!ENTITY rdetail.extras.bib_summary "Summary">
+<!ENTITY rdetail.extras.reviews "Обзоры">
+<!ENTITY rdetail.extras.toc "Содержание">
+<!ENTITY rdetail.extras.excerpt "Цитата">
+<!ENTITY rdetail.extras.preview "Предпросмотр">
+<!ENTITY rdetail.extras.author.notes "Заметки автора">
+<!ENTITY rdetail.extras.annotation "Примечание">
+<!ENTITY rdetail.extras.marc "MARC запись">
+<!ENTITY rdetail.extras.call.null "Нет шифров для этой единицы в этом месте">
+<!ENTITY rdetail.extras.call.local "Local Call Numbers:">
+<!ENTITY rdetail.extras.preview.fulltext "Полный текст">
+<!ENTITY rdetail.extras.preview.title "Посмотреть полный текст этой книги.">
+<!ENTITY rdetail.extras.preview.badge "Показать предпросмотр этой книги из Google книг">
+<!ENTITY rdetail.extras.novelist "Suggestions by NoveList">
+<!ENTITY rdetail.loading "Loading copy information...">
+<!ENTITY rdetail.noneAvailable " * Нет копий в этом месте">
+<!ENTITY rdetail.summary.online "Интернет ресурсы">
+<!ENTITY rdetail.summary.subjects "Тематики">
+<!ENTITY rdetail.summary.issues_held "Issues Held">
+
+<!ENTITY result.sort_by "Упорядочить результаты по релевантности">
+<!ENTITY result.sort_by.title "Сортировать результаты по заглавию">
+<!ENTITY result.sort_by.author "Сортировать результаты по автору">
+<!ENTITY result.sort_by.pubdate "Сортировать результаты по  дате публикаций">
+
+<!ENTITY result.limit2avail "Лимитировать для доступных">
+<!ENTITY result.info.copies "Доступные копии/ сумма копии">
+<!ENTITY result.info.no.items "Не одной единицы не найдено с выбранным формате в заданном месте">
+<!ENTITY result.info.format.items "Ниже перечислены все единицы, в каталоге  с выбранным форматом.">
+<!ENTITY result.info.show "Показ записей для">
+
+<!ENTITY result.lowhits.few "Мало ответов были  найдены для вашего поиска">
+<!ENTITY result.lowhits.zero "Ничего не найдено для вашего поиска">
+<!ENTITY result.lowhits.did.you.mean "Может быть вы имели в виду">
+<!ENTITY result.lowhits.formats "Вы можете найти больще ответов, когда ищите единицы по всем форматам">
+<!ENTITY result.lowhits.formats.search "Еще Поиск со всеми форматами?">
+<!ENTITY result.lowhits.related "Вы можете также попробовать эти Родственные поиски">
+<!ENTITY result.lowhits.expand "Вы также можете расширить круг поиска">
+<!ENTITY result.lowhits.class "Вы можете попробовать поиск того же термина как:">
+<!ENTITY result.lowhits.title "заглавие">
+<!ENTITY result.lowhits.author "автор">
+<!ENTITY result.lowhits.subject "тематика">
+<!ENTITY result.lowhits.series "серии">
+<!ENTITY result.lowhits.keyword "ключевые слова">
+
+<!ENTITY result.table.keyword "Просмотр названий для этой записи">
+<!ENTITY result.table.author "Поиск по автору">
+<!ENTITY result.googleBooks.browse "Поиск в  книжном  каталоге Google">
+<!ENTITY result.localCallNumbers "Local Call Numbers:">
+
+<!ENTITY common.call.number.label "Шифр">
+<!ENTITY common.isbn.label "ISBN:">
+<!ENTITY common.issn.label "ISSN:">
+<!ENTITY common.copy.barcode.label "Копия штрих-кода">
+<!ENTITY common.issuance_label.label "Issuance Label:">
+<!ENTITY common.hold.place "Поставить хранение для моего аккаунта">
+<!ENTITY common.hold.check "Проверка возможности выполнения хранения...">
+<!ENTITY common.hold.create "Создание/ редактирование хранения">
+<!ENTITY common.hold.update "Обновление хранения">
+<!ENTITY common.hold.type.label "Тип хранения:">
+<!ENTITY common.hold.volume "Хранение тома">
+<!ENTITY common.hold.copy "Хранение Копии">
+<!ENTITY common.hold.issuance "Issuance Hold">
+<!ENTITY common.hold.advanced "Опции расширенного хранения">
+<!ENTITY common.hold.delivery "Пожалуйста, выберите  место, для размещения вашего хранения">
+<!ENTITY common.hold.checked_out "This item is already checked out.">
+<!ENTITY common.hold.checked_out.override "This item is already checked out.  Would you like to place the hold anyway?">
+<!ENTITY common.hold.exists "Хранение уже существует на запрошенную единицу">
+<!ENTITY common.hold.exists.override "A hold already exists on the requested item. Would you like to create the hold anyway?">
+<!ENTITY common.hold.barred 'Патрон запрещенный: Ознакомьтесь с заметками  в 
+"Заметки персонала " в секции "Мой акаунт" или свяжитесь с вашей местной  библиотекой.'>
+<!ENTITY common.hold.item.invalid "Это хранение не  действительна. Вероятно всего 
+мишень для хранения удалена из системы.  Отмените это хранение и  
+разместите новую.">
+<!ENTITY common.hold.patron.invalid "Введенный Штрих-код патрона как адресат хранения не верен">
+<!-- Was (??), perhaps change to a button or icon? -->
+<!ENTITY common.help "(Помощь)">
+<!ENTITY common.phone.format.help "Номер телефона не имеет правильный формат. Предполагаемый формат  XXX-YYY-ZZZZ">
+<!ENTITY common.hold.failed "Единицы не были найдены, которые могли бы паполнить требуемые хранения. 
+Это возможно, что при выборе разных форматов приведет к созданию удачного хранения. 
+Это также возможно что вы превысили количество допустимых хранений. 
+Для дальнейшей информации консультируйтесь с вашим местным библиотекарем">
+<!ENTITY common.control.click "(control-click для выбора нескольких форматов)">
+<!ENTITY common.format.alternatives "Приемлемые альтернативные форматы:">
+<!ENTITY common.phone.format "(XXX-YYY-ZZZZ)">
+<!ENTITY common.phone.enable "Разрешить уведомления по телефону для этого хранения?">
+<!ENTITY common.email.enable "Разрешить e-mai уведомления для этого хранения?">
+<!ENTITY common.email.none "(Патрон  не сформировал адрес электронной почты)">
+<!ENTITY common.email.set "(Смотри <a class='classic_link' id='holds.no_email.my_account'>Мой акаунт</a> для настройки Вашей emai)">
+<!ENTITY common.keywords.label "Ключевые слова:">
+<!ENTITY common.physical.label "Физическое описание">
+<!ENTITY common.series.label "Серии:">
+<!ENTITY common.subject.label "Тематика:">
+<!ENTITY common.title.label "Заглавие:">
+<!ENTITY common.author.label "Автор:">
+<!ENTITY common.format.label "Формат:">
+<!ENTITY library.select "Нахождение результатов в">
+<!ENTITY library.select.label "Выбор другой библиотеки...">
+<!ENTITY library.select.help "Выберите библиотеку для поиска">
+<!ENTITY login.username "Введите ваше имя пользователя или штрих код библиотеки">
+<!ENTITY login.password.change "Измените пароль">
+<!ENTITY login.first.time "Кажется вы первый раз входите. 
+Вам необходимо изменить свой пароль.">
+<!ENTITY login.password.current.enter "Введите ваш текущий пароль">
+<!ENTITY login.password.new.enter "Ввод новый пароля">
+<!ENTITY login.password.new.reenter "Повторно введите новый пароль для проверки">
+<!ENTITY login.password.update "Обновить пароль">
+<!ENTITY login.password.nomatch "Пароли не совпадают">
+<!ENTITY login.password.success "Пароль успешно обновлен">
+<!ENTITY login.password.strength "Данный Пароль недостаточно сильный.">
+<!ENTITY login.barcode.inactive "Штрих-код используемый для пароля отмечен как  не активный. Пожалуйста, свяжитесь в местную библиотеку.">
+<!ENTITY login.account.inactive "Аккаунт отключен . Пожалуйста, обратитесь в местную библиотеку.">
+<!ENTITY login.failed "Логин неправильный. Имя пользователя или пароль, не действительный. 
+Убедитесь что Caps-Lock выключен и попробуйте снова или свяжитесь в местную библиотеку.">
+<!ENTITY button.go "Вперед">
+<!--	================================================================= 
+	Slimpac Simple Search
+	================================================================= -->
+
+<!ENTITY slimpac.language.select "Выбор языка">
+
+<!ENTITY slimpac.start.title "Простой поиск">
+<!ENTITY slimpac.start.nowSearching "Поиск ">
+<!ENTITY slimpac.start.dynamic "Динамичный каталог">
+<!--	================================================================= 
+	Slimpac Advanced Search
+	================================================================= -->
+
+<!ENTITY slimpac.advanced.language "Язык единицы">
+<!ENTITY slimpac.advanced.create_date "Дата Создания  записи">
+<!ENTITY slimpac.advanced.edit_date "Дата Редактирования записи">
+
+<!ENTITY opac.image_provided "Изображение предоставлено">
+<!ENTITY vendor.name "Amazon">
+<!ENTITY vendor.base_link "http://amazon.com/dp/">
+<!--	================================================================= 
+	Selfcheck
+	================================================================= -->
+
+<!ENTITY selfck.staff_login_label "Логин персонала">
+<!ENTITY selfck.staff_login "Штрих-код или имя пользователя библиотеки">
+<!ENTITY selfck.staff_pw "Пароль">
+<!ENTITY selfck.submit "Утвердить">
+<!ENTITY selfck.clear "Очистить">
+<!ENTITY selfck.patron_barcode_label "Пожалуйста сканируйте штрих-код вашей библиотеки">
+<!ENTITY selfck.item_barcode_label "Пожалуйста сканируйте единицу для выдачи  или возобновления">
+<!ENTITY selfck.barcode "Штрих-код">
+<!ENTITY selfck.title "Название">
+<!ENTITY selfck.author "Автор">
+<!ENTITY selfck.due_date "Дата возврата">
+<!ENTITY selfck.remaining "Оствшиеся обновления">
+<!ENTITY selfck.cotype "Тип">
+<!ENTITY selfck.cotype_co "Выдать">
+<!ENTITY selfck.cotype_rn "Обновления">
+<!ENTITY selfck.done "Выполненный">
+<!ENTITY selfck.welcome "Добро пожаловать">
+<!ENTITY selfck.printing "Печатается квитанция...">
+<!-- event messages -->
+
+<!ENTITY selfck.event.co_success "Выдача удалась">
+<!ENTITY selfck.event.co_unknown "Произошел неизвестный случай">
+<!ENTITY selfck.event.dupe_barcode "Эта единица уже была  выдана в течение этой сессии">
+<!ENTITY selfck.event.patron_not_found "Баркод патрона не найден">
+<!ENTITY selfck.event.item_noncat "Запрошенная библ. единица не каталогизирована">
+<!ENTITY selfck.event.item_nocirc "Запрошенная библ. единица не разрешена выдаче">
+<!ENTITY selfck.event.already_out "Запрошенная единица уже выдана другому патрону">
+<!ENTITY selfck.items_out "Вы выдали следующие единицы">
+<!ENTITY selfck.org_hours "Время работы">
+<!ENTITY selfck.org_phone "Номер телефона библиотеки">
+<!ENTITY selfck.day0 "Понедельник">
+<!ENTITY selfck.day1 "Вторник">
+<!ENTITY selfck.day2 "Среда">
+<!ENTITY selfck.day3 "Четверг">
+<!ENTITY selfck.day4 "Пятница">
+<!ENTITY selfck.day5 "Суббота">
+<!ENTITY selfck.day6 "Воскресенье">
+
+<!ENTITY circ.fail_part.actor.usr.barred "The patron is barred">
+<!ENTITY circ.fail_part.asset.copy.circulate "The item does not circulate">
+<!ENTITY circ.fail_part.asset.copy_location.circulate "Items from this shelving location do not circulate">
+<!ENTITY circ.fail_part.asset.copy.status "The item cannot circulate at this time">
+<!ENTITY circ.fail_part.circ.holds.target_skip_me "The item's circulation library does not fulfill holds">
+<!ENTITY circ.fail_part.config.circ_matrix_circ_mod_test "The patron has too many items of this type checked out">
+<!ENTITY circ.fail_part.config.circ_matrix_test.available_copy_hold_ratio "The available item-to-hold ratio is too low">
+<!ENTITY circ.fail_part.config.circ_matrix_test.circulate "Circulation rules reject this item as non-circulatable">
+<!ENTITY circ.fail_part.config.circ_matrix_test.total_copy_hold_ratio "The total item-to-hold ratio is too low">
+<!ENTITY circ.fail_part.config.hold_matrix_test.holdable "Hold rules reject this item as unholdable">
+<!ENTITY circ.fail_part.config.hold_matrix_test.max_holds "The patron has reached the maximum number of holds">
+<!ENTITY circ.fail_part.config.rule_age_hold_protect.prox "The item is too new to transit this far">
+<!ENTITY circ.fail_part.no_item "The system could not find this item">
+<!ENTITY circ.fail_part.no_ultimate_items "The system could not find any items to match this hold request">
+<!ENTITY circ.fail_part.no_matchpoint "System rules do not define how to handle this item">
+<!ENTITY circ.fail_part.no_user "The system could not find this patron">
+<!ENTITY circ.fail_part.transit_range "The item cannot transit this far">

@@ -1,0 +1,120 @@
+***************
+*** 224,229 ****
+  <!ENTITY opac.holds.freeze.help "A suspended hold will retain its place in the queue, but will not be fulfilled until it has been activated.">
+  <!ENTITY opac.holds.freeze.thaw_date "Automatically activate hold on:">
+  <!ENTITY opac.holds.expire_time "Expiration date">
+  
+  <!--	================================================================= 
+  	MyOPAC Preferences Page 
+--- 224,230 ----
+  <!ENTITY opac.holds.freeze.help "A suspended hold will retain its place in the queue, but will not be fulfilled until it has been activated.">
+  <!ENTITY opac.holds.freeze.thaw_date "Automatically activate hold on:">
+  <!ENTITY opac.holds.expire_time "Expiration date">
++ <!ENTITY myopac.holds.estimated_wait "Estimated Wait (days)">
+  
+  <!--	================================================================= 
+  	MyOPAC Preferences Page 
+***************
+*** 271,281 ****
+  <!ENTITY myopac.summary.home "Home Library">
+  <!ENTITY myopac.summary.genesis "Account Creation Date">
+  <!ENTITY myopac.summary.addresses "Addresses">
+  <!ENTITY myopac.summary.address.type "Address Type">
+  <!ENTITY myopac.summary.address.street "Street">
+  <!ENTITY myopac.summary.address.city "City">
+  <!ENTITY myopac.summary.address.county "County">
+  <!ENTITY myopac.summary.address.state "State">
+  <!ENTITY myopac.summary.address.zip "Zip">
+  <!ENTITY myopac.summary.username.error "Please enter a username">
+  <!ENTITY myopac.summary.username.dup "The requested username is not available.  Please choose a different username.">
+--- 272,284 ----
+  <!ENTITY myopac.summary.home "Home Library">
+  <!ENTITY myopac.summary.genesis "Account Creation Date">
+  <!ENTITY myopac.summary.addresses "Addresses">
++ <!ENTITY myopac.summary.addresses.pending "Pending Addresses">
+  <!ENTITY myopac.summary.address.type "Address Type">
+  <!ENTITY myopac.summary.address.street "Street">
+  <!ENTITY myopac.summary.address.city "City">
+  <!ENTITY myopac.summary.address.county "County">
+  <!ENTITY myopac.summary.address.state "State">
++ <!ENTITY myopac.summary.address.country "Country">
+  <!ENTITY myopac.summary.address.zip "Zip">
+  <!ENTITY myopac.summary.username.error "Please enter a username">
+  <!ENTITY myopac.summary.username.dup "The requested username is not available.  Please choose a different username.">
+***************
+*** 431,436 ****
+  <!ENTITY opac.holds.xulRecipient "Enter recipient barcode">
+  <!ENTITY opac.holds.recipient "Recipient">
+  <!ENTITY opac.holds.placeHold "Place Hold">
+  <!ENTITY opac.holds.contactPhone "Contact telephone number">
+  <!ENTITY opac.holds.contactEmail "Contact email address">
+  <!ENTITY opac.holds.pickupLocation "Pickup location">
+--- 434,440 ----
+  <!ENTITY opac.holds.xulRecipient "Enter recipient barcode">
+  <!ENTITY opac.holds.recipient "Recipient">
+  <!ENTITY opac.holds.placeHold "Place Hold">
++ <!ENTITY opac.holds.exportRefWorks "Export to RefWorks">
+  <!ENTITY opac.holds.contactPhone "Contact telephone number">
+  <!ENTITY opac.holds.contactEmail "Contact email address">
+  <!ENTITY opac.holds.pickupLocation "Pickup location">
+***************
+*** 513,538 ****
+  <!ENTITY rdetail.copyInfo.headerLabel "Copy Information">
+  <!ENTITY rdetail.copyInfo.library "Library">
+  <!ENTITY rdetail.copyInfo.callnumber "Callnumber">
+  <!ENTITY rdetail.copyInfo.local "View Copy Information for this location only">
+  <!ENTITY rdetail.copyInfo.all "View copy information for all libraries">
+  <!ENTITY rdetail.copyInfo.actions "Actions">
+  <!ENTITY rdetail.copyInfo.print "Print Call Numbers for this library">
+- <!ENTITY rdetail.copyInfo.details "details">
+- <!ENTITY rdetail.copyInfo.browse "browse">
+- <!ENTITY rdetail.copyInfo.hold "place hold">
+  <!ENTITY rdetail.extras.summary "Copy Summary">
+  <!ENTITY rdetail.extras.browser "Shelf Browser">
+  <!ENTITY rdetail.extras.reviews "Reviews">
+  <!ENTITY rdetail.extras.toc "Table of Contents">
+  <!ENTITY rdetail.extras.excerpt "Excerpt">
+  <!ENTITY rdetail.extras.author.notes "Author Notes">
+  <!ENTITY rdetail.extras.annotation "Annotation">
+  <!ENTITY rdetail.extras.marc "MARC Record">
+  <!ENTITY rdetail.extras.call.null "There are no call numbers for this item at this location.">
+  <!ENTITY rdetail.extras.call.local "Local Call Numbers:">
+  <!ENTITY rdetail.loading "Loading copy infomation...">
+  <!ENTITY rdetail.noneAvailable " * There are no copies in this location">
+  <!ENTITY rdetail.summary.online "Online Resources">
+  
+  <!ENTITY result.sort_by "Sort Results by Relevance">
+  <!ENTITY result.sort_by.title "Sort Results by Title">
+--- 517,548 ----
+  <!ENTITY rdetail.copyInfo.headerLabel "Copy Information">
+  <!ENTITY rdetail.copyInfo.library "Library">
+  <!ENTITY rdetail.copyInfo.callnumber "Callnumber">
++ <!ENTITY rdetail.copyInfo.copylocation "Copy Location">
+  <!ENTITY rdetail.copyInfo.local "View Copy Information for this location only">
+  <!ENTITY rdetail.copyInfo.all "View copy information for all libraries">
+  <!ENTITY rdetail.copyInfo.actions "Actions">
+  <!ENTITY rdetail.copyInfo.print "Print Call Numbers for this library">
++ <!ENTITY rdetail.copyInfo.details "Copy Details">
++ <!ENTITY rdetail.copyInfo.browse "Browse Call Numbers">
++ <!ENTITY rdetail.copyInfo.hold "Place Hold">
+  <!ENTITY rdetail.extras.summary "Copy Summary">
+  <!ENTITY rdetail.extras.browser "Shelf Browser">
+  <!ENTITY rdetail.extras.reviews "Reviews">
+  <!ENTITY rdetail.extras.toc "Table of Contents">
+  <!ENTITY rdetail.extras.excerpt "Excerpt">
++ <!ENTITY rdetail.extras.preview "Preview">
+  <!ENTITY rdetail.extras.author.notes "Author Notes">
+  <!ENTITY rdetail.extras.annotation "Annotation">
+  <!ENTITY rdetail.extras.marc "MARC Record">
+  <!ENTITY rdetail.extras.call.null "There are no call numbers for this item at this location.">
+  <!ENTITY rdetail.extras.call.local "Local Call Numbers:">
++ <!ENTITY rdetail.extras.preview.fulltext "Full text">
++ <!ENTITY rdetail.extras.preview.title "See the full text of this book.">
++ <!ENTITY rdetail.extras.preview.badge "Show a preview of this book from Google Book Search">
+  <!ENTITY rdetail.loading "Loading copy infomation...">
+  <!ENTITY rdetail.noneAvailable " * There are no copies in this location">
+  <!ENTITY rdetail.summary.online "Online Resources">
++ <!ENTITY rdetail.summary.subjects "Subjects">
+  
+  <!ENTITY result.sort_by "Sort Results by Relevance">
+  <!ENTITY result.sort_by.title "Sort Results by Title">

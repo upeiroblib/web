@@ -1,0 +1,17 @@
+***************
+*** 73,79 ****
+  		case RTYPE_MRID :
+  		case null :
+  		case "" :
+- 		defaut:
+  			var form = rresultGetForm();
+  			var args = { format : form, org : getLocation(), depth : rresultGetDepth() };
+  
+--- 73,79 ----
+  		case RTYPE_MRID :
+  		case null :
+  		case "" :
++ 		default:
+  			var form = rresultGetForm();
+  			var args = { format : form, org : getLocation(), depth : rresultGetDepth() };
+  

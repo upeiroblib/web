@@ -1,0 +1,64 @@
+
+<!-- Searchbar for doing metarecord searches -->
+
+<div id='searchbar'>
+
+	<!-- load my js -->
+	<script language='javascript' type='text/javascript'>
+		config.ids.searchbar = {};
+		config.css.searchbar = {};
+		config.ids.searchbar.text				= 'search_box';	
+		config.ids.searchbar.submit			= 'search_submit';	
+		config.ids.searchbar.type_selector	= 'search_type_selector';
+		config.ids.searchbar.depth_selector	= 'depth_selector';
+		config.ids.searchbar.form_selector	= 'form_selector';
+		config.ids.searchbar.extra_row		= 'searchbar_extra';
+		config.ids.searchbar.main_row			= 'searchbar_main_row';
+		config.ids.searchbar.table				= 'searchbar_table';
+		config.ids.searchbar.location_tag	= 'search_location_tag_link';
+		config.ids.searchbar.lib_sel_span	= 'lib_selector_span';
+		config.ids.searchbar.lib_sel_link	= 'lib_selector_link';
+		config.ids.searchbar.depth_sel_span	= 'depth_selector_span';
+	</script>
+
+
+	<table class='color_1 color_border1' width='100%' style='border-collapse: collapse;'>
+		<tbody>
+			<tr>
+
+				<td nowrap='nowrap' align='center'  class='search_box_container color_2'>
+
+					<input id='search_box' type='text' />
+					<span style='padding-left: 6px;'>
+						<input type='button' style='width: 40px;' id='search_submit' value='&button.go;' />
+					</span>
+				</td>
+
+				<td nowrap='nowrap' style='padding: 3px;' align='right' >
+
+					<span style='padding-right:9px;'>
+						<!--
+						<span>&common.type;: </span>
+						-->
+						<!--#include virtual="stypes_selector.xml"-->
+					</span>
+
+					<span style='padding-right:9px;'>
+						<!--#set var='FORM_SEL_ID' value='form_selector'-->
+						<!--#include virtual="format_selector.xml"-->
+					</span>
+
+					<!--#include virtual="libselect.xml"-->
+
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<script language='javascript' type='text/javascript' src='<!--#echo var="OILS_OPAC_JS_HOST"-->/skin/equinox/js/search_bar.js'></script>
+</div>
+
+
+
+
+
+

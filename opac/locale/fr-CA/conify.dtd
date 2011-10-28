@@ -1,0 +1,129 @@
+<!-- Common entities -->
+<!ENTITY conify.save_button.label "Enregistrer">
+<!ENTITY conify.delete_button.label "Supprimer">
+<!ENTITY conify.new_kid_button.label "Nouvel enfant">
+<!-- Main configuration interface menu -->
+<!ENTITY conify.admin.title "Globale :: Administration">
+<!ENTITY conify.admin.top_pane.title "Contrôles">
+<!ENTITY conify.admin.configure "Configurer votre SIB">
+<!ENTITY conify.admin.left_pane.controls "Contrôles">
+<!ENTITY conify.admin.org_unit_type.link "Types organisationnelles">
+<!ENTITY conify.admin.org_unit.link "Unités organisationelles">
+<!ENTITY conify.admin.grp_tree.link "Groupes de permissions">
+<!ENTITY conify.admin.perm_list.link "Permissions">
+<!ENTITY conify.admin.copy_status.link "États des exemplaires">
+<!ENTITY conify.admin.marc_code_maps.link "Codes MARC">
+<!ENTITY conify.admin.bottom_pane.title "Contrôles">
+<!-- Organization unit type configuration interface -->
+<!ENTITY conify.org_unit_type.title "Globale :: Actor :: Types d'unités organisationnelles">
+<!ENTITY conify.org_unit_type.type_tree.label "Types d'unités organisationnelles">
+<!ENTITY conify.org_unit_type.type_name "Nom du type d'unité organisationnelle">
+<!ENTITY conify.org_unit_type.opac_label "Étiquette d'OPAC">
+<!ENTITY conify.org_unit_type.parent_type "Type d'organisation parentale">
+<!ENTITY conify.org_unit_type.can_have_volumes "Peut contenir des volumes et des exemplaires">
+<!ENTITY conify.org_unit_type.can_have_users "Peut avoir des utilisateurs">
+<!-- Organization unit configuration interface -->
+<!ENTITY conify.org_unit.title "Globale :: Actor :: Unités organisationnelles">
+<!ENTITY conify.org_unit.ou_tree.label "Unités organisationnelles">
+<!ENTITY conify.org_unit.editor_pane.title "Paramètres principaux">
+<!ENTITY conify.org_unit.editor_pane.org_unit_name "Nom de l'unité organisationnelle">
+<!ENTITY conify.org_unit.editor_pane.org_unit_code "Code de politique de l'unité organisationnelle">
+<!ENTITY conify.org_unit.editor_pane.main_email "Adresse de courriel principale">
+<!ENTITY conify.org_unit.editor_pane.main_phone "Numéro de téléphone principale">
+<!ENTITY conify.org_unit.editor_pane.org_unit_type "Type d'unité organisationnelle">
+<!ENTITY conify.org_unit.editor_pane.parent "Unité organisationnelle parentale">
+<!ENTITY conify.org_unit.editor_pane.opac_visible "Catalogue visible?">
+<!-- Hours of operation --> 
+<!ENTITY conify.org_unit.hoo_pane.title "Heures d'ouverture">
+<!ENTITY conify.org_unit.hoo_pane.open_time "Heure d'ouverture">
+<!ENTITY conify.org_unit.hoo_pane.close_time "Heure de fermeture">
+<!ENTITY conify.org_unit.hoo_pane.closed "Fermée">
+<!ENTITY conify.org_unit.hoo_pane.monday "Lundi">
+<!ENTITY conify.org_unit.hoo_pane.tuesday "Mardi">
+<!ENTITY conify.org_unit.hoo_pane.wednesday "Mercredi">
+<!ENTITY conify.org_unit.hoo_pane.thursday "Jeudi">
+<!ENTITY conify.org_unit.hoo_pane.friday "Vendredi">
+<!ENTITY conify.org_unit.hoo_pane.saturday "Samedi">
+<!ENTITY conify.org_unit.hoo_pane.sunday "Dimanche">
+<!-- Addresses --> 
+<!ENTITY conify.org_unit.addresses_pane.title "Adresses">
+<!ENTITY conify.org_unit.addresses_pane.physical.title "Adresse physique">
+<!ENTITY conify.org_unit.addresses_pane.holds.title "Adresse de la mise en réserve">
+<!ENTITY conify.org_unit.addresses_pane.mailing.title "Adresse postale">
+<!ENTITY conify.org_unit.addresses_pane.ill.title "Adresse PEB">
+<!ENTITY conify.org_unit.addresses_pane.type "Type">
+<!ENTITY conify.org_unit.addresses_pane.valid "Valide">
+<!ENTITY conify.org_unit.addresses_pane.street1 "Rue 1">
+<!ENTITY conify.org_unit.addresses_pane.street2 "Rue 2">
+<!ENTITY conify.org_unit.addresses_pane.city "Ville">
+<!ENTITY conify.org_unit.addresses_pane.state "État">
+<!ENTITY conify.org_unit.addresses_pane.zip "Code postale">
+<!ENTITY conify.org_unit.addresses_pane.country "Pays">
+<!ENTITY conify.org_unit.addresses_pane.county "Comté">
+<!-- This is a highlighted label that is followed by the name of the organizational unit -->
+<!ENTITY conify.org_unit.status_bar "Modification en cours">
+
+<!ENTITY conify.copy_status.title "Globale :: Configuration :: État de l'exemplaire">
+<!ENTITY conify.copy_status.new_status.label "Nouvel état">
+<!ENTITY conify.copy_status.new_status.name "Nouveau nom d'état">
+<!ENTITY conify.copy_status.new_status.save "Ajouter">
+<!ENTITY conify.copy_status.save_changes "Enregistrer les modifications">
+<!ENTITY conify.copy_status.delete_selected "Supprimer les articles sélectionnés">
+
+<!ENTITY conify.marc_code_maps.title "Globale :: Configuration :: Cartes de code MARC">
+<!ENTITY conify.marc_code_maps.audience_map.title "Carte du public">
+<!ENTITY conify.marc_code_maps.audience_map.new.label "Nouvelle carte du public :">
+<!ENTITY conify.marc_code_maps.new_code "Nouvel code">
+<!ENTITY conify.marc_code_maps.new_value "Nouvelle valeur">
+<!ENTITY conify.marc_code_maps.audience_map.description "Description">
+<!ENTITY conify.marc_code_maps.delete_selected "Supprimer les articles sélectionnés">
+<!ENTITY conify.marc_code_maps.save_changes "Enregistrer les modifications">
+
+<!ENTITY conify.marc_code_maps.bib_level.title "Carte de niveau bibliographique">
+<!ENTITY conify.marc_code_maps.bib_level.new.label "Nouvel niveau bibliographique :">
+<!ENTITY conify.marc_code_maps.add "Ajouter">
+
+<!ENTITY conify.marc_code_maps.item_form.title "Carte de format d'article">
+<!ENTITY conify.marc_code_maps.item_form.new.label "Nouveau format d'article :">
+
+<!ENTITY conify.marc_code_maps.item_type.title "Carte de type d'article">
+<!ENTITY conify.marc_code_maps.item_type.new.label "Nouveau type d'article :">
+
+<!ENTITY conify.marc_code_maps.language.title "Carte de langue">
+<!ENTITY conify.marc_code_maps.language.new.label "Nouvelle langue :">
+
+<!ENTITY conify.marc_code_maps.literary_form.title "Carte de formes littéraires">
+<!ENTITY conify.marc_code_maps.literary_form.new.label "Nouvelle forme littéraire :">
+
+<!ENTITY conify.marc_code_maps.video.title "Carte de formats d'enregistrements vidéo">
+<!ENTITY conify.marc_code_maps.video.new.label "Nouveau format d'enregistrement vidéo :">
+<!-- perm_list.html Entities -->
+
+<!ENTITY conify.perm_list.permission_list.title "Globale :: Permission :: Liste de permissions">
+<!ENTITY conify.perm_list.new_code.label "Nouveau code">
+<!ENTITY conify.perm_list.add_button.label "Ajouter">
+<!ENTITY conify.perm_list.save_changes.label "Enregistrer les modifications">
+<!ENTITY conify.perm_list.delete_selected.label "Supprimer les articles sélectionnés">
+<!ENTITY conify.perm_list.new_permission.label "Nouvelle permission :">
+<!-- grp_tree.html Entities --> 
+ 
+<!ENTITY conify.grp_tree.group_tree.title "Globale :: Permission :: Hierarchie du groupe">
+<!ENTITY conify.grp_tree.permission_groups.label "Groupes de permissions">
+<!ENTITY conify.grp_tree.group_config.label "Configuration des groupes">
+<!ENTITY conify.grp_tree.group_name.label "Nom du groupe">
+<!ENTITY conify.grp_tree.description.label "Description">
+<!ENTITY conify.grp_tree.permission_interval.label "Intervalle de permission">
+<!ENTITY conify.grp_tree.editing_permission.label "Permission pour modifier">
+<!ENTITY conify.grp_tree.parent_group.label "Groupe parentale">
+<!ENTITY conify.grp_tree.user_group.label "Groupe d'utilisateurs">
+<!ENTITY conify.grp_tree.save_button.label "Enregistrer">
+<!ENTITY conify.grp_tree.delete_button.label "Supprimer">
+<!ENTITY conify.grp_tree.new_child_button.label "Nouvel enfant">
+<!ENTITY conify.grp_tree.group_permissions.title "Permissions de groupe">
+<!ENTITY conify.grp_tree.new_mapping.label "Nouvelle association de données">
+<!ENTITY conify.grp_tree.permission.label "Permission :">
+<!ENTITY conify.grp_tree.depth.label "Profondeur :">
+<!ENTITY conify.grp_tree.grantable.label "Octroyable">
+<!ENTITY conify.grp_tree.add_mapping_button.label "Ajouter une association">
+<!ENTITY conify.grp_tree.save_changes.label "Sauvegarder les modifications">
+<!ENTITY conify.grp_tree.remove_selected.label "Supprimer les articles sélectionnés">

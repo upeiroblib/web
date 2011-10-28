@@ -1,0 +1,5 @@
+<!-- plux 2011-10-25 modify style remove height: 48px; width: 187px; added padding:10px -->
+<div id='logo_div'>
+	<script language='javascript' type='text/javascript'>config.ids.common.top_logo = "top_left_logo";</script>
+	<img style='margin-right: 4px; padding:10px;' src='<!--#echo var="OILS_BASE"-->/images/small_logo.jpg' id='top_left_logo' border='0' class='logo' />
+</div>

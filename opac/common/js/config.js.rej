@@ -1,0 +1,55 @@
+***************
+*** 291,296 ****
+  var SEARCH_MRS_QUERY			= 'open-ils.search:open-ils.search.metabib.multiclass.query:1';
+  var SEARCH_RS_QUERY             = 'open-ils.search:open-ils.search.biblio.multiclass.query:1';
+  var FETCH_SEARCH_RIDS			= "open-ils.search:open-ils.search.biblio.record.class.search:1";
+  var FETCH_MRMODS					= "open-ils.search:open-ils.search.biblio.metarecord.mods_slim.retrieve";
+  var FETCH_MODS_FROM_COPY		= "open-ils.search:open-ils.search.biblio.mods_from_copy";
+  var FETCH_MR_COPY_COUNTS		= "open-ils.search:open-ils.search.biblio.metarecord.copy_count:1";
+--- 291,299 ----
+  var SEARCH_MRS_QUERY			= 'open-ils.search:open-ils.search.metabib.multiclass.query:1';
+  var SEARCH_RS_QUERY             = 'open-ils.search:open-ils.search.biblio.multiclass.query:1';
+  var FETCH_SEARCH_RIDS			= "open-ils.search:open-ils.search.biblio.record.class.search:1";
++ var CREATE_MFHD_RECORD			= "open-ils.cat:open-ils.cat.serial.record.xml.create";
++ var DELETE_MFHD_RECORD			= "open-ils.cat:open-ils.cat.serial.record.delete";
++ var FETCH_MFHD_SUMMARY			= "open-ils.search:open-ils.search.serial.record.bib.retrieve";
+  var FETCH_MRMODS					= "open-ils.search:open-ils.search.biblio.metarecord.mods_slim.retrieve";
+  var FETCH_MODS_FROM_COPY		= "open-ils.search:open-ils.search.biblio.mods_from_copy";
+  var FETCH_MR_COPY_COUNTS		= "open-ils.search:open-ils.search.biblio.metarecord.copy_count:1";
+***************
+*** 305,311 ****
+  var FETCH_USER_PREFS				= "open-ils.actor:open-ils.actor.patron.settings.retrieve"; 
+  var UPDATE_USER_PREFS			= "open-ils.actor:open-ils.actor.patron.settings.update"; 
+  var FETCH_COPY_STATUSES			= "open-ils.search:open-ils.search.config.copy_status.retrieve.all";
+  var FETCH_COPY_COUNTS_SUMMARY	= "open-ils.search:open-ils.search.biblio.copy_counts.summary.retrieve";
+  var FETCH_MARC_HTML				= "open-ils.search:open-ils.search.biblio.record.html";
+  var FETCH_CHECKED_OUT_SUM		= "open-ils.actor:open-ils.actor.user.checked_out";
+  var FETCH_HOLDS					= "open-ils.circ:open-ils.circ.holds.retrieve";
+--- 308,316 ----
+  var FETCH_USER_PREFS				= "open-ils.actor:open-ils.actor.patron.settings.retrieve"; 
+  var UPDATE_USER_PREFS			= "open-ils.actor:open-ils.actor.patron.settings.update"; 
+  var FETCH_COPY_STATUSES			= "open-ils.search:open-ils.search.config.copy_status.retrieve.all";
++ var FETCH_COPY_LOCATION_COUNTS_SUMMARY	= "open-ils.search:open-ils.search.biblio.copy_location_counts.summary.retrieve";
+  var FETCH_COPY_COUNTS_SUMMARY	= "open-ils.search:open-ils.search.biblio.copy_counts.summary.retrieve";
++ //var FETCH_COPY_COUNTS_SUMMARY	= "open-ils.search:open-ils.search.biblio.copy_counts.location.summary.retrieve";
+  var FETCH_MARC_HTML				= "open-ils.search:open-ils.search.biblio.record.html";
+  var FETCH_CHECKED_OUT_SUM		= "open-ils.actor:open-ils.actor.user.checked_out";
+  var FETCH_HOLDS					= "open-ils.circ:open-ils.circ.holds.retrieve";
+***************
+*** 355,361 ****
+  var FETCH_ITEM_TYPES				= 'open-ils.search:open-ils.search.biblio.item_type_map.retrieve.all';
+  var FETCH_BIB_LEVELS				= 'open-ils.search:open-ils.search.biblio.bib_level_map.retrieve.all';
+  var FETCH_AUDIENCES				= 'open-ils.search:open-ils.search.biblio.audience_map.retrieve.all';
+- var FETCH_HOLD_STATUS			= 'open-ils.circ:open-ils.circ.hold.status.retrieve';
+  var FETCH_NON_CAT_CIRCS			= 'open-ils.circ:open-ils.circ.open_non_cataloged_circulation.user';
+  var FETCH_NON_CAT_CIRC			= 'open-ils.circ:open-ils.circ.non_cataloged_circulation.retrieve';
+  var FETCH_NON_CAT_TYPES			= "open-ils.circ:open-ils.circ.non_cat_types.retrieve.all";
+--- 360,367 ----
+  var FETCH_ITEM_TYPES				= 'open-ils.search:open-ils.search.biblio.item_type_map.retrieve.all';
+  var FETCH_BIB_LEVELS				= 'open-ils.search:open-ils.search.biblio.bib_level_map.retrieve.all';
+  var FETCH_AUDIENCES				= 'open-ils.search:open-ils.search.biblio.audience_map.retrieve.all';
++ //var FETCH_HOLD_STATUS			= 'open-ils.circ:open-ils.circ.hold.status.retrieve';
++ var FETCH_HOLD_STATUS			= 'open-ils.circ:open-ils.circ.hold.queue_stats.retrieve';
+  var FETCH_NON_CAT_CIRCS			= 'open-ils.circ:open-ils.circ.open_non_cataloged_circulation.user';
+  var FETCH_NON_CAT_CIRC			= 'open-ils.circ:open-ils.circ.non_cataloged_circulation.retrieve';
+  var FETCH_NON_CAT_TYPES			= "open-ils.circ:open-ils.circ.non_cat_types.retrieve.all";

@@ -1,0 +1,728 @@
+<!--	================================================================= 
+		Some generic stuff 
+		================================================================= -->
+<!ENTITY lang.version "հեռացրու v1">
+<!ENTITY lang.description "Անգլերեն">
+<!ENTITY lang.author "PINES">
+<!ENTITY common.all "Լրիվ">
+<!ENTITY common.currency "$">
+<!ENTITY common.language "ներկայացնում է բացատի նիշը։ Թարգմանության մեջ համապատասխան դիքում մուտք արա բացատ։ ">
+<!ENTITY common.name "Անուն">
+<!ENTITY common.none "Ոչ մեկը">
+<!ENTITY common.title "Վերնագիր">
+<!ENTITY common.author "Հեղինակ">
+<!ENTITY common.authors "Հեղինակներ">
+<!ENTITY common.callnumber "Դասիչ">
+<!ENTITY common.edition "Հրատարակություն">
+<!ENTITY common.subject "Խորագիր">
+<!ENTITY common.series "Մատենաշար">
+<!ENTITY common.keyword "Վճռորոշ բառ">
+<!ENTITY common.type "Փնտրման տեսակ">
+<!ENTITY common.isbn "ISBN">
+<!ENTITY common.format "Ձևաչափ">
+<!-- Message displayed while search results are loading -->
+<!ENTITY common.loading "Բեռնավորում...">
+<!ENTITY common.login "Գրանցում">
+<!ENTITY common.logout "Հեռանալ">
+<!ENTITY common.physical "Ֆիզիկական նկարագրություն">
+<!ENTITY common.pubdate "Հրատարակման ամսաթիվ">
+<!ENTITY common.publisher "Հրատարակիչ">
+<!ENTITY common.results "Արդյունքներ">
+<!ENTITY common.select "Ընտրել">
+<!ENTITY common.status "Կարգավիճակ">
+<!ENTITY common.at "at">
+<!ENTITY common.of "of">
+<!ENTITY common.no "Ոչ">
+<!ENTITY common.yes "Այո">
+<!ENTITY common.cancel "Չեղյալ անել">
+<!ENTITY common.library "Գրադարան">
+<!ENTITY common.username "Օգտվողի անուն">
+<!ENTITY common.password "Գաղտնաբառ">
+<!ENTITY common.submit "Հաստատել">
+<!ENTITY common.close "փակել">
+<!ENTITY common.and "և">
+<!ENTITY common.user_not_found "Օգտվողը չի գտնվել">
+<!ENTITY opac.advanced.wizard.title "Խորացված փնտրում">
+<!ENTITY common.nowSearching "Հիմա որոնում է ">
+<!ENTITY common.ofAtLeast " մասին ">
+<!ENTITY common.relevancy "Հաշվի առ հաշիվը։ ">
+<!ENTITY common.tips "Հնարքներ։">
+<!ENTITY common.tips.tip1 "Սեղմիր կողային մասում առկա թղթապանակի պատկերիկի վրա առագ փնտրումը հասանելի դարձնելու համար">
+<!ENTITY common.tips.tip2 "Եթե չես գտնում այն ինչ որ պետք է քեզ, ապա ընդլայնիր որոնումը օգտագործելով փնտրման ցանկի աջ մասում եղած շղթայական ընտրիչը">
+<!ENTITY common.org.openAll "Ընդլայնիր բոլորը">
+<!ENTITY common.org.closeAll "Փակիր բոլորը">
+<!ENTITY common.org.cancel "Չեղյալ անել">
+<!ENTITY common.org.loading "Գրադարանի ընտրիչի բեռնավորում...">
+<!ENTITY common.org.note "Հնարք։">
+<!ENTITY common.org.notetext "Ընտրության համար սեղմիր տեղաբաշխման անվան վրա։ Սեղմիր թղթապանակի պատկերիկների վրա բաժինը ընդլայնելու համար։">
+<!ENTITY opac.login.login "Գրանցում">
+<!ENTITY opac.basic "Հիմնական քարտարան (միայն HTML)">
+<!ENTITY common.password_criteria "Գաղտնաբառը պետք է լինի առնվազն 7 նիշ, 
+առնվազն պարունակի մեկ տառ (a-z/A-Z), 
+և պարունակի առնվազն մեկ թիվ։">
+<!ENTITY common.a2z.title "Վերնագիր։ Ա մինչև Ֆ">
+<!ENTITY common.z2a.title "Վերնագիր։ Ֆ մինչև Ա">
+<!ENTITY common.a2z.author "Հեղինակ։ Ա մինչև Ֆ">
+<!ENTITY common.z2a.author "Հեղինակ։ Ֆ մինչև Ա">
+<!ENTITY common.new2old.pubdate "Ամսաթիվ։ թարմից դեպի հին">
+<!ENTITY common.old2new.pubdate "Ամսաթիվ։ հնից դեպի թարմ">
+
+<!ENTITY opac.style.reddish "Կարմրավուն">
+
+<!ENTITY holds.where_am_i "Պահումների ցուցակները PINES-ում այդքան էլ պարզ չեն ինչպես	'առաջին մուտք առաջին սպասարկված'։  Բարդ մատրիցան որը կոմբինացնում է 	նյութի պատկանելիության, ընթերցողի հիմնական գրադարանի, և նյութի պատվերի դիտարկումները 	որքան ամսաթիվը սահմանում է առաջնայնությունները պահումների համար. ցուցակը դինամիկ է, փոփոխվաղ 	յուրաքանչյուր տեղադրված պահման հետ։  Հետևաբար, տեղաբաշխման յուրաքանչյուր ցուցում 	պահման ցուցակում կլինի ոչ ճիշտ։  PINES-ի պահումների համակարգը նախագծված է 	պահանջվող նյութը հնարավորինս արագ և արդյունավետ կերպով ստանալու համար։ 	Ձեր PINES գրադարանը կկապվի ձեր հետ երբ պահվող նյութերը կդառնան 	հասանելի։">
+
+<!ENTITY holds.advanced_options "եթե ցանկանում ես ընդլայնել քո պահումները, ընդգրկելով  
+վերնագրի այլ տարբերակներ, ընտրիր մատչելի ձևաչափերը։ 
+Առաջին հասանելի օրինակը կուղարկվի քեզ։">
+<!--	================================================================= 
+		Events and Permissions 
+		================================================================= -->
+
+<!ENTITY ilsevent.0 "Հաջողված գործողություն">
+<!ENTITY ilsevent.1000 "Գրանցումը տապալվեց։ մուտք արված պայմանաբառը կամ գաղտնաբառը սխալ են։">
+<!ENTITY ilsevent.1001 "Գրանցման սեսիայի ժամանակը լրացել է կամ գոյություն չունի։">
+<!ENTITY ilsevent.1002 "Շտեմարանում օգտվողը չի գտնվել։">
+<!ENTITY ilsevent.1200 "Այս ընթերցողը շտեմարանում արդեն գոյություն ունի։">
+<!ENTITY ilsevent.5000 "Թույլատվությունը արգելված է">
+<!ENTITY ilsperm.CREATE_HOLD "Օգտվողը իրավունք չունի այս վայրում ստեղծել պահումներ այլ օգտվողների համար">
+<!--	================================================================= 
+	common/pages
+	================================================================= -->
+
+
+<!ENTITY common.cn.loading "Բեռնավորում է դասիչների էջը...">
+<!ENTITY common.cn.browsing "Դու հիմա դիտում ես">
+<!ENTITY common.cn.previous "&lt;&lt; նախորդ էջ">
+<!ENTITY common.cn.shelf "Դարակի դիտակ">
+<!ENTITY common.cn.next "Հաջորդ էջ &gt;&gt;">
+
+<!ENTITY common.textsize.title "Տեքստի մեծություն։ ">
+<!ENTITY common.textsize.regular "Սովորական">
+<!-- Regular / Large -->
+<!ENTITY common.textsize.separator "/">
+<!ENTITY common.textsize.large "Լայն">
+<!ENTITY common.googlechromeframe.why "Installing the Google Chrome Frame plugin for Internet Explorer will improve your Evergreen experience with more speed and advanced features!">
+<!ENTITY common.googlechromeframe.install "Install Now!">
+<!ENTITY common.googlechromeframe.dontask "Don't ask me again">
+
+<!ENTITY home.js.disabled "JavaScript-ը պետք է թույլատրված լինի որպեսզի կարողանաս օգտագործել Evergreen-ի սովորական քարտարանը։ 
+Համենայնդեպս թվում է որ JavaScript-ը արգելափակված է կամ քո դիտակի ւողմից չի աջակցվում։ 
+Evergreen-ի սովորական քարտարանի օգտագործման համար թույլատրիր JavaScript-ը փոխելով քո դիտակի ընտրությունները, ապա 
+<a style='color: blue; text-decoration: underline;' href='/'>փորձիր նորից</a>.
+<br/><br/>Որպես այլընտրանք կարող ես օգտագործել հիմնական միայն HTML-քարտարանը։">
+<!--	================================================================= 
+	 MyOPAC bookbag page
+	================================================================= -->
+
+<!ENTITY myopac.delete.bookbag "Սա կհեռացնի ընտրված պատվերները և այդ պատվերի ներսում առկա բոլոր նյութերը։ 
+Վստա՞հ ես որ ցանկանում ես շարունակել։">
+<!ENTITY myopac.no.bookbags "Ոչ մի պատվեր չես ստեղծել">
+<!ENTITY myopac.bookbags.title "Իմ գրքերի պայուսակը">
+<!ENTITY myopac.bookbag.items "# Նյութեր">
+<!ENTITY myopac.bookbag.shared "Համատեղ">
+<!ENTITY myopac.bookbag.toggle "Համատեղ / Թաքցնել">
+<!ENTITY myopac.bookbag.delete "Ջնջե՞լ այս պատվերը">
+<!ENTITY myopac.items "Նյութեր">
+<!ENTITY myopac.view "(Դիտել)">
+<!ENTITY myopac.atom.feed "ATOM Feed">
+<!ENTITY myopac.bookbag.hide "Թաքցնել">
+<!ENTITY myopac.delete "Ջնջել">
+<!ENTITY myopac.bookbag.create "Ստեղծիր նոր պատվեր">
+<!ENTITY myopac.bookbag.naming "Մուտք արա նոր գրքի զամբյուղի անունը։ ">
+<!ENTITY myopac.bookbag.share "Համատեղիր այս պատվերը">
+<!ENTITY myopac.bookbag.refworks "Արտահանում դեպի RefWorks">
+<!ENTITY myopac.bookbag.no.items "Ընտրված պատվերը չի պարունակում ոչ մի նյութ...">
+<!ENTITY myopac.bookbag.remove "Հեռացնե՞լ այս նյութը">
+<!ENTITY myopac.remove.link "հեռացնել">
+<!ENTITY myopac.publish.text 'Գրքի պայուսակի համատեղումը նշանակում է որ դրա պարունակությունը դառնում է տեսանելի մյուսներին։ 
+Համատեղ գրքապայուսակի հանրային տեսքը դիտելու համար սեղմիր "Դիտել" հղումը 
+այս էջի վերին մասում գտնվող գրքապայուսակի ցուցակի "Համատեղել" սյունակում'>
+<!ENTITY myopac.item.confirm "Վստա՞հ ես որ ուզում ես հեռացնել պատվերի նյութը։">
+<!ENTITY myopac.publish.confirm "Այս գրքի պայուսակի համատեղումը թույլ կտա դրա պարունակությանը 
+տեսանելի դարձնել մյուսներին։ Դու վստա՞հ ես որ ցանկանում ես համատեղել այս պայուսակը։">
+<!ENTITY myopac.unpublish.confirm "Վստա՞հ ես որ ուզում ես թաքցնել գրքի այս զամբյուղը։">
+<!ENTITY myopac.update.success "Գրքի զամբյուղը հաջողությամբ թարմացված է։">
+<!ENTITY myopac.updated.success "Գրքի զամբյուղը հաջողությամբ թարմացվել է։">
+<!ENTITY myopac.create.warning "Զգուշացում։ Գրքապայուսակում նյութերի ավելացումը ստեղծում է կապ քո և 
+շտեմարանի նյութերի մեջ։ Գրքապայուսակի պարունակությունները տեսանելի չեն հանրորեն 
+քանի դեռ գրքապայուսակը համատեղված է։ Համենայնդեպս, եթե դու նախընտրում ես չունենալ
+որևէ կապ ընթերցողի գրառման և որոշակի նյութի կա նյութերի միջև 
+մենք առաջարկում ենք այդ նյութերը չտեղադրել գրքապայուսակում կամ դու 
+խուսափես բոլոր գրքապայուսակները միանգամից օգտագործելուց։ Շնորհակալություն։">
+<!ENTITY myopac.describe.bookbags "Գրքի զամբյուղները ...">
+<!--	================================================================= 
+	MyOPAC Checked Page 
+	================================================================= -->
+
+<!ENTITY myopac.checked.out "Դուրս տրավծ նյութերի քանակ">
+<!ENTITY myopac.checked.overdue "Ժամկետանց նյութերի քանակ">
+<!ENTITY myopac.checked.renew "Թարմացրու ընտրված նյութերը">
+<!ENTITY myopac.checked.renewing "Թարմացվում է...">
+<!ENTITY myopac.checked.renew.remaining "Մնացող թարմացումներ">
+<!ENTITY myopac.checked.noitems "Այս պահին դու չունես դուրս տրված նյութեր">
+<!ENTITY myopac.checked.other.circ "Այլ տրումներ">
+<!ENTITY myopac.checked.circ.lib "Սպասարկող գրադարան">
+<!ENTITY myopac.checked.item.type "Սպասարկման տեսակ">
+<!ENTITY myopac.checked.circ.time "Խնդրվում է վերադառնալ...">
+<!ENTITY myopac.checked.renew.success "հաջողությամբ թարմացված նյութ(եր)">
+<!ENTITY myopac.checked.renew.confirm "Արդյո՞ք վսատհ ես որ ցանկանում ես թարմացնել ընտրված նյութ(եր)ը։">
+<!ENTITY myopac.checked.renew.fail "Համակարգը ի վիճակի չէ այս պահին թարմացնելու ընտրված նյութը։ Սա սովորաբար նշանակում է որ նյութը հարկավոր է պահումը ավարտին հասցնելու համար։ Դիմեք գրադարանավարին հետագա օգնության համար։">
+<!ENTITY myopac.checked.renew.fail2 "Գրադարանի քաղաքականությունը արգելում է այս պահին այս նյութի թարմացումը։ Հետագա մանրամասների համար տես գրադարանավարին։">
+<!--	================================================================= 
+	MyOPAC Fines Page 
+	================================================================= -->
+
+<!ENTITY myopac.fines.title "Summary">
+<!ENTITY myopac.fines.owed "Վերցրած ընդհանուր պարտքը">
+<!ENTITY myopac.fines.paid "Վճարված է ընդամենը">
+<!ENTITY myopac.fines.balance "Ընդհանուր պարտքի բալանսը">
+<!ENTITY myopac.fines.status "Բեռնավորում...">
+<!ENTITY myopac.fines.overdue "Ժամկետանց նյութեր">
+<!ENTITY myopac.fines.checkout "Դուրս տրման ամսաթիվ">
+<!ENTITY myopac.fines.due "Վերադարձի ամսաթիվ">
+<!ENTITY myopac.fines.returned "Իրական վերադարձի ամսաթիվ">
+<!ENTITY myopac.fines.accruing "(կուտակային տուգանքներ)">
+<!ENTITY myopac.fines.other "Այլ գումարներ">
+<!ENTITY myopac.fines.time.start "Տրանզակցիայի սկզբանվորման ժամ">
+<!ENTITY myopac.fines.time.paid "Վերջին վճարման ժամ">
+<!ENTITY myopac.fines.owed.initial "Սկզբնական պարտքի գումարը">
+<!ENTITY myopac.fines.paid.amount "Ընդհանուր վճարված գումար">
+<!ENTITY myopac.fines.type "Հայցի տեսակ">
+<!--	================================================================= 
+	MyOPAC Holds Page 
+	================================================================= -->
+
+<!ENTITY myopac.holds.formats "Ձևաչափեր">
+<!ENTITY myopac.holds.location "Վերցնելու վայր">
+<!ENTITY myopac.holds.edit "Խմբագրել">
+<!ENTITY myopac.holds.status.none "Այս պահին դու չունես պահված նյութեր">
+<!ENTITY myopac.holds.status.waiting "Սպասում է պատճեին">
+<!ENTITY myopac.holds.status.intransit "Փոխանցման մեջ">
+<!ENTITY myopac.holds.status.available "Վերցնելու համար պատրաստ է">
+<!ENTITY myopac.holds.cancel "Չեղյալ անել">
+<!ENTITY myopac.holds.verify "Եթե ցանկանում ես չեղյալ անել ընտրված պահումը, սեղմիր OK, հակառակ դեպքում սեղմիր Cancel:">
+<!ENTITY myopac.holds.freeze_selected "Կասեցնել">
+<!ENTITY myopac.holds.thaw_selected "Ակտիվացնել">
+<!ENTITY myopac.holds.thaw_date_selected "Դնել ակտիվ ամսաթիվը">
+<!ENTITY myopac.holds.cancel_selected "Չեղյալ անել">
+<!ENTITY myopac.holds.processing "Պահումների իրականացում...Կտևի ինչ որ ժամանակ։">
+<!ENTITY myopac.holds.actions "Գործողություններ ընտրված պահումների համար">
+<!ENTITY myopac.holds.cancel.confirm "Վստա՞հ ես որ ուզում ես չեղյալ անել ընտրված պահումները։">
+<!ENTITY myopac.holds.freeze.confirm "Դու վստա՞հ ես որ ցանկանում ես կասեցնել ընտրված պահումները։ 
+Եթե նյութը արդեն ընտրվել է պահման համար այն չի կասեցվի։">
+<!ENTITY myopac.holds.thaw.confirm "Դու վստա՞հ ես որ ցանկանում ես ակտիվացնել ընտրված պահումները։">
+<!ENTITY myopac.holds.thaw_date.confirm "Դու վստա՞հ ես որ ընտրված պահումների համար ցանկանում ես փոխել ակտիվացման ամսաթիվը։">
+<!ENTITY myopac.holds.freeze.select_thaw "Ընտրեք ակտիվացման ավտոմատ ամսաթիվը: Եթե ամսաթիվ ընտրված չէ, պահումները կմնան կասեցված քանի դէռ ձեռքով չեն ակտիվացված:">
+
+<!ENTITY opac.holds.freeze "Կասեցնել այս պահումը:">
+<!ENTITY opac.holds.freeze.help "Կասեցվածը կպահպանի իր տեղը հերթում, բայց չի կատարվի քանի դեռ չի ապասառեցվել։">
+<!ENTITY opac.holds.freeze.thaw_date "Ավտոմատ ակտիվացրու պահումը։">
+<!ENTITY opac.holds.expire_time "Ժամկետը լրանալու ամսաթիվ։">
+<!ENTITY myopac.holds.estimated_wait "Գնահատվող սպասում (օրեր)">
+<!--	================================================================= 
+	MyOPAC Preferences Page 
+	================================================================= -->
+
+<!ENTITY myopac.prefs.title "Նախապատվություններ">
+<!ENTITY myopac.prefs.hits "Հաշվիր հարվածները ըստ էջի">
+<!ENTITY myopac.prefs.font "Լռակյաց տառատեսակի չափ">
+<!ENTITY myopac.prefs.font.regular "Սովորական տառատեսակ">
+<!ENTITY myopac.prefs.font.large "Լայն տառատեսակ">
+<!ENTITY myopac.prefs.holds.notify "Լռակյաց պահման հիշեցման մեթոդ">
+<!ENTITY myopac.prefs.holds.both "Օգտագործիր հեռախոս կամ էլ փոստ">
+<!ENTITY myopac.prefs.holds.phone "Օգտագործիր միայն հեռախոս">
+<!ENTITY myopac.prefs.holds.email "Օգտագործիր միայն էլ փոստ">
+<!ENTITY myopac.prefs.search.location "Որոնման լռակյաց տեղաբաշխում">
+<!ENTITY myopac.prefs.search.home "Որպես լռակյաց միշտ որոնիր իմ տնային գրադարանում">
+<!ENTITY myopac.prefs.search.range "Որոնման լռակյաց տիրույթ">
+<!ENTITY myopac.prefs.save "Հիշիր նախապատվության փոփոխությունները">
+<!ENTITY myopac.prefs.save.success "Նախապատվությունները հաջողությամբ թարմացվել են։">
+<!ENTITY myopac.prefs.save.failed "Նախապատվությունների թարմացումը տապալվեց։">
+<!ENTITY myopac.prefs.help "Այս կարգաբերումները սահմանում են թե ինչպես դու կզգուշացվես պահումների մասին որոնք պատրաստ են գրադարանից ստանալու համար։ 
+Որպես պայմանավորվածություն, պահումները կօգտագործեն այն զգուշացման ձևը որը որ սահմանել ես այստեղ։ 
+Ինչևէ, դու դեռ կունենաս անհատական պահումը փոխելու ընտրություն, անկախ կարգաբերումից։">
+<!ENTITY myopac.holds.unfrozen "Ակտիվ:">
+<!ENTITY myopac.holds.frozen.until "Ակտիվացնել ...">
+<!--	================================================================= 
+	 MyOPAC Summary page
+	================================================================= -->
+
+<!ENTITY myopac.summary.expired "Քո հաշիվը ավարտվում է <span id='myopac.expired.date'/>! 
+Թարմացնելու համար մոտեցիր գրադարանավարին։">
+<!ENTITY myopac.summary.notes "* Աշխատակազմի նշումներ *">
+<!ENTITY myopac.summary.phone.day "Ցերեկային հեռախոս">
+<!ENTITY myopac.summary.phone.evening "Գիշերային հեռախոս">
+<!ENTITY myopac.summary.phone.other "Այլ հեռախոս">
+<!ENTITY myopac.summary.change "Փոփոխություն">
+<!ENTITY myopac.summary.username.enter "Մուտք արա նոր օգտվողի անուն։">
+<!ENTITY myopac.summary.password.text "(չի ցուցադրվում)">
+<!ENTITY myopac.summary.password.current "Մուտք արա ընթացիկ գաղտնաբառը։">
+<!ENTITY myopac.summary.password.new "Մուտք արա նոր գաղտնաբառը։">
+<!ENTITY myopac.summary.password.reenter "Նորից մուտք արա նոր գաղտնաբառը։">
+<!ENTITY myopac.summary.email "էլ փոստի հասցե">
+<!ENTITY myopac.summary.email.new "Մուտք արա նոր էլ փոստի հասցե։">
+<!ENTITY myopac.summary.id.primary "Սկզբնական ճանաչում">
+<!ENTITY myopac.summary.barcode "Ակտիվ շտրիխ կոդ">
+<!ENTITY myopac.summary.home "Տնային գրադարան">
+<!ENTITY myopac.summary.genesis "Հաշվի ստեղծման ամսաթիվ">
+<!ENTITY myopac.summary.addresses "Հասցեներ">
+<!ENTITY myopac.summary.addresses.pending "Լուծման սպասող հասցեներ">
+<!ENTITY myopac.summary.address.type "Հասցեի տեսակ">
+<!ENTITY myopac.summary.address.street "Փողոց">
+<!ENTITY myopac.summary.address.city "Քաղաք">
+<!ENTITY myopac.summary.address.county "Համայնք">
+<!ENTITY myopac.summary.address.state "Նահանգ">
+<!ENTITY myopac.summary.address.country "Երկիր">
+<!ENTITY myopac.summary.address.zip "Զիպ">
+<!ENTITY myopac.summary.address.edit "Խմբագրիր հասցեն">
+<!ENTITY myopac.summary.address.invalid "Սխալ հասցե">
+
+<!ENTITY myopac.summary.username.error "Մուտք արա օգտվողի անուն">
+<!ENTITY myopac.summary.username.dup "Պահանջվող օգտվողi անունը մատչելի չէ։ Ընտրիր օգտվողի այլ անուն։">
+<!ENTITY myopac.summary.username.success "Օգտվողի անունը հաջողությամբ թարմացվել է։">
+<!ENTITY myopac.summary.username.failure "Օգտվողի անվան թարմացումը ձախողվեց։">
+<!ENTITY myopac.summary.username.invalid "Օգտվողի անունը չի կարող պարունակել բացատներ կամ ունենա նույն ձևաչափը ինչ որ շտրիխ կոդը։">
+<!ENTITY myopac.summary.email.error "Մուտք արա իրական էլ փոստի հասցե">
+<!ENTITY myopac.summary.email.success "էլ փոստի հասցեն հաջողությամբ թարմացվել է։">
+<!ENTITY myopac.summary.email.failed "Էլ փոստի հասցեի թարմացումը չստացվեց։">
+<!ENTITY myopac.summary.password.error "Գաղտնաբառերը դատարկ են կամ չեն համընկնում։">
+<!ENTITY myopac.summary.password.success "Գաղտնաբառը հաջողությամբ թարմացվել է։">
+<!ENTITY myopac.summary.password.failure "Գաղտնաբառի թարմացումը տապալվեց։">
+<!--	================================================================= 
+	Advanced Search Page 
+	================================================================= -->
+
+<!ENTITY opac.advanced.wizard.contains "Ընտրված դաշտը պարունակում է հետևյալ բառերը։">
+<!ENTITY opac.advanced.wizard.nocontains "Ընտրված դաշտը <u>չի</u> պարունակում հետևյալ բառերը">
+<!ENTITY opac.advanced.wizard.exact "Ընտրված դաշտը <u>ճշգրտորեն</u> պարունակում է արտահայտություն">
+<!ENTITY opac.advanced.refined.title "Մաքրված խորացված փնտրում">
+<!ENTITY opac.advanced.refined.title_contains "Վերնագիրը պարունակում է հետևյալ բառերը">
+<!ENTITY opac.advanced.refined.author_contains "Հեղինակը պարունակում է հետևյալ բառերը">
+<!ENTITY opac.advanced.refined.subject_contains "Խորագիրը պարունակում է հետևյալ բառերը">
+<!ENTITY opac.advanced.refined.series_contains "Մատենաշարը պարունակում է հետևյալ բառերը">
+<!ENTITY opac.advanced.refined.contains "Պարունակում է">
+<!ENTITY opac.advanced.refined.nocontains "Չի պարունակում">
+<!ENTITY opac.advanced.refined.exact "Ճշգրիտ համընկնում">
+<!ENTITY opac.advanced.marc.warning "Գրադարանավարների համար">
+<!ENTITY opac.advanced.marc.title "MARC արհեստավարժ որոնում">
+<!ENTITY opac.advanced.marc.tag "MARC ցուցիչ">
+<!ENTITY opac.advanced.marc.ind1 "Ցուցիչ 1">
+<!ENTITY opac.advanced.marc.ind2 "Ցուցիչ 2">
+<!ENTITY opac.advanced.marc.subfield "Ենթադաշտ">
+<!ENTITY opac.advanced.marc.value "Արժեք">
+<!ENTITY opac.advanced.marc.addrow "Ավելացրու նոր տող">
+<!ENTITY opac.advanced.quick.title "Արագ փնտրում">
+<!ENTITY opac.advanced.quick.isbn "ISBN">
+<!ENTITY opac.advanced.quick.issn "ISSN">
+<!ENTITY opac.advanced.quick.lccn "LCCN">
+<!-- title control number -->
+<!ENTITY opac.advanced.quick.tcn "TCN">
+<!ENTITY opac.advanced.quick.barcode "Նյութի շտրիխ կոդ">
+<!ENTITY opac.advanced.quick.cn "Դասիչ">
+<!ENTITY opac.advanced.copy_loc_filter "Դարակի տեղը">
+<!-- ==========================================================
+     MARC expert search
+     ========================================================== -->
+
+<!ENTITY search.marc "MARC արհեստավարժ որոնում">
+<!ENTITY search.marc.tag "Ցուցիչ։">
+<!ENTITY search.marc.subfield "Ենթադաշտ։">
+<!ENTITY search.marc.value "Արժեք։">
+<!ENTITY search.marc.add.row "Ավելացրու տող">
+<!-- ==========================================================
+     Status bar
+     ========================================================== -->
+
+
+<!ENTITY status.results "Ներառելով արդյունքները համար">
+<!-- ==========================================================
+     Tips
+     ========================================================== -->
+
+
+<!ENTITY tips.label "Հնարք։">
+<!-- ================================================================= 
+		More generic stuff 
+		================================================================= -->
+
+<!ENTITY opac.session_expiring "Քո գրանցված սեսիան կլրանա մեկ րոպեից, եթե ակտիվություն չլինի։">
+<!ENTITY opac.session_expired "Քո գրանցված սեսիան ավարտվեց">
+<!ENTITY navigate.home "Տուն">
+<!ENTITY navigate.home.title "Գնա տնային էջ">
+<!ENTITY opac.navigate.advanced "Խորացված փնտրում">
+<!ENTITY opac.navigate.advanced.title "Գնա խորացված որոնման էջ">
+<!ENTITY navigate.myopac "Իմ հաշիվը">
+<!ENTITY opac.navigate.myopac "Իմ հաշիվը">
+<!ENTITY navigate.myopac.title "Գնա իմ ՀՕԱՔ">
+<!ENTITY navigate.login "Գրանցվիր">
+<!ENTITY navigate.login.title "Գրանցվիր անհատականացված հնարավորությունների համար">
+<!ENTITY navigate.logout "Դուրս արի">
+<!ENTITY navigate.logout.title "Դուրս արի">
+<!ENTITY opac.navigate.selectNewOrg "Ընտրիր այլ գրադարան">
+<!ENTITY opac.navigate.selectOrg "Ընտրիր փնտրման համար գրադարանը">
+<!ENTITY navigate.loggedinas "Դու գրանցված ես որպես ">
+<!ENTITY navigate.loggedinas.title "Գրանցված որպես...">
+<!ENTITY navigate.titleGroupResults "Իմ փնտրման արդյունքները">
+<!ENTITY navigate.titleResults "Իմ վերնագրի արդյունքները">
+<!ENTITY navigate.facetRefine "Refine your search">
+<!ENTITY navigate.title.details "Իմ վերնագրի մանրամասները">
+<!ENTITY navigate.record.details "Գրառման մանրամասներ">
+<!--	================================================================= 
+	Footer
+	================================================================= -->
+
+<!ENTITY footer.basic "Հիմնական քարտարան (միայն HTML)">
+<!ENTITY footer.find.library "Գտիր ինձ մոտիկ գրադարան">
+<!ENTITY footer.find.url "http://www.georgialibraries.org/lib/directories/pineslibdir.html">
+<!ENTITY footer.help.url "http://open-ils.org/dokuwiki/doku.php?id=evergreen-user:opac_help">
+<!ENTITY footer.help "Օգնություն">
+<!ENTITY footer.library.url "http://www.georgialibraries.org/public/pines.html">
+<!ENTITY footer.library.about "PINES-ի մասին">
+<!ENTITY footer.union.url "http://www.galileo.usg.edu/">
+<!ENTITY footer.union "GALILEO">
+<!ENTITY footer.copyright "Copyright &#xA9; 2006-2010 Georgia Public Library Service, and others">
+<!-- Introduces the logo for the project -->
+<!ENTITY footer.logo "Ուժեղացված">
+<!--	================================================================= 
+	My OPAC
+	================================================================= -->
+
+<!ENTITY myopac.account "Հաշվի համառոտագրություն">
+<!ENTITY myopac.checkouts "Դուրս տրված նյութեր">
+<!ENTITY myopac.holds "Պահված նյութեր">
+<!ENTITY myopac.fines "Տուգանքներ">
+<!ENTITY myopac.preferences "Հաշվի նախապատվություններ">
+<!ENTITY myopac.bookbags "Իմ գրքերի պայուսակը">
+<!--	================================================================= 
+	Sidebar 
+	================================================================= -->
+
+<!ENTITY sidebar.relevantSubjects.headerLabel "Համապատասխան խորագրեր">
+<!ENTITY sidebar.relevantAuthors.headerLabel "Համապատասխան հեղինակներ">
+<!ENTITY sidebar.relevantSeries.headerLabel "Համապատասխան մատենաշարեր">
+<!ENTITY sidebar.relevantReviews.headerLabel "Գրախոսություններ">
+<!ENTITY sidebar.quick.search "Արագ փնտրում">
+<!ENTITY sidebar.copy.not.found "Պահանջվող շտրիխ կոդով պատճեներ չեն գտնվել">
+<!--	================================================================= 
+		Search formats
+		================================================================= -->
+
+<!ENTITY opac.search.books "Գրքեր">
+<!ENTITY opac.search.allFormats "Բոլոր ձևաչափերը">
+<!ENTITY opac.search.largePrint "Մեծ տպագիր գրքեր">
+<!ENTITY opac.search.ebook "E-Books">
+<!ENTITY opac.search.audioBooks "Ձայնագրքեր">
+<!ENTITY opac.search.videoRecordings "Տեսագրառումներ">
+<!ENTITY opac.search.music "Երաժշտություն">
+<!ENTITY opac.search.electronic "Էլեկտրոնային պաշարներ">
+<!ENTITY opac.search.nowSearching "Հիմա փնտրում է">
+<!--	================================================================= 
+		Page Titles
+		================================================================= -->
+
+
+<!ENTITY opac.title.home "Evergreen տուն">
+<!ENTITY opac.title.mresult "Evergreen վերնագրերի խումբ">
+<!ENTITY opac.title.rresult "Evergreen վերնագրեր">
+<!ENTITY opac.title.myopac "Evergreen իմ հաշիվ">
+<!ENTITY opac.title.rdetail "Evergreen վերնագրի մանրամասներ">
+<!ENTITY opac.title.advanced "Evergreen խորացված որոնում">
+<!ENTITY opac.title.reqitems "Evergreen պատվիրված նյութեր">
+<!ENTITY opac.title.cnbrowse "Evergreen դասիչի դիտում">
+
+
+<!ENTITY opac.holds.forMe "Տեղադրիր այս պահումը իմ փոխարեն">
+<!ENTITY opac.holds.xulRecipient "Մուտք արա ստացողի շտրիխ կոդը">
+<!ENTITY opac.holds.recipient "Ստացող">
+<!ENTITY opac.holds.placeHold "Տեղադրիր պահումը">
+<!ENTITY opac.holds.exportRefWorks "Արտահանում դեպի RefWorks">
+<!ENTITY opac.holds.contactPhone "Կապի հեռախոսի համար">
+<!ENTITY opac.holds.contactEmail "Կապի էլ փոստի հասցե">
+<!ENTITY opac.holds.pickupLocation "Վերցնելու վայր">
+<!ENTITY opac.holds.success "Պահումը հաջողությամբ տեղաբաշխված է">
+<!ENTITY opac.holds.failure "Պահումը անհաջող է տեղաբաշխվել">
+<!--	================================================================= 
+	Advanced
+	================================================================= -->
+<!ENTITY advanced.search.title "Փնտրման մուտք">
+<!ENTITY advanced.add.row "Ավելացրու որոնման տող">
+<!ENTITY advanced.search.submit "Սկսիր փնտրումը">
+<!ENTITY advanced.search.reset "Վերագրի ձևը">
+<!ENTITY advanced.search.filters "Փնտրման զտիչներ">
+<!ENTITY advanced.item.form "Նյութի կաղապար">
+<!ENTITY advanced.item.type "Նյութի տեսակ">
+<!ENTITY advanced.link "Խորացված">
+<!ENTITY advanced.basic.link "Հիմնական">
+<!ENTITY advanced.literary.form "Գեղարվեստական ձև">
+<!ENTITY advanced.non.fiction "Ոչ գեղարվեստական">
+<!ENTITY advanced.fiction "Գեղարվեստական">
+<!ENTITY advanced.language "Լեզու">
+<!ENTITY advanced.audience "Լսարան">
+<!ENTITY advanced.adult "Մեծահասակ">
+<!ENTITY advanced.juvenile "Պատանեկան">
+<!ENTITY advanced.general "Ընդհանուր">
+<!ENTITY advanced.sort.criteria "Տեսակավորման չափանիշ">
+<!ENTITY advanced.search.library "Որոնիր գրադարանը">
+<!ENTITY advanced.relevance "Համարժեք">
+<!ENTITY advanced.pubdate "Հրատարակման տարեթիվ">
+<!ENTITY advanced.sort.asc "Աճող / Ա դեպի Ֆ">
+<!ENTITY advanced.sort.desc "Նվազող / Ֆ դեպի Ա">
+<!ENTITY advanced.frbrize "Խմբային ձևաչափեր և հրատարակություններ">
+<!ENTITY advanced.go "Գնա">
+<!ENTITY advanced.biblevel "Մատենագիտ մակարդակ">
+<!ENTITY advanced.filter.pubyear "Հրատարակման տարի">
+<!ENTITY advanced.filter.pubyear.equals "Is">
+<!ENTITY advanced.filter.pubyear.before "Մինչև">
+<!ENTITY advanced.filter.pubyear.after "Հետո">
+<!ENTITY advanced.filter.pubyear.between "Միջև">
+<!--	================================================================= 
+	Rdetail
+	================================================================= -->
+
+<!ENTITY rdetail.print "տպիր այս մանրամասները">
+<!ENTITY rdetail.cn.barcode "Շտրիխ կոդ">
+<!ENTITY rdetail.cn.location "Տեղաբաշխում">
+<!ENTITY rdetail.cn.hold.age "տարիքի պահման պաշտպանություն">
+<!ENTITY rdetail.cn.genesis "Ստեղծիր ամսաթիվ">
+<!ENTITY rdetail.cn.holdable "Պահվող">
+<!ENTITY rdetail.cn.due "Վերադարձի ամսաթիվ">
+<!ENTITY rdetail.cn.more "ավելի տեղեկատվություն...">
+<!ENTITY rdetail.cn.less "պակաս տեղեկատվություն">
+<!ENTITY rdetail.cn.hold "տեղադրիր պահումը">
+<!ENTITY rdetail.cn.reserve "book now">
+<!ENTITY rdetail.cn.disabled "- Արգելափակված -">
+<!ENTITY rdetail.cn.note "Նմուշի նշում">
+<!ENTITY rdetail.cn.category "Նմուշի դաս">
+<!ENTITY rdetail.cn.print "Տպած էջ">
+<!ENTITY rdetail.page.results "Առաջին արդյունքների էջ">
+<!-- Result # &common.of; # -->
+<!ENTITY rdetail.result "Արդյունք">
+<!ENTITY rdetail.start "Սկսիր">
+<!ENTITY rdetail.page.previous "Նախորդ էջ">
+<!ENTITY rdetail.page.previous.short "&#171;">
+<!ENTITY rdetail.page.next "Հաջորդ էջ">
+<!ENTITY rdetail.page.next.short "&#187;">
+<!ENTITY rdetail.page.last "Վերջին արդյունքների էջ">
+<!ENTITY rdetail.end "Վերջ">
+<!ENTITY rdetail.more "Ավելի գործողություններ...">
+<!ENTITY rdetail.bookbag.add "Ավելացրու գրքի զամբյուղին">
+<!ENTITY rdetail.bookbag.create "Ստեղծիր գրքի նոր զամբյուղ">
+<!ENTITY rdetail.record.deleted "Այս գրառումը հեռացվել է շտեմարանից։ 
+Խորհուրդ ենք տալիս այս վերնագիրը ջնջել բոլոր այն գրքի պայուսակներից որոնցում այն ավելացվել է։">
+<!ENTITY rdetail.none "(ոչինչ)">
+<!ENTITY rdetail.bookbag.add.success "Նյութը հաջողությամբ ավելացվել է գրքի զամբյուղին">
+<!ENTITY rdetail.bookbag.name "Մուտք արա նոր գրքի զամբյուղի անվանումը">
+<!ENTITY rdetail.bookbag.create.success "Գրքի զամբյուղը հաջողությամբ ստեղծվել է">
+<!ENTITY rdetail.detailMain.headerLabel "Գրառման համառոտագրություն">
+<!ENTITY rdetail.detailMain.subjects "Խորագրեր">
+<!ENTITY rdetail.detailMain.abstract "Համառոտագրություն">
+<!ENTITY rdetail.detailMain.viewMarc "Դիտիր MARC">
+<!ENTITY rdetail.detailMain.hideMarc "Վերադարձիր վերնագրի մանրամասներին">
+<!ENTITY rdetail.author.search "Իրականցրու հեղինակի փնտրում">
+<!ENTITY rdetail.copyInfo.headerLabel "Պատճենիր տեղեկատվությունը">
+<!ENTITY rdetail.copyInfo.library "Գրադարան">
+<!ENTITY rdetail.copyInfo.callnumber "Դասիչ">
+<!ENTITY rdetail.copyInfo.copylocation "Օրինակի տեղաբաշխում">
+<!ENTITY rdetail.copyInfo.local "Դիտիր Պատճենիր տեղեկատվությունը այս տեղաբաշխման համար">
+<!ENTITY rdetail.copyInfo.all "Դիտիր Պատճենիր տեղեկատվությունը բոլոր գրադարանների համար">
+<!ENTITY rdetail.copyInfo.actions "Գործողություններ">
+<!ENTITY rdetail.copyInfo.print "Տպիր դասիչները այս գրադարանի համար">
+<!ENTITY rdetail.copyInfo.details "Օրինակի մանրամասներ">
+<!ENTITY rdetail.copyInfo.browse "Դիտիր դասիչները">
+<!ENTITY rdetail.copyInfo.hold "Տեղադրիր պահումը">
+<!ENTITY rdetail.extras.summary "Պատճենի համառոտագրություն">
+<!ENTITY rdetail.extras.browser "Դարակի դիտակ">
+<!ENTITY rdetail.extras.bib_summary "Summary">
+<!ENTITY rdetail.extras.reviews "Գրախոսություններ">
+<!ENTITY rdetail.extras.toc "Բովանդակություն">
+<!ENTITY rdetail.extras.excerpt "Մեջբերում">
+<!ENTITY rdetail.extras.preview "Նախադիտում">
+<!ENTITY rdetail.extras.author.notes "Հեղինակի նշումներ">
+<!ENTITY rdetail.extras.annotation "Աննոտացիա">
+<!ENTITY rdetail.extras.marc "MARC գրառում">
+<!ENTITY rdetail.extras.call.null "Այս վայրում այս նյութի համար դասիչավորման համարներ չկան">
+<!ENTITY rdetail.extras.call.local "Local Call Numbers:">
+<!ENTITY rdetail.extras.preview.fulltext "Լրիվ տեքստ">
+<!ENTITY rdetail.extras.preview.title "Տես այս գրքի լրիվ տեքստը">
+<!ENTITY rdetail.extras.preview.badge "Ցույց տուր Google Book Search-ից այս գրքի նախնական դիտումը">
+<!ENTITY rdetail.extras.novelist "Suggestions by NoveList">
+<!ENTITY rdetail.loading "Loading copy information...">
+<!ENTITY rdetail.noneAvailable " * Այս վայրում պատճեներ չկան">
+<!ENTITY rdetail.summary.online "Առցանց պաշարներ">
+<!ENTITY rdetail.summary.subjects "Խորագրեր">
+<!ENTITY rdetail.summary.issues_held "Issues Held">
+
+<!ENTITY result.sort_by "Տեսակավորիր արդյունքները ըստ կարևորության">
+<!ENTITY result.sort_by.title "Տեսակավորիր արդյունքները ըստ վերնագրի">
+<!ENTITY result.sort_by.author "Տեսակավորիր արդյունքները ըստ հեղինակի">
+<!ENTITY result.sort_by.pubdate "Տեսակավորել արդյունքները ըստ հրատարակման ամսաթվի">
+
+<!ENTITY result.limit2avail "Սահմանափակիր մատչելիներով">
+<!ENTITY result.info.copies "Հասանելի պատճեներ / Ընդհանուր պատճեներ">
+<!ENTITY result.info.no.items "Այս վայրում ընտրված ձևաչափով նյութեր չեն գտնվել">
+<!ENTITY result.info.format.items "Ստորև թվարկվածները քարտարանի նյութերն են ըստ ընտրված ձևաչափի">
+<!ENTITY result.info.show "Ցույց տուր գրառումները">
+
+<!ENTITY result.lowhits.few "Քո որոնման համար շատ քիչ հարվածներ են վերադարձվել">
+<!ENTITY result.lowhits.zero "Քո որոնման համար զերո արդյունք է վերադարձվել">
+<!ENTITY result.lowhits.did.you.mean "Միգուցե՞ դու նկատի ունես">
+<!ENTITY result.lowhits.formats "Դու կունենաս ավելի շատ հարվածներ երբ որոնես ըստ նյութի բոլոր ձևաչափերի։">
+<!ENTITY result.lowhits.formats.search "Որոնե՞լ նորից ըստ բոլոր ձևաչափերի">
+<!ENTITY result.lowhits.related "Դու կարող ես նախընտրել նաև այս կապակցված փնտրումները։">
+<!ENTITY result.lowhits.expand "Դու կարող ես ցանկանալ նաև ընդլայնել քո փնտրման տիրույթը։">
+<!ENTITY result.lowhits.class "Դու կարող ես փորձել փնտրել նույն տերմինը։">
+<!ENTITY result.lowhits.title "վերնագիր">
+<!ENTITY result.lowhits.author "հեղինակ">
+<!ENTITY result.lowhits.subject "խորագիր">
+<!ENTITY result.lowhits.series "մատենաշար">
+<!ENTITY result.lowhits.keyword "վճռորոշ բառ">
+
+<!ENTITY result.table.keyword "Այս գրառման համար դիտիր վերնագրերը">
+<!ENTITY result.table.author "Իրականացրու որոնում ըստ Հեղինակի">
+<!ENTITY result.googleBooks.browse "Դիտիր Google-ի Գրքի փնտրման մեջ">
+<!ENTITY result.localCallNumbers "Local Call Numbers:">
+
+<!ENTITY common.call.number.label "Դասիչ։">
+<!ENTITY common.isbn.label "ISBN:">
+<!ENTITY common.issn.label "ISSN:">
+<!ENTITY common.copy.barcode.label "Պատճենահանիր շտրիխ կոդը։">
+<!ENTITY common.issuance_label.label "Issuance Label:">
+<!ENTITY common.hold.place "Տեղադրի պահումը իմ հաշվում:">
+<!ENTITY common.hold.check "Պահման իրականացման համար ստուգվում է հնարավորությունը...">
+<!ENTITY common.hold.create "Ստեղծիր / Խմբագրիր պահումը">
+<!ENTITY common.hold.update "Թարմացրու պահումը">
+<!ENTITY common.hold.type.label "Պահման տեսակ">
+<!ENTITY common.hold.volume "Հատորի պահում">
+<!ENTITY common.hold.copy "Պատճենի պահում">
+<!ENTITY common.hold.issuance "Issuance Hold">
+<!ENTITY common.hold.advanced "Պահման խորացված ընտրանքներ">
+<!ENTITY common.hold.delivery "Ընտրեք այն ֆիզիկական տեղաբաշխումը, ուր կարելի է առաքել ձեր պահումը։">
+<!ENTITY common.hold.checked_out "This item is already checked out.">
+<!ENTITY common.hold.checked_out.override "This item is already checked out.  Would you like to place the hold anyway?">
+<!ENTITY common.hold.exists "Պատվիրված նյութի վրա արդեն գոյություն ունի պահում։">
+<!ENTITY common.hold.exists.override "A hold already exists on the requested item. Would you like to create the hold anyway?">
+<!ENTITY common.hold.barred 'ԸՆԹԵՐՑՈՂԸ ԿԱՍԵՑՎԱԾ Է։ տես նշումները 
+"Իմ հաշվեկշիռ" էջի "Աշխատակազմի նշումներ" բաժնում, կամ կապվիր քո գրադարանի հետ։'>
+<!ENTITY common.hold.item.invalid "Այս պահում արդեն օրինական չէ։ Հավանական է, որ 
+պահման թիրախը համակարգից ջնջված է։ Չեղյալ արա այս պահումը և 
+տեղադրի նորը։">
+<!ENTITY common.hold.patron.invalid "Ընթերցողի շտրիխ կոդը մուտքագրված որպես ստացող հավաստի չէ։">
+<!-- Was (??), perhaps change to a button or icon? -->
+<!ENTITY common.help "(Օգնություն)">
+<!ENTITY common.phone.format.help "Հեռախոսի համարը չունի ճիշտ ձևաչափ։ Սպասվող ձևաչափն է` XXX-YYY-ZZZZ">
+<!ENTITY common.hold.failed "Հարցվող պահմանը բավարարող ոչ մի նյութ չի գտնված։ 
+Հնարավոր է որ այլ ձևաչափի ընտրությունը կբերի հաջողված պահման։ 
+Նաև հնարավոր է, որ դու գերազանցել ես թույլատրելի պահումների քանակը։ 
+Հետագա տեղեկատվության համար կապվիր քո գրադարանի հետ։">
+<!ENTITY common.control.click "(Բազմաձևաչափեր ընտրելու համար` ստուգիր-սեղմիր)">
+<!ENTITY common.format.alternatives "Ընդունելի այլընտրանքային ձևաչափեր։">
+<!ENTITY common.phone.format "(XXX-YYY-ZZZZ)">
+<!ENTITY common.phone.enable "Թույլատրե՞լ այս պահման համար հեռախոսային տեղեկացումներ։">
+<!ENTITY common.email.enable "Թույլատրե՞լ այս պահման համար էլ փոստով տեղեկացումներ։">
+<!ENTITY common.email.none "(Ընթերցողը չի կարգաբերել էլ փոստի հասցեն)">
+<!ENTITY common.email.set "(Տես <a class='classic_link' id='holds.no_email.my_account'>Իմ հաշիվը</a> քո էլ փոստի հասցեն ստեղծելու համար)">
+<!ENTITY common.keywords.label "Վճռորոշ բառեր։">
+<!ENTITY common.physical.label "Ֆիզիկական նկարագրություն։">
+<!ENTITY common.series.label "Մատենաշար։">
+<!ENTITY common.subject.label "Խորագիր։">
+<!ENTITY common.title.label "Վերնագիր։">
+<!ENTITY common.author.label "Հեղինակ։">
+<!ENTITY common.format.label "Ձևաչափ։">
+<!ENTITY library.select "Գտիր արդյունքները">
+<!ENTITY library.select.label "Ընտրիր մեկ այլ գրադարան...">
+<!ENTITY library.select.help "Ընտրիր փնտրման համար գրադարանը">
+<!ENTITY login.username "Մուտք արա օգտվողի անունը կամ շտրիխ կոդը">
+<!ENTITY login.password.change "Փոխիր գաղտնաբառը">
+<!ENTITY login.first.time "Կարծես թե դու առաջին անգամ ես մուտք գործում։ 
+Հարկավոր է փոխել գաղտնաբառը։">
+<!ENTITY login.password.current.enter "Մուտք արա ընթացիկ գաղտնաբառը։">
+<!ENTITY login.password.new.enter "Մուտք արա նոր գաղտնաբառը։">
+<!ENTITY login.password.new.reenter "Ստուգման համար կրկին մուտք արա նոր գաղտնաբառը։">
+<!ENTITY login.password.update "Թարմացրու գաղտնաբառը։">
+<!ENTITY login.password.nomatch "Գաղտնաբառերը չեն համընկնում">
+<!ENTITY login.password.success "Գաղտնաբառը հաջողությամբ թարմացվել է։">
+<!ENTITY login.password.strength "Ներկայացված գաղտնաբառը այնքան էլ ուժեղ չէ։">
+<!ENTITY login.barcode.inactive "Մուտք գործելու համար տրված շտրիխ կոդը նշված է որպես ոչ ակտիվ։ Կապվիր քո տեղային գրադարանի հետ։">
+<!ENTITY login.account.inactive "Այս հաշիվը ապաակտիվացված է։ Կապվիր քո տեղային գրադարանի հետ։">
+<!ENTITY login.failed "Գրանցումը տապալվեց։ Գրանցման անւնը կամ գաղտնաբառը հավաստի չեն։ 
+Ստուգիր որ Caps-Lock անջատված է . փորձիր նորից կամ կապվիր քո գրադարանի հետ։">
+<!ENTITY button.go "Գնա">
+<!--	================================================================= 
+	Slimpac Simple Search
+	================================================================= -->
+
+<!ENTITY slimpac.language.select "Ընտրիր լեզու">
+
+<!ENTITY slimpac.start.title "Հասարակ փնտրում">
+<!ENTITY slimpac.start.nowSearching "Հիմա որոնում է։ ">
+<!ENTITY slimpac.start.dynamic "Դինամիկ քարտարան">
+<!--	================================================================= 
+	Slimpac Advanced Search
+	================================================================= -->
+
+<!ENTITY slimpac.advanced.language "Նյութի լեզու">
+<!ENTITY slimpac.advanced.create_date "Գրառման ստեղծման ամսաթիվ">
+<!ENTITY slimpac.advanced.edit_date "Գրառման խմբագրման ամսաթիվ">
+
+<!ENTITY opac.image_provided "Նկարը ապահովել է">
+<!ENTITY vendor.name "Ամազոն">
+<!ENTITY vendor.base_link "http://amazon.com/dp/">
+<!--	================================================================= 
+	Selfcheck
+	================================================================= -->
+
+<!ENTITY selfck.staff_login_label "Աշխատակազմի գրանցում">
+<!ENTITY selfck.staff_login "Գրադարանի շտրիխ կոդ կամ օգտվողի անուն">
+<!ENTITY selfck.staff_pw "Գաղտնաբառ">
+<!ENTITY selfck.submit "Հաստատել">
+<!ENTITY selfck.clear "Մաքրել">
+<!ENTITY selfck.patron_barcode_label "Վերաստուգիր քո գրադարանի շտրիխ կոդերը">
+<!ENTITY selfck.item_barcode_label "Դուրս տալու կամ թարմացնելու համար սկան արա նյութը">
+<!ENTITY selfck.barcode "Շտրիխ կոդ">
+<!ENTITY selfck.title "Վերնագիր">
+<!ENTITY selfck.author "Հեղինակ">
+<!ENTITY selfck.due_date "Վերադարձի ամսաթիվ">
+<!ENTITY selfck.remaining "Մնացող թարմացումներ">
+<!ENTITY selfck.cotype "Տեսակ">
+<!ENTITY selfck.cotype_co "Դուրս տրում">
+<!ENTITY selfck.cotype_rn "Թարմացում">
+<!ENTITY selfck.done "Կատարված է">
+<!ENTITY selfck.welcome "Բարի գալուստ">
+<!ENTITY selfck.printing "Ստացականների տպում">
+<!-- event messages -->
+
+<!ENTITY selfck.event.co_success "Սպասարկումը հաջողվեց">
+<!ENTITY selfck.event.co_unknown "Անծանոթ երևույթ է հանդիպել">
+<!ENTITY selfck.event.dupe_barcode "Այս նյութը տվյալ կապի ժամանակ արդեն սպասարկվել է">
+<!ENTITY selfck.event.patron_not_found "Ընթերցողի կոդը չի գտնված">
+<!ENTITY selfck.event.item_noncat "Պահանջվող նյութը քարտարանում չէ">
+<!ENTITY selfck.event.item_nocirc "Պահանջվող նյութը չի սպասարկվում">
+<!ENTITY selfck.event.already_out "Պահանջվող նյութը արդեն սպասարկված է">
+<!ENTITY selfck.items_out "Դուք վերցրել եք հետևյալ նյութերը">
+<!ENTITY selfck.org_hours "Աշխատելու ժամեր">
+<!ENTITY selfck.org_phone "Գրադարանի հեռախոսահամար">
+<!ENTITY selfck.day0 "Երկուշաբթի">
+<!ENTITY selfck.day1 "Երեքշաբթի">
+<!ENTITY selfck.day2 "Չորեքշաբթի">
+<!ENTITY selfck.day3 "Հինգշաբթի">
+<!ENTITY selfck.day4 "Ուրբաթ">
+<!ENTITY selfck.day5 "Շաբաթ">
+<!ENTITY selfck.day6 "Կիրակի">
+
+<!ENTITY circ.fail_part.actor.usr.barred "The patron is barred">
+<!ENTITY circ.fail_part.asset.copy.circulate "The item does not circulate">
+<!ENTITY circ.fail_part.asset.copy_location.circulate "Items from this shelving location do not circulate">
+<!ENTITY circ.fail_part.asset.copy.status "The item cannot circulate at this time">
+<!ENTITY circ.fail_part.circ.holds.target_skip_me "The item's circulation library does not fulfill holds">
+<!ENTITY circ.fail_part.config.circ_matrix_circ_mod_test "The patron has too many items of this type checked out">
+<!ENTITY circ.fail_part.config.circ_matrix_test.available_copy_hold_ratio "The available item-to-hold ratio is too low">
+<!ENTITY circ.fail_part.config.circ_matrix_test.circulate "Circulation rules reject this item as non-circulatable">
+<!ENTITY circ.fail_part.config.circ_matrix_test.total_copy_hold_ratio "The total item-to-hold ratio is too low">
+<!ENTITY circ.fail_part.config.hold_matrix_test.holdable "Hold rules reject this item as unholdable">
+<!ENTITY circ.fail_part.config.hold_matrix_test.max_holds "The patron has reached the maximum number of holds">
+<!ENTITY circ.fail_part.config.rule_age_hold_protect.prox "The item is too new to transit this far">
+<!ENTITY circ.fail_part.no_item "The system could not find this item">
+<!ENTITY circ.fail_part.no_ultimate_items "The system could not find any items to match this hold request">
+<!ENTITY circ.fail_part.no_matchpoint "System rules do not define how to handle this item">
+<!ENTITY circ.fail_part.no_user "The system could not find this patron">
+<!ENTITY circ.fail_part.transit_range "The item cannot transit this far">

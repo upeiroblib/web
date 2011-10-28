@@ -1,0 +1,33 @@
+***************
+*** 583,589 ****
+  function grabUserPrefs(user, force) {
+  	if(user == null) user = G.user;
+  	if(!force && user.prefs) return user.prefs;	
+- 	var req = new Request(FETCH_USER_PREFS, user.session, user.id());
+  	req.send(true);
+  	user.prefs = req.result();
+  	return user.prefs;
+--- 583,589 ----
+  function grabUserPrefs(user, force) {
+  	if(user == null) user = G.user;
+  	if(!force && user.prefs) return user.prefs;	
++ 	var req = new Request(FETCH_USER_PREFS, G.user.session, user.id());
+  	req.send(true);
+  	user.prefs = req.result();
+  	return user.prefs;
+***************
+*** 1015,1020 ****
+  
+  function buildOrgSel(selector, org, offset, namecol) {
+      if(!namecol) namecol = 'name';
+  	insertSelectorVal( selector, -1, 
+  		org[namecol](), org.id(), null, findOrgDepth(org) - offset );
+  	for( var c in org.children() )
+--- 1015,1021 ----
+  
+  function buildOrgSel(selector, org, offset, namecol) {
+      if(!namecol) namecol = 'name';
++     if(!isXUL() && !isTrue(org.opac_visible())) return;
+  	insertSelectorVal( selector, -1, 
+  		org[namecol](), org.id(), null, findOrgDepth(org) - offset );
+  	for( var c in org.children() )

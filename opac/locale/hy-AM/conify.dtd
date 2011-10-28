@@ -1,0 +1,129 @@
+<!-- Common entities -->
+<!ENTITY conify.save_button.label "Հիշիր">
+<!ENTITY conify.delete_button.label "Ջնջիր">
+<!ENTITY conify.new_kid_button.label "Նոր Երեխա">
+<!-- Main configuration interface menu -->
+<!ENTITY conify.admin.title "Համընդհանուր :: Ադմինիստրացիա">
+<!ENTITY conify.admin.top_pane.title "Ստուգիչներ">
+<!ENTITY conify.admin.configure "Ձևավորի քո ILS">
+<!ENTITY conify.admin.left_pane.controls "Ստուգիչներ">
+<!ENTITY conify.admin.org_unit_type.link "Կազմակերպության տեսակներ">
+<!ENTITY conify.admin.org_unit.link "Կազմակերպչական միավորներ">
+<!ENTITY conify.admin.grp_tree.link "Թույլատրությունների խումբ">
+<!ENTITY conify.admin.perm_list.link "Թույլտվություններ">
+<!ENTITY conify.admin.copy_status.link "Պատճենի կարգավիճակ">
+<!ENTITY conify.admin.marc_code_maps.link "MARC կոդեր">
+<!ENTITY conify.admin.bottom_pane.title "Ստուգիչներ">
+<!-- Organization unit type configuration interface -->
+<!ENTITY conify.org_unit_type.title "Համընդհանուր :: Կատարող :: Կազմակերպության միավորի տեսակներ">
+<!ENTITY conify.org_unit_type.type_tree.label "Կազմակերպության միավորի տեսակներ">
+<!ENTITY conify.org_unit_type.type_name "Տեսակի անուն">
+<!ENTITY conify.org_unit_type.opac_label "ՀՕԱՔ Պիտակ">
+<!ENTITY conify.org_unit_type.parent_type "Ծնողի տեսակ">
+<!ENTITY conify.org_unit_type.can_have_volumes "Կարող է ունենալ հատորներ և օրինակներ">
+<!ENTITY conify.org_unit_type.can_have_users "Կարող է ունենալ օգտվողներ">
+<!-- Organization unit configuration interface -->
+<!ENTITY conify.org_unit.title "Համընդհանուր :: Կատարող :: Կազմակերպության միավորներ">
+<!ENTITY conify.org_unit.ou_tree.label "Կազմակերպչական միավորներ">
+<!ENTITY conify.org_unit.editor_pane.title "Հիմնական կարգաբերումներ">
+<!ENTITY conify.org_unit.editor_pane.org_unit_name "Կազմակերպության միավորի անվանում">
+<!ENTITY conify.org_unit.editor_pane.org_unit_code "Կազմակերպության միավորի գործառույթների կոդ">
+<!ENTITY conify.org_unit.editor_pane.main_email "Հիմնական էլ փոստի հասցե">
+<!ENTITY conify.org_unit.editor_pane.main_phone "Հիմնական հեռախոսահամար">
+<!ENTITY conify.org_unit.editor_pane.org_unit_type "Կազմակերպության միավորի տեսակ">
+<!ENTITY conify.org_unit.editor_pane.parent "Ծնող կազմակերպության միավոր">
+<!ENTITY conify.org_unit.editor_pane.opac_visible "ՀՕԱՔը տեսանելի է">
+<!-- Hours of operation --> 
+<!ENTITY conify.org_unit.hoo_pane.title "Աշխատելու ժամեր">
+<!ENTITY conify.org_unit.hoo_pane.open_time "Բաց լինելու ժամեր">
+<!ENTITY conify.org_unit.hoo_pane.close_time "Փակ լինելու ժամեր">
+<!ENTITY conify.org_unit.hoo_pane.closed "Փակ է">
+<!ENTITY conify.org_unit.hoo_pane.monday "Երկուշաբթի">
+<!ENTITY conify.org_unit.hoo_pane.tuesday "Երեքշաբթի">
+<!ENTITY conify.org_unit.hoo_pane.wednesday "Չորեքշաբթի">
+<!ENTITY conify.org_unit.hoo_pane.thursday "Հինգշաբթի">
+<!ENTITY conify.org_unit.hoo_pane.friday "Ուրբաթ">
+<!ENTITY conify.org_unit.hoo_pane.saturday "Շաբաթ">
+<!ENTITY conify.org_unit.hoo_pane.sunday "Կիրակի">
+<!-- Addresses --> 
+<!ENTITY conify.org_unit.addresses_pane.title "Հասցեներ">
+<!ENTITY conify.org_unit.addresses_pane.physical.title "Ֆիզիկական հասցե">
+<!ENTITY conify.org_unit.addresses_pane.holds.title "Պահումների հասցե">
+<!ENTITY conify.org_unit.addresses_pane.mailing.title "Առաքման հասցե">
+<!ENTITY conify.org_unit.addresses_pane.ill.title "ՄԳԲ հասցե">
+<!ENTITY conify.org_unit.addresses_pane.type "Տեսակ">
+<!ENTITY conify.org_unit.addresses_pane.valid "Հավաստի">
+<!ENTITY conify.org_unit.addresses_pane.street1 "Փողոց 1">
+<!ENTITY conify.org_unit.addresses_pane.street2 "Փողոց 2">
+<!ENTITY conify.org_unit.addresses_pane.city "Քաղաք">
+<!ENTITY conify.org_unit.addresses_pane.state "Նահանգ">
+<!ENTITY conify.org_unit.addresses_pane.zip "Զիպ">
+<!ENTITY conify.org_unit.addresses_pane.country "Երկիր">
+<!ENTITY conify.org_unit.addresses_pane.county "Համայնք">
+<!-- This is a highlighted label that is followed by the name of the organizational unit -->
+<!ENTITY conify.org_unit.status_bar "Հիմա խմբագրվում է">
+
+<!ENTITY conify.copy_status.title "Համընդհանուր :: Կարգաբերում :: Պատճենի վիճակ">
+<!ENTITY conify.copy_status.new_status.label "նոր կագավիճակ։">
+<!ENTITY conify.copy_status.new_status.name "նոր կագավիճակի անուն">
+<!ENTITY conify.copy_status.new_status.save "Ավելացրու">
+<!ENTITY conify.copy_status.save_changes "Հիշիր փոփոխությունները">
+<!ENTITY conify.copy_status.delete_selected "Ջնջիր ընտրվածները">
+
+<!ENTITY conify.marc_code_maps.title "Համընդհանուր :: Կարգաբերում :: MARC կոդի քարտեզներ">
+<!ENTITY conify.marc_code_maps.audience_map.title "Լսարանի քարտեզ">
+<!ENTITY conify.marc_code_maps.audience_map.new.label "նոր լսարանի քարտեզ։">
+<!ENTITY conify.marc_code_maps.new_code "Նոր կոդ">
+<!ENTITY conify.marc_code_maps.new_value "Նոր արժեք">
+<!ENTITY conify.marc_code_maps.audience_map.description "Նկարագրություն">
+<!ENTITY conify.marc_code_maps.delete_selected "Ջնջիր ընտրվածները">
+<!ENTITY conify.marc_code_maps.save_changes "Հիշիր փոփոխությունները">
+
+<!ENTITY conify.marc_code_maps.bib_level.title "Մատենագիտական մակարդակի քարտեզ">
+<!ENTITY conify.marc_code_maps.bib_level.new.label "Նոր մատենագիտական մակարդակ։">
+<!ENTITY conify.marc_code_maps.add "Ավելացրու">
+
+<!ENTITY conify.marc_code_maps.item_form.title "Նյութի ձևի քարտեզ">
+<!ENTITY conify.marc_code_maps.item_form.new.label "Նոր նյութի ձև։">
+
+<!ENTITY conify.marc_code_maps.item_type.title "Նյութի տեսակի քարտեզ">
+<!ENTITY conify.marc_code_maps.item_type.new.label "Նոր նյութի տեսակ։">
+
+<!ENTITY conify.marc_code_maps.language.title "Լեզվի քարտեզ">
+<!ENTITY conify.marc_code_maps.language.new.label "Նոր լեզու։">
+
+<!ENTITY conify.marc_code_maps.literary_form.title "Գրական ձևի քարտեզ">
+<!ENTITY conify.marc_code_maps.literary_form.new.label "Նոր գրական ձև">
+
+<!ENTITY conify.marc_code_maps.video.title "Տեսագրության ձևաչափի քարտեզ">
+<!ENTITY conify.marc_code_maps.video.new.label "Նոր տեսագրության ձևաչափ">
+<!-- perm_list.html Entities -->
+
+<!ENTITY conify.perm_list.permission_list.title "Համընդհանուր :: Թույլատվություններ :: Թույլտվության ցուցակ">
+<!ENTITY conify.perm_list.new_code.label "Նոր կոդ">
+<!ENTITY conify.perm_list.add_button.label "Ավելացրու">
+<!ENTITY conify.perm_list.save_changes.label "Հիշիր փոփոխությունները">
+<!ENTITY conify.perm_list.delete_selected.label "Ջնջիր ընտրվածները">
+<!ENTITY conify.perm_list.new_permission.label "Հաջորդ թույլատվությունը">
+<!-- grp_tree.html Entities --> 
+ 
+<!ENTITY conify.grp_tree.group_tree.title "Համընդհանուր :: Թույլտվություն :: Խմբի ծառ">
+<!ENTITY conify.grp_tree.permission_groups.label "Թույլատրությունների խումբ">
+<!ENTITY conify.grp_tree.group_config.label "Խմբի կարգաբերում">
+<!ENTITY conify.grp_tree.group_name.label "Խմբի անուն">
+<!ENTITY conify.grp_tree.description.label "Նկարագրություն">
+<!ENTITY conify.grp_tree.permission_interval.label "Թույլատվության տիրույթ">
+<!ENTITY conify.grp_tree.editing_permission.label "Թույլատվության խմբագրում">
+<!ENTITY conify.grp_tree.parent_group.label "Ծնող խումբ">
+<!ENTITY conify.grp_tree.user_group.label "Օգտվողի խումբ">
+<!ENTITY conify.grp_tree.save_button.label "Հիշիր">
+<!ENTITY conify.grp_tree.delete_button.label "Ջնջիր">
+<!ENTITY conify.grp_tree.new_child_button.label "Նոր Երեխա">
+<!ENTITY conify.grp_tree.group_permissions.title "Խմբի թույլատվություններ">
+<!ENTITY conify.grp_tree.new_mapping.label "Նոր քարտեզավորում">
+<!ENTITY conify.grp_tree.permission.label "Թույլատվություն։">
+<!ENTITY conify.grp_tree.depth.label "Խորություն։">
+<!ENTITY conify.grp_tree.grantable.label "Շնորհ տրվող։">
+<!ENTITY conify.grp_tree.add_mapping_button.label "Ավելացրու քարտեզավորում">
+<!ENTITY conify.grp_tree.save_changes.label "Հիշիր փոփոխությունները">
+<!ENTITY conify.grp_tree.remove_selected.label "Ջնջիր ընտրվածները">

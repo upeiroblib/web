@@ -1,0 +1,2 @@
+var _l = [[1,1,null,"Island Libraries",1],[4,3,"2","Robertson Library",1],[2,2,"1","University of Prince Edward Island",1]];
+globalOrgTypes = [new aout([null,null,null,null,0,0,"0","1","Consortium","Everywhere",null]), new aout([null,null,null,null,1,1,"2","3","Branch","This Branch","2"]), new aout([null,null,null,null,1,1,"3","4","Sub-lib","This Specialized Library","3"]), new aout([null,null,null,null,1,1,"3","5","Bookmobile","Your Bookmobile","3"]), new aout([null,null,null,null,1,0,"1","2","System","Local Library System","1"])];

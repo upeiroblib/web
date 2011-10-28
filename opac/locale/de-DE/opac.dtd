@@ -1,0 +1,735 @@
+<!--	================================================================= 
+		Some generic stuff 
+		================================================================= -->
+<!ENTITY lang.version "Fernbedinung v1 	
+================================================================= allgemeine Ausgaben   =================================================================">
+<!ENTITY lang.description "English">
+<!ENTITY lang.author "Kiefern">
+<!ENTITY common.all "Alle">
+<!ENTITY common.currency "$">
+<!ENTITY common.language "Sprache: ">
+<!ENTITY common.name "Name">
+<!ENTITY common.none "Kein(e)">
+<!ENTITY common.title "Titel">
+<!ENTITY common.author "Autor">
+<!ENTITY common.authors "Autoren">
+<!ENTITY common.callnumber "Signatur">
+<!ENTITY common.edition "Auflage">
+<!ENTITY common.subject "Thema">
+<!ENTITY common.series "Reihe">
+<!ENTITY common.keyword "Schlüsselwort">
+<!ENTITY common.type "Suchtyp">
+<!ENTITY common.isbn "ISBN">
+<!ENTITY common.format "Format">
+<!-- Message displayed while search results are loading -->
+<!ENTITY common.loading "Wird geladen...">
+<!ENTITY common.login "Anmelden">
+<!ENTITY common.logout "Abmelden">
+<!ENTITY common.physical "äußerliche Beschreibung">
+<!ENTITY common.pubdate "Erscheinungsdatum">
+<!ENTITY common.publisher "Herausgeber">
+<!ENTITY common.results "Ergebnisse">
+<!ENTITY common.select "Auswählen">
+<!ENTITY common.status "Status">
+<!ENTITY common.at "bei">
+<!ENTITY common.of "von">
+<!ENTITY common.no "Nein">
+<!ENTITY common.yes "Ja">
+<!ENTITY common.cancel "Abbrechen">
+<!ENTITY common.library "Bibliothek">
+<!ENTITY common.username "Benutzername">
+<!ENTITY common.password "Passwort">
+<!ENTITY common.submit "Abschicken">
+<!ENTITY common.close "Schließen">
+<!ENTITY common.and "und">
+<!ENTITY common.user_not_found "Benutzer nicht gefunden">
+<!ENTITY opac.advanced.wizard.title "Erweiterte Suche">
+<!ENTITY common.nowSearching "Sucht gerade ">
+<!ENTITY common.ofAtLeast " von etwa ">
+<!ENTITY common.relevancy "Trefferquote: ">
+<!ENTITY common.tips "Hinweise:">
+<!ENTITY common.tips.tip1 "Klicken Sie auf einen Dateiordner in der Seitenleiste, um auf verwandte Schnellsuchen zuzugreifen">
+<!ENTITY common.tips.tip2 "Wenn Sie nicht finden, was Sie wollen, versuchen Sie Ihre Suche zu erweitern, indem sie die Bereichswahl auf der rechten Seite der Suchleiste benutzen">
+<!ENTITY common.org.openAll "Alles ausklappen">
+<!ENTITY common.org.closeAll "Alles schließen">
+<!ENTITY common.org.cancel "Abbrechen">
+<!ENTITY common.org.loading "Lade Bibliotheken Wähler...">
+<!ENTITY common.org.note "Hinweis">
+<!ENTITY common.org.notetext "Klicken Sie auf den Namen eines Ortes, um ihn auszuwählen. Klicken Sie auf die Ordnersymbole, um einen Abschnitt zu vergrößeren.">
+<!ENTITY opac.login.login "Anmelden">
+<!ENTITY opac.basic "Grundlagenkatalog (nur HTML)">
+<!ENTITY common.password_criteria "Das Passwort muss mindestens 7 Zeichen lang sein, 
+mindestens einen Buchstaben (a-z/A-Z), 
+und mindestens eine Zahl beinhalten.">
+<!ENTITY common.a2z.title "Titel: A bis Z">
+<!ENTITY common.z2a.title "Titel: Z bis A">
+<!ENTITY common.a2z.author "Autor: A bis Z">
+<!ENTITY common.z2a.author "Autor: Z bis A">
+<!ENTITY common.new2old.pubdate "Datum: Neustes bis Ältestes">
+<!ENTITY common.old2new.pubdate "Datum: Ältestes bis Neustes">
+
+<!ENTITY opac.style.reddish "Rötlich">
+
+<!ENTITY holds.where_am_i "Abfragelisten sind nicht so einfach wie es scheint. Eine komplexe Matrix
+kombiniert die Gewichtung von Einträgen wie Besitzer, Stammbibliothek, und Leihdatum. 
+Dadurch wird eine Priorisierung der Abfrage möglich; die Liste ist dynamisch, sie ändert
+sich mit jeder Abfrage. Deshalb führt jede Nennung des Ausleihortes in den Abfragelisten
+zu Ungenauigkeiten. Die Abfrageliste wurde gestaltet um den nachgefragten Titel so schnell
+und wirkungsvoll wie möglich zu bekommen. Ihre Bibliothek wird sie kontaktieren wenn Buchtitel verfügbar sind.">
+
+<!ENTITY holds.advanced_options "Wenn Sie wünschen">
+<!--	================================================================= 
+		Events and Permissions 
+		================================================================= -->
+
+<!ENTITY ilsevent.0 "Operation erfolgreich
+================================================================= Ereignisse und Berechtigungen =================================================================">
+<!ENTITY ilsevent.1000 "Anmeldung gescheitert. Der Benutzername oder das Passwort waren nicht korrekt.">
+<!ENTITY ilsevent.1001 "Login Sitzung ist ausgelaufen oder existiert nicht">
+<!ENTITY ilsevent.1002 "Der Benutzer wurde nicht in der Datenbank gefunden">
+<!ENTITY ilsevent.1200 "Der angegebene Benutzername existiert bereits in der Datenbank">
+<!ENTITY ilsevent.5000 "Zugriff verweigert">
+<!ENTITY ilsperm.CREATE_HOLD "Der Nutzer darf keine Räume für andere Nutzer anlegen">
+<!--	================================================================= 
+	common/pages
+	================================================================= -->
+
+
+<!ENTITY common.cn.loading "Lade Signaturseite">
+<!ENTITY common.cn.browsing "Sie durchsuchen jetzt">
+<!ENTITY common.cn.previous "&lt;&lt; Vorherige Seite">
+<!ENTITY common.cn.shelf "Lager Browser">
+<!ENTITY common.cn.next "Nächste Seite &gt;&gt;">
+
+<!ENTITY common.textsize.title "Textgröße: ">
+<!ENTITY common.textsize.regular "Normal">
+<!-- Regular / Large -->
+<!ENTITY common.textsize.separator "/">
+<!ENTITY common.textsize.large "Groß">
+<!ENTITY common.googlechromeframe.why "Installing the Google Chrome Frame plugin for Internet Explorer will improve your Evergreen experience with more speed and advanced features!">
+<!ENTITY common.googlechromeframe.install "Install Now!">
+<!ENTITY common.googlechromeframe.dontask "Don't ask me again">
+
+<!ENTITY home.js.disabled "JavaScript muss aktiviert sein, damit Sie den normalen Evergreen Katalog benutzen können. 
+Es scheint, als ob JavaScript entweder deaktiviert ist oder nicht von Ihrem Browser unterstützt wird. 
+Aktivieren Sie JavaScript, um den normalen Evergreen Katalog zu benutzen, indem Sie Ihre Browsereinstellungen verändern, dann 
+<a style='color: blue; text-decoration: underline;' href='/'>versuchen Sie es erneut</a>. 
+<br/><br/>Alternativ können Sie unseren HTML-Katalog 
+<a style='color: blue; text-decoration: underline;' href='/opac/extras/slimpac/start.html'>hier</a> benutzen.">
+<!--	================================================================= 
+	 MyOPAC bookbag page
+	================================================================= -->
+
+<!ENTITY myopac.delete.bookbag "Dies wird die gewählte Buchmappe mit den enthaltenen Büchern entfernen.
+Wollen Sie wirklich fortfahren?
+================================================================= Meine OPAC Buchmappen-Seite =================================================================">
+<!ENTITY myopac.no.bookbags "Sie haben keine Büchermappen erstellt.">
+<!ENTITY myopac.bookbags.title "Meine Büchermappen.">
+<!ENTITY myopac.bookbag.items "# Elemente">
+<!ENTITY myopac.bookbag.shared "Geteilt">
+<!ENTITY myopac.bookbag.toggle "Freigeben / Verbergen">
+<!ENTITY myopac.bookbag.delete "Diese Büchermappe entfernen?">
+<!ENTITY myopac.items "Elemente">
+<!ENTITY myopac.view "(Ansehen)">
+<!ENTITY myopac.atom.feed "ATOM Feed">
+<!ENTITY myopac.bookbag.hide "Verbergen">
+<!ENTITY myopac.delete "Entfernen">
+<!ENTITY myopac.bookbag.create "Eine Büchermappen erstellen">
+<!ENTITY myopac.bookbag.naming "Geben Sie den Namen der neuen Büchermappe ein: ">
+<!ENTITY myopac.bookbag.share "Diese Büchermappe freigeben">
+<!ENTITY myopac.bookbag.refworks "Nach RefWorks exportieren">
+<!ENTITY myopac.bookbag.no.items "Die gewählte Büchermappe enthält keine Eintrag">
+<!ENTITY myopac.bookbag.remove "Diesen Eintrag entfernen?">
+<!ENTITY myopac.remove.link "entfernen">
+<!ENTITY myopac.publish.text 'Eine Büchermappe teilen, bedeutet das der Inhalt der Büchermappe für andere sichtbar wird.
+Um die öffentliche Ansicht der geteilten Büchermappe zu sehen, klicken Sie auf den "Ansehen" link in der
+"Geteilt" Spalte der Büchermappen-Liste, die sich in der oberen Bildschirmseite befindet.'>
+<!ENTITY myopac.item.confirm "Wollen Sie wirklich den Eintrag der Bücherliste entfernen.">
+<!ENTITY myopac.publish.confirm "Wenn Sie diese Büchermappe teilen, wird ihr Inhalt
+ für die anderen sichtbar. Wollen Sie fortfahren?">
+<!ENTITY myopac.unpublish.confirm "Wollen Sie diese Büchermappe verbergen?">
+<!ENTITY myopac.update.success "Die Büchermappe wurde erfolgreich aktualisiert.">
+<!ENTITY myopac.updated.success "Büchermappe erfolgreich aktualisiert.">
+<!ENTITY myopac.create.warning "Warnung: hinzufügen der Einträge zu Büchermappen wird einen Link zwischen Ihnen und den 
+Einträgen in der Datenbank erstellen. Der Inhalt der Büchermappe ist nicht öffentlich sichtbar obwohl 
+die Büchermappe geteilt. Wenn es bevorzugen keinerlei link zwischen Ihrer Stammaufzeichnung und 
+einem konkreten Eintrag oder Einträgen haben wollen, schlagen wir Ihnen vor keinerlei benutzten
+Eintrag in der Büchermappe zu verwenden oder vermeiden  Sie alle Büchermappen zusammen 
+zu verwenden. Vielen Dank.">
+<!ENTITY myopac.describe.bookbags "Büchermappen sind...">
+<!--	================================================================= 
+	MyOPAC Checked Page 
+	================================================================= -->
+
+<!ENTITY myopac.checked.out "Total items out:">
+<!ENTITY myopac.checked.overdue "Total items overdue:">
+<!ENTITY myopac.checked.renew "Renew Selected Items">
+<!ENTITY myopac.checked.renewing "Verlängere...">
+<!ENTITY myopac.checked.renew.remaining "Verbleibende Verlängerungen">
+<!ENTITY myopac.checked.noitems "You have no items checked out at this time">
+<!ENTITY myopac.checked.other.circ "Other Circulations">
+<!ENTITY myopac.checked.circ.lib "Circulating Library">
+<!ENTITY myopac.checked.item.type "Circulation Type">
+<!ENTITY myopac.checked.circ.time "Bitte zurückgeben am ...">
+<!ENTITY myopac.checked.renew.success "item(s) successfully renewed">
+<!ENTITY myopac.checked.renew.confirm "Are you sure you wish to renew the selected item(s)?">
+<!ENTITY myopac.checked.renew.fail "The system is unable to renew the selected item at this time.  This usually means the item is needed to fulfill a hold.  Please see a librarian for further help.">
+<!ENTITY myopac.checked.renew.fail2 "Library policy prevents the renewal of this item at this time.  Please see a librarian for further details.">
+<!--	================================================================= 
+	MyOPAC Fines Page 
+	================================================================= -->
+
+<!ENTITY myopac.fines.title "Summary">
+<!ENTITY myopac.fines.owed "Total Owed">
+<!ENTITY myopac.fines.paid "Total Paid">
+<!ENTITY myopac.fines.balance "Balance Owed">
+<!ENTITY myopac.fines.status "Wird geladen...">
+<!ENTITY myopac.fines.overdue "Overdue Materials">
+<!ENTITY myopac.fines.checkout "Ausleihdatum">
+<!ENTITY myopac.fines.due "Due Date">
+<!ENTITY myopac.fines.returned "Rückgabe Datum">
+<!ENTITY myopac.fines.accruing "(fines accruing)">
+<!ENTITY myopac.fines.other "Other Fees">
+<!ENTITY myopac.fines.time.start "Transaction Start Time">
+<!ENTITY myopac.fines.time.paid "Last Payment Time">
+<!ENTITY myopac.fines.owed.initial "Initial Amount Owed">
+<!ENTITY myopac.fines.paid.amount "Total Amount Paid">
+<!ENTITY myopac.fines.type "Billing Type">
+<!--	================================================================= 
+	MyOPAC Holds Page 
+	================================================================= -->
+
+<!ENTITY myopac.holds.formats "Formate">
+<!ENTITY myopac.holds.location "Pickup Location">
+<!ENTITY myopac.holds.edit "Bearbeiten">
+<!ENTITY myopac.holds.status.none "You have no items on hold at this time">
+<!ENTITY myopac.holds.status.waiting "Waiting for copy">
+<!ENTITY myopac.holds.status.intransit "In Transit">
+<!ENTITY myopac.holds.status.available "Ready for Pickup">
+<!ENTITY myopac.holds.cancel "Abbrechen">
+<!ENTITY myopac.holds.verify "If you wish to cancel the selected hold, click OK, otherwise click Cancel.">
+<!ENTITY myopac.holds.freeze_selected "Suspend">
+<!ENTITY myopac.holds.thaw_selected "Aktivieren">
+<!ENTITY myopac.holds.thaw_date_selected "Set Active Date">
+<!ENTITY myopac.holds.cancel_selected "Abbrechen">
+<!ENTITY myopac.holds.processing "Processing holds... This may take a moment.">
+<!ENTITY myopac.holds.actions 'Actions for selected holds'>
+<!ENTITY myopac.holds.cancel.confirm 'Are you sure you wish to cancel the selected holds?'>
+<!ENTITY myopac.holds.freeze.confirm 'Are you sure you wish to suspend the selected holds?
+If an item has already been selected to fulfill the hold, it will not be suspended'>
+<!ENTITY myopac.holds.thaw.confirm 'Are you sure you wish to activate the selected holds?'>
+<!ENTITY myopac.holds.thaw_date.confirm 'Are you sure you wish to change the activate date for the selected holds?'>
+<!ENTITY myopac.holds.freeze.select_thaw "Select an automatic activation date.  If no date is chosen, the holds will remain suspended until they are manually activated.">
+
+<!ENTITY opac.holds.freeze "Suspend this hold">
+<!ENTITY opac.holds.freeze.help "A suspended hold will retain its place in the queue, but will not be fulfilled until it has been activated.">
+<!ENTITY opac.holds.freeze.thaw_date "Automatically activate hold on:">
+<!ENTITY opac.holds.expire_time "Expiration date">
+<!ENTITY myopac.holds.estimated_wait "Geschätzte Wartezeit (Tage)">
+<!--	================================================================= 
+	MyOPAC Preferences Page 
+	================================================================= -->
+
+<!ENTITY myopac.prefs.title "Einstellungen">
+<!ENTITY myopac.prefs.hits "Suchtreffer pro Seite">
+<!ENTITY myopac.prefs.font "Vorgabeschriftgröße">
+<!ENTITY myopac.prefs.font.regular "Regular Font">
+<!ENTITY myopac.prefs.font.large "Große Schrift">
+<!ENTITY myopac.prefs.holds.notify "Default Hold Notification Method">
+<!ENTITY myopac.prefs.holds.both "Use Phone and Email">
+<!ENTITY myopac.prefs.holds.phone "Nur Telefon benutzen">
+<!ENTITY myopac.prefs.holds.email "Nur Email benutzen">
+<!ENTITY myopac.prefs.search.location "Default Search Location">
+<!ENTITY myopac.prefs.search.home "Always search my home library by default.">
+<!ENTITY myopac.prefs.search.range "Standardsuchbereich">
+<!ENTITY myopac.prefs.save "Einstellungsänderungen speichern">
+<!ENTITY myopac.prefs.save.success "Einstellungen erfolgreich aktualisiert">
+<!ENTITY myopac.prefs.save.failed "Aktualisierung der Einstellungen gescheitert!">
+<!ENTITY myopac.prefs.help "This setting defines how you will be notified of holds that are ready to be picked up from the library.
+By default, holds will use the notification style you choose here.  
+However, you will still have the option to change individual holds regardless of this setting.">
+<!ENTITY myopac.holds.unfrozen "Aktiv">
+<!ENTITY myopac.holds.frozen.until "Activate on...">
+<!--	================================================================= 
+	 MyOPAC Summary page
+	================================================================= -->
+
+<!ENTITY myopac.summary.expired "Ihr Benutzerkonto ist am <span id='myopac.expired.date'/> abgelaufen! 
+Bitte lassen Sie einen Bibliotheksangestellten ihr Benutzerkonto erneuern.">
+<!ENTITY myopac.summary.notes "* Staff Notes *">
+<!ENTITY myopac.summary.phone.day "Telefon tagsüber">
+<!ENTITY myopac.summary.phone.evening "Telefon abends">
+<!ENTITY myopac.summary.phone.other "Andere Telefonnummer">
+<!ENTITY myopac.summary.change "Change">
+<!ENTITY myopac.summary.username.enter "Benutzernamen eingeben:">
+<!ENTITY myopac.summary.password.text "(nicht angezeigt)">
+<!ENTITY myopac.summary.password.current "Aktuelles Passwort eingeben:">
+<!ENTITY myopac.summary.password.new "Neues Passwort eingeben:">
+<!ENTITY myopac.summary.password.reenter "Neues Passwort erneut eingeben:">
+<!ENTITY myopac.summary.email "Email-Adresse">
+<!ENTITY myopac.summary.email.new "Neue Email-Adresse eingeben:">
+<!ENTITY myopac.summary.id.primary "Primary Identification">
+<!ENTITY myopac.summary.barcode "Aktiver Barcode">
+<!ENTITY myopac.summary.home "Home Library">
+<!ENTITY myopac.summary.genesis "Datum der Kontoerstellung">
+<!ENTITY myopac.summary.addresses "Adressen">
+<!ENTITY myopac.summary.addresses.pending "Pending Addresses">
+<!ENTITY myopac.summary.address.type "Address Type">
+<!ENTITY myopac.summary.address.street "Straße">
+<!ENTITY myopac.summary.address.city "Ort">
+<!ENTITY myopac.summary.address.county "County">
+<!ENTITY myopac.summary.address.state "Bundesland">
+<!ENTITY myopac.summary.address.country "Land">
+<!ENTITY myopac.summary.address.zip "PLZ">
+<!ENTITY myopac.summary.address.edit "Adresse bearbeiten">
+<!ENTITY myopac.summary.address.invalid "Ungültige Adresse">
+
+<!ENTITY myopac.summary.username.error "Bitte geben Sie einen Benutzernamen ein">
+<!ENTITY myopac.summary.username.dup "Der eingegebene Benutzername ist nicht verfügbar. Bitte wählen Sie einen anderen Benutzernamen.">
+<!ENTITY myopac.summary.username.success "Benutzername erfolgreich aktualisiert">
+<!ENTITY myopac.summary.username.failure "Aktualisierung des Benutzernamens gescheitert">
+<!ENTITY myopac.summary.username.invalid "Der Benutzername kann keine Leerzeichen enthalten oder das gleiche Format wie ein Barcode haben">
+<!ENTITY myopac.summary.email.error "Bitte geben Sie eine gültige Email-Adresse ein">
+<!ENTITY myopac.summary.email.success "Email-Adresse erfolgreich aktualisiert">
+<!ENTITY myopac.summary.email.failed "Aktualisierung der Email-Adresse gescheitert">
+<!ENTITY myopac.summary.password.error "Die Passwortfelder sind leer oder stimmen nicht überein">
+<!ENTITY myopac.summary.password.success "Passwort wurde erfolgreich aktualisiert">
+<!ENTITY myopac.summary.password.failure "Akualisierung des Passworts gescheitert">
+<!--	================================================================= 
+	Advanced Search Page 
+	================================================================= -->
+
+<!ENTITY opac.advanced.wizard.contains "Das ausgewählte Feld enthält die folgenden Wörter">
+<!ENTITY opac.advanced.wizard.nocontains "Das ausgewählte Feld enthält <u>nicht</u> die folgenden Wörter">
+<!ENTITY opac.advanced.wizard.exact "Das ausgewählte Feld enthält <u>genau</u> den Ausdruck">
+<!ENTITY opac.advanced.refined.title "Refined Advanced Search">
+<!ENTITY opac.advanced.refined.title_contains "Der Titel enthält die folgenden Wörter">
+<!ENTITY opac.advanced.refined.author_contains "Der Autor enthält die folgenden Wörter">
+<!ENTITY opac.advanced.refined.subject_contains "Das Thema enthält die folgenden Wörter">
+<!ENTITY opac.advanced.refined.series_contains "Series contains the following words">
+<!ENTITY opac.advanced.refined.contains "Enthält">
+<!ENTITY opac.advanced.refined.nocontains "Enthält nicht">
+<!ENTITY opac.advanced.refined.exact "Stimmt genau überein mit">
+<!ENTITY opac.advanced.marc.warning "For Librarians">
+<!ENTITY opac.advanced.marc.title "MARC Expert Search">
+<!ENTITY opac.advanced.marc.tag "MARC Tag">
+<!ENTITY opac.advanced.marc.ind1 "Indicator 1">
+<!ENTITY opac.advanced.marc.ind2 "Indicator 2">
+<!ENTITY opac.advanced.marc.subfield "Subfield">
+<!ENTITY opac.advanced.marc.value "Value">
+<!ENTITY opac.advanced.marc.addrow "Eine neue Zeile hinzufügen">
+<!ENTITY opac.advanced.quick.title "Schnellsuche">
+<!ENTITY opac.advanced.quick.isbn "ISBN">
+<!ENTITY opac.advanced.quick.issn "ISSN">
+<!ENTITY opac.advanced.quick.lccn "LCCN">
+<!-- title control number -->
+<!ENTITY opac.advanced.quick.tcn "TCN">
+<!ENTITY opac.advanced.quick.barcode "Item Barcode">
+<!ENTITY opac.advanced.quick.cn "Signatur">
+<!ENTITY opac.advanced.copy_loc_filter "Shelving Location">
+<!-- ==========================================================
+     MARC expert search
+     ========================================================== -->
+
+<!ENTITY search.marc "MARC Expert Search">
+<!ENTITY search.marc.tag "Stichwort:">
+<!ENTITY search.marc.subfield "Subfield:">
+<!ENTITY search.marc.value "Value:">
+<!ENTITY search.marc.add.row "Zeile hinzufügen">
+<!-- ==========================================================
+     Status bar
+     ========================================================== -->
+
+
+<!ENTITY status.results "Including results for">
+<!-- ==========================================================
+     Tips
+     ========================================================== -->
+
+
+<!ENTITY tips.label "Tip:">
+<!-- ================================================================= 
+		More generic stuff 
+		================================================================= -->
+
+<!ENTITY opac.session_expiring "Your login session will timeout in 1 minute unless there is activity.">
+<!ENTITY opac.session_expired "Your login session has expired">
+<!ENTITY navigate.home "Startseite">
+<!ENTITY navigate.home.title "Startseite öffnen">
+<!ENTITY opac.navigate.advanced "Fortgeschrittene Suche">
+<!ENTITY opac.navigate.advanced.title "Erweiterte Suche öffnen">
+<!ENTITY navigate.myopac "Mein Konto">
+<!ENTITY opac.navigate.myopac "Mein Konto">
+<!ENTITY navigate.myopac.title "Go to My OPAC">
+<!ENTITY navigate.login "Anmelden">
+<!ENTITY navigate.login.title "Log in for personalized features">
+<!ENTITY navigate.logout "Abmelden">
+<!ENTITY navigate.logout.title "Abmelden">
+<!ENTITY opac.navigate.selectNewOrg "Eine andere Bibliothek auswählen">
+<!ENTITY opac.navigate.selectOrg "Eine Bibliothek für die Suche auswählen">
+<!ENTITY navigate.loggedinas "Sie sind angemeldet als ">
+<!ENTITY navigate.loggedinas.title "Angemeldet als...">
+<!ENTITY navigate.titleGroupResults "Meine Suchergebnisse">
+<!ENTITY navigate.titleResults "My Title Results">
+<!ENTITY navigate.facetRefine "Refine your search">
+<!ENTITY navigate.title.details "My Title Details">
+<!ENTITY navigate.record.details "Eintragungsdetails">
+<!--	================================================================= 
+	Footer
+	================================================================= -->
+
+<!ENTITY footer.basic "Basic Catalog (HTML only)">
+<!ENTITY footer.find.library "Finde eine Bibliothek in meiner Nähe">
+<!ENTITY footer.find.url "http://www.georgialibraries.org/lib/directories/pineslibdir.html">
+<!ENTITY footer.help.url "http://open-ils.org/dokuwiki/doku.php?id=evergreen-user:opac_help">
+<!ENTITY footer.help "Hilfe">
+<!ENTITY footer.library.url "http://www.georgialibraries.org/public/pines.html">
+<!ENTITY footer.library.about "Über PINES">
+<!ENTITY footer.union.url "http://www.galileo.usg.edu/">
+<!ENTITY footer.union "GALILEO">
+<!ENTITY footer.copyright "Copyright &#xA9; 2006-2010 Georgia Public Library Service, and others">
+<!-- Introduces the logo for the project -->
+<!ENTITY footer.logo "Powered by">
+<!--	================================================================= 
+	My OPAC
+	================================================================= -->
+
+<!ENTITY myopac.account "Kontenzusammenfassung">
+<!ENTITY myopac.checkouts "Items Checked Out">
+<!ENTITY myopac.holds "Items on Hold">
+<!ENTITY myopac.fines "Fines">
+<!ENTITY myopac.preferences "Benutzerkontoeinstellungen">
+<!ENTITY myopac.bookbags "My Bookbags">
+<!--	================================================================= 
+	Sidebar 
+	================================================================= -->
+
+<!ENTITY sidebar.relevantSubjects.headerLabel "Relevant Subjects">
+<!ENTITY sidebar.relevantAuthors.headerLabel "Relevant Authors">
+<!ENTITY sidebar.relevantSeries.headerLabel "Relevant Series">
+<!ENTITY sidebar.relevantReviews.headerLabel "Reviews">
+<!ENTITY sidebar.quick.search "Schnellsuche">
+<!ENTITY sidebar.copy.not.found "No copy with the requested barcode was found">
+<!--	================================================================= 
+		Search formats
+		================================================================= -->
+
+<!ENTITY opac.search.books "Bücher">
+<!ENTITY opac.search.allFormats "Alle Formate">
+<!ENTITY opac.search.largePrint "Large Print Books">
+<!ENTITY opac.search.ebook "E-Books">
+<!ENTITY opac.search.audioBooks "Hörbücher">
+<!ENTITY opac.search.videoRecordings "Videoaufnahmen">
+<!ENTITY opac.search.music "Musik">
+<!ENTITY opac.search.electronic "Electronic Resources">
+<!ENTITY opac.search.nowSearching "Sucht gerade">
+<!--	================================================================= 
+		Page Titles
+		================================================================= -->
+
+
+<!ENTITY opac.title.home "Evergreen Home">
+<!ENTITY opac.title.mresult "Evergreen Title Groups">
+<!ENTITY opac.title.rresult "Evergreen Titles">
+<!ENTITY opac.title.myopac "Evergreen My Account">
+<!ENTITY opac.title.rdetail "Evergreen Title Details">
+<!ENTITY opac.title.advanced "Evergreen Advanced Search">
+<!ENTITY opac.title.reqitems "Evergreen Request Items">
+<!ENTITY opac.title.cnbrowse "Evergreen Call Number Browse">
+
+
+<!ENTITY opac.holds.forMe "Place this hold for myself">
+<!ENTITY opac.holds.xulRecipient "Enter recipient barcode">
+<!ENTITY opac.holds.recipient "Recipient">
+<!ENTITY opac.holds.placeHold "Place Hold">
+<!ENTITY opac.holds.exportRefWorks "Export to RefWorks">
+<!ENTITY opac.holds.contactPhone "Contact telephone number">
+<!ENTITY opac.holds.contactEmail "Contact email address">
+<!ENTITY opac.holds.pickupLocation "Pickup location">
+<!ENTITY opac.holds.success "Hold was successfully placed">
+<!ENTITY opac.holds.failure "Hold was not successfully placed">
+<!--	================================================================= 
+	Advanced
+	================================================================= -->
+<!ENTITY advanced.search.title "Search Input">
+<!ENTITY advanced.add.row "Add Search Row">
+<!ENTITY advanced.search.submit "Submit Search">
+<!ENTITY advanced.search.reset "Reset Form">
+<!ENTITY advanced.search.filters "Search Filters">
+<!ENTITY advanced.item.form "Item Form">
+<!ENTITY advanced.item.type "Item Type">
+<!ENTITY advanced.link "Fortgeschritten">
+<!ENTITY advanced.basic.link "Basic">
+<!ENTITY advanced.literary.form "Literaturform">
+<!ENTITY advanced.non.fiction "Sachbuch">
+<!ENTITY advanced.fiction "Fiction">
+<!ENTITY advanced.language "Sprache">
+<!ENTITY advanced.audience "Zielgruppe">
+<!ENTITY advanced.adult "Erwachsene">
+<!ENTITY advanced.juvenile "Jugendliche">
+<!ENTITY advanced.general "Allgemein">
+<!ENTITY advanced.sort.criteria "Sort Criteria">
+<!ENTITY advanced.search.library "Bibliothek durchsuchen">
+<!ENTITY advanced.relevance "Relevance">
+<!ENTITY advanced.pubdate "Veröffentlichungsdatum">
+<!ENTITY advanced.sort.asc "Aufsteigend / A bis Z">
+<!ENTITY advanced.sort.desc "Absteigend / Z bis A">
+<!ENTITY advanced.frbrize "Group Formats and Editions">
+<!ENTITY advanced.go "Go">
+<!ENTITY advanced.biblevel "Bib Level">
+<!ENTITY advanced.filter.pubyear "Erscheinungsjahr">
+<!ENTITY advanced.filter.pubyear.equals "Is">
+<!ENTITY advanced.filter.pubyear.before "Before">
+<!ENTITY advanced.filter.pubyear.after "After">
+<!ENTITY advanced.filter.pubyear.between "Between">
+<!--	================================================================= 
+	Rdetail
+	================================================================= -->
+
+<!ENTITY rdetail.print "print these details">
+<!ENTITY rdetail.cn.barcode "Barcode">
+<!ENTITY rdetail.cn.location "Location">
+<!ENTITY rdetail.cn.hold.age "Age Hold Protection">
+<!ENTITY rdetail.cn.genesis "Create Date">
+<!ENTITY rdetail.cn.holdable "Holdable">
+<!ENTITY rdetail.cn.due "Due Date">
+<!ENTITY rdetail.cn.more "mehr Informationen...">
+<!ENTITY rdetail.cn.less "weniger Informationen">
+<!ENTITY rdetail.cn.hold "place hold">
+<!ENTITY rdetail.cn.reserve "book now">
+<!ENTITY rdetail.cn.disabled "- Disabled -">
+<!ENTITY rdetail.cn.note "Copy Note">
+<!ENTITY rdetail.cn.category "Copy Category">
+<!ENTITY rdetail.cn.print "Seite drucken">
+<!ENTITY rdetail.page.results "First results page">
+<!-- Result # &common.of; # -->
+<!ENTITY rdetail.result "Result">
+<!ENTITY rdetail.start "Start">
+<!ENTITY rdetail.page.previous "Vorherige Seite">
+<!ENTITY rdetail.page.previous.short "&#171;">
+<!ENTITY rdetail.page.next "Nächste Seite">
+<!ENTITY rdetail.page.next.short "&#187;">
+<!ENTITY rdetail.page.last "Last results page">
+<!ENTITY rdetail.end "Ende">
+<!ENTITY rdetail.more "More Actions...">
+<!ENTITY rdetail.bookbag.add "Add to bookbag">
+<!ENTITY rdetail.bookbag.create "Create a new bookbag">
+<!ENTITY rdetail.record.deleted "This record has been deleted from the database.
+We recommend that you remove this title from any bookbags it may have been added to.">
+<!ENTITY rdetail.none "(none)">
+<!ENTITY rdetail.bookbag.add.success "Item successfully added to bookbag">
+<!ENTITY rdetail.bookbag.name "Enter the name of the new bookbag">
+<!ENTITY rdetail.bookbag.create.success "Bookbag successfully created">
+<!ENTITY rdetail.detailMain.headerLabel "Eintragungszusammenfassung">
+<!ENTITY rdetail.detailMain.subjects "Themen">
+<!ENTITY rdetail.detailMain.abstract "Abstract">
+<!ENTITY rdetail.detailMain.viewMarc "View MARC">
+<!ENTITY rdetail.detailMain.hideMarc "Return to title details">
+<!ENTITY rdetail.author.search "Perform an author search">
+<!ENTITY rdetail.copyInfo.headerLabel "Copy Information">
+<!ENTITY rdetail.copyInfo.library "Bibliothek">
+<!ENTITY rdetail.copyInfo.callnumber "Signatur">
+<!ENTITY rdetail.copyInfo.copylocation "Copy Location">
+<!ENTITY rdetail.copyInfo.local "View Copy Information for this location only">
+<!ENTITY rdetail.copyInfo.all "View copy information for all libraries">
+<!ENTITY rdetail.copyInfo.actions "Actions">
+<!ENTITY rdetail.copyInfo.print "Signaturen für diese Bibliothek drucken">
+<!ENTITY rdetail.copyInfo.details "Copy Details">
+<!ENTITY rdetail.copyInfo.browse "Signaturen durchsehen">
+<!ENTITY rdetail.copyInfo.hold "Place Hold">
+<!ENTITY rdetail.extras.summary "Copy Summary">
+<!ENTITY rdetail.extras.browser "Shelf Browser">
+<!ENTITY rdetail.extras.bib_summary "Summary">
+<!ENTITY rdetail.extras.reviews "Reviews">
+<!ENTITY rdetail.extras.toc "Inhaltsverzeichnis">
+<!ENTITY rdetail.extras.excerpt "Auszug">
+<!ENTITY rdetail.extras.preview "Vorschau">
+<!ENTITY rdetail.extras.author.notes "Author Notes">
+<!ENTITY rdetail.extras.annotation "Annotation">
+<!ENTITY rdetail.extras.marc "MARC Eintrag">
+<!ENTITY rdetail.extras.call.null "There are no call numbers for this item at this location.">
+<!ENTITY rdetail.extras.call.local "Local Call Numbers:">
+<!ENTITY rdetail.extras.preview.fulltext "Full text">
+<!ENTITY rdetail.extras.preview.title "See the full text of this book.">
+<!ENTITY rdetail.extras.preview.badge "Eine Vorschau für dieses Buch von Google Book Search anzeigen">
+<!ENTITY rdetail.extras.novelist "Suggestions by NoveList">
+<!ENTITY rdetail.loading "Loading copy information...">
+<!ENTITY rdetail.noneAvailable " * There are no copies in this location">
+<!ENTITY rdetail.summary.online "Online Resources">
+<!ENTITY rdetail.summary.subjects "Themen">
+<!ENTITY rdetail.summary.issues_held "Issues Held">
+
+<!ENTITY result.sort_by "Ergebnisse nach Relevanz">
+<!ENTITY result.sort_by.title "Ergebnisse nach Titel ordnen">
+<!ENTITY result.sort_by.author "Ergebnisse nach Autor sortieren">
+<!ENTITY result.sort_by.pubdate "Ergebnisse nach Erscheinungsdatum sortieren">
+
+<!ENTITY result.limit2avail "Limit to Available">
+<!ENTITY result.info.copies "Verfühbare Exmeplare / Gesamte Exemplare">
+<!ENTITY result.info.no.items "No items with the selected format were found in this location.">
+<!ENTITY result.info.format.items "Listed below are all items in the catalog with the chosen format.">
+<!ENTITY result.info.show "Einträge zeigen für">
+
+<!ENTITY result.lowhits.few "Ihre Suche ergab weniger Treffer.">
+<!ENTITY result.lowhits.zero "Ihre Suche ergab Treffer.">
+<!ENTITY result.lowhits.did.you.mean "Vielleicht meinten Sie:">
+<!ENTITY result.lowhits.formats "You will find more hits when searching all item formats:">
+<!ENTITY result.lowhits.formats.search "Noch einmal mit allen Formaten suchen?">
+<!ENTITY result.lowhits.related "You may also like to try these related searches:">
+<!ENTITY result.lowhits.expand "You may also wish to expand your search range to:">
+<!ENTITY result.lowhits.class "You can try searching the same terms by:">
+<!ENTITY result.lowhits.title "Titel:">
+<!ENTITY result.lowhits.author "Autor">
+<!ENTITY result.lowhits.subject "Thema">
+<!ENTITY result.lowhits.series "series">
+<!ENTITY result.lowhits.keyword "Schlüsselwort">
+
+<!ENTITY result.table.keyword "Titel für diesen Eintrag ansehen">
+<!ENTITY result.table.author "Perform an Author Search">
+<!ENTITY result.googleBooks.browse "Googe Books Search durchsuchen">
+<!ENTITY result.localCallNumbers "Local Call Numbers:">
+
+<!ENTITY common.call.number.label "Signatur:">
+<!ENTITY common.isbn.label "ISBN">
+<!ENTITY common.issn.label "ISSN">
+<!ENTITY common.copy.barcode.label "Barcode kopieren:">
+<!ENTITY common.issuance_label.label "Issuance Label:">
+<!ENTITY common.hold.place "Place hold for my account">
+<!ENTITY common.hold.check "Checking for possibility of hold fulfillment...">
+<!ENTITY common.hold.create "Create / Edit a Hold">
+<!ENTITY common.hold.update "Update Hold">
+<!ENTITY common.hold.type.label "Hold Type:">
+<!ENTITY common.hold.volume "Volume Hold">
+<!ENTITY common.hold.copy "Copy Hold">
+<!ENTITY common.hold.issuance "Issuance Hold">
+<!ENTITY common.hold.advanced "Advanced Hold Options">
+<!ENTITY common.hold.delivery "Please select a physical location where your hold can be delivered.">
+<!ENTITY common.hold.checked_out "This item is already checked out.">
+<!ENTITY common.hold.checked_out.override "This item is already checked out.  Would you like to place the hold anyway?">
+<!ENTITY common.hold.exists "A hold already exists on the requested item.">
+<!ENTITY common.hold.exists.override "A hold already exists on the requested item. Would you like to create the hold anyway?">
+<!ENTITY common.hold.barred 'PATRON BARRED. Please see any notes in the
+"Staff Notes" section of your "My Account" page or contact your local library.'>
+<!ENTITY common.hold.item.invalid "This hold is no longer valid. It's likely that the
+target for the hold was deleted from the system.  Please cancel this hold and
+place a new one.">
+<!ENTITY common.hold.patron.invalid "The patron barcode entered as the hold recipient is invalid.">
+<!-- Was (??), perhaps change to a button or icon? -->
+<!ENTITY common.help "(Hilfe)">
+<!ENTITY common.phone.format.help "Die Telefonnummer ist nicht im korrekten Format. Das erwartete Format ist XXX-YYY-ZZZZ">
+<!ENTITY common.hold.failed "No items were found that could fulfill the requested holds.
+It's possible that choosing a different format will result in a successful hold.
+It is also possible that you have exceeded the number of allowable holds.
+For further information, please consult your local librarian.">
+<!ENTITY common.control.click "(control-click to select multiple formats)">
+<!ENTITY common.format.alternatives "Acceptable Alternative Formats:">
+<!ENTITY common.phone.format "(XXX-YYY-ZZZZ)">
+<!ENTITY common.phone.enable "Enable phone notifications for this hold?">
+<!ENTITY common.email.enable "Enable email notifications for this hold?">
+<!ENTITY common.email.none "(Patron has no configured email address)">
+<!ENTITY common.email.set "(Schauen Sie auf <a class='classic_link' id='holds.no_email.my_account'>Mein Konto</a> um Ihre Email-Adresse festzulegen)">
+<!ENTITY common.keywords.label "Schlüsselwörter:">
+<!ENTITY common.physical.label "Physical Description:">
+<!ENTITY common.series.label "Series:">
+<!ENTITY common.subject.label "Thema:">
+<!ENTITY common.title.label "Titel:">
+<!ENTITY common.author.label "Autor:">
+<!ENTITY common.format.label "Format:">
+<!ENTITY library.select "Find results in">
+<!ENTITY library.select.label "Eine andere Bibliothek auswählen...">
+<!ENTITY library.select.help "Eine Bibliothek für die Suche auswählen...">
+<!ENTITY login.username "Geben Sie Ihren Benutzernamen oder Bibliotheks-Barcode ein">
+<!ENTITY login.password.change "Passwort ändern">
+<!ENTITY login.first.time "Das hier ist das erste mal, dass Sie sich anmelden. 
+Sie sollten Ihr Passwort ändern.">
+<!ENTITY login.password.current.enter "Geben Sie ihr aktuelles Passwort ein">
+<!ENTITY login.password.new.enter "Geben Sie ihr neues Passwort ein">
+<!ENTITY login.password.new.reenter "Geben Sie Ihr neues Passwort erneut ein">
+<!ENTITY login.password.update "Passwort aktualisieren">
+<!ENTITY login.password.nomatch "Die Passwörter stimmen nicht überein">
+<!ENTITY login.password.success "Passwort wurde erfolgreich aktualisiert">
+<!ENTITY login.password.strength "Das angegebene Passwort ist nicht sicher genug.">
+<!ENTITY login.barcode.inactive "Der zum Anmelden benutzte Barcode ist als inaktiv gekennzeichnet. Bitte kontaktieren Sie Ihre örtliche Bibliothek.">
+<!ENTITY login.account.inactive "Dieses Benutzerkonto wurde deaktiviert. Bitte wenden sie sich an ihre örtliche Bibliothek.">
+<!ENTITY login.failed "Die Anmeldung ist gescheitert. Der eingegebene Benutzername oder das Passwort waren ungültig. 
+Stellen Sie sicher, dass Caps-Lock deaktiviert ist und versuchen Sie es noch einmal, oder wenden Sie sich an ihre örtliche Bibiothek.">
+<!ENTITY button.go "Go!">
+<!--	================================================================= 
+	Slimpac Simple Search
+	================================================================= -->
+
+<!ENTITY slimpac.language.select "Sprache wählen">
+
+<!ENTITY slimpac.start.title "Einfache Suche">
+<!ENTITY slimpac.start.nowSearching "Sucht gerade: ">
+<!ENTITY slimpac.start.dynamic "Dynamic Catalog">
+<!--	================================================================= 
+	Slimpac Advanced Search
+	================================================================= -->
+
+<!ENTITY slimpac.advanced.language "Item Language">
+<!ENTITY slimpac.advanced.create_date "Eintragserstellungsdatum">
+<!ENTITY slimpac.advanced.edit_date "Eintragsbearbeitungsdatum">
+
+<!ENTITY opac.image_provided "Image provided by">
+<!ENTITY vendor.name "Amazon">
+<!ENTITY vendor.base_link "http://amazon.com/dp/">
+<!--	================================================================= 
+	Selfcheck
+	================================================================= -->
+
+<!ENTITY selfck.staff_login_label "Personalanmeldung">
+<!ENTITY selfck.staff_login "Bibliotheks-Barcode oder Benutzername">
+<!ENTITY selfck.staff_pw "Passwort">
+<!ENTITY selfck.submit "Abschicken">
+<!ENTITY selfck.clear "Clear">
+<!ENTITY selfck.patron_barcode_label "Bitte scannen Sie ihren Bibliotheks-Barcode">
+<!ENTITY selfck.item_barcode_label "Please scan an item to checkout or renew:">
+<!ENTITY selfck.barcode "Barcode">
+<!ENTITY selfck.title "Titel">
+<!ENTITY selfck.author "Autor">
+<!ENTITY selfck.due_date "Due Date">
+<!ENTITY selfck.remaining "Verbleibende Verlängerungen">
+<!ENTITY selfck.cotype "Type">
+<!ENTITY selfck.cotype_co "Ausleihe">
+<!ENTITY selfck.cotype_rn "Verlängerung">
+<!ENTITY selfck.done "Fertig">
+<!ENTITY selfck.welcome "Willkommen">
+<!ENTITY selfck.printing "Printing Receipt...">
+<!-- event messages -->
+
+<!ENTITY selfck.event.co_success "Ausleihe erfolgreich">
+<!ENTITY selfck.event.co_unknown "Ein unerwartetes Ereignis ist eingetreten">
+<!ENTITY selfck.event.dupe_barcode "This item has already been checked out during this session">
+<!ENTITY selfck.event.patron_not_found "The patron barcode was not found">
+<!ENTITY selfck.event.item_noncat "The requested item is not in the catalog">
+<!ENTITY selfck.event.item_nocirc "Der gewählte Artikel ist nicht ausleihbar">
+<!ENTITY selfck.event.already_out "Der gewählte Artikel ist bereits an einen anderen Gast verliehen">
+<!ENTITY selfck.items_out "Sie haben folgende Artikel gewählt">
+<!ENTITY selfck.org_hours "Geschäftszeiten">
+<!ENTITY selfck.org_phone "Telefonnummer Bücherei">
+<!ENTITY selfck.day0 "Montag">
+<!ENTITY selfck.day1 "Dienstag">
+<!ENTITY selfck.day2 "Mittwoch">
+<!ENTITY selfck.day3 "Donnerstag">
+<!ENTITY selfck.day4 "Freitag">
+<!ENTITY selfck.day5 "Samstag">
+<!ENTITY selfck.day6 "Sonntag">
+
+<!ENTITY circ.fail_part.actor.usr.barred "The patron is barred">
+<!ENTITY circ.fail_part.asset.copy.circulate "The item does not circulate">
+<!ENTITY circ.fail_part.asset.copy_location.circulate "Items from this shelving location do not circulate">
+<!ENTITY circ.fail_part.asset.copy.status "The item cannot circulate at this time">
+<!ENTITY circ.fail_part.circ.holds.target_skip_me "The item's circulation library does not fulfill holds">
+<!ENTITY circ.fail_part.config.circ_matrix_circ_mod_test "The patron has too many items of this type checked out">
+<!ENTITY circ.fail_part.config.circ_matrix_test.available_copy_hold_ratio "The available item-to-hold ratio is too low">
+<!ENTITY circ.fail_part.config.circ_matrix_test.circulate "Circulation rules reject this item as non-circulatable">
+<!ENTITY circ.fail_part.config.circ_matrix_test.total_copy_hold_ratio "The total item-to-hold ratio is too low">
+<!ENTITY circ.fail_part.config.hold_matrix_test.holdable "Hold rules reject this item as unholdable">
+<!ENTITY circ.fail_part.config.hold_matrix_test.max_holds "The patron has reached the maximum number of holds">
+<!ENTITY circ.fail_part.config.rule_age_hold_protect.prox "The item is too new to transit this far">
+<!ENTITY circ.fail_part.no_item "The system could not find this item">
+<!ENTITY circ.fail_part.no_ultimate_items "The system could not find any items to match this hold request">
+<!ENTITY circ.fail_part.no_matchpoint "System rules do not define how to handle this item">
+<!ENTITY circ.fail_part.no_user "The system could not find this patron">
+<!ENTITY circ.fail_part.transit_range "The item cannot transit this far">

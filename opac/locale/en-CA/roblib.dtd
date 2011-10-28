@@ -1,0 +1,77 @@
+<!--	=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+	UPEI - Robertson Library (roblib)
+	Any definition that has "roblib." is new 
+	Any definition that does not have "roblib." is an override from opac.dtd
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+
+<!--	================================================================= 
+		Some generic stuff 
+	================================================================= -->
+
+
+<!ENTITY common.password "PIN">
+<!ENTITY common.roblib.search.catalogue " Catalogue">
+
+
+<!-- ================================================================= 
+		More generic stuff 
+================================================================= -->
+<!ENTITY navigate.roblib.libraryhome "Library Home Page">
+<!ENTITY navigate.roblib.libraryhome.title "Go to the Library Home Page">
+<!ENTITY navigate.roblib.libraryhome.url "http://library.upei.ca">
+<!ENTITY navigate.roblib.cufts.title "Journals, Newspapers, or Magazines">
+<!ENTITY navigate.roblib.cufts.url "http://cufts2.lib.sfu.ca/CJDB/PCU/browse">
+<!ENTITY navigate.roblib.newsearch "New Search">
+<!ENTITY navigate.roblib.newsearch.title "Go to the New Search page">
+
+<!-- ================================================================= 
+		search formats
+		================================================================= -->
+<!ENTITY opac.search.electronic "Software/Multimedia">
+ 
+
+<!--	================================================================= 
+	Footer
+	================================================================= -->
+<!ENTITY footer.roblib.libraryhome.url "http://library.upei.ca">
+<!ENTITY footer.roblib.libraryhome "Library Homepage">
+<!ENTITY footer.roblib.rlwelcome "Welcome to the UPEI Library Catalogue!    ">
+<!ENTITY footer.roblib.rlwelcome2 "We're proud to be the world's first academic library running Evergreen">
+<!ENTITY footer.roblib.rlwelcome3link "Periodical and Journal holdings are found on Journals at UPEI Robertson Library!">
+
+<!ENTITY footer.roblib.rlwelcome3.url "http://journals.library.upei.ca/CJDB/PCU/browse">
+<!ENTITY footer.roblib.rlwelcome.url "http://library.upei.ca/node/279">
+<!ENTITY footer.roblib.rlwelcomelink "(learn more about this project)">
+
+<!--	================================================================= 
+	Rdetail
+	================================================================= -->
+<!-- overriding username variable from opac.dtd to PIN -->
+<!ENTITY login.username "Enter your UPEI Campus ID">
+<!ENTITY common.hold.failed "You cannot place a hold on this item.
+If its status is 'Available', please come to the Library to get it.
+If you have other questions, contact Library staff.">
+
+
+
+<!ENTITY rdetail.subjects "Subjects">
+<!ENTITY rdetail.thesisNote "Thesis Note">
+<!ENTITY rdetail.contents "Contents">
+<!ENTITY rdetail.localNotes "Local Notes">
+<!ENTITY rdetail.localHoldings "Local Holdings">
+<!ENTITY rdetail.credits "Credits">
+<!ENTITY rdetail.performers "Performers">
+<!ENTITY rdetail.source "Source">
+<!ENTITY rdetail.meeting "Meeting">
+
+<!--	================================================================= 
+		Page Titles
+	================================================================= -->
+<!ENTITY roblib.title.home "Robertson Library Catalogue">
+<!ENTITY opac.title.mresult "Robertson Library Title Groups">
+<!ENTITY opac.title.rresult "Robertson Library Titles">
+<!ENTITY opac.title.myopac "Robertson Library My Account">
+<!ENTITY opac.title.rdetail "Robertson Library Title Details">
+<!ENTITY opac.title.advanced "Robertson Library Advanced Search">
+<!ENTITY opac.title.reqitems "Robertson Library Request Items">
+<!ENTITY opac.title.cnbrowse "Robertson Library Call Number Browse">

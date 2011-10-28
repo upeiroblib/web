@@ -1,0 +1,214 @@
+<!-- Common Entities -->
+<!ENTITY reports.common.logged_in_as "Դու մուտք ես գործել որպես ">
+<!ENTITY reports.common.loading "Բեռնավորում...">
+
+<!ENTITY reports.oils_rpt.title "Evergreen: Հաշվետվություններ">
+<!ENTITY reports.oils_rpt.insufficient_permissions "Հաշվետվությունները աշխատեցնելու համար դու չունես բավարար իրավասություններ">
+<!ENTITY reports.oils_rpt.my_folders "Իմ թղթապանակները">
+<!ENTITY reports.oils_rpt.shared_folders "Համատեղված թղթապանակներ">
+<!ENTITY reports.oils_rpt.manage_folder_contents "Կառավարիր թղթապանակի բովանդակությունը">
+<!ENTITY reports.oils_rpt.manage_folder "Կառավարիր թղթապանակը">
+<!ENTITY reports.oils_rpt.created_by "ստեղծված է կողմից ">
+<!ENTITY reports.oils_rpt.create_new_sub_folder "Ստեղծիր նոր ենթաթղթապանակ">
+<!ENTITY reports.oils_rpt.folder_type "Թղթապանակի տեսակ ">
+<!ENTITY reports.oils_rpt.folder_name "Թղթապանակի անուն">
+<!ENTITY reports.oils_rpt.share_folder "Համատեղիր այս Թղթապանակը։">
+<!ENTITY reports.oils_rpt.do_not_share "Մի համատեղիր">
+<!ENTITY reports.oils_rpt.share "Համատեղել">
+<!ENTITY reports.oils_rpt.share_with "Համատեղիր սրա հետ։">
+<!ENTITY reports.oils_rpt.create_sub_folder "Ստեղծիր ենթաթղթապանակի">
+
+
+<!ENTITY reports.oils_rpt_builder.title "Evergreen: Հաշվտվության շինարար">
+<!ENTITY reports.oils_rpt_builder.reports_home "Հաշվետվությունների տուն">
+<!ENTITY reports.oils_rpt_builder.cloning_template "Կլոնավորող ձևանմուշ">
+<!ENTITY reports.oils_rpt_builder.template_name "Ձևանմուշի անվանում։ ">
+<!ENTITY reports.oils_rpt_builder.template_description "Ձևանմուշի նկարագրություն։ ">
+<!ENTITY reports.oils_rpt_builder.template_type "Ձևանմուշի տեսակ։ ">
+<!ENTITY reports.oils_rpt_builder.save_this_template "Հիշիր այս Ձևանմուշը։ ">
+<!ENTITY reports.oils_rpt_builder.filtering_note "Բնորոշում է, որ երբ նյութի վրա կատարվում է զտում ապա անվանական ընտրությունների ցուցակ է գեներացվում։">
+<!ENTITY reports.oils_rpt_builder.temp_disp_items "Նյութերի արտածման ձևանմուշ">
+<!ENTITY reports.oils_rpt_builder.remove_selected "Հեռացրու ընտրվածները">
+
+<!ENTITY reports.oils_rpt_builder.move_up "Տեղափոխել վերեւ">
+<!ENTITY reports.oils_rpt_builder.move_down "Տեղափոխել ներքեւ">
+<!-- The below two entity strings were the contents of the .xhtml file but I don't think that works when using XML entities -->
+<!-- ENTITY reports.oils_rpt_builder.move_up "Move &uarr;" -->
+<!-- ENTITY reports.oils_rpt_builder.move_down "Move &darr;" -->
+
+<!ENTITY reports.oils_rpt_builder.template_filters "Ձևանմուշի զտիչներ">
+<!ENTITY reports.oils_rpt_builder.report_aggregate_filters "Հարշվետվությանը կցված զտիչներ">
+<!ENTITY reports.oils_rpt_builder.hint "Հնարք: ">
+<!ENTITY reports.oils_rpt_builder.hint_item_details "Կրկնակի կտտացրու նյութի վրա, որպեսզի տեսնես նյութի մանրամասները։">
+<!ENTITY reports.oils_rpt_builder.template_types "Ձևանմուշի տեսակներ">
+<!ENTITY reports.oils_rpt_builder.display_items "Արտածիր նյութերը">
+<!ENTITY reports.oils_rpt_builder.filters "Զտիչներ">
+<!ENTITY reports.oils_rpt_builder.aggregate_filters "Ագրեգացրու զտիչները">
+<!ENTITY reports.oils_rpt_builder.create_aggregate_filter "Ստեղծիր համահավաք զտիչ">
+<!ENTITY reports.oils_rpt_builder.field_editor_window.label "Ընտրիր թե այս դաշտը ինչպես պետք է արտածվի։">
+<!ENTITY reports.oils_rpt_builder.add_item "Ավելացրու նյութ">
+<!ENTITY reports.oils_rpt_builder.select_filter_to_apply "Ընտրիր թե ինչ զտիչ պետք է կիրառվի այս դաշտի վրա։">
+<!ENTITY reports.oils_rpt_builder.choose_a_transform "Ընտրիր ձևափոխիչը: ">
+<!ENTITY reports.oils_rpt_builder.choose_a_filter "Ընտրիր զտիչը: ">
+<!ENTITY reports.oils_rpt_builder.create_filter "Ստեղծիր զտիչ">
+<!ENTITY reports.oils_rpt_builder.aggregate_filter_to_apply "Ընտրր թե ինչ համահավաք զտիչ պետք է կիրառվի այս դաշտի վրա։">
+<!ENTITY reports.oils_rpt_builder.selected_to_sort_columns "Ընտիր թե ինչպես պետք է սյունակները տեսակավորվեն">
+<!ENTITY reports.oils_rpt_builder.choose_column "Ընտրիր սյունակկը: ">
+<!ENTITY reports.oils_rpt_builder.choose_sorting_direction "Ընտրիր տեսակավորման ուղղությունը։ ">
+<!ENTITY reports.oils_rpt_builder.ascending "Աճող">
+<!ENTITY reports.oils_rpt_builder.descending "Նվազող">
+<!ENTITY reports.oils_rpt_builder.add_sort "Ավելացրու տեսակավորումը">
+<!ENTITY reports.oils_rpt_builder.close_window "Փակիր պատուհանը">
+<!ENTITY reports.oils_rpt_builder.confirm_new_report "Սա կոչնչացնի ստեղծվող հաշվետվությունը։ Վստա՞հ ես որ ցանկանում ես շարունակել։">
+
+
+<!ENTITY reports.oils_rpt_common.action_succeeded "Գործողությունը հաջողված է">
+<!ENTITY reports.oils_rpt_common.action_failed "Գործողությունը տապալված է">
+<!ENTITY reports.oils_rpt_common.generic_calendar_button "Ամսաթվի ընտրիչ">
+
+
+<!ENTITY reports.oils_rpt_editor.template_name "Ձևանմուշի անուն">
+<!ENTITY reports.oils_rpt_editor.template_creator "Ձևանմուշի ստեղծող։">
+<!ENTITY reports.oils_rpt_editor.template_description "Ձևանմուշի նկարագրություն։">
+<!ENTITY reports.oils_rpt_editor.report_name "Հաշվետվության անուն։">
+<!ENTITY reports.oils_rpt_editor.report_description "Հաշվետվության նկարագրություն։">
+<!ENTITY reports.oils_rpt_editor.report_columns "Հաշվետվության սյունակ։">
+<!ENTITY reports.oils_rpt_editor.pivot_label_column "Հիմնական պիտակի սյունակ։">
+<!ENTITY reports.oils_rpt_editor.select_option "Ընտրիր մեկը (ոչ պարտադիր)">
+<!ENTITY reports.oils_rpt_editor.pivot_data_column "Հիմնական տվյալի սյունակ։">
+<!ENTITY reports.oils_rpt_editor.store_report_definition "Ընտրիր թղթապանակը այս հաշվետվության սահմանումը պահելու համար: ">
+<!ENTITY reports.oils_rpt_editor.selected_folder "Ընտրիր թղթապանակը։ ">
+<!ENTITY reports.oils_rpt_editor.output_options "Ելքային ընտրություններ">
+<!ENTITY reports.oils_rpt_editor.excel_output "Excel ելք">
+<!ENTITY reports.oils_rpt_editor.csv_output "CSV ելք">
+<!ENTITY reports.oils_rpt_editor.html_output "HTML ելք">
+<!ENTITY reports.oils_rpt_editor.bar_charts "Սյունակային հիստոգրամաններ">
+<!ENTITY reports.oils_rpt_editor.line_charts "Տողային հիստոգրամաններ">
+<!ENTITY reports.oils_rpt_editor.recurring_report "Կրկնվող հաշվետվություն։ ">
+<!ENTITY reports.oils_rpt_editor.recurring_interval "Կրկնվող տիրույթ։ ">
+<!ENTITY reports.oils_rpt_editor.days "Օր(եր)">
+<!ENTITY reports.oils_rpt_editor.weeks "Շաբաթ(ներ)">
+<!ENTITY reports.oils_rpt_editor.months "Ամիս(ներ)">
+<!ENTITY reports.oils_rpt_editor.run_asap "Կատարիր որքան հնարավոր է շուտ">
+<!ENTITY reports.oils_rpt_editor.sent_to_email "Ուղարկիր կատարման մասին նշում այս էլ փոստի հասցեին։">
+<!ENTITY reports.oils_rpt_editor.midnight "Կեսգիշեր">
+<!ENTITY reports.oils_rpt_editor.noon "Կեսօր">
+<!ENTITY reports.oils_rpt_editor.storage_folder_for_output "Ընտրիր թղթապանակ այս հաշվետվության ելքը պահելու համար">
+<!ENTITY reports.oils_rpt_editor.save_report "Հիշիր հաշվետվությունը">
+<!ENTITY reports.oils_rpt_editor.empty_parameter "Օգտվողի կողմից սահմանված մեկ կամ մի քանի պարամետրեր թողնված են դատարկ։ Լրացրու բոլոր դաշտերը։">
+<!ENTITY reports.oils_rpt_editor.same_name "Այս թղթապանակում տված անվանումով արդեն կա հաշվետվություն։">
+
+
+<!ENTITY reports.oils_rpt_folder_manager.change_folder_name "Փոխիր թղթապանակի անունը">
+<!ENTITY reports.oils_rpt_folder_manager.delete_folder "Ջնջիր այս թղթապանակը">
+<!ENTITY reports.oils_rpt_folder_manager.create_new_sub_folder "Ստեղծիր նոր ենթաթղթապանակ">
+<!ENTITY reports.oils_rpt_folder_manager.share_this_folder "Համատեղիր այս թղթապանակը">
+<!ENTITY reports.oils_rpt_folder_manager.hide_folder "Թաքցրու (մի համատեղիր) այս թղթապանակը">
+<!ENTITY reports.oils_rpt_folder_manager.disable_recurrence "Արգելիր կրկնությունը">
+<!ENTITY reports.oils_rpt_folder_manager.fldr_mngr_actions_submit "Գնա">
+<!ENTITY reports.oils_rpt_folder_manager.change_name "Մուտք արա նոր անուն։">
+<!ENTITY reports.oils_rpt_folder_manager.submit "Հաստատել">
+<!ENTITY reports.oils_rpt_folder_manager.folder_name "Թղթապանակի անուն">
+<!ENTITY reports.oils_rpt_folder_manager.do_not_share "Մի համատեղիր">
+<!ENTITY reports.oils_rpt_folder_manager.share "Համատեղել">
+<!ENTITY reports.oils_rpt_folder_manager.share_with "Համատեղիր սրա հետ։">
+<!ENTITY reports.oils_rpt_folder_manager.create_sub_folder "Ստեղծիր ենթաթղթապանակ">
+<!ENTITY reports.oils_rpt_folder_manager.change_name_confirm "Դու վստա՞հ ես որ ցանկանում ես փոխել այս թղթապանակի անունը։">
+<!ENTITY reports.oils_rpt_folder_manager.delete_name_confirm "Դու վստա՞հ ես որ ցանկանում ես ջնջել այս թղթապանակը։">
+<!ENTITY reports.oils_rpt_folder_manager.cannot_delete "Այս թղթապանակը հնարավոր չէ ջնջել, քանի որ այն դատարկ չէ։">
+<!ENTITY reports.oils_rpt_folder_manager.already_shared "Այս թղթապանակը արդեն համատեղված է">
+<!ENTITY reports.oils_rpt_folder_manager.folder_not_shared "Այս թղթապանակը համատեղված չէ">
+<!ENTITY reports.oils_rpt_folder_manager.confirm_hide_folder "Դու վստա՞հ ես որ ցանկանում ես թաքցնել այս թղթապանակը։">
+
+
+<!ENTITY reports.oils_rpt_folder_window.new_report_from_template "Ընտրվածձևանմուշներից ստեղծիր նոր հաշվետվություն">
+<!ENTITY reports.oils_rpt_folder_window.clone_template "Կլոնավորի ընտրված ձևանմուշը">
+<!ENTITY reports.oils_rpt_folder_window.delete_template "Ջնջիր ընտրված ձևանմուշ(ներ)ը">
+<!ENTITY reports.oils_rpt_folder_window.clone_report "Կլոնավորի հաշվետվությունը">
+<!ENTITY reports.oils_rpt_folder_window.schedule_report "Պլանավորի հաշվետվություն">
+<!ENTITY reports.oils_rpt_folder_window.delete_reports "Ջնջիր ընտրված հաշվետվություն(ներ)ը">
+<!ENTITY reports.oils_rpt_folder_window.view_report_output "Դիտիր ելքային հաշվետվությունը">
+<!ENTITY reports.oils_rpt_folder_window.delete_output "Ջնջել ընտրված ելքերը">
+<!ENTITY reports.oils_rpt_folder_window.move_templates "Տեղափոխիր ընտրված ձևանմուշները մեկ այլ թղթապանակ">
+<!ENTITY reports.oils_rpt_folder_window.move_reports "Տեղափոխիր ընտրված հաշվետվությունները մեկ այլ թղթապանակ">
+<!ENTITY reports.oils_rpt_folder_window.move_output "Տեղափոխիր ընտրված ելքային ձևերը մեկ այլ թղթապանակ">
+<!ENTITY reports.oils_rpt_folder_window.submit "Հաստատել">
+<!ENTITY reports.oils_rpt_folder_window.limit_output "Սահմանափակիր ելքը մինչև ">
+<!ENTITY reports.oils_rpt_folder_window.all "Լրիվ">
+<!ENTITY reports.oils_rpt_folder_window.pending_items "Սպասող նյութեր">
+<!ENTITY reports.oils_rpt_folder_window.new_template "Այս թղթապանակի համար ստեղծիր նոր Ձևանմուշ">
+<!ENTITY reports.oils_rpt_folder_window.no_items_to_display "Չկան արտածման ենթակա նյութեր">
+<!ENTITY reports.oils_rpt_folder_window.completed_items "Ամբողջական նյութեր">
+<!ENTITY reports.oils_rpt_folder_window.selected_folder "Ընտրված թղթապանակ։ ">
+<!ENTITY reports.oils_rpt_folder_window.select_folder "Ընտրիր թղթապանակը">
+<!ENTITY reports.oils_rpt_folder_window.cancel "Չեղյալ անել">
+<!ENTITY reports.oils_rpt_folder_window.confirm_delete "Դու վստա՞հ ես որ ցանկանում ես ջնջել ընտրված նյութ(եր)ը">
+<!ENTITY reports.oils_rpt_folder_window.dependant_reports_no_delete "Ընտրված ձևանմուշներից մեկը կամ մի քանիսը հնարավոր չէ ջնջել քանի որ կան հաշվետվություններ, որ կախում ունեն դրանցից։">
+<!ENTITY reports.oils_rpt_folder_window.dependant_outputs_no_delete "Ընտրված հաշվետվություններից մեկը կամ մի քանիսը հնարավոր չէ ջնջել քանի որ կան հաշվետվություններ, որ կախում ունեն դրանցից։">
+<!ENTITY reports.oils_rpt_folder_window.cannot_delete_another_users_data "Դու չես կարող ջնջել մեկ այլ օգտվողի նյութերը։">
+<!ENTITY reports.oils_rpt_folder_window.cannot_move_another_users_data "Չես կարող տեղափոխել մեկ այլ օգտվողի նյութերը։">
+<!ENTITY reports.oils_rpt_folder_window.delete_all_attached_reports "        Սա կջնջի նաև բոլոր կցված հաշվետվությունները և ելքային ձևերը այս 
+ձևաչափի համար։ 
+ 
+Եթե այլ օգտվողներ ունեն այս ձևաչափին կցված հաշվետվություններ, 
+դրանք կմնան անփոփոխ, և ձևաչափը չի ջնջվի։ 
+ 
+Ցանկանու՞մ ես շարունակել։">
+<!ENTITY reports.oils_rpt_folder_window.delete_all_attached_outputs "        Սա նաև կջնջի քո բոլոր կցված ելքային տվյալները այս 
+հաշվետվության համար։. 
+ 
+Եթե այլ օգտվողներ ունեն ելքր կցված այս հաշվետվությանը, 
+դրանք կմնան անփոփոխ, և հաշվետվությունը չի ջնջվի։ 
+ 
+Ցանկանու՞մ ես շարունակել։">
+
+
+<!ENTITY reports.oils_rpt_param_editor.column "Սյունակ">
+<!ENTITY reports.oils_rpt_param_editor.transform "Տեղափոխություն">
+<!ENTITY reports.oils_rpt_param_editor.action "Գործողություն">
+<!ENTITY reports.oils_rpt_param_editor.user_params "Օգտվողի պարամետրեր">
+<!ENTITY reports.oils_rpt_param_editor.or "ԿԱՄ">
+<!ENTITY reports.oils_rpt_param_editor.use_relative_date "Փոխարենը օգտագործիր հարաբերական ամսաթիվը">
+<!ENTITY reports.oils_rpt_param_editor.days "Օր(եր)">
+<!ENTITY reports.oils_rpt_param_editor.weeks "Շաբաթ(ներ)">
+<!ENTITY reports.oils_rpt_param_editor.months "Ամիս(ներ)">
+<!ENTITY reports.oils_rpt_param_editor.ago " առաջ">
+
+
+<!ENTITY reports.xul.template_builder.db_source_browser.label "Շտեմարանի սկզբնական կոդի դիտակ">
+<!ENTITY reports.xul.template_builder.sources_menulist.label "Աղբյուրներ">
+<!ENTITY reports.xul.template_builder.source_name.label "Աղբյուրի անուն">
+<!ENTITY reports.xul.template_builder.source_nullable.label "Nullable">
+<!ENTITY reports.xul.template_builder.nullability_select.label "Թույլատրի nullability ընտրությունը">
+<!ENTITY reports.xul.template_builder.source_specifier.label "Սկզբնաղբյուրի բնութագրիչ">
+<!ENTITY reports.xul.template_builder.field_name.label "Դաշտի անուն">
+<!ENTITY reports.xul.template_builder.data_type.label "Տվյալի տեսակ">
+<!ENTITY reports.xul.template_builder.field_transform.label "Դաշտի տեղափոխություն">
+<!ENTITY reports.xul.template_builder.params.label "Params">
+<!ENTITY reports.xul.template_builder.applicable_datatypes.label "Տվյալների Ընդունելի տեսակներ">
+<!ENTITY reports.xul.template_builder.output_type.label "Ելքի տեսակ">
+<!ENTITY reports.xul.template_builder.source_add.label "Ավելացրու ընտրված դաշտերը">
+<!ENTITY reports.xul.template_builder.template_config_caption.label "Ձևանմուշի կարգավորում">
+<!ENTITY reports.xul.template_builder.name.label "Անուն">
+<!ENTITY reports.xul.template_builder.description.label "Նկարագրություն">
+<!ENTITY reports.xul.template_builder.save.label "Հիշիր">
+<!ENTITY reports.xul.template_builder.displayed_fields.label "Արտածված դաշտեր">
+<!ENTITY reports.xul.template_builder.base_filters.label "Հիմնական զտիչներ">
+<!ENTITY reports.xul.template_builder.aggregate_filters.label "Ագրեգացրու զտիչները">
+<!ENTITY reports.xul.template_builder.display_name.label "Արտածման անուն">
+<!ENTITY reports.xul.template_builder.field_transform_type.label "Դաշտի տեղափոխման տեսակ">
+<!ENTITY reports.xul.template_builder.alter_display_header.label "Փոխիր արտածման առաջատարը">
+<!ENTITY reports.xul.template_builder.move_up.label "Տեղափոխել վերեւ">
+<!ENTITY reports.xul.template_builder.move_down.label "Տեղափոխել ներքեւ">
+<!ENTITY reports.xul.template_builder.remove_selected_field.label "Հեռացրու ընտրված դաշտը">
+<!ENTITY reports.xul.template_builder.filter_field.label "Զտիր դաշտը">
+<!ENTITY reports.xul.template_builder.operator.label "Օպերատոր">
+<!ENTITY reports.xul.template_builder.value.label "Արժեք">
+<!ENTITY reports.xul.template_builder.change_transform.label "Փոխիր տեղափոխությունը">
+<!ENTITY reports.xul.template_builder.change_operator.label "Փոխիր օպերատորը">
+<!ENTITY reports.xul.template_builder.change_value.label "Փոխիր արժեքը">
+<!ENTITY reports.xul.template_builder.remove_value.label "Հեռացրու արժեքը">
+<!ENTITY reports.xul.template_builder.remove_selected_fields.label "Հեռացրու ընտրված դաշտերը">
+<!ENTITY reports.xul.template_builder.table_name.label "Աղյուսակի անուն">
+<!ENTITY reports.xul.template_builder.sql_alias.label "SQL կեղծանուն">
+<!ENTITY reports.xul.template_builder.relationship.label "կապ">

@@ -1,0 +1,2 @@
+var _l = [[1,1,null,"Exemple de consortium",1,"CONS"],[4,3,2,"Exemple de succursale 1",1,"UPEI"],[2,2,1,"Exemple de syst\u00e8me 1",1,"UNI"]]; /* Org Units */ 
+var globalOrgTypes = [new aout([null,0,0,0,1,"Consortium","Partout",null]), new aout([null,1,1,2,3,"Succursale","Cette succursale",2]), new aout([null,1,1,3,4,"Sous-biblioth\u00e8que","Cette biblioth\u00e8que sp\u00e9cialis\u00e9e",3]), new aout([null,1,1,3,5,"Bibliobus","Votre bibliobus",3]), new aout([null,1,0,1,2,"Syst\u00e8me","Syst\u00e8me local de biblioth\u00e8ques",1])]; /* OU Types */

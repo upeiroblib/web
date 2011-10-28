@@ -1,0 +1,491 @@
+***************
+*** 7,12 ****
+  var fleshedContainers = {};
+  var holdCache = {};
+  var holdStatusCache = {};
+  
+  
+  function clearNodes( node, keepArray ) {
+--- 7,13 ----
+  var fleshedContainers = {};
+  var holdCache = {};
+  var holdStatusCache = {};
++ var allowPendingAddr = false;
+  
+  
+  function clearNodes( node, keepArray ) {
+***************
+*** 17,29 ****
+  }
+  
+  function myOPACInit() {
+- 	if(!(G.user && G.user.session)) initLogin();
+- 	else myOPACChangePage( "summary" );
+  
+      $('myopac_holds_thaw_date_input').onkeyup = 
+          function(){holdsVerifyThawDateUI('myopac_holds_thaw_date_input'); }
+      $('myopac_holds_thaw_date_input').onchange = 
+          function(){holdsVerifyThawDateUI('myopac_holds_thaw_date_input'); }
+  }
+  
+  function myopacReload() {
+--- 18,40 ----
+  }
+  
+  function myOPACInit() {
+  
++ 	if(!(G.user && G.user.session)) {
++         initLogin();
++ 
++     } else {
++ 
++         allowPendingAddr = fetchOrgSettingDefault(G.user.home_ou(), 'opac.allow_pending_address');
++         if(allowPendingAddr)
++             unHideMe($('myopac_pending_addr_td'));
++ 	    myOPACChangePage( "summary" );
++     }
++ 
+      $('myopac_holds_thaw_date_input').onkeyup = 
+          function(){holdsVerifyThawDateUI('myopac_holds_thaw_date_input'); }
+      $('myopac_holds_thaw_date_input').onchange = 
+          function(){holdsVerifyThawDateUI('myopac_holds_thaw_date_input'); }
++ 
+  }
+  
+  function myopacReload() {
+***************
+*** 155,173 ****
+  		return;
+  	}
+  
+  	for( var i = 0; i < checked.overdue.length; i++ ) {
+  		var req = new Request(FETCH_CIRC_BY_ID, G.user.session, checked.overdue[i]);
+- 		req.request.tbody = tbody;
+  		req.request.od = true;
+- 		req.callback(myOPACDrawCheckedItem);
+  		req.send();
+  	}
+  
+  
+  	for( var i = 0; i < checked.out.length; i++ ) {
+  		var req = new Request(FETCH_CIRC_BY_ID, G.user.session, checked.out[i]);
+- 		req.request.tbody = tbody;
+- 		req.callback(myOPACDrawCheckedItem);
+  		req.send();
+  	}
+  
+--- 166,207 ----
+  		return;
+  	}
+  
++     var totalAsync = checked.overdue.length + checked.out.length;
++     var fetchedCircs = [];
++     var collectCircs = function(r) {
++         var circ = r.getResultObject();
++         circ._od = r.od;
++         fetchedCircs.push(circ);
++         if(fetchedCircs.length < totalAsync) return;
++ 
++         // sort by due date, oldest to newest
++         fetchedCircs = fetchedCircs.sort(
++             function(a, b) {
++                 if(a.due_date() > b.due_date()) return 1;
++                 return -1;
++             }
++         )
++ 
++         dojo.forEach(fetchedCircs, 
++             function(circ) { 
++                 myOPACDrawCheckedItem(circ, tbody);
++             }
++         );
++     }
++ 
+  	for( var i = 0; i < checked.overdue.length; i++ ) {
+  		var req = new Request(FETCH_CIRC_BY_ID, G.user.session, checked.overdue[i]);
++ 		//req.request.tbody = tbody;
+  		req.request.od = true;
++ 		req.callback(collectCircs);
+  		req.send();
+  	}
+  
+  
+  	for( var i = 0; i < checked.out.length; i++ ) {
+  		var req = new Request(FETCH_CIRC_BY_ID, G.user.session, checked.out[i]);
++ 		//req.request.tbody = tbody;
++ 		req.callback(collectCircs);
+  		req.send();
+  	}
+  
+***************
+*** 183,195 ****
+  }
+  
+  
+- function myOPACDrawCheckedItem(r) {
+  
+- 	var circ = r.getResultObject();
+- 	var tbody = r.tbody;
+  	var row = checkedRowTemplate.cloneNode(true);
+  	row.id = 'myopac_checked_row_ ' + circ.id();
+-    row.setAttribute('circid', circ.id());
+  
+  	var due = _trimTime(circ.due_date());
+  
+--- 217,230 ----
+  }
+  
+  
++ //function myOPACDrawCheckedItem(r) {
++ function myOPACDrawCheckedItem(circ, tbody) {
+  
++ 	//var circ = r.getResultObject();
++ 	//var tbody = r.tbody;
+  	var row = checkedRowTemplate.cloneNode(true);
+  	row.id = 'myopac_checked_row_ ' + circ.id();
++     row.setAttribute('circid', circ.id());
+  
+  	var due = _trimTime(circ.due_date());
+  
+***************
+*** 198,204 ****
+  	//var rnlink = $n( row, "myopac_checked_renew_link" );
+  
+  	//if( r.od ) due = elem('b', {style:'color:red;font-size:110%'},due);
+- 	if( r.od ) {
+        due = elem('b', null, due);
+        addCSSClass(due, 'overdue');
+     } else {
+--- 233,239 ----
+  	//var rnlink = $n( row, "myopac_checked_renew_link" );
+  
+  	//if( r.od ) due = elem('b', {style:'color:red;font-size:110%'},due);
++ 	if( circ._od ) {
+        due = elem('b', null, due);
+        addCSSClass(due, 'overdue');
+     } else {
+***************
+*** 358,365 ****
+  
+          $n(row, 'myopac_holds_selected_chkbx').checked = false;
+  
+          if(h.expire_time()) {
+-             var exp_date = dojo.date.stamp.fromISOString(h.expire_time());
+              $n(row, 'myopac_hold_expire_time').appendChild(
+                  text(dojo.date.locale.format(exp_date, {selector:'date'})));
+          }
+--- 393,401 ----
+  
+          $n(row, 'myopac_holds_selected_chkbx').checked = false;
+  
++         var exp_date;
+          if(h.expire_time()) {
++             exp_date = dojo.date.stamp.fromISOString(h.expire_time());
+              $n(row, 'myopac_hold_expire_time').appendChild(
+                  text(dojo.date.locale.format(exp_date, {selector:'date'})));
+          }
+***************
+*** 367,373 ****
+  		unHideMe(row);
+  
+          var interval = fetchOrgSettingDefault(G.user.home_ou(), 'circ.hold_expire_alert_interval');
+-         if(interval) {
+              secs = interval_to_seconds(interval) * 1000;
+              var diff = exp_date.getTime() - new Date().getTime();
+              if(diff < secs)
+--- 403,409 ----
+  		unHideMe(row);
+  
+          var interval = fetchOrgSettingDefault(G.user.home_ou(), 'circ.hold_expire_alert_interval');
++         if(interval && exp_date) {
+              secs = interval_to_seconds(interval) * 1000;
+              var diff = exp_date.getTime() - new Date().getTime();
+              if(diff < secs)
+***************
+*** 401,424 ****
+  	req.send();
+  }
+  
+  function myOShowHoldStatus(r) {
+  
+  	var hold = r.hold;
+- 	var status = r.getResultObject();
+-     holdStatusCache[hold.id()] = status;
+  
+  	var row = $("myopac_holds_row_" + r.hold.id());
+  
+- 	if( status < 3 )
+- 		unHideMe($n(row, 'hold_status_waiting'));
+  
+- 	if( status == 3 )
+- 		unHideMe($n(row, 'hold_status_transit'));
+- 
+- 	if( status == 4 ) {
+  		unHideMe($n(row, 'hold_status_available'));
+  		hideMe($n(row, 'myopac_holds_cancel_link'));
+  	}
+  }
+  
+  
+--- 437,477 ----
+  	req.send();
+  }
+  
++ var myopacShowHoldEstimate = false;
+  function myOShowHoldStatus(r) {
+  
+  	var hold = r.hold;
++ 	var qstats = r.getResultObject();
++     holdStatusCache[hold.id()] = qstats;
+  
+  	var row = $("myopac_holds_row_" + r.hold.id());
+  
++     if(qstats.estimated_wait || myopacShowHoldEstimate) {
++         myopacShowHoldEstimate = true;
++         if(qstats.estimated_wait)
++             $n(row, 'myopac_holds_estimated_wait').appendChild(text(qstats.estimated_wait));
++         unHideMe($('myopac_holds_estimated_wait_column'));
++         unHideMe($n(row, 'myopac_holds_estimated_wait'));
++     } 
+  
++ 	if( qstats.status == 4 ) {
+  		unHideMe($n(row, 'hold_status_available'));
+  		hideMe($n(row, 'myopac_holds_cancel_link'));
+  	}
++ 
++     if(false) {
++         var node = $n(row, 'hold_qstats');
++         // XXX best way to display this info + dojo i18n
++         node.appendChild(text('hold #' + qstats.queue_position+' of '+qstats.queue_position+' and '+qstats.potential_copies+' item(s)'));
++         unHideMe(node);
++ 
++     } else {
++ 	    if( qstats.status < 3 )
++ 		    unHideMe($n(row, 'hold_status_waiting'));
++     
++ 	    if( qstats.status == 3 )
++ 		    unHideMe($n(row, 'hold_status_transit'));
++     }
+  }
+  
+  
+***************
+*** 784,789 ****
+  	var iv1 = user.ident_value()+'';
+      if (iv1.length > 4 && iv1.match(/\d{4}/)) iv1 = iv1.substring(0,4) + '***********';
+  
+  	appendClear($('myopac_summary_prefix'),text(user.prefix()));
+  	appendClear($('myopac_summary_first'),text(user.first_given_name()));
+  	appendClear($('myopac_summary_middle'),text(user.second_given_name()));
+--- 837,843 ----
+  	var iv1 = user.ident_value()+'';
+      if (iv1.length > 4 && iv1.match(/\d{4}/)) iv1 = iv1.substring(0,4) + '***********';
+  
++ 
+  	appendClear($('myopac_summary_prefix'),text(user.prefix()));
+  	appendClear($('myopac_summary_first'),text(user.first_given_name()));
+  	appendClear($('myopac_summary_middle'),text(user.second_given_name()));
+***************
+*** 816,824 ****
+  	}
+  	removeChildren(tbody);
+  
+- 	for( var a in user.addresses() ) {
+  		var row = template.cloneNode(true);
+- 		myOPACDrawAddr(row, user.addresses()[a]);
+  		tbody.appendChild(row);
+  	}
+  }
+--- 870,883 ----
+  	}
+  	removeChildren(tbody);
+  
++     var addrs = user.addresses();
++ 	for( var a in addrs ) {
++         var addr = addrs[a];
++         if(!allowPendingAddr && isTrue(addr.pending()))
++             continue;
++         if(addr.replaces() != null) continue;
+  		var row = template.cloneNode(true);
++ 		myOPACDrawAddr(row, addr, addrs);
+  		tbody.appendChild(row);
+  	}
+  }
+***************
+*** 844,861 ****
+  
+  
+  
+- function myOPACDrawAddr(row, addr) {
+  
+- 	appendClear($n(row, 'myopac_addr_type'),text(addr.address_type()));
+- 	var street = (addr.street2()) ? addr.street1() + ", " + addr.street2() : addr.street1();
+- 	appendClear($n(row, 'myopac_addr_street'),text(street));
+- 	appendClear($n(row, 'myopac_addr_city'),text(addr.city()));
+- 	appendClear($n(row, 'myopac_addr_county'),text(addr.county()));
+- 	appendClear($n(row, 'myopac_addr_state'),text(addr.state()));
+- 	appendClear($n(row, 'myopac_addr_zip'),text(addr.post_code()));
+  }
+  
+  
+  function myOPACUpdateUsername() {
+  	var username = $('myopac_new_username').value;
+  	if(username == null || username == "") {
+--- 903,1025 ----
+  
+  
+  
++ function myOPACDrawAddr(row, addr, addrs) {
++     appendClear($n(row, 'myopac_addr_type'),text(addr.address_type()));
++     appendClear($n(row, 'myopac_addr_street'),text(addr.street1()));
++     appendClear($n(row, 'myopac_addr_street2'),text(addr.street2()));
++     appendClear($n(row, 'myopac_addr_city'),text(addr.city()));
++     appendClear($n(row, 'myopac_addr_county'),text(addr.county()));
++     appendClear($n(row, 'myopac_addr_state'),text(addr.state()));
++     appendClear($n(row, 'myopac_addr_country'),text(addr.country()));
++     appendClear($n(row, 'myopac_addr_zip'),text(addr.post_code()));
+  
++     if(!allowPendingAddr) return;
++ 
++     $n(row, 'myopac_addr_edit_link').onclick = function(){myopacEditAddress(addr)};
++     unHideMe($n(row, 'myopac_addr_edit_td'));
++ 
++     /* if we have a replacement address, plop it into the table next to this addr */
++     var repl = grep(addrs,
++         function(a) { 
++             return a.replaces() == addr.id(); 
++         } 
++     );
++ 
++     $n(row, 'myopac_pending_addr_td').id = 'myopac_pending_addr_td_' + addr.id();
++ 
++     if(repl) {
++         hideMe($n(row, 'myopac_addr_edit_td')); // hide the edit link
++         repl = repl[0];
++         myopacSetAddrInputs(row, repl);
++     }
+  }
+  
++ function myopacEditAddress(addr) {
++     var td = $('myopac_pending_addr_td_' + addr.id());
++     var row = td.parentNode;
++     myopacSetAddrInputs(row, addr);
++ }
+  
++ function myopacSetAddrInputs(row, addr, prefix) {
++     unHideMe($n(row, 'myopac_pending_addr_td'));
++     $n(row, 'myopac_pending_addr_type').value = addr.address_type();
++     $n(row, 'myopac_pending_addr_street').value = addr.street1();
++     $n(row, 'myopac_pending_addr_street2').value = addr.street2();
++     $n(row, 'myopac_pending_addr_city').value = addr.city();
++     $n(row, 'myopac_pending_addr_county').value = addr.county();
++     $n(row, 'myopac_pending_addr_state').value = addr.state();
++     $n(row, 'myopac_pending_addr_country').value = addr.country();
++     $n(row, 'myopac_pending_addr_zip').value = addr.post_code();
++     $n(row, 'myopac_pending_addr_edit_link').onclick = function(){myopacSaveAddress(row, addr)};
++     $n(row, 'myopac_pending_addr_del_link').onclick = function(){myopacSaveAddress(row, addr, true)};
++ }
++ 
++ // if no pending addr exists, this is called with the original address
++ function myopacSaveAddress(row, addr, deleteMe) {
++ 
++     if(addr.replaces() == null) {
++         // we are editing a non-pending address.  create a pending address to manage that
++         var repl = new aua();
++         repl.usr(addr.usr());
++         repl.address_type(addr.address_type());
++         repl.within_city_limits(addr.within_city_limits());
++         repl.replaces(addr.id());
++         repl.pending('t');
++         repl.isnew(true);
++         repl.id(null);
++         addr = repl;
++     }
++ 
++     if(deleteMe) {
++         if(addr.id() == null) {
++             hideMe($n(row, 'myopac_pending_addr_td'));
++             return;
++         }
++         addr.isdeleted(true);
++     } else {
++         addr.address_type($n(row, 'myopac_pending_addr_type').value);
++         addr.street1($n(row, 'myopac_pending_addr_street').value);
++         addr.street2($n(row, 'myopac_pending_addr_street2').value);
++         addr.city($n(row, 'myopac_pending_addr_city').value);
++         addr.county($n(row, 'myopac_pending_addr_county').value);
++         addr.state($n(row, 'myopac_pending_addr_state').value);
++         addr.country($n(row, 'myopac_pending_addr_country').value);
++         addr.post_code($n(row, 'myopac_pending_addr_zip').value);
++     }
++ 
++ 	var req = new Request(
++         'open-ils.actor:open-ils.actor.user.address.pending.cud', 
++         G.user.session, addr);
++ 
++     req.callback(
++         function(r) {
++             var resp = r.getResultObject(); 
++ 
++             if(addr.isnew()) {
++                 // new, add to list of addrs
++                 addr.id(resp);
++                 fleshedUser.addresses().push(addr);
++ 
++             } else {
++                 // deleted, remove from list of addrs
++                 if(addr.isdeleted()) {
++                     hideMe($n(row, 'myopac_pending_addr_td'));
++                     var addrs = [];
++                     for(var i in fleshedUser.addresses()) {
++                         var a = fleshedUser.addresses()[i];
++                         if(a.id() != addr.id())
++                             addrs.push(a);
++                     }
++                     fleshedUser.addresses(addrs);
++                 }
++             }
++            alertId('myopac_addr_changes_saved');
++         }
++     );
++     req.send();
++ };
++ 
++ 
+  function myOPACUpdateUsername() {
+  	var username = $('myopac_new_username').value;
+  	if(username == null || username == "") {
+***************
+*** 1380,1386 ****
+      var holds = [];
+      for(var i = 0; i < selectedRows.length; i++) {
+          hold = holdCache[myopacHoldIDFromRow(selectedRows[i])];
+-         var status = holdStatusCache[hold.id()];
+          switch(action) {
+              case 'cancel':
+                  holds.push(hold);
+--- 1544,1550 ----
+      var holds = [];
+      for(var i = 0; i < selectedRows.length; i++) {
+          hold = holdCache[myopacHoldIDFromRow(selectedRows[i])];
++         var qstats = holdStatusCache[hold.id()];
+          switch(action) {
+              case 'cancel':
+                  holds.push(hold);
+***************
+*** 1391,1397 ****
+                      holds.push(hold);
+                  break;
+              case 'freeze':
+-                 if(!isTrue(hold.frozen()) && status < 3)
+                      holds.push(hold);
+                  break;
+          }
+--- 1555,1561 ----
+                      holds.push(hold);
+                  break;
+              case 'freeze':
++                 if(!isTrue(hold.frozen()) && qstats.status < 3)
+                      holds.push(hold);
+                  break;
+          }

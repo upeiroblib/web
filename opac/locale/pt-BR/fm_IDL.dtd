@@ -1,0 +1,2821 @@
+<!ENTITY field.bre.source.label "Origem do Registro">
+<!ENTITY class.rxpt.label "Total de Transações de Pagamentos">
+<!ENTITY field.acn.label_sortkey.label "Sort Key">
+<!ENTITY field.sunit.sort_key.label "Sort Key">
+<!ENTITY field.mrd.vr_format.label "Formato da Gravação em Vídeo">
+<!ENTITY class.acqlih.label "Line Item History">
+<!ENTITY field.au.ident_value2.label "Idntificação Secundária">
+<!ENTITY field.sdist.record_entry.label "Legacy Record Entry">
+<!ENTITY field.acqfst.amount.label "Total do Montante Pago">
+<!ENTITY field.acqafst.amount.label "Total do Montante Pago">
+<!ENTITY field.auri.use_restriction.label "Usar Informação">
+<!ENTITY class.cmrtm.label "MARC21 Record Type Map">
+<!ENTITY field.mp.credit_card_payment.label "Detalhes do Pagto em Cartão de Crédito">
+<!ENTITY field.mbp.credit_card_payment.label "Detalhes do Pagto em Cartão de Crédito">
+<!ENTITY field.cracct.host.label "Host">
+<!ENTITY field.czs.host.label "Host">
+<!ENTITY field.acqedi.host.label "Host">
+<!ENTITY field.rccbs.patron_city.label "Cidade do Usuário">
+<!ENTITY class.cmsa.label "Metabib Search Alias">
+<!ENTITY field.circ.billing_total.label "Totais da Cobrança">
+<!ENTITY field.combcirc.billing_total.label "Totais da Cobrança">
+<!ENTITY field.acirc.billing_total.label "Totais da Cobrança">
+<!ENTITY field.bresv.billing_total.label "Totais da Cobrança">
+<!ENTITY field.mg.billing_total.label "Totais da Cobrança">
+<!ENTITY field.mbt.billing_total.label "Totais da Cobrança">
+<!ENTITY field.rodcirc.billing_total.label "Totais da Cobrança">
+<!ENTITY field.qsq.where_clause.label "WHERE Clause">
+<!ENTITY field.brt.transferable.label "Tranferível">
+<!ENTITY class.aoa.label "Endereço da Org">
+<!ENTITY field.auri.id.label "URI ID">
+<!ENTITY field.mcrp.id.label "ID de Pagamento">
+<!ENTITY field.au.claims_returned_count.label "Número de Requisições-Retornadas">
+<!ENTITY class.acqfsrcct.label "Crédito Total para Fonte de Financiamento">
+<!ENTITY class.acqlipad.label "Definição do Atributo do Fornecedor do Item de Linha">
+<!ENTITY field.bra.required.label "É Requerido">
+<!ENTITY field.bresv.booking_interval.label "Intervalo de Reserva">
+<!ENTITY field.cmfinm.params.label "Parâmetros (JSON Array)">
+<!ENTITY field.vii.ref.label "Referência">
+<!ENTITY field.viiad.ref.label "Referência">
+<!ENTITY field.rocit.ref.label "Referência">
+<!ENTITY field.acqfsb.amount.label "Saldo depois Gastos">
+<!ENTITY class.atenv.label "Entrada de Ambiente do Evento Desencadeador">
+<!ENTITY class.cit.label "Identificação: Tipo">
+<!ENTITY field.vbm.matched_attr.label "Atributo Condizente">
+<!ENTITY field.vam.matched_attr.label "Atributo Condizente">
+<!ENTITY field.ahn.method.label "Notificação: Método">
+<!ENTITY class.bravm.label "Mapa de Valor de Atributo de Reserva">
+<!ENTITY field.bravm.id.label "Mapa de Valor de Atributo de Reserva">
+<!ENTITY field.rccc.call_number.label "Ligação do Nº de Chamada">
+<!ENTITY field.circ.checkin_lib.label "Biblioteca de Entrada">
+<!ENTITY field.combcirc.checkin_lib.label "Biblioteca de Entrada">
+<!ENTITY field.acirc.checkin_lib.label "Biblioteca de Entrada">
+<!ENTITY field.rodcirc.checkin_lib.label "Biblioteca de Entrada">
+<!ENTITY class.citm.label "Mapa do Tipo de Item">
+<!ENTITY field.rccbs.billing_location_shortname.label "Nome Abreviado da Localização de Cobrança">
+<!ENTITY class.aous.label "Definições da Unidade Organizacional">
+<!ENTITY field.rxbt.unvoided.label "Montante Faturado NãoAnulado">
+<!ENTITY field.atevdef.hook.label "Gancho">
+<!ENTITY field.ssr.deleted.label "Excluído">
+<!ENTITY field.rocit.deleted.label "Excluído">
+<!ENTITY field.mcrp.payment_ts.label "DataHora de Pagamento">
+<!ENTITY field.mwp.payment_ts.label "DataHora de Pagamento">
+<!ENTITY field.mgp.payment_ts.label "DataHora de Pagamento">
+<!ENTITY field.mckp.payment_ts.label "DataHora de Pagamento">
+<!ENTITY field.aou.attr_vals.label "Valores do Atributo">
+<!ENTITY field.vii.record.label "Importar Registro">
+<!ENTITY field.bra.valid_values.label "Valores Válidos">
+<!ENTITY field.sstr.items.label "Item">
+<!ENTITY field.siss.items.label "Item">
+<!ENTITY field.ac.active.label "Esta-Ativo?">
+<!ENTITY field.au.other_phone.label "Outro Telefone">
+<!ENTITY class.acqfdeb.label "Débito do Fundo">
+<!ENTITY field.rxpt.total.label "Valor Total Pago">
+<!ENTITY field.au.family_name.label "Último Nome">
+<!ENTITY field.stgu.family_name.label "Último Nome">
+<!ENTITY class.rlcd.label "Last Copy Delete Time">
+<!ENTITY class.mous.label "Abrir Sumário de Usuário">
+<!ENTITY field.au.stat_cat_entries.label "Entradas de Categoria Estatística">
+<!ENTITY field.sunit.stat_cat_entries.label "Entradas de Categoria Estatística">
+<!ENTITY field.acp.stat_cat_entries.label "Entradas de Categoria Estatística">
+<!ENTITY field.vmp.owner.label "Proprietário">
+<!ENTITY field.vibtf.owner.label "Proprietário">
+<!ENTITY field.viiad.owner.label "Proprietário">
+<!ENTITY field.vbq.owner.label "Proprietário">
+<!ENTITY field.vaq.owner.label "Proprietário">
+<!ENTITY field.cracct.owner.label "Proprietário">
+<!ENTITY field.are.owner.label "Proprietário">
+<!ENTITY field.bre.owner.label "Proprietário">
+<!ENTITY field.chdd.owner.label "Proprietário">
+<!ENTITY field.auss.owner.label "Proprietário">
+<!ENTITY field.acqpro.owner.label "Proprietário">
+<!ENTITY field.acqfs.owner.label "Proprietário">
+<!ENTITY field.acqpl.owner.label "Proprietário">
+<!ENTITY field.acqpo.owner.label "Proprietário">
+<!ENTITY field.acqpoh.owner.label "Proprietário">
+<!ENTITY field.acqedi.owner.label "Proprietário">
+<!ENTITY field.afs.owner.label "Proprietário">
+<!ENTITY field.bresv.current_resource.label "Recurso Atual">
+<!ENTITY class.acqfcb.label "Saldo de Fundo Combinado">
+<!ENTITY field.ahr.holdable_formats.label "Formatos Reserváveis (para reserva tipo-M)">
+<!ENTITY class.acqie.label "Invoice Entry">
+<!ENTITY field.pgpt.grp.label "Grupo">
+<!ENTITY field.au.ident_type2.label "Tipo Secundário de Identificação">
+<!ENTITY field.auoi.staff.label "Funcionário">
+<!ENTITY field.sbsum.generated_coverage.label "Generated Coverage">
+<!ENTITY field.sssum.generated_coverage.label "Generated Coverage">
+<!ENTITY field.sisum.generated_coverage.label "Generated Coverage">
+<!ENTITY class.mdp.label "Pagamentos: Balcão">
+<!ENTITY field.qrc.column_type.label "Column Type">
+<!ENTITY field.aou.shortname.label "Nome Abreviado (regulado)">
+<!ENTITY field.acn.deleted.label "Esta Excluído">
+<!ENTITY field.au.deleted.label "Esta Excluído">
+<!ENTITY field.sre.deleted.label "Esta Excluído">
+<!ENTITY field.sunit.deleted.label "Esta Excluído">
+<!ENTITY field.acp.deleted.label "Esta Excluído">
+<!ENTITY field.mg.xact_finish.label ""TimeStamp" do Término da Transação">
+<!ENTITY field.mb.billing_ts.label "DataHora de Faturamento">
+<!ENTITY class.crcd.label "Regra de Duração de Circulação">
+<!ENTITY class.acqpa.label "Endereço do fornecedor">
+<!ENTITY field.acqlia.id.label "Valor de Atributo ID">
+<!ENTITY class.ahcm.label "Mapa de Reserva de Exemplar">
+<!ENTITY class.arn.label "Obs do Registro de Autorização">
+<!ENTITY class.rocit.label "Lista de Itens Clássicos">
+<!ENTITY field.acqpon.value.label "Valor do Voto">
+<!ENTITY field.vii.definition.label "Definição de Atributo">
+<!ENTITY class.acqcl.label "Claim">
+<!ENTITY class.cbt.label "Tipo de Cobrança">
+<!ENTITY field.rmocbbol.billing_type.label "Tipo de Cobrança">
+<!ENTITY field.rmocbbcol.billing_type.label "Tipo de Cobrança">
+<!ENTITY field.rmocbbhol.billing_type.label "Tipo de Cobrança">
+<!ENTITY class.rrf.label "Pasta de Relatório">
+<!ENTITY field.jub.lineitem_notes.label "Obs do Item de Linha">
+<!ENTITY field.ahtc.hold.label "Artigo em reserva que precisa de transito">
+<!ENTITY field.aout.name.label "Nome do Tipo">
+<!ENTITY field.ahr.cancel_time.label "Data/Hora de cancelamento de artigo em reserva">
+<!ENTITY class.acqcle.label "Claim Event">
+<!ENTITY class.xcol.label "Column Expression">
+<!ENTITY field.cza.format.label "Formato">
+<!ENTITY field.cvrfm.value.label "Formato">
+<!ENTITY field.cmf.format.label "Formato">
+<!ENTITY class.aiit.label "Non-bibliographic Invoice Item Type">
+<!ENTITY field.au.usrname.label "OPAC/ Nome de Usuário do Cliente Admnistrativo">
+<!ENTITY field.vii.circ_lib.label "Biblioteca de Circulação">
+<!ENTITY field.viiad.circ_lib.label "Biblioteca de Circulação">
+<!ENTITY field.circ.circ_lib.label "Biblioteca de Circulação">
+<!ENTITY field.combcirc.circ_lib.label "Biblioteca de Circulação">
+<!ENTITY field.acirc.circ_lib.label "Biblioteca de Circulação">
+<!ENTITY field.sunit.circ_lib.label "Biblioteca de Circulação">
+<!ENTITY field.acp.circ_lib.label "Biblioteca de Circulação">
+<!ENTITY field.ancc.circ_lib.label "Biblioteca de Circulação">
+<!ENTITY field.aufhl.circ_lib.label "Biblioteca de Circulação">
+<!ENTITY field.aufhil.circ_lib.label "Biblioteca de Circulação">
+<!ENTITY field.aufhol.circ_lib.label "Biblioteca de Circulação">
+<!ENTITY field.rodcirc.circ_lib.label "Biblioteca de Circulação">
+<!ENTITY field.rmocbbcol.circ_lib.label "Biblioteca de Circulação">
+<!ENTITY field.rmobbcol.circ_lib.label "Biblioteca de Circulação">
+<!ENTITY field.afs.scheduled_time.label "Scheduled Time">
+<!ENTITY field.auri.call_number_maps.label "Mapas de Nº de Chamada">
+<!ENTITY class.acnn.label "Obs de Nº de Chamada">
+<!ENTITY field.qdt.is_numeric.label "Is Numeric">
+<!ENTITY class.cmfpm.label "MARC21 Fixed Field Map">
+<!ENTITY field.ccmm.max_fine_rule.label "Regra para multa máxima">
+<!ENTITY field.circ.max_fine_rule.label "Regra para multa máxima">
+<!ENTITY field.combcirc.max_fine_rule.label "Regra para multa máxima">
+<!ENTITY field.acirc.max_fine_rule.label "Regra para multa máxima">
+<!ENTITY class.crmf.label "Regra para multa máxima">
+<!ENTITY field.rodcirc.max_fine_rule.label "Regra para multa máxima">
+<!ENTITY class.chmm.label "Ponto de correspondência matricial de empréstimos">
+<!ENTITY field.bre.subject_field_entries.label "Entradas Indexadas do Campo Assunto">
+<!ENTITY class.acpl.label "Exemplar/Localização na Estante">
+<!ENTITY field.acqofscred.sort_date.label "Define Data">
+<!ENTITY field.asvr.response_group_id.label "ID Grupo de Respostas">
+<!ENTITY class.aus.label "Configurações de Usuário">
+<!ENTITY class.actscecm.label "Entrada da Categoria Estatística do Usuário">
+<!ENTITY field.aoa.san.label "SAN">
+<!ENTITY field.acqpro.san.label "SAN">
+<!ENTITY field.accs.checkout_workstation.label "Estação de Trabalho de Entradas">
+<!ENTITY class.asc.label "Categorias estatísticas de bens">
+<!ENTITY class.jub.label "Item de Linha">
+<!ENTITY field.acqlin.lineitem.label "Item de Linha">
+<!ENTITY field.cracct.path.label "XPath">
+<!ENTITY field.acqedi.path.label "XPath">
+<!ENTITY field.vii.pub_note.label "Observação Pública">
+<!ENTITY field.viiad.pub_note.label "Observação Pública">
+<!ENTITY field.sunit.total_circ_count.label "Total de Circulações">
+<!ENTITY field.acp.total_circ_count.label "Total de Circulações">
+<!ENTITY field.rccbs.usr_home_ou_name.label "Nome da Bliblioteca de Residência do Usuário">
+<!ENTITY field.au.credit_forward_balance.label "Saldo do crédito do usuário">
+<!ENTITY field.scap.enum_5.label "Enum 5">
+<!ENTITY class.mcrp.label "Pagamento em Crédito da Casa">
+<!ENTITY field.acn.uri_maps.label "URI Mapas">
+<!ENTITY field.ahr.eligible_copies.label "Exemplares Elegíveis">
+<!ENTITY field.rccbs.total_owed.label "Total Faturado">
+<!ENTITY field.rmocbbol.billed.label "Total Faturado">
+<!ENTITY field.rmocbbcol.billed.label "Total Faturado">
+<!ENTITY field.rmocbbhol.billed.label "Total Faturado">
+<!ENTITY field.brav.valid_value.label "Valor Válido">
+<!ENTITY field.mp.check_payment.label "Detalhes do Pagto em Cheque">
+<!ENTITY field.mbp.check_payment.label "Detalhes do Pagto em Cheque">
+<!ENTITY field.asvr.effective_date.label "Data/Hora da resposta efetiva">
+<!ENTITY field.ahr.capture_time.label "Data/Hora de Separação">
+<!ENTITY field.acqpl.id.label "Selection List ID">
+<!ENTITY class.pupm.label "Mapa de Permissão de Usuário">
+<!ENTITY class.auricnm.label "Acesso Eletrônico URI a Mapa de Nº de chamada">
+<!ENTITY field.acqfap.percent.label "Percentual">
+<!ENTITY field.crahp.id.label "ID da Regra">
+<!ENTITY field.crmf.id.label "ID da Regra">
+<!ENTITY field.sunit.loan_duration.label "Duração do Empréstimo">
+<!ENTITY field.acp.loan_duration.label "Duração do Empréstimo">
+<!ENTITY field.act.loan_duration.label "Duração do Empréstimo">
+<!ENTITY field.vbq.queue_type.label "Tipo">
+<!ENTITY field.vaq.queue_type.label "Tipo">
+<!ENTITY field.mrd.item_type.label "Tipo">
+<!ENTITY field.aua.address_type.label "Tipo">
+<!ENTITY field.scap.type.label "Tipo">
+<!ENTITY field.mb.btype.label "Tipo">
+<!ENTITY field.acqpca.address_type.label "Tipo">
+<!ENTITY field.acqlia.attr_type.label "Tipo">
+<!ENTITY field.qbv.type.label "Tipo">
+<!ENTITY field.bmpc.ptype.label "Tipo">
+<!ENTITY field.cracct.username.label "Nome do Usuário">
+<!ENTITY field.acqedi.username.label "Nome do Usuário">
+<!ENTITY class.ccnbn.label "Nota do Nº de Chamada da Cesta">
+<!ENTITY field.ausp.staff.label "Atendimento">
+<!ENTITY field.ahn.hold.label "Reserva">
+<!ENTITY field.aufh.hold.label "Reserva">
+<!ENTITY field.atev.id.label "Evento, ID">
+<!ENTITY field.atevparam.id.label "Evento, ID">
+<!ENTITY class.cubin.label "Nota de Item da Cesta de Usuário">
+<!ENTITY field.acqafsb.amount.label "Total Spent Balance">
+<!ENTITY class.ccbi.label "Copiar Item da Cesta">
+<!ENTITY field.acqpo.order_date.label "Data do Pedido">
+<!ENTITY field.acqpoh.order_date.label "Data do Pedido">
+<!ENTITY field.sunit.fine_level.label "Nível da Multa">
+<!ENTITY field.acp.fine_level.label "Nível da Multa">
+<!ENTITY field.act.fine_level.label "Nível da Multa">
+<!ENTITY field.atevdef.validator.label "Validador">
+<!ENTITY field.acqpon.vendor_public.label "Vendor Public">
+<!ENTITY field.acqlin.vendor_public.label "Vendor Public">
+<!ENTITY field.pgt.application_perm.label "Permissão Requerida">
+<!ENTITY field.sunit.status_changed_time.label "Copia Situação de Mudança de Hora">
+<!ENTITY field.acp.status_changed_time.label "Copia Situação de Mudança de Hora">
+<!ENTITY field.sunit.mint_condition.label "É Condição Mint">
+<!ENTITY field.ahr.mint_condition.label "É Condição Mint">
+<!ENTITY field.acp.mint_condition.label "É Condição Mint">
+<!ENTITY field.rccc.dewey_block_hundreds.label "Bloco Dewey - Centenas">
+<!ENTITY field.chmm.marc_form.label "MARC: Formato">
+<!ENTITY field.ccmm.marc_form.label "MARC: Formato">
+<!ENTITY field.rccc.item_form.label "MARC: Formato">
+<!ENTITY field.cmfinm.pos.label "Ordem da Aplicação">
+<!ENTITY field.ssr.visible.label "Visível">
+<!ENTITY field.sdist.streams.label "Streams">
+<!ENTITY field.atev.error_output.label "Saída de Erro">
+<!ENTITY field.circ.id.label "ID de Circ">
+<!ENTITY field.combcirc.id.label "ID de Circ">
+<!ENTITY field.acirc.id.label "ID de Circ">
+<!ENTITY field.rodcirc.id.label "ID de Circ">
+<!ENTITY field.chmm.active.label "Ativo?">
+<!ENTITY field.ccmm.active.label "Ativo?">
+<!ENTITY field.scap.active.label "Ativo?">
+<!ENTITY class.ascecm.label "Mapa de Exemplar de Entrada de Categoria Estatística">
+<!ENTITY field.atc.prev_hop.label "Pulo Anterior (nãousado)">
+<!ENTITY field.iatc.prev_hop.label "Pulo Anterior (nãousado)">
+<!ENTITY field.rocit.stat_cat_1_value.label "Est Valor Cat 1 (Legado)">
+<!ENTITY field.acpl.circulate.label "Pode Circular?">
+<!ENTITY field.sunit.stat_cat_entry_copy_maps.label "Mapas de Entrada de Cat-Estat">
+<!ENTITY field.acp.stat_cat_entry_copy_maps.label "Mapas de Entrada de Cat-Estat">
+<!ENTITY field.atcol.module.label "Nome do Módulo">
+<!ENTITY field.atval.module.label "Nome do Módulo">
+<!ENTITY field.atreact.module.label "Nome do Módulo">
+<!ENTITY field.atclean.module.label "Nome do Módulo">
+<!ENTITY class.ccnbin.label "Nota de Item de Cesta de Nº de chamada">
+<!ENTITY field.vqbr.create_time.label "Criar Hora">
+<!ENTITY field.vqar.create_time.label "Criar Hora">
+<!ENTITY field.acqfdeb.create_time.label "Criar Hora">
+<!ENTITY field.acqfa.create_time.label "Criar Hora">
+<!ENTITY field.acqfap.create_time.label "Criar Hora">
+<!ENTITY field.acqpoh.create_time.label "Criar Hora">
+<!ENTITY field.acqlih.create_time.label "Criar Hora">
+<!ENTITY field.acqdfa.create_time.label "Criar Hora">
+<!ENTITY field.combcirc.usr_birth_year.label "Ano de Nascimento do Usuário">
+<!ENTITY field.acirc.usr_birth_year.label "Ano de Nascimento do Usuário">
+<!ENTITY field.atc.hold_transit_copy.label "Trânsito da Reserva">
+<!ENTITY class.ahtc.label "Trânsito da Reserva">
+<!ENTITY field.iatc.hold_transit_copy.label "Trânsito da Reserva">
+<!ENTITY field.accs.last_stop_fines_time.label "Last Stop Fines Time">
+<!ENTITY field.aur.need_before.label "Need Before Date/Time">
+<!ENTITY field.acqfdeb.encumbrance.label "Comprometimento">
+<!ENTITY field.ccm.sip2_media_type.label "Mídia Tipo SIP@2">
+<!ENTITY field.vqbrad.code.label "Código">
+<!ENTITY field.vqarad.code.label "Código">
+<!ENTITY field.cza.code.label "Código">
+<!ENTITY field.ccm.code.label "Código">
+<!ENTITY field.aiit.code.label "Código">
+<!ENTITY field.acqim.code.label "Código">
+<!ENTITY field.ccpbt.code.label "Código">
+<!ENTITY field.ccnbt.code.label "Código">
+<!ENTITY field.cbrebt.code.label "Código">
+<!ENTITY field.cubt.code.label "Código">
+<!ENTITY field.cvrfm.code.label "Código">
+<!ENTITY field.acqpro.code.label "Código">
+<!ENTITY field.acqipm.code.label "Código">
+<!ENTITY field.acqfs.code.label "Código">
+<!ENTITY field.acqf.code.label "Código">
+<!ENTITY field.acqliat.code.label "Código">
+<!ENTITY field.acqliad.code.label "Código">
+<!ENTITY field.acqlimad.code.label "Código">
+<!ENTITY field.acqligad.code.label "Código">
+<!ENTITY field.acqliuad.code.label "Código">
+<!ENTITY field.acqlipad.code.label "Código">
+<!ENTITY field.acqlilad.code.label "Código">
+<!ENTITY field.acqclt.code.label "Código">
+<!ENTITY field.acqclet.code.label "Código">
+<!ENTITY field.cmrtm.code.label "Código">
+<!ENTITY class.cubi.label "Item da Cesta do Usuário">
+<!ENTITY field.circ.due_date.label "Data/Hora de Vencimento">
+<!ENTITY field.combcirc.due_date.label "Data/Hora de Vencimento">
+<!ENTITY field.acirc.due_date.label "Data/Hora de Vencimento">
+<!ENTITY field.rodcirc.due_date.label "Data/Hora de Vencimento">
+<!ENTITY class.acqafsb.label "Saldo do Fundo Gasto">
+<!ENTITY class.acqafst.label "All Fund Spent Total">
+<!ENTITY field.aur.holdable_formats.label "Holdable Formats">
+<!ENTITY field.acqpo.id.label "Ordem de Compra, ID">
+<!ENTITY field.acqpoh.id.label "Ordem de Compra, ID">
+<!ENTITY field.sunit.age_protect.label "Proteção de Reserva por Tempo">
+<!ENTITY field.acp.age_protect.label "Proteção de Reserva por Tempo">
+<!ENTITY field.brt.name.label "Nome de Tipo de Recurso">
+<!ENTITY class.sunit.label "Unit">
+<!ENTITY field.sitem.unit.label "Unit">
+<!ENTITY class.cst.label "Penalidades Permanentes">
+<!ENTITY class.csp.label "Penalidades Permanentes">
+<!ENTITY field.ausp.standing_penalty.label "Penalidades Permanentes">
+<!ENTITY field.circ.checkin_staff.label "Setor de Entrada">
+<!ENTITY field.combcirc.checkin_staff.label "Setor de Entrada">
+<!ENTITY field.acirc.checkin_staff.label "Setor de Entrada">
+<!ENTITY field.rodcirc.checkin_staff.label "Setor de Entrada">
+<!ENTITY field.mdp.cash_drawer.label "Gaveta do Caixa">
+<!ENTITY field.acnc.field.label "Call number fields">
+<!ENTITY class.cza.label "Atributo Z39.50">
+<!ENTITY field.amtr.success.label "Sucesso">
+<!ENTITY class.srlu.label "Routing List User">
+<!ENTITY field.mrd.pub_status.label "Situação da Pub.">
+<!ENTITY field.aufhmxl.max.label "Loop Max">
+<!ENTITY field.atev.async_output.label "Saídas Assíncrona">
+<!ENTITY class.ccnbt.label "Tipo de Cesta de Nº de Chamada">
+<!ENTITY field.mckp.cash_drawer.label "Conexação da Estação de Trabalho">
+<!ENTITY field.combcirc.usr_post_code.label "CEP do Usuário">
+<!ENTITY field.acirc.usr_post_code.label "CEP do Usuário">
+<!ENTITY field.circ.xact_start.label "Data/Hora de Saída">
+<!ENTITY field.combcirc.xact_start.label "Data/Hora de Saída">
+<!ENTITY field.acirc.xact_start.label "Data/Hora de Saída">
+<!ENTITY field.rodcirc.xact_start.label "Data/Hora de Saída">
+<!ENTITY class.acqclet.label "Claim Event Type">
+<!ENTITY field.acqcle.type.label "Claim Event Type">
+<!ENTITY field.acqscle.type.label "Claim Event Type">
+<!ENTITY field.circ.billable_transaction.label "Transação Base">
+<!ENTITY field.combcirc.billable_transaction.label "Transação Base">
+<!ENTITY field.acirc.billable_transaction.label "Transação Base">
+<!ENTITY field.rodcirc.billable_transaction.label "Transação Base">
+<!ENTITY class.acqlin.label "Nota de Item de Linha">
+<!ENTITY field.cnct.in_house.label "Interno?">
+<!ENTITY field.au.card.label "Cartão da Biblioteca Atual">
+<!ENTITY field.acpn.creator.label "Criador da Nota">
+<!ENTITY field.acqlisum.estimated_amount.label "Estimated Amount">
+<!ENTITY field.acqfsrcat.amount.label "Total Alocado da Fonte de Financiamento">
+<!ENTITY field.atevdef.template.label "Modelo">
+<!ENTITY class.rt.label "Modelo">
+<!ENTITY field.brt.resources.label "Recursos">
+<!ENTITY field.aou.resources.label "Recursos">
+<!ENTITY field.sstr.routing_label.label "Routing Label">
+<!ENTITY field.circ.target_copy.label "Item em Circulação">
+<!ENTITY field.combcirc.target_copy.label "Item em Circulação">
+<!ENTITY field.acirc.target_copy.label "Item em Circulação">
+<!ENTITY field.rodcirc.target_copy.label "Item em Circulação">
+<!ENTITY class.cubt.label "Tipo da Cesta de Usuário">
+<!ENTITY field.ccmm.is_renewal.label "Renovação?">
+<!ENTITY field.act.age_protect.label "Proteção por Tempo">
+<!ENTITY field.act.floating.label "Floating?">
+<!ENTITY field.cracct.account.label "Account">
+<!ENTITY field.acqedi.account.label "Account">
+<!ENTITY field.acqf.debits.label "Débitos">
+<!ENTITY class.ccbin.label "Copiar Nota de Item de cesta">
+<!ENTITY field.atc.prev_dest.label "Destinação Prév.">
+<!ENTITY class.acnc.label "Call number classification scheme">
+<!ENTITY class.aufh.label "Destinos de Reservas Incompletos">
+<!ENTITY field.sre.creator.label "Criador">
+<!ENTITY field.ssubn.creator.label "Criador">
+<!ENTITY field.sdistn.creator.label "Criador">
+<!ENTITY field.siss.creator.label "Criador">
+<!ENTITY field.sitem.creator.label "Criador">
+<!ENTITY field.sin.creator.label "Criador">
+<!ENTITY field.act.creator.label "Criador">
+<!ENTITY field.acqpron.creator.label "Criador">
+<!ENTITY field.acqpl.creator.label "Criador">
+<!ENTITY field.acqpo.creator.label "Criador">
+<!ENTITY field.acqpoh.creator.label "Criador">
+<!ENTITY field.acqpon.creator.label "Criador">
+<!ENTITY field.jub.creator.label "Criador">
+<!ENTITY field.acqlih.creator.label "Criador">
+<!ENTITY field.acqlin.creator.label "Criador">
+<!ENTITY field.acqdfa.creator.label "Criador">
+<!ENTITY field.acqcle.creator.label "Criador">
+<!ENTITY field.acqscle.creator.label "Criador">
+<!ENTITY field.rocit.creator.label "Criador">
+<!ENTITY field.rsr.series_statement.label "Enunciado das Séries (normalizado)">
+<!ENTITY class.rccbs.label "Sumário Clássico de Transações Abertas">
+<!ENTITY field.artc.prev_hop.label "Parada Anterior">
+<!ENTITY field.ahtc.prev_hop.label "Parada Anterior">
+<!ENTITY field.acqpa.address_type.label "Tipo de Endereço">
+<!ENTITY field.ahr.cut_in_line.label "Topo da Fila">
+<!ENTITY field.czs.auth.label "Autor">
+<!ENTITY field.acn.editor.label "Último Usuário Editando">
+<!ENTITY field.bre.editor.label "Último Usuário Editando">
+<!ENTITY field.sunit.editor.label "Último Usuário Editando">
+<!ENTITY field.acp.editor.label "Último Usuário Editando">
+<!ENTITY field.aou.settings.label "Configurações">
+<!ENTITY field.acqafet.amount.label "Total do Montante Comprometido">
+<!ENTITY field.qfpd.function_id.label "Function ID">
+<!ENTITY field.qxp.function_id.label "Function ID">
+<!ENTITY field.xfunc.function_id.label "Function ID">
+<!ENTITY field.vqbr.queue.label "Fila">
+<!ENTITY field.vqar.queue.label "Fila">
+<!ENTITY field.vbm.queued_record.label "Registro Enfileirado">
+<!ENTITY field.vam.queued_record.label "Registro Enfileirado">
+<!ENTITY class.acqpoh.label "Purchase Order History">
+<!ENTITY class.crahp.label "Regras de Proteção de Reserva por Tempo">
+<!ENTITY field.aou.workstations.label "Estações de Trabalho">
+<!ENTITY field.aur.article_title.label "Article Title">
+<!ENTITY field.au.hold_requests.label "Todas Requisições de Reserva">
+<!ENTITY field.au.master_account.label "É Conta do Grupo Principal">
+<!ENTITY field.ahr.frozen.label "Atualmente Congelado">
+<!ENTITY field.acqpca.contact.label "Contato">
+<!ENTITY class.puwoum.label "User Work Org Unit Map">
+<!ENTITY field.accs.last_checkin_workstation.label "Estação de Trabalho de Entradas">
+<!ENTITY class.mgp.label "Pagamento em Bens">
+<!ENTITY field.ccmm.org_unit.label "Unidade Org">
+<!ENTITY field.pgpt.org_unit.label "Unidade Org">
+<!ENTITY field.ausp.org_unit.label "Unidade Org">
+<!ENTITY field.acplo.org.label "Unidade Org">
+<!ENTITY field.cbt.owner.label "Unidade Org">
+<!ENTITY field.acqf.org.label "Unidade Org">
+<!ENTITY field.acqfap.org.label "Unidade Org">
+<!ENTITY field.acqpl.org_unit.label "Unidade Org">
+<!ENTITY field.acqclt.org_unit.label "Unidade Org">
+<!ENTITY field.acqclet.org_unit.label "Unidade Org">
+<!ENTITY field.acqclp.org_unit.label "Unidade Org">
+<!ENTITY class.mkfe.label "Entrada do Campo PalavraChave">
+<!ENTITY class.asvq.label "Questão de Pesquisa de Usuário">
+<!ENTITY class.mfae.label "Combined Facet Entry">
+<!ENTITY field.circ.phone_renewal.label "Renovação Telefone">
+<!ENTITY field.combcirc.phone_renewal.label "Renovação Telefone">
+<!ENTITY field.acirc.phone_renewal.label "Renovação Telefone">
+<!ENTITY field.rodcirc.phone_renewal.label "Renovação Telefone">
+<!ENTITY field.combcirc.usr_home_ou.label "Biblioteca de Origem do Usuário">
+<!ENTITY field.acirc.usr_home_ou.label "Biblioteca de Origem do Usuário">
+<!ENTITY class.siss.label "Emissão">
+<!ENTITY field.sitem.issuance.label "Emissão">
+<!ENTITY class.mife.label "Identifier Field Entry">
+<!ENTITY field.acqlia.definition.label "Definição">
+<!ENTITY class.sra.label "Ajustes Relevantes">
+<!ENTITY field.aur.article_pages.label "Article Pages">
+<!ENTITY field.cmf.facet_field.label "Facet Field">
+<!ENTITY field.sre.edit_date.label "Editar data">
+<!ENTITY field.acqlid.claims.label "Claims">
+<!ENTITY class.ppl.label "Lista de Permissão">
+<!ENTITY field.aufh.fail_time.label "Redirecionando Data/Hora">
+<!ENTITY field.bmpc.id.label "Temp ID">
+<!ENTITY class.acqinv.label "Invoice">
+<!ENTITY field.acqie.invoice.label "Invoice">
+<!ENTITY field.acqii.invoice.label "Invoice">
+<!ENTITY field.atenv.path.label "Local do Campo">
+<!ENTITY field.mdp.accepting_usr.label "Autorizando Usuário">
+<!ENTITY class.qrc.label "Record Column">
+<!ENTITY field.ahr.thaw_date.label "Descongele Data (se estiver congelada)">
+<!ENTITY field.acqinv.inv_type.label "Invoice Type">
+<!ENTITY field.acqpro.fax_phone.label "Fax Phone">
+<!ENTITY field.acqpa.fax_phone.label "Fax Phone">
+<!ENTITY field.acqpca.fax_phone.label "Fax Phone">
+<!ENTITY class.bmpc.label "MARC21 Physical Characteristics">
+<!ENTITY field.acqinv.payment_method.label "Payment Method">
+<!ENTITY class.afs.label "Fieldset">
+<!ENTITY field.rmsr.pubdate.label "Ano de Publicação (normalizado)">
+<!ENTITY field.rssr.pubdate.label "Ano de Publicação (normalizado)">
+<!ENTITY field.rsr.pubdate.label "Ano de Publicação (normalizado)">
+<!ENTITY field.scap.enum_1.label "Enum 1">
+<!ENTITY field.scap.enum_3.label "Enum 3">
+<!ENTITY field.scap.enum_2.label "Enum 2">
+<!ENTITY field.asva.answer.label "Texto de Resposta">
+<!ENTITY field.scap.enum_4.label "Enum 4">
+<!ENTITY field.scap.enum_6.label "Enum 6">
+<!ENTITY field.vqbr.id.label "ID do Registro">
+<!ENTITY field.vqar.id.label "ID do Registro">
+<!ENTITY field.bre.id.label "ID do Registro">
+<!ENTITY field.aufh.id.label "ID do Registro">
+<!ENTITY field.rmsr.id.label "ID do Registro">
+<!ENTITY field.rssr.id.label "ID do Registro">
+<!ENTITY field.rsr.id.label "ID do Registro">
+<!ENTITY field.rlcd.id.label "ID do Registro">
+<!ENTITY field.rhcrpb.id.label "ID do Registro">
+<!ENTITY field.siss.holding_link_id.label "Holding Link ID">
+<!ENTITY field.sdist.index_summary.label "Index Issue Summary">
+<!ENTITY class.sisum.label "Index Issue Summary">
+<!ENTITY field.au.email.label "Endereço de Email">
+<!ENTITY field.aou.email.label "Endereço de Email">
+<!ENTITY field.stgu.email.label "Endereço de Email">
+<!ENTITY class.xbool.label "Boolean Expression">
+<!ENTITY field.mrd.audience.label "Público">
+<!ENTITY class.xstr.label "String Expression">
+<!ENTITY class.acrlid.label "Claim Ready Lineitem Details">
+<!ENTITY field.acqdf.name.label "Nome de Fórmula">
+<!ENTITY field.circ.usr.label "Usuário">
+<!ENTITY field.ancc.patron.label "Usuário">
+<!ENTITY field.rodcirc.usr.label "Usuário">
+<!ENTITY field.cmfpm.length.label "Length">
+<!ENTITY field.cmpcsm.length.label "Length">
+<!ENTITY field.au.cards.label "Todas Cartões de Biblioteca">
+<!ENTITY field.sitem.shadowed.label "Shadowed?">
+<!ENTITY field.qfpd.id.label "Function Param Def ID">
+<!ENTITY class.amtr.label "Resultado de Teste Matriz">
+<!ENTITY field.rccbs.patron_zip.label "CEP do Usuário">
+<!ENTITY field.mrd.cat_form.label "Formulário de Categorias">
+<!ENTITY field.bresv.pickup_time.label "Horas do Recebimento">
+<!ENTITY field.atc.dest.label "Destinação">
+<!ENTITY field.iatc.dest.label "Destinação">
+<!ENTITY class.mfp.label "Perdoar Pagamento">
+<!ENTITY field.vqbr.imported_as.label "Registro Destino Final">
+<!ENTITY field.vqar.imported_as.label "Registro Destino Final">
+<!ENTITY field.acn.uris.label "URIs">
+<!ENTITY class.acqfat.label "Total Alocado do Fundo">
+<!ENTITY field.rocit.stat_cat_2_value.label "Est Valor Cat 2 (Legado)">
+<!ENTITY class.svr.label "Registro Virtual Serial">
+<!ENTITY field.chmm.distance_is_from_owner.label "Faixa vem da Bib Proprietária?">
+<!ENTITY field.ahr.bib_rec.label "Link do Registro Catalográfico">
+<!ENTITY field.acqii.inv_item_type.label "Invoice Item Type">
+<!ENTITY field.acqpoi.inv_item_type.label "Invoice Item Type">
+<!ENTITY field.stgsc.value.label "Valor Cat Estat">
+<!ENTITY field.acqftr.transfer_time.label "Transfer Time">
+<!ENTITY class.mfr.label "Campos MARC Condensados">
+<!ENTITY class.acpn.label "Nota do Exemplar">
+<!ENTITY field.atc.persistant_transfer.label "É Persistente? (não usado)">
+<!ENTITY field.iatc.persistant_transfer.label "É Persistente? (não usado)">
+<!ENTITY field.aou.fiscal_calendar.label "Calendário Fiscal">
+<!ENTITY class.acqfc.label "Calendário Fiscal">
+<!ENTITY class.qseq.label "Query Sequence">
+<!ENTITY field.qxp.operator.label "Operator">
+<!ENTITY field.xop.operator.label "Operator">
+<!ENTITY field.xser.operator.label "Operator">
+<!ENTITY field.acqct.code.label "Código de Moeda">
+<!ENTITY class.coust.label "Tipo de Colocação de Unidade Organizacional">
+<!ENTITY field.ancc.duedate.label "Data/Hora de Vencimento Virtual">
+<!ENTITY field.circ.unrecovered.label "Débido Irrecuperável">
+<!ENTITY field.bresv.unrecovered.label "Débido Irrecuperável">
+<!ENTITY field.mbt.unrecovered.label "Débido Irrecuperável">
+<!ENTITY class.auoi.label "Compartilhamento Opt-in de Usuário">
+<!ENTITY field.aun.title.label "Título da Observação">
+<!ENTITY field.acpn.title.label "Título da Observação">
+<!ENTITY field.combcirc.copy_owning_lib.label "Biblioteca dona do Exemplar">
+<!ENTITY field.acirc.copy_owning_lib.label "Biblioteca dona do Exemplar">
+<!ENTITY field.aua.replaces.label "Substitui">
+<!ENTITY class.ancc.label "Circulação Não-catalogada">
+<!ENTITY field.brav.id.label "Valor de Atributo de Recurso ID">
+<!ENTITY field.siss.holding_code.label "Holding Code">
+<!ENTITY field.rccc.patron_home_lib.label "Link da Biblioteca de Origem do Usuário">
+<!ENTITY field.circ.billings.label "Transações de Faturas">
+<!ENTITY field.combcirc.billings.label "Transações de Faturas">
+<!ENTITY field.acirc.billings.label "Transações de Faturas">
+<!ENTITY field.rodcirc.billings.label "Transações de Faturas">
+<!ENTITY class.stgma.label "Etapa de Endereço de Correspondência">
+<!ENTITY field.bra.id.label "Atributo de Recurso ID">
+<!ENTITY field.crmf.is_percent.label "É Percentual">
+<!ENTITY field.acqfy.calendar.label "Calendário">
+<!ENTITY class.acqligad.label "Item de Linha Definição de Atributo Gerada">
+<!ENTITY field.bresv.summary.label "Sumário de Pagamento">
+<!ENTITY field.mbt.summary.label "Sumário de Pagamento">
+<!ENTITY class.bra.label "Atributo de Recurso">
+<!ENTITY field.brav.attr.label "Atributo de Recurso">
+<!ENTITY field.bram.resource_attr.label "Atributo de Recurso">
+<!ENTITY class.acqpro.label "Fornecedor">
+<!ENTITY field.acqpron.provider.label "Fornecedor">
+<!ENTITY field.acqinv.provider.label "Fornecedor">
+<!ENTITY field.acqpa.provider.label "Fornecedor">
+<!ENTITY field.acqpc.provider.label "Fornecedor">
+<!ENTITY field.acqpo.provider.label "Fornecedor">
+<!ENTITY field.acqpoh.provider.label "Fornecedor">
+<!ENTITY field.jub.provider.label "Fornecedor">
+<!ENTITY field.acqlih.provider.label "Fornecedor">
+<!ENTITY field.acqlipad.provider.label "Fornecedor">
+<!ENTITY field.acqphsm.provider.label "Fornecedor">
+<!ENTITY field.acqedi.provider.label "Fornecedor">
+<!ENTITY class.qbv.label "Bind Variable">
+<!ENTITY field.qxp.bind_variable.label "Bind Variable">
+<!ENTITY field.xbind.bind_variable.label "Bind Variable">
+<!ENTITY field.qseq.id.label "Query Seq ID">
+<!ENTITY field.vqbr.matches.label "Condizentes">
+<!ENTITY field.vqar.matches.label "Condizentes">
+<!ENTITY field.qxp.type.label "Expression Type">
+<!ENTITY field.ancc.id.label "ID de Circulação Não-cat">
+<!ENTITY field.bresv.xact_start.label "Data/Hora de Início da Transação">
+<!ENTITY field.mbt.xact_start.label "Data/Hora de Início da Transação">
+<!ENTITY field.rccbs.xact_start.label "Data/Hora de Início da Transação">
+<!ENTITY class.rmobbhol.label "Balanço de Circulações Abertas pela Biblioteca do Usuário e Biblioteca Proprietária">
+<!ENTITY class.qfr.label "From Relation">
+<!ENTITY class.chddv.label "Hard Due Date Values">
+<!ENTITY field.asvq.survey.label "Pesquisa">
+<!ENTITY field.asvr.survey.label "Pesquisa">
+<!ENTITY class.asv.label "Pesquisa">
+<!ENTITY field.aus.id.label "ID de Confirguração">
+<!ENTITY class.cub.label "Cesta do Usuário">
+<!ENTITY field.sunit.dummy_isbn.label "ISBN vazio">
+<!ENTITY field.acp.dummy_isbn.label "ISBN vazio">
+<!ENTITY field.ath.key.label "Chave de Gancho">
+<!ENTITY field.acn.label.label "Rótulo do Nº de Chamada">
+<!ENTITY field.acqlid.cn_label.label "Rótulo do Nº de Chamada">
+<!ENTITY field.rccc.call_number_label.label "Rótulo do Nº de Chamada">
+<!ENTITY field.aua.county.label "País">
+<!ENTITY field.acqpa.county.label "País">
+<!ENTITY field.acqpca.county.label "País">
+<!ENTITY field.au.prefix.label "Prefixo">
+<!ENTITY field.ahrn.pub.label "Pub?">
+<!ENTITY field.jub.expected_recv_time.label "Data Experada de Recebimento">
+<!ENTITY field.act.circ_modifier.label "Modificação da Circ">
+<!ENTITY field.acqlid.circ_modifier.label "Modificação da Circ">
+<!ENTITY field.rccc.circ_modifier.label "Modificação da Circ">
+<!ENTITY field.rocit.circ_modifier.label "Modificação da Circ">
+<!ENTITY field.rsr.series_title.label "Título das Séries (normalizado)">
+<!ENTITY field.acqfcb.amount.label "Saldo depois Gasto e Impedido">
+<!ENTITY field.aufh.current_copy.label "Exemplares Incompletos">
+<!ENTITY field.qsq.type.label "Query type">
+<!ENTITY class.rof.label "Pasta de Saída">
+<!ENTITY field.stgu.row_id.label "Linha ID">
+<!ENTITY field.stgc.row_id.label "Linha ID">
+<!ENTITY field.stgma.row_id.label "Linha ID">
+<!ENTITY field.stgba.row_id.label "Linha ID">
+<!ENTITY field.stgsc.row_id.label "Linha ID">
+<!ENTITY field.siss.caption_and_pattern.label "Caption/Pattern">
+<!ENTITY field.vqbrad.description.label "Descrição">
+<!ENTITY field.vqarad.description.label "Descrição">
+<!ENTITY field.cin.description.label "Descrição">
+<!ENTITY field.ath.description.label "Descrição">
+<!ENTITY field.atcol.description.label "Descrição">
+<!ENTITY field.atval.description.label "Descrição">
+<!ENTITY field.atreact.description.label "Descrição">
+<!ENTITY field.atclean.description.label "Descrição">
+<!ENTITY field.ccm.description.label "Descrição">
+<!ENTITY field.cam.description.label "Descrição">
+<!ENTITY field.cust.description.label "Descrição">
+<!ENTITY field.asv.description.label "Descrição">
+<!ENTITY field.pgt.description.label "Descrição">
+<!ENTITY field.acqcr.description.label "Descrição">
+<!ENTITY field.acqliat.description.label "Descrição">
+<!ENTITY field.acqliad.description.label "Descrição">
+<!ENTITY field.acqlimad.description.label "Descrição">
+<!ENTITY field.acqligad.description.label "Descrição">
+<!ENTITY field.acqliuad.description.label "Descrição">
+<!ENTITY field.acqlipad.description.label "Descrição">
+<!ENTITY field.acqlilad.description.label "Descrição">
+<!ENTITY field.acqclt.description.label "Descrição">
+<!ENTITY field.acqclet.description.label "Descrição">
+<!ENTITY field.acqclp.description.label "Descrição">
+<!ENTITY field.qbv.description.label "Descrição">
+<!ENTITY field.acqpl.entry_count.label "Qtde Entrada">
+<!ENTITY field.aufh.circ_lib.label "Biblioteca Incompleta">
+<!ENTITY class.mtfe.label "Entrada do Campo Título">
+<!ENTITY class.clm.label "Mapa de Idiomas">
+<!ENTITY field.brsrc.attr_maps.label "Recurso de Mapas de Atributos">
+<!ENTITY field.bra.attr_maps.label "Recurso de Mapas de Atributos">
+<!ENTITY field.brav.attr_maps.label "Recurso de Mapas de Atributos">
+<!ENTITY field.asv.usr_summary.label "Mostra no Sumário de Usuário">
+<!ENTITY field.rccc.stat_cat_1_value.label "CAT1 Valor (Legado)">
+<!ENTITY field.qfr.parent_relation.label "Parent Relation ID">
+<!ENTITY class.acqfy.label "Ano Fiscal">
+<!ENTITY field.acqfy.year.label "Ano Fiscal">
+<!ENTITY field.circ.checkin_time.label "Data/Hora de Entrada">
+<!ENTITY field.combcirc.checkin_time.label "Data/Hora de Entrada">
+<!ENTITY field.acirc.checkin_time.label "Data/Hora de Entrada">
+<!ENTITY field.rodcirc.checkin_time.label "Data/Hora de Entrada">
+<!ENTITY field.act.owning_lib.label "Bib Proprietária">
+<!ENTITY field.rocit.owning_lib.label "Bib Proprietária">
+<!ENTITY field.mbts.last_billing_type.label "Último Tipo de Fatura">
+<!ENTITY field.mbtslv.last_billing_type.label "Último Tipo de Fatura">
+<!ENTITY field.rccbs.last_billing_type.label "Último Tipo de Fatura">
+<!ENTITY field.qsi.stored_query.label "Stored Query ID">
+<!ENTITY field.qobi.stored_query.label "Stored Query ID">
+<!ENTITY field.qdt.datatype_name.label "Datatype Name">
+<!ENTITY field.sre.active.label "Esta Ativo?">
+<!ENTITY field.czs.attrs.label "Attribs">
+<!ENTITY field.aihu.org_unit.label "Bilioteca em Uso">
+<!ENTITY field.ancihu.org_unit.label "Bilioteca em Uso">
+<!ENTITY field.acqcr.org_unit.label "Bilioteca em Uso">
+<!ENTITY field.ergbhu.update_type.label "Tipo de Atualização">
+<!ENTITY field.bre.marc.label "MARC21Slim">
+<!ENTITY field.acqpron.edit_time.label "Editar Hora">
+<!ENTITY field.acqpl.edit_time.label "Editar Hora">
+<!ENTITY field.acqpo.edit_time.label "Editar Hora">
+<!ENTITY field.acqpoh.edit_time.label "Editar Hora">
+<!ENTITY field.acqpon.edit_time.label "Editar Hora">
+<!ENTITY field.jub.edit_time.label "Editar Hora">
+<!ENTITY field.acqlih.edit_time.label "Editar Hora">
+<!ENTITY field.acqlin.edit_time.label "Editar Hora">
+<!ENTITY field.ssubn.title.label "Título">
+<!ENTITY field.sdistn.title.label "Título">
+<!ENTITY field.sin.title.label "Título">
+<!ENTITY field.ahrn.title.label "Título">
+<!ENTITY field.aur.title.label "Título">
+<!ENTITY field.acqpoi.title.label "Título">
+<!ENTITY field.rocit.title.label "Título">
+<!ENTITY field.vqbr.bib_source.label "Fonte Catalográfica">
+<!ENTITY class.cbs.label "Fonte Catalográfica">
+<!ENTITY field.circ.checkin_scan_time.label "Data/Hora de Scan de Entrada">
+<!ENTITY field.acirc.checkin_scan_time.label "Data/Hora de Scan de Entrada">
+<!ENTITY field.acqinv.payment_auth.label "Obs do Pagamento">
+<!ENTITY class.mwp.label "Pagamento em Trabalho">
+<!ENTITY class.acirc.label "Empréstimo antigo de artigo (sem usuário)">
+<!ENTITY field.acqda.funding_source_credit.label "Funding Source Credit">
+<!ENTITY class.acqfsrcb.label "Balanço da Fonte de financiamento">
+<!ENTITY class.pugm.label "Mapa de Grupo de Usuário">
+<!ENTITY class.lmap.label "Mapa Org Lasso">
+<!ENTITY field.aua.street2.label "Rua (2)">
+<!ENTITY field.acqpca.street2.label "Rua (2)">
+<!ENTITY field.stgma.street2.label "Rua (2)">
+<!ENTITY field.stgba.street2.label "Rua (2)">
+<!ENTITY field.qsq.use_distinct.label "Use DISTINCT">
+<!ENTITY class.auri.label "URI de Acesso Eletrônico">
+<!ENTITY field.au.barred.label "Barrado">
+<!ENTITY class.ateo.label "Evento de Saída">
+<!ENTITY field.crahp.name.label "Nome da Regra">
+<!ENTITY field.crmf.name.label "Nome da Regra">
+<!ENTITY field.viiad.tag.label "Tag:">
+<!ENTITY field.mfr.tag.label "Tag:">
+<!ENTITY field.cmfpm.tag.label "Tag:">
+<!ENTITY field.acqf.rollover.label "Rollover">
+<!ENTITY field.vqbrad.xpath.label "XPath">
+<!ENTITY field.vqarad.xpath.label "XPath">
+<!ENTITY field.cmf.xpath.label "XPath">
+<!ENTITY field.acqlimad.xpath.label "XPath">
+<!ENTITY field.acqligad.xpath.label "XPath">
+<!ENTITY field.acqlipad.xpath.label "XPath">
+<!ENTITY field.mrd.date2.label "Data2">
+<!ENTITY field.artc.source.label "Enviando Biblioteca">
+<!ENTITY field.ahtc.source.label "Enviando Biblioteca">
+<!ENTITY field.cgf.label.label "Rótulo">
+<!ENTITY field.cracct.label.label "Rótulo">
+<!ENTITY field.czs.label.label "Rótulo">
+<!ENTITY field.cza.label.label "Rótulo">
+<!ENTITY field.atenv.label.label "Rótulo">
+<!ENTITY field.aiit.name.label "Rótulo">
+<!ENTITY field.acqim.name.label "Rótulo">
+<!ENTITY field.ccpbt.label.label "Rótulo">
+<!ENTITY field.ccnbt.label.label "Rótulo">
+<!ENTITY field.cbrebt.label.label "Rótulo">
+<!ENTITY field.cubt.label.label "Rótulo">
+<!ENTITY field.cmc.label.label "Rótulo">
+<!ENTITY field.cmf.label.label "Rótulo">
+<!ENTITY field.auri.label.label "Rótulo">
+<!ENTITY field.cust.label.label "Rótulo">
+<!ENTITY field.sdist.label.label "Rótulo">
+<!ENTITY field.siss.label.label "Rótulo">
+<!ENTITY field.acqcr.label.label "Rótulo">
+<!ENTITY field.acqedi.label.label "Rótulo">
+<!ENTITY field.qbv.label.label "Rótulo">
+<!ENTITY field.cmpctm.label.label "Rótulo">
+<!ENTITY field.cmpcsm.label.label "Rótulo">
+<!ENTITY field.cmpcvm.label.label "Rótulo">
+<!ENTITY field.cmfinm.norm.label "Normalizador">
+<!ENTITY field.mrd.item_form.label "Forma">
+<!ENTITY field.bre.subscriptions.label "Subscrição">
+<!ENTITY field.acqie.actual_cost.label "Actual Cost">
+<!ENTITY field.acqii.actual_cost.label "Actual Cost">
+<!ENTITY field.mfr.ind1.label "Indicador 1">
+<!ENTITY field.mfr.ind2.label "Indicador 2">
+<!ENTITY field.au.checkins.label "Entradas">
+<!ENTITY field.aou.checkins.label "Entradas">
+<!ENTITY field.cblvl.code.label "Código do Nível Catalográfico">
+<!ENTITY field.acpl.id.label "ID de Localização">
+<!ENTITY field.acplo.location.label "ID de Localização">
+<!ENTITY field.acqdf.owner.label "Proprietário da Fórmula">
+<!ENTITY class.sdist.label "Distribution">
+<!ENTITY field.sdistn.distribution.label "Distribution">
+<!ENTITY field.sstr.distribution.label "Distribution">
+<!ENTITY field.sbsum.distribution.label "Distribution">
+<!ENTITY field.sssum.distribution.label "Distribution">
+<!ENTITY field.sisum.distribution.label "Distribution">
+<!ENTITY field.bre.simple_record.label "Extração Simples de Registro ">
+<!ENTITY class.actsce.label "Entrada de Cat Est de Usuário">
+<!ENTITY field.au.juvenile.label "Juvenil">
+<!ENTITY class.acqftm.label "Mapa do">
+<!ENTITY class.acn.label "Número/Volume de Chamada">
+<!ENTITY field.sunit.call_number.label "Número/Volume de Chamada">
+<!ENTITY field.acp.call_number.label "Número/Volume de Chamada">
+<!ENTITY field.sunit.notes.label "Notas do Exemplar">
+<!ENTITY field.acp.notes.label "Notas do Exemplar">
+<!ENTITY field.vii.deposit.label "Deposito">
+<!ENTITY field.viiad.deposit.label "Deposito">
+<!ENTITY field.vbm.id.label "ID de Busca">
+<!ENTITY field.vam.id.label "ID de Busca">
+<!ENTITY field.actscecm.stat_cat.label "Categoria Estatística">
+<!ENTITY field.acqfc.id.label "Calendário Fiscal, ID">
+<!ENTITY field.vii.circulate.label "Circular">
+<!ENTITY field.viiad.circulate.label "Circular">
+<!ENTITY class.abl.label "Authority-Bibliographic Record Link">
+<!ENTITY field.aur.isxn.label "ISSN">
+<!ENTITY field.acn.edit_date.label "Última Data/Hora de Edição">
+<!ENTITY field.sunit.edit_date.label "Última Data/Hora de Edição">
+<!ENTITY field.acp.edit_date.label "Última Data/Hora de Edição">
+<!ENTITY field.vbq.id.label "Fila: ID">
+<!ENTITY field.vaq.id.label "Fila: ID">
+<!ENTITY field.brt.tgt_rsrc_types.label "Tipos de recurso de destino">
+<!ENTITY field.actsce.stat_cat.label "Cat Estat">
+<!ENTITY field.asce.stat_cat.label "Cat Estat">
+<!ENTITY field.asc.required.label "Required">
+<!ENTITY field.acqfs.summary.label "Sumário">
+<!ENTITY field.acqf.summary.label "Sumário">
+<!ENTITY field.rccc.dewey_range_hundreds.label "Faixa Dewey -  Centenas">
+<!ENTITY class.qxp.label "Expression">
+<!ENTITY field.qsi.expression.label "Expression">
+<!ENTITY field.qobi.expression.label "Expression">
+<!ENTITY class.acqedi.label "EDI Account">
+<!ENTITY field.acqedim.account.label "EDI Account">
+<!ENTITY field.cracct.last_activity.label "Last Activity">
+<!ENTITY field.acqedi.last_activity.label "Last Activity">
+<!ENTITY field.ocirccount.out.label "Out">
+<!ENTITY field.ocirclist.out.label "Out">
+<!ENTITY field.aupr.has_been_reset.label "Was Reset?">
+<!ENTITY field.au.settings.label "Configurações para todos usuários">
+<!ENTITY field.rocit.dewey_block_hundreds.label "Dewy - Centenas">
+<!ENTITY field.pgt.perm_interval.label "Intervalo de expiração do usuário">
+<!ENTITY class.acqliat.label "Line Item Alert Text">
+<!ENTITY class.mrd.label "Descrição Base de Registro">
+<!ENTITY field.chmm.transit_range.label "Abrangência de Trânsito">
+<!ENTITY field.mwp.id.label "ID do pagamento">
+<!ENTITY field.mgp.id.label "ID do pagamento">
+<!ENTITY field.mckp.id.label "ID do pagamento">
+<!ENTITY field.mp.id.label "ID do pagamento">
+<!ENTITY field.mbp.id.label "ID do pagamento">
+<!ENTITY field.mndp.id.label "ID do pagamento">
+<!ENTITY field.mdp.id.label "ID do pagamento">
+<!ENTITY class.cbrebin.label "Item de Cesta da Entrada de Registro Bibliográfico">
+<!ENTITY field.chdd.forceto.label "Always Use?">
+<!ENTITY class.cifm.label "Item: Mapa de Form">
+<!ENTITY field.jub.eg_bib_id.label "Evergreen Bib ID">
+<!ENTITY field.acqlih.eg_bib_id.label "Evergreen Bib ID">
+<!ENTITY field.atevdef.granularity.label "Granularidade">
+<!ENTITY field.afs.pkey_value.label "Primary Key Value">
+<!ENTITY field.bra.name.label "Nome do Atributo do Recurso">
+<!ENTITY field.acqlisum.cancel_count.label "Cancel Count">
+<!ENTITY class.acqft.label "Fund Tag">
+<!ENTITY field.mbts.usr.label "Usuário faturado">
+<!ENTITY field.mbtslv.usr.label "Usuário faturado">
+<!ENTITY field.acqlisum.paid_amount.label "Paid Amount">
+<!ENTITY field.acqii.title.label "Title or Item Name">
+<!ENTITY field.cifm.code.label "Item: Cód. Form">
+<!ENTITY class.i18n_l.label "Localidade">
+<!ENTITY field.rmsr.quality.label "Qualidade global do registro">
+<!ENTITY field.rssr.quality.label "Qualidade global do registro">
+<!ENTITY field.rsr.quality.label "Qualidade global do registro">
+<!ENTITY field.sunit.detailed_contents.label "Detailed Contents">
+<!ENTITY field.vii.id.label "Importar ID de Item">
+<!ENTITY class.clfm.label "Forma Literária">
+<!ENTITY field.rccc.lit_form.label "Forma Literária">
+<!ENTITY field.ahr.prev_check_time.label "Data/Hora do último destino">
+<!ENTITY field.ssr.rel.label "Relevancia">
+<!ENTITY field.rccc.language.label "Idioma do item">
+<!ENTITY class.acqlisum.label "Lineitem Summary">
+<!ENTITY class.vqarad.label "Definição do atributo do registro de autoridade à atender">
+<!ENTITY field.aout.opac_label.label "Rótulo OPAC">
+<!ENTITY field.atevdef.usr_field.label "Campo de Usuário Opt-In">
+<!ENTITY field.au.survey_responses.label "Respostas da Pesquisa">
+<!ENTITY field.acqofscred.sort_priority.label "Sort Priority">
+<!ENTITY class.acqscl.label "Serial Claim">
+<!ENTITY class.rsce2.label "Entrada CAT2">
+<!ENTITY field.acqedim.process_time.label "Time Processed">
+<!ENTITY field.aout.id.label "ID do Tipo">
+<!ENTITY class.bre.label "Registro Catalográfico">
+<!ENTITY field.brt.record.label "Registro Catalográfico">
+<!ENTITY field.ahrcc.id.label "Causa ID">
+<!ENTITY field.acqinv.receiver.label "Receiver">
+<!ENTITY field.mp.cash_payment.label "Detalhes do Pagamento em Dinheiro">
+<!ENTITY field.mbp.cash_payment.label "Detalhes do Pagamento em Dinheiro">
+<!ENTITY field.vmp.id.label "Campo: ID">
+<!ENTITY field.vibtf.id.label "Campo: ID">
+<!ENTITY field.mfr.id.label "Campo: ID">
+<!ENTITY field.acqedi.in_dir.label "Incoming Directory">
+<!ENTITY field.qsq.from_clause.label "FROM Clause">
+<!ENTITY field.ancc.item_type.label "Tipo do Item Não-cat">
+<!ENTITY field.atev.user_data.label "User Data">
+<!ENTITY field.mbts.balance_owed.label "Saldo Devido">
+<!ENTITY field.mbtslv.balance_owed.label "Saldo Devido">
+<!ENTITY field.rccbs.balance_owed.label "Saldo Devido">
+<!ENTITY field.aua.street1.label "Rua (1)">
+<!ENTITY field.acqpca.street1.label "Rua (1)">
+<!ENTITY field.stgma.street1.label "Rua (1)">
+<!ENTITY field.stgba.street1.label "Rua (1)">
+<!ENTITY field.au.second_given_name.label "Nome do Meio">
+<!ENTITY field.stgu.second_given_name.label "Nome do Meio">
+<!ENTITY field.aou.rsrc_types.label "Tipos de recurso">
+<!ENTITY field.aur.lineitem.label "Item de Linha PO">
+<!ENTITY field.acqie.lineitem.label "Item de Linha PO">
+<!ENTITY field.acqlid.lineitem.label "Item de Linha PO">
+<!ENTITY field.acqedim.error_time.label "Time of Error">
+<!ENTITY class.atev.label "Ativar Entrada de Evento">
+<!ENTITY field.rocit.age_protect.label "Proteção por Tempo">
+<!ENTITY field.acqfc.name.label "Nome do Calendário Fiscal">
+<!ENTITY class.czs.label "Z39.50 Fonte">
+<!ENTITY field.czs.name.label "Z39.50 Fonte">
+<!ENTITY field.cza.source.label "Z39.50 Fonte">
+<!ENTITY field.acn.record.label "Registro Catalográfico">
+<!ENTITY field.combcirc.copy_bib_record.label "Registro Catalográfico">
+<!ENTITY field.acirc.copy_bib_record.label "Registro Catalográfico">
+<!ENTITY field.sre.record.label "Registro Catalográfico">
+<!ENTITY field.aur.eg_bib.label "Registro Catalográfico">
+<!ENTITY field.clfm.code.label "Cód. LitF">
+<!ENTITY field.cifm.value.label "Item: Form">
+<!ENTITY field.acqftr.id.label "Fund Transfer ID">
+<!ENTITY field.ahr.requestor.label "Requisitando Usuário">
+<!ENTITY field.auoi.opt_in_ws.label "Estação de Trabalho">
+<!ENTITY class.aws.label "Estação de Trabalho">
+<!ENTITY field.circ.workstation.label "Estação de Trabalho">
+<!ENTITY field.acirc.workstation.label "Estação de Trabalho">
+<!ENTITY field.ocirccount.long_overdue.label "Long Overdue">
+<!ENTITY field.ocirclist.long_overdue.label "Long Overdue">
+<!ENTITY field.rocit.owning_lib_name.label "Nome da Bib Proprietária">
+<!ENTITY class.cmfinm.label "Campo Metabib para Mapa de Indexação Normalizadora">
+<!ENTITY field.vqbra.record.label "Registro">
+<!ENTITY field.vqara.record.label "Registro">
+<!ENTITY field.ssr.record.label "Registro">
+<!ENTITY field.bmpc.record.label "Registro">
+<!ENTITY field.rsr.uniform_title.label "Título Uniform (normalizado)">
+<!ENTITY field.rhcrpb.hold_copy_ratio.label "Hold/Copy Ratio">
+<!ENTITY field.bresv.return_time.label "Hora de Retorno">
+<!ENTITY field.qdt.is_composite.label "Is Composite">
+<!ENTITY field.rocit.call_number_label.label "Rótulo do Nº-Chamada">
+<!ENTITY field.rhrr.target.label "Destino da Reserva">
+<!ENTITY class.acqpc.label "Contato de Fornecedor">
+<!ENTITY field.rccc.circ_lib_id.label "Link de localização da biblioteca de circulação">
+<!ENTITY field.acpl.orders.label "Ordens de Posição de Exemplar">
+<!ENTITY field.aou.copy_location_orders.label "Ordens de Posição de Exemplar">
+<!ENTITY field.acqafcb.amount.label "Saldo de Fundo Combinado">
+<!ENTITY field.pgt.usergroup.label "É Grupo de Usuário">
+<!ENTITY field.acqfdeb.debit_type.label "Tipo do Débito">
+<!ENTITY class.ssr.label "Pesquisa no Resultado">
+<!ENTITY field.ausp.set_date.label "Define Data">
+<!ENTITY field.bre.fingerprint.label "Impressão Digital">
+<!ENTITY field.rmsr.fingerprint.label "Impressão Digital">
+<!ENTITY field.rssr.fingerprint.label "Impressão Digital">
+<!ENTITY field.rsr.fingerprint.label "Impressão Digital">
+<!ENTITY field.ateo.data.label "Dados">
+<!ENTITY class.ath.label "Ativar Ponto de Gancho">
+<!ENTITY class.i18n.label "Núcleo i18n">
+<!ENTITY class.circ.label "Circulação">
+<!ENTITY field.rccc.id.label "Circulação">
+<!ENTITY field.cgf.enabled.label "Enabled">
+<!ENTITY field.atevdef.active.label "Enabled">
+<!ENTITY field.qfr.type.label "From Relation Type">
+<!ENTITY class.rhcrpb.label "Hold/Copy Ratio per Bib">
+<!ENTITY field.artc.reservation.label "Reservation requiring Transit">
+<!ENTITY field.bre.tcn_value.label "TCN: Valor">
+<!ENTITY field.rmsr.tcn_value.label "TCN: Valor">
+<!ENTITY field.rssr.tcn_value.label "TCN: Valor">
+<!ENTITY field.rsr.tcn_value.label "TCN: Valor">
+<!ENTITY field.asvq.id.label "ID da Questão">
+<!ENTITY class.acqpon.label "Nota PO">
+<!ENTITY field.czs.transmission_format.label "Formato de Transmissão">
+<!ENTITY field.acqpoh.audit_action.label "Audit Action">
+<!ENTITY field.acqlih.audit_action.label "Audit Action">
+<!ENTITY field.chddv.active_date.label "Active Date">
+<!ENTITY field.qsf.subfield_type.label "Subfield Type">
+<!ENTITY field.acqfsrcct.amount.label "Créditos Total para Fonte de Financinamento">
+<!ENTITY class.mct.label "Rastreador de Coleções">
+<!ENTITY field.qsi.grouped_by.label "Is Grouped By">
+<!ENTITY field.czs.db.label "BD">
+<!ENTITY field.vibtf.field.label "Campo">
+<!ENTITY field.vqbra.field.label "Campo">
+<!ENTITY field.vqara.field.label "Campo">
+<!ENTITY field.cmsa.field.label "Campo">
+<!ENTITY field.acpl.owning_lib.label "Unidade Org Proprietária">
+<!ENTITY field.sre.owning_lib.label "Unidade Org Proprietária">
+<!ENTITY field.scap.chron_5.label "Chron 5">
+<!ENTITY field.scap.chron_4.label "Chron 4">
+<!ENTITY field.mbts.xact_finish.label "Hora de Término da Transação">
+<!ENTITY field.mbtslv.xact_finish.label "Hora de Término da Transação">
+<!ENTITY field.scap.chron_1.label "Chron 1">
+<!ENTITY field.scap.chron_3.label "Chron 3">
+<!ENTITY field.scap.chron_2.label "Chron 2">
+<!ENTITY field.accs.start_time.label "Horas de Início">
+<!ENTITY field.atev.start_time.label "Horas de Início">
+<!ENTITY field.bresv.start_time.label "Horas de Início">
+<!ENTITY class.xop.label "Operator Expression">
+<!ENTITY class.xser.label "Operator Expression">
+<!ENTITY field.rxbt.total.label "Valor Total de Faturamento">
+<!ENTITY field.circ.xact_finish.label "Data/Hora de Término da Transação">
+<!ENTITY field.combcirc.xact_finish.label "Data/Hora de Término da Transação">
+<!ENTITY field.acirc.xact_finish.label "Data/Hora de Término da Transação">
+<!ENTITY field.bresv.xact_finish.label "Data/Hora de Término da Transação">
+<!ENTITY field.mbt.xact_finish.label "Data/Hora de Término da Transação">
+<!ENTITY field.rodcirc.xact_finish.label "Data/Hora de Término da Transação">
+<!ENTITY field.acqedim.translate_time.label "Time Translated">
+<!ENTITY field.acqftr.transfer_user.label "Transfer User">
+<!ENTITY class.acqfdt.label "Débitos Totais do Fundo">
+<!ENTITY field.vmp.name.label "Nome">
+<!ENTITY field.viiad.name.label "Nome">
+<!ENTITY field.vbq.name.label "Nome">
+<!ENTITY field.vaq.name.label "Nome">
+<!ENTITY field.cgf.name.label "Nome">
+<!ENTITY field.cin.name.label "Nome">
+<!ENTITY field.cza.name.label "Nome">
+<!ENTITY field.atevdef.name.label "Nome">
+<!ENTITY field.ccm.name.label "Nome">
+<!ENTITY field.aus.name.label "Nome">
+<!ENTITY field.cxt.name.label "Nome">
+<!ENTITY field.cmc.name.label "Nome">
+<!ENTITY field.cmf.name.label "Nome">
+<!ENTITY field.acnc.name.label "Nome">
+<!ENTITY field.chdd.name.label "Nome">
+<!ENTITY field.cust.name.label "Nome">
+<!ENTITY field.auss.name.label "Nome">
+<!ENTITY field.acpl.name.label "Nome">
+<!ENTITY field.asv.name.label "Nome">
+<!ENTITY field.aou.name.label "Nome">
+<!ENTITY field.asc.name.label "Nome">
+<!ENTITY field.actsc.name.label "Nome">
+<!ENTITY field.cnct.name.label "Nome">
+<!ENTITY field.act.name.label "Nome">
+<!ENTITY field.cbt.name.label "Nome">
+<!ENTITY field.acqipm.name.label "Nome">
+<!ENTITY field.acqpc.name.label "Nome">
+<!ENTITY field.acqf.name.label "Nome">
+<!ENTITY field.acqpl.name.label "Nome">
+<!ENTITY field.acqpo.name.label "Nome">
+<!ENTITY field.acqpoh.name.label "Nome">
+<!ENTITY field.acqlia.attr_name.label "Nome">
+<!ENTITY field.acqphsm.name.label "Nome">
+<!ENTITY field.qbv.name.label "Nome">
+<!ENTITY field.clm.code.label "Código do Idioma">
+<!ENTITY field.bre.language.label "Código do Idioma">
+<!ENTITY field.au.ws_ou.label "Workstation Org Unit">
+<!ENTITY class.vmp.label "Bib Import Merge Profile">
+<!ENTITY field.qseq.seq_no.label "Sequence Number">
+<!ENTITY field.qsf.seq_no.label "Sequence Number">
+<!ENTITY field.qfpd.seq_no.label "Sequence Number">
+<!ENTITY field.qxp.seq_no.label "Sequence Number">
+<!ENTITY field.qcb.seq_no.label "Sequence Number">
+<!ENTITY field.qfr.seq_no.label "Sequence Number">
+<!ENTITY field.qrc.seq_no.label "Sequence Number">
+<!ENTITY field.qsi.seq_no.label "Sequence Number">
+<!ENTITY field.qobi.seq_no.label "Sequence Number">
+<!ENTITY field.xbet.seq_no.label "Sequence Number">
+<!ENTITY field.xbind.seq_no.label "Sequence Number">
+<!ENTITY field.xbool.seq_no.label "Sequence Number">
+<!ENTITY field.xcase.seq_no.label "Sequence Number">
+<!ENTITY field.xcast.seq_no.label "Sequence Number">
+<!ENTITY field.xcol.seq_no.label "Sequence Number">
+<!ENTITY field.xex.seq_no.label "Sequence Number">
+<!ENTITY field.xfunc.seq_no.label "Sequence Number">
+<!ENTITY field.xin.seq_no.label "Sequence Number">
+<!ENTITY field.xisnull.seq_no.label "Sequence Number">
+<!ENTITY field.xnull.seq_no.label "Sequence Number">
+<!ENTITY field.xnum.seq_no.label "Sequence Number">
+<!ENTITY field.xop.seq_no.label "Sequence Number">
+<!ENTITY field.xser.seq_no.label "Sequence Number">
+<!ENTITY field.xstr.seq_no.label "Sequence Number">
+<!ENTITY field.xsubq.seq_no.label "Sequence Number">
+<!ENTITY field.accs.last_checkin_scan_time.label "Last Checkin Scan Time">
+<!ENTITY field.vii.call_number.label "Nº de Chamada">
+<!ENTITY field.viiad.call_number.label "Nº de Chamada">
+<!ENTITY field.auricnm.call_number.label "Nº de Chamada">
+<!ENTITY field.combcirc.copy_call_number.label "Nº de Chamada">
+<!ENTITY field.acirc.copy_call_number.label "Nº de Chamada">
+<!ENTITY field.atev.template_output.label "Saída de Modelo">
+<!ENTITY field.acqdf.id.label "Fórmula ID">
+<!ENTITY field.acqdfe.formula.label "Fórmula ID">
+<!ENTITY field.act.mint_condition.label "É Condição Mint">
+<!ENTITY field.circbyyr.is_renewal.label "Renovação">
+<!ENTITY class.bram.label "Mapa de Atributo de Recurso">
+<!ENTITY field.rccbs.usr_home_ou.label "Link com a Biblioteca do Usuário">
+<!ENTITY field.acqpc.role.label "Função">
+<!ENTITY field.au.day_phone.label "Telefone de Dia">
+<!ENTITY field.stgu.day_phone.label "Telefone de Dia">
+<!ENTITY field.ahr.email_notify.label "Avisar por Email?">
+<!ENTITY field.acqlisum.invoice_count.label "Invoice Count">
+<!ENTITY class.mups.label "Sumário de Pagamento do Usuário">
+<!ENTITY field.acqinv.recv_method.label "Receive Method">
+<!ENTITY field.au.notes.label "Notas do Usuário">
+<!ENTITY field.asc.id.label "ID das categorias estatísticas">
+<!ENTITY field.actsc.id.label "ID das categorias estatísticas">
+<!ENTITY field.stgsc.statcat.label "ID das categorias estatísticas">
+<!ENTITY field.acqexr.from_currency.label "Da Moeda">
+<!ENTITY field.mrd.enc_level.label "ELvl">
+<!ENTITY field.qsq.use_all.label "Use ALL">
+<!ENTITY class.atreact.label "Ativar Reação a Evento">
+<!ENTITY field.acqii.po_item.label "Ordem de Compra, ID">
+<!ENTITY class.acqpoi.label "Ordem de Compra, ID">
+<!ENTITY field.ahr.selection_ou.label "Lugar de Seleção">
+<!ENTITY field.atenv.collector.label "Coletor">
+<!ENTITY class.acqafet.label "All Fund Encumbrance Total">
+<!ENTITY field.pgt.children.label "Grupos Filhos">
+<!ENTITY field.accs.last_checkin_time.label "Last Checkin Time">
+<!ENTITY class.erfcc.label "Contagem Total de Circulação, incluindo Legados">
+<!ENTITY field.act.location.label "Localização">
+<!ENTITY field.acqdfe.location.label "Localização">
+<!ENTITY class.cmpcvm.label "MARC21 Physical Characteristic Value Map">
+<!ENTITY field.rsr.topic_subject.label "Tópico de Assuntos (normalizado)">
+<!ENTITY field.acqpro.prepayment_required.label "Prepayment Required">
+<!ENTITY field.acqpo.prepayment_required.label "Prepayment Required">
+<!ENTITY field.acqpoh.prepayment_required.label "Prepayment Required">
+<!ENTITY field.au.profile.label "Grupo Principal (Perfil) de Permissão">
+<!ENTITY field.stgu.profile.label "Grupo Principal (Perfil) de Permissão">
+<!ENTITY field.mfr.subfield.label "Subcampo">
+<!ENTITY field.acqphsm.subfield.label "Subcampo">
+<!ENTITY class.qsf.label "Subcampo">
+<!ENTITY field.bmpc.subfield.label "Subcampo">
+<!ENTITY field.cmpcsm.subfield.label "Subcampo">
+<!ENTITY field.cmpcvm.ptype_subfield.label "Subcampo">
+<!ENTITY field.acn.creator.label "Criando Usuário">
+<!ENTITY field.sunit.creator.label "Criando Usuário">
+<!ENTITY field.acp.creator.label "Criando Usuário">
+<!ENTITY field.sunit.holdable.label "É Reservável">
+<!ENTITY field.acp.holdable.label "É Reservável">
+<!ENTITY class.ergbhu.label "IDs Bib por Hora de Inclusão/Exclusão de Reserva (OCLC batch update)">
+<!ENTITY class.acqftr.label "Fund Transfer">
+<!ENTITY field.circ.max_fine.label "Valor Máx de Multa">
+<!ENTITY field.combcirc.max_fine.label "Valor Máx de Multa">
+<!ENTITY field.acirc.max_fine.label "Valor Máx de Multa">
+<!ENTITY field.brt.max_fine.label "Valor Máx de Multa">
+<!ENTITY field.bresv.max_fine.label "Valor Máx de Multa">
+<!ENTITY field.crmf.amount.label "Valor Máx de Multa">
+<!ENTITY field.rodcirc.max_fine.label "Valor Máx de Multa">
+<!ENTITY field.act.deposit.label "Deposito">
+<!ENTITY field.auss.target.label "Target">
+<!ENTITY field.acqii.target.label "Target">
+<!ENTITY field.acqpoi.target.label "Target">
+<!ENTITY field.qfr.subquery.label "Subquery ID">
+<!ENTITY field.acqftm.tag.label "Etiqueta ID">
+<!ENTITY field.ccmm.hard_due_date.label "Hard Due Date">
+<!ENTITY class.chdd.label "Hard Due Date">
+<!ENTITY field.chddv.hard_due_date.label "Hard Due Date">
+<!ENTITY field.ahr.hold_type.label "Tipo da Reserva">
+<!ENTITY field.acqfdeb.origin_currency_type.label "Moeda Origem">
+<!ENTITY field.acqda.credit_amount.label "Credit Amount">
+<!ENTITY field.au.alias.label "Cliente de OPAC/Funcionário Pseudonimo Reservas">
+<!ENTITY field.aou.children.label "Unidades Organizacionais Subordinadas">
+<!ENTITY field.mfr.value.label "Valor Normalizado">
+<!ENTITY field.ccmm.circulate.label "Circular?">
+<!ENTITY field.act.circulate.label "Circular?">
+<!ENTITY class.cxt.label "Definição de Transformação em XML/XSLT">
+<!ENTITY field.accs.last_renewal_time.label "Last Renewal Time">
+<!ENTITY field.ahr.fulfillment_time.label "Data/Hora Conclusão">
+<!ENTITY field.ausp.note.label "Nota">
+<!ENTITY field.srlu.note.label "Nota">
+<!ENTITY field.mg.note.label "Nota">
+<!ENTITY field.mwp.note.label "Nota">
+<!ENTITY field.mgp.note.label "Nota">
+<!ENTITY field.mckp.note.label "Nota">
+<!ENTITY field.mp.note.label "Nota">
+<!ENTITY field.mbp.note.label "Nota">
+<!ENTITY field.mndp.note.label "Nota">
+<!ENTITY field.mdp.note.label "Nota">
+<!ENTITY field.mb.note.label "Nota">
+<!ENTITY field.acqinv.note.label "Nota">
+<!ENTITY field.acqie.note.label "Nota">
+<!ENTITY field.acqii.note.label "Nota">
+<!ENTITY field.acqftr.note.label "Nota">
+<!ENTITY field.acqfscred.note.label "Nota">
+<!ENTITY field.acqofscred.note.label "Nota">
+<!ENTITY field.acqfa.note.label "Nota">
+<!ENTITY field.acqfap.note.label "Nota">
+<!ENTITY field.acqpoi.note.label "Nota">
+<!ENTITY field.acqlid.note.label "Nota">
+<!ENTITY field.acqcle.note.label "Nota">
+<!ENTITY field.acqscle.note.label "Nota">
+<!ENTITY class.ccnbi.label "Nº de Chamada do Item de Cesta">
+<!ENTITY class.xbet.label "Between Expression">
+<!ENTITY field.ateo.events.label "Eventos">
+<!ENTITY field.act.circ_lib.label "Bib de Circ">
+<!ENTITY field.rocit.circ_lib.label "Bib de Circ">
+<!ENTITY field.acn.id.label "ID do Número/Volume  de Chamada">
+<!ENTITY field.qfr.join_type.label "Join Type">
+<!ENTITY class.vqar.label "Registro de Autorização em Fila">
+<!ENTITY field.bresv.capture_staff.label "Capture Funcionários">
+<!ENTITY class.acqclpa.label "Claim Policy Action">
+<!ENTITY field.acrlid.claim_policy_action.label "Claim Policy Action">
+<!ENTITY field.bresv.payments.label "Itens do Pagamento">
+<!ENTITY field.mbt.payments.label "Itens do Pagamento">
+<!ENTITY field.sra.multiplier.label "Multiplicador">
+<!ENTITY field.stgu.row_date.label "Data de Linha">
+<!ENTITY field.stgc.row_date.label "Data de Linha">
+<!ENTITY field.stgma.row_date.label "Data de Linha">
+<!ENTITY field.stgba.row_date.label "Data de Linha">
+<!ENTITY field.stgsc.row_date.label "Data de Linha">
+<!ENTITY class.qobi.label "Order By Item">
+<!ENTITY class.cblvl.label "Mapa do Nível Catalográfico">
+<!ENTITY field.vmp.replace_spec.label "Replace Specification">
+<!ENTITY class.mcp.label "Pagamento em Dinheiro">
+<!ENTITY field.mdp.cash_payment.label "Pagamento em Dinheiro">
+<!ENTITY field.ahr.fulfillment_lib.label "Biblioteca em Atividade">
+<!ENTITY field.rocit.shelving_location.label "Nome de Localização na Prateleira">
+<!ENTITY field.mb.voider.label "Anulando Membro Administrativo">
+<!ENTITY field.mcrp.note.label "Obs do Pagamento">
+<!ENTITY class.fdoc.label "Doc Campo IDL">
+<!ENTITY field.ccmm.script_test.label "Teste de Script">
+<!ENTITY field.qobi.id.label "Order By Item ID">
+<!ENTITY field.bre.create_date.label "Data/Hora de Criação de Registro">
+<!ENTITY field.au.create_date.label "Data/Hora de Criação de Registro">
+<!ENTITY field.circ.create_time.label "Data/Hora de Criação de Registro">
+<!ENTITY field.combcirc.create_time.label "Data/Hora de Criação de Registro">
+<!ENTITY field.acirc.create_time.label "Data/Hora de Criação de Registro">
+<!ENTITY field.ocirccount.claims_returned.label "Claims Returned">
+<!ENTITY field.ocirclist.claims_returned.label "Claims Returned">
+<!ENTITY field.chmm.request_ou.label "Biblioteca Solicitante">
+<!ENTITY field.bresv.request_lib.label "Biblioteca Solicitante">
+<!ENTITY field.asvr.usr.label "Respondendo Usuário">
+<!ENTITY class.atval.label "Ativar Validador de Condição">
+<!ENTITY class.acqexr.label "Taxa de câmbio">
+<!ENTITY field.qxp.table_alias.label "Table Alias">
+<!ENTITY field.qfr.table_alias.label "Table Alias">
+<!ENTITY field.xcol.table_alias.label "Table Alias">
+<!ENTITY field.vbq.complete.label "Completa">
+<!ENTITY field.vaq.complete.label "Completa">
+<!ENTITY field.acqinv.complete.label "Completa">
+<!ENTITY field.stgu.complete.label "Completa">
+<!ENTITY field.stgc.complete.label "Completa">
+<!ENTITY field.stgma.complete.label "Completa">
+<!ENTITY field.stgba.complete.label "Completa">
+<!ENTITY field.stgsc.complete.label "Completa">
+<!ENTITY field.cnct.id.label "ID do Item Não-cat">
+<!ENTITY field.qdt.id.label "Datatype ID">
+<!ENTITY field.atevdef.cleanup_failure.label "Falha de Limpeza">
+<!ENTITY field.auoi.id.label "ID de Opt-in">
+<!ENTITY field.chmm.usr_grp.label "Grupo de Permissão do Usuário">
+<!ENTITY field.acqclet.library_initiated.label "Library Initiated">
+<!ENTITY field.bresv.attr_val_maps.label "Mapas de Valor de Atributo">
+<!ENTITY field.scap.start_date.label "Data Inicial">
+<!ENTITY field.ssub.start_date.label "Data Inicial">
+<!ENTITY field.acn.label_class.label "Classification Scheme">
+<!ENTITY class.mb.label "Item de Linha da Cobrança">
+<!ENTITY field.brav.attr_val_maps.label "Valor de Atributo de Recurso ID">
+<!ENTITY field.qfr.id.label "From Relation ID">
+<!ENTITY field.qrc.from_relation.label "From Relation ID">
+<!ENTITY class.mucs.label "Sumário de Circulação de Usuário">
+<!ENTITY field.rxpt.voided.label "Anulado (Retornado)  Qtde Paga">
+<!ENTITY field.brt.catalog_item.label "Item de Catálogo">
+<!ENTITY field.brsrc.catalog_item.label "Item de Catálogo">
+<!ENTITY field.mbts.last_billing_note.label "Última Obs de Fatura">
+<!ENTITY field.mbtslv.last_billing_note.label "Última Obs de Fatura">
+<!ENTITY field.rccbs.last_billing_note.label "Última Obs de Fatura">
+<!ENTITY field.czs.port.label "Porta">
+<!ENTITY class.acqlid.label "Detalhe de Item de Linha">
+<!ENTITY class.ahrcc.label "Causa do Cancelamento do Pedido de Reserva">
+<!ENTITY class.moucs.label "Abra Sumário de Circulação de Usuário">
+<!ENTITY field.acqf.propagate.label "Propagate">
+<!ENTITY field.bre.author_field_entries.label "Entradas Indexadas do Campo Autor">
+<!ENTITY class.sre.label "Entrada de Registro Serial">
+<!ENTITY field.vqbrad.remove.label "Remove RegExp">
+<!ENTITY field.vqarad.remove.label "Remove RegExp">
+<!ENTITY field.chmm.holdable.label "Reservável?">
+<!ENTITY field.act.holdable.label "Reservável?">
+<!ENTITY class.mobts.label "Abra Sumário Transacional Faturável">
+<!ENTITY field.act.circ_as_type.label "Circ As Type">
+<!ENTITY field.acqedim.message_type.label "Message Type">
+<!ENTITY class.vbq.label "Importar/Sobrepõe Fila Bib">
+<!ENTITY field.aupr.uuid.label "UUID">
+<!ENTITY field.aur.hold.label "Place Hold">
+<!ENTITY class.act.label "Asset Copy Template">
+<!ENTITY field.artc.persistant_transfer.label "É Persistente?">
+<!ENTITY field.ahtc.persistant_transfer.label "É Persistente?">
+<!ENTITY field.acqii.fund_debit.label "Débito do Fundo">
+<!ENTITY field.acqpoi.fund_debit.label "Débito do Fundo">
+<!ENTITY field.acqlid.fund_debit.label "Débito do Fundo">
+<!ENTITY field.acqda.fund_debit.label "Débito do Fundo">
+<!ENTITY field.au.net_access_level.label "Nível de Acesso por Internet">
+<!ENTITY class.xsubq.label "Subquery Expression">
+<!ENTITY field.qfs.return_type.label "Hora de Retorno">
+<!ENTITY field.acqfa.id.label "ID de Alocação">
+<!ENTITY field.acqfap.id.label "ID de Alocação">
+<!ENTITY field.mcrp.payment_type.label "Tipo de Pagamento">
+<!ENTITY field.mwp.payment_type.label "Tipo de Pagamento">
+<!ENTITY field.mgp.payment_type.label "Tipo de Pagamento">
+<!ENTITY field.mckp.payment_type.label "Tipo de Pagamento">
+<!ENTITY field.mp.payment_type.label "Tipo de Pagamento">
+<!ENTITY field.mbp.payment_type.label "Tipo de Pagamento">
+<!ENTITY field.mndp.payment_type.label "Tipo de Pagamento">
+<!ENTITY field.mdp.payment_type.label "Tipo de Pagamento">
+<!ENTITY field.sdist.receive_unit_template.label "Receive Unit Template">
+<!ENTITY field.rccbs.last_billing_ts.label "Última Data/Hora de Faturamento">
+<!ENTITY field.mcrp.amount_collected.label "Montante Coletado">
+<!ENTITY field.mwp.amount_collected.label "Montante Coletado">
+<!ENTITY field.mgp.amount_collected.label "Montante Coletado">
+<!ENTITY field.mckp.amount_collected.label "Montante Coletado">
+<!ENTITY field.ahr.current_copy.label "Exemplar Destinado Atualmente">
+<!ENTITY field.qbv.actual_value.label "Actual Value">
+<!ENTITY class.are.label "Entrada de Registro de Autoridade">
+<!ENTITY field.jub.order_summary.label "Sumário de Usuário">
+<!ENTITY class.acqfs.label "Fonte de Financiamento">
+<!ENTITY field.acqfsrcct.funding_source.label "Fonte de Financiamento">
+<!ENTITY field.acqfsrcat.funding_source.label "Fonte de Financiamento">
+<!ENTITY field.acqfsrcb.funding_source.label "Fonte de Financiamento">
+<!ENTITY field.acqfa.funding_source.label "Fonte de Financiamento">
+<!ENTITY field.acqfap.funding_source.label "Fonte de Financiamento">
+<!ENTITY field.acqft.owner.label "Fund Tag Owner">
+<!ENTITY class.acqfa.label "Alocação de Fundo">
+<!ENTITY class.qfpd.label "Function Parameter Definition">
+<!ENTITY field.asvq.answers.label "Respostas">
+<!ENTITY field.rocit.stat_cat_1.label "Est Cat 1 (Legado)">
+<!ENTITY field.rocit.stat_cat_2.label "Est Cat 2 (Legado)">
+<!ENTITY field.bre.identifier_field_entries.label "Entradas de campos de coleções indexadas">
+<!ENTITY field.vbm.field_type.label "Campo: Tipo">
+<!ENTITY field.cza.truncation.label "Truncamento">
+<!ENTITY class.cbfp.label "Fingerprint Definition">
+<!ENTITY field.afs.applied_time.label "Applied Time">
+<!ENTITY class.acqipm.label "Invoice Payment Method">
+<!ENTITY class.asva.label "Resposta da Pesquisa">
+<!ENTITY field.ahr.transit.label "Transito">
+<!ENTITY field.atevdef.max_delay.label "Atraso máximo da validade do evento">
+<!ENTITY field.acqdf.skip_count.label "Pular Contagem">
+<!ENTITY field.bresv.capture_time.label "Horas da Captura">
+<!ENTITY class.acqafat.label "Total Alocado do Fundo">
+<!ENTITY field.asv.start_date.label "Data/Hora de Início da Pesquisa">
+<!ENTITY class.acqlilad.label "Item de Linha Definição de Atributo Local">
+<!ENTITY field.au.checkouts.label "Todas Circulações">
+<!ENTITY field.acqedim.jedi.label "JEDI Message Body">
+<!ENTITY field.aws.name.label "Nome da Estação de Trabalho">
+<!ENTITY field.circ.parent_circ.label "Circulação Pai">
+<!ENTITY field.acirc.parent_circ.label "Circulação Pai">
+<!ENTITY class.ccnb.label "Cesta do Nº de Chamada">
+<!ENTITY field.ssub.scaps.label "Captions and Patterns">
+<!ENTITY field.ahr.fulfillment_staff.label "Funcionário de Atendimento">
+<!ENTITY field.acqinv.entries.label "Invoice Entries">
+<!ENTITY field.jub.invoice_entries.label "Invoice Entries">
+<!ENTITY field.mp.work_payment.label "Detalhes do Pagamento em Trabalho">
+<!ENTITY field.mbp.work_payment.label "Detalhes do Pagamento em Trabalho">
+<!ENTITY field.mndp.work_payment.label "Detalhes do Pagamento em Trabalho">
+<!ENTITY class.acqfsb.label "Saldo do Fundo Gasto">
+<!ENTITY field.mrd.lit_form.label "LitF">
+<!ENTITY field.auss.query_type.label "Query Type">
+<!ENTITY field.acqfet.amount.label "Total do Montante Comprometido">
+<!ENTITY field.aua.valid.label "Endereço Válido?">
+<!ENTITY field.acqpca.valid.label "Endereço Válido?">
+<!ENTITY field.acqclpa.action.label "Action (Event Type)">
+<!ENTITY class.aouhoo.label "Horas de Operação">
+<!ENTITY field.aou.hours_of_operation.label "Horas de Operação">
+<!ENTITY field.cmrtm.blvl_val.label "BLvl Value">
+<!ENTITY field.acqedim.error.label "Error">
+<!ENTITY field.aws.circulations.label "Circulações">
+<!ENTITY field.sunit.circulations.label "Circulações">
+<!ENTITY field.aou.circulations.label "Circulações">
+<!ENTITY field.acp.circulations.label "Circulações">
+<!ENTITY field.brsrc.overbook.label "Overbook">
+<!ENTITY field.acqinv.id.label "Internal Invoice ID">
+<!ENTITY field.acqfscred.deadline_date.label "Deadline Date">
+<!ENTITY field.aou.resv_pickups.label "Escolha de Reservas">
+<!ENTITY field.asv.id.label "ID da Pesquisa">
+<!ENTITY field.rccc.patron_county.label "País do Usuário">
+<!ENTITY class.acqim.label "Invoice Method used by Vendor">
+<!ENTITY field.acqpoi.estimated_cost.label "Estimated Cost">
+<!ENTITY field.crahp.prox.label "Proximidade Permitida">
+<!ENTITY field.cxt.field_class.label "Classe do Campo">
+<!ENTITY field.mbt.grocery.label "Link da Fatura da Doceria">
+<!ENTITY field.qsi.column_alias.label "Column Alias">
+<!ENTITY field.aou.id.label "ID da Unidade Organizacional">
+<!ENTITY field.acqinv.inv_ident.label "Vendor Invoice ID">
+<!ENTITY field.vqbr.import_time.label "Importa Horas">
+<!ENTITY field.vqar.import_time.label "Importa Horas">
+<!ENTITY field.qseq.parent_query.label "Parent Query">
+<!ENTITY field.acqf.balance_stop_percent.label "Balance Stop Percent">
+<!ENTITY field.atevdef.delay.label "Atraso de Processamento">
+<!ENTITY class.acqfsrcat.label "Total alocado para a fonte de financiamento">
+<!ENTITY class.cust.label "Tipo de Configurações de Usuário">
+<!ENTITY field.qfr.table_name.label "Table Name">
+<!ENTITY field.citm.code.label "Item: Tipo do Cód.">
+<!ENTITY field.au.standing.label "Permanente (não utilizado)">
+<!ENTITY field.cracct.password.label "Senha">
+<!ENTITY field.au.passwd.label "Senha">
+<!ENTITY field.acqedi.password.label "Senha">
+<!ENTITY field.stgu.passwd.label "Senha">
+<!ENTITY field.rsr.name_subject.label "Assuntos de Nomes Pessoais (normalizado)">
+<!ENTITY class.acqii.label "Non-bibliographic Invoice Item">
+<!ENTITY field.aua.country.label "País">
+<!ENTITY field.acqpa.country.label "País">
+<!ENTITY field.acqpca.country.label "País">
+<!ENTITY field.stgma.country.label "País">
+<!ENTITY field.stgba.country.label "País">
+<!ENTITY field.ccmm.total_copy_hold_ratio.label "Total Mínimo da Relação Exemplar/Reserva">
+<!ENTITY field.mg.payments.label "Pagamentos">
+<!ENTITY field.acqlih.expected_recv_time.label "Data Experada de Recebimento">
+<!ENTITY field.erfcc.circ_count.label "Contagem Total de Circulação">
+<!ENTITY field.bre.title_field_entries.label "Entradas Indexadas do Campo Título">
+<!ENTITY field.vii.circ_modifier.label "Modificador da Circulação">
+<!ENTITY field.viiad.circ_modifier.label "Modificador da Circulação">
+<!ENTITY class.ccm.label "Modificador da Circulação">
+<!ENTITY field.chmm.circ_modifier.label "Modificador da Circulação">
+<!ENTITY field.ccmm.circ_modifier.label "Modificador da Circulação">
+<!ENTITY field.ccmcmtm.circ_mod.label "Modificador da Circulação">
+<!ENTITY field.sunit.circ_modifier.label "Modificador da Circulação">
+<!ENTITY field.acp.circ_modifier.label "Modificador da Circulação">
+<!ENTITY field.aou.addresses.label "Endereços">
+<!ENTITY field.acqpro.addresses.label "Endereços">
+<!ENTITY field.auoi.opt_in_ts.label "Data/Hora Opt-in">
+<!ENTITY field.afscv.col.label "Column Name">
+<!ENTITY field.qxp.column_name.label "Column Name">
+<!ENTITY field.qrc.column_name.label "Column Name">
+<!ENTITY field.xcol.column_name.label "Column Name">
+<!ENTITY field.xfunc.column_name.label "Column Name">
+<!ENTITY field.acqf.year.label "Ano">
+<!ENTITY field.circbyyr.year.label "Ano">
+<!ENTITY field.rxbt.voided.label "Montante de Faturamento Anulado">
+<!ENTITY field.jub.estimated_unit_price.label "Estimated Unit Price">
+<!ENTITY field.acqlih.estimated_unit_price.label "Estimated Unit Price">
+<!ENTITY class.mbtslv.label "Billable Transaction Summary with Billing Location">
+<!ENTITY field.au.demographic.label "Informações Demográficas">
+<!ENTITY field.mbts.last_payment_note.label "Última Observação de Pagamento">
+<!ENTITY field.mbtslv.last_payment_note.label "Última Observação de Pagamento">
+<!ENTITY field.rccbs.last_payment_note.label "Última Observação de Pagamento">
+<!ENTITY field.au.expire_date.label "Data de Expiração Previlegiada">
+<!ENTITY field.ac.id.label "ID do Cartão">
+<!ENTITY field.au.id.label "ID do Usuário">
+<!ENTITY field.ocirccount.usr.label "ID do Usuário">
+<!ENTITY field.ocirclist.usr.label "ID do Usuário">
+<!ENTITY field.rud.id.label "ID do Usuário">
+<!ENTITY field.asc.entries.label "Entradas">
+<!ENTITY field.actsc.entries.label "Entradas">
+<!ENTITY field.acqpl.entries.label "Entradas">
+<!ENTITY field.acqdf.entries.label "Entradas">
+<!ENTITY field.sunit.dummy_title.label "Título por Padrão">
+<!ENTITY field.acp.dummy_title.label "Título por Padrão">
+<!ENTITY field.rccc.patron_home_lib_shortname.label "Nome Abreviado (regulado) da Biblioteca de Origem do Usuário">
+<!ENTITY field.aou.atc_prev_dests.label "Dest. Prévios de Exemplar em Transito">
+<!ENTITY field.mcrp.amount.label "Montante">
+<!ENTITY field.mwp.amount.label "Montante">
+<!ENTITY field.mgp.amount.label "Montante">
+<!ENTITY field.mckp.amount.label "Montante">
+<!ENTITY field.mp.amount.label "Montante">
+<!ENTITY field.mbp.amount.label "Montante">
+<!ENTITY field.mndp.amount.label "Montante">
+<!ENTITY field.mdp.amount.label "Montante">
+<!ENTITY field.mb.amount.label "Montante">
+<!ENTITY field.acqfscred.amount.label "Montante">
+<!ENTITY field.acqofscred.amount.label "Montante">
+<!ENTITY field.acqfdeb.amount.label "Montante">
+<!ENTITY field.acqfa.amount.label "Montante">
+<!ENTITY class.mwps.label "Sumário de Pagamento da Estação de Trabalho">
+<!ENTITY field.bre.series_field_entries.label "Entradas de campos de coleções indexadas">
+<!ENTITY class.bren.label "Obs de Registro Catalográfico">
+<!ENTITY field.jub.distribution_formulas.label "Fórmula de Distribuição">
+<!ENTITY field.acqclet.id.label "Claim Event Type ID">
+<!ENTITY field.acnc.id.label "Call number class ID">
+<!ENTITY field.aufhml.min.label "Loop Min">
+<!ENTITY field.mrd.type_mat.label "TMat">
+<!ENTITY class.mckp.label "Pagto em Cheque">
+<!ENTITY field.mdp.check_payment.label "Pagto em Cheque">
+<!ENTITY field.rccc.stat_cat_1.label "CAT1 Link (Legado)">
+<!ENTITY field.ccmm.available_copy_hold_ratio.label "Disponibilidade Mínima da Proporção Exemplar/Reserva">
+<!ENTITY field.atev.update_time.label "Hora de Atualização">
+<!ENTITY field.ergbhu.holding_update.label "Hora de Atualização">
+<!ENTITY field.acqinv.items.label "Invoice Items">
+<!ENTITY field.au.groups.label "Grupo de Permissões Adicionais">
+<!ENTITY class.cbrebn.label "Nota da Cesta de Entrada de Registro Bibliográfico">
+<!ENTITY field.accs.last_stop_fines.label "Last Stop Fines">
+<!ENTITY field.ahr.request_lib.label "Requisitando Biblioteca">
+<!ENTITY field.mcrp.xact.label "Transação">
+<!ENTITY field.mb.xact.label "Transação">
+<!ENTITY field.acqliat.id.label "Alert Text ID">
+<!ENTITY field.rud.general_division.label "Divisão de Demografia Geral">
+<!ENTITY field.aou.ou_type.label "Tipo da Unidade Organizacional">
+<!ENTITY class.aout.label "Tipo da Unidade Organizacional">
+<!ENTITY field.acqft.map_entries.label "Entradas de Mapa">
+<!ENTITY field.ahr.notify_count.label "Notificar a contagem">
+<!ENTITY field.acqpo.amount_encumbered.label "Montante Impedido">
+<!ENTITY field.cmf.facet_xpath.label "Facet XPath">
+<!ENTITY field.act.opac_visible.label "OPAC: Visível">
+<!ENTITY field.rccc.stat_cat_2_value.label "CAT2 Valor (Legado)">
+<!ENTITY field.asv.opac.label "Pesquisa OPAC?">
+<!ENTITY field.aupr.id.label "Request ID">
+<!ENTITY field.bre.metarecord.label "Metaregistro">
+<!ENTITY class.mmr.label "Metaregistro">
+<!ENTITY field.rsr.metarecord.label "Metaregistro">
+<!ENTITY field.rccc.stat_cat_2.label "CAT2 Link (Legado)">
+<!ENTITY field.aun.id.label "ID da Observação">
+<!ENTITY field.acpn.id.label "ID da Observação">
+<!ENTITY field.vbm.eg_record.label "Registro Evergreen">
+<!ENTITY field.vam.eg_record.label "Registro Evergreen">
+<!ENTITY class.acqlimad.label "Definição de Atributo MARC do Item de Linha">
+<!ENTITY field.pgpt.penalty.label "Penalidade">
+<!ENTITY class.mccp.label "Pagto em Cartão de Crédito">
+<!ENTITY field.mdp.credit_card_payment.label "Pagto em Cartão de Crédito">
+<!ENTITY field.srlu.reader.label "Reader">
+<!ENTITY field.cmfpm.fixed_field.label "Fixed Field">
+<!ENTITY field.aun.pub.label "OPAC é Vísivel?">
+<!ENTITY field.acpn.pub.label "OPAC é Vísivel?">
+<!ENTITY field.acpl.opac_visible.label "OPAC é Vísivel?">
+<!ENTITY field.ssubn.pub.label "Public?">
+<!ENTITY field.sdistn.pub.label "Public?">
+<!ENTITY field.sin.pub.label "Public?">
+<!ENTITY field.asvr.answer_date.label "Data/Hora da Resposta">
+<!ENTITY field.acqfdeb.id.label "Débito ID">
+<!ENTITY field.mbts.xact_type.label "Tipo da Transação">
+<!ENTITY field.mbtslv.xact_type.label "Tipo da Transação">
+<!ENTITY field.rccbs.xact_type.label "Tipo da Transação">
+<!ENTITY field.bresv.end_time.label "DataHora Final">
+<!ENTITY field.ateo.id.label "Saída, ID">
+<!ENTITY field.au.billing_address.label "Endereço Físico">
+<!ENTITY field.cza.id.label "Atributo Z39.50, ID">
+<!ENTITY field.qsf.composite_type.label "Composite Type">
+<!ENTITY field.acqfs.allocations.label "Alocações">
+<!ENTITY field.acqf.allocations.label "Alocações">
+<!ENTITY class.vqbrad.label "Definição do atributo do registro catalografico pra atender.">
+<!ENTITY field.acqfdeb.origin_amount.label "Montante de Origem">
+<!ENTITY field.aur.request_type.label "Tempo Requisitado">
+<!ENTITY class.brn.label "Nó de Registro">
+<!ENTITY field.circ.circ_type.label "Tipo da circulação">
+<!ENTITY field.combcirc.circ_type.label "Tipo da circulação">
+<!ENTITY field.acirc.circ_type.label "Tipo da circulação">
+<!ENTITY class.rcirct.label "Tipo da circulação">
+<!ENTITY field.rcirct.type.label "Tipo da circulação">
+<!ENTITY field.rccc.circ_type.label "Tipo da circulação">
+<!ENTITY field.rodcirc.circ_type.label "Tipo da circulação">
+<!ENTITY class.cbreb.label "Cesta de Entrada do Registro Catalográfico">
+<!ENTITY class.cmpcsm.label "MARC21 Physical Characteristic Subfield Map">
+<!ENTITY field.rhcrpb.copy_count.label "Holdable Copy Count">
+<!ENTITY field.qsq.id.label "Fila: ID">
+<!ENTITY field.circ.fine_interval.label "Intervalo de multa">
+<!ENTITY field.combcirc.fine_interval.label "Intervalo de multa">
+<!ENTITY field.acirc.fine_interval.label "Intervalo de multa">
+<!ENTITY field.brt.fine_interval.label "Intervalo de multa">
+<!ENTITY field.bresv.fine_interval.label "Intervalo de multa">
+<!ENTITY field.rodcirc.fine_interval.label "Intervalo de multa">
+<!ENTITY field.circ.checkin_workstation.label "Estação de Trabalho de Entradas">
+<!ENTITY field.acirc.checkin_workstation.label "Estação de Trabalho de Entradas">
+<!ENTITY field.acqfc.years.label "Anos">
+<!ENTITY class.aua.label "Endereço do usuário">
+<!ENTITY field.atevdef.delay_field.label "Processando Atraso do Campo de Contexto">
+<!ENTITY field.acqcl.lineitem_detail.label "Detalhe de Item de Linha">
+<!ENTITY field.acrlid.lineitem_detail.label "Detalhe de Item de Linha">
+<!ENTITY field.jub.id.label "Item-de-linha, ID">
+<!ENTITY field.acqlih.id.label "Item-de-linha, ID">
+<!ENTITY class.cnal.label "Nível de Acesso por Rede">
+<!ENTITY field.vii.opac_visible.label "OPAC: Visível">
+<!ENTITY field.viiad.opac_visible.label "OPAC: Visível">
+<!ENTITY field.sunit.opac_visible.label "OPAC: Visível">
+<!ENTITY field.aou.opac_visible.label "OPAC: Visível">
+<!ENTITY field.asc.opac_visible.label "OPAC: Visível">
+<!ENTITY field.actsc.opac_visible.label "OPAC: Visível">
+<!ENTITY field.acp.opac_visible.label "OPAC: Visível">
+<!ENTITY field.rocit.opac_visible.label "OPAC: Visível">
+<!ENTITY class.mmrsm.label "Metarecord Source Map">
+<!ENTITY field.ssr.total.label "Resultados totais">
+<!ENTITY class.stgba.label "Etapa de Endereço de Cobrança">
+<!ENTITY field.vii.alert_message.label "Mensagem de alerta">
+<!ENTITY field.viiad.alert_message.label "Mensagem de alerta">
+<!ENTITY field.au.alert_message.label "Mensagem de alerta">
+<!ENTITY field.sunit.alert_message.label "Mensagem de alerta">
+<!ENTITY field.acp.alert_message.label "Mensagem de alerta">
+<!ENTITY field.act.alert_message.label "Mensagem de alerta">
+<!ENTITY field.sitem.date_received.label "Date Received">
+<!ENTITY field.mbts.id.label "ID da transação">
+<!ENTITY field.mbtslv.id.label "ID da transação">
+<!ENTITY field.bresv.id.label "ID da transação">
+<!ENTITY field.mg.id.label "ID da transação">
+<!ENTITY field.mbt.id.label "ID da transação">
+<!ENTITY field.mwp.xact.label "ID da transação">
+<!ENTITY field.mgp.xact.label "ID da transação">
+<!ENTITY field.rxbt.xact.label "ID da transação">
+<!ENTITY field.rxpt.xact.label "ID da transação">
+<!ENTITY field.rccbs.id.label "ID da transação">
+<!ENTITY field.ahn.notify_time.label "Data/Hora de Notificação">
+<!ENTITY field.auss.create_date.label "Criar Data">
+<!ENTITY field.sre.create_date.label "Criar Data">
+<!ENTITY field.scap.create_date.label "Criar Data">
+<!ENTITY field.ssubn.create_date.label "Criar Data">
+<!ENTITY field.sdistn.create_date.label "Criar Data">
+<!ENTITY field.siss.create_date.label "Criar Data">
+<!ENTITY field.sitem.create_date.label "Criar Data">
+<!ENTITY field.sin.create_date.label "Criar Data">
+<!ENTITY field.act.create_date.label "Criar Data">
+<!ENTITY field.rocit.create_date.label "Criar Data">
+<!ENTITY field.artc.transit_copy.label "Trânsito Base">
+<!ENTITY field.ahtc.transit_copy.label "Trânsito Base">
+<!ENTITY field.ccmm.duration_rule.label "Regra de duração">
+<!ENTITY field.ccmm.copy_circ_lib.label "Copy Circ Lib">
+<!ENTITY field.bre.share_depth.label "Share Depth">
+<!ENTITY class.rtf.label "Pasta de Modelo?">
+<!ENTITY field.rccbs.demographic_general_division.label "Dados demográficos sobre a idade do usuário">
+<!ENTITY field.ahn.note.label "Observação da Notificação">
+<!ENTITY field.circ.duration_rule.label "Regra de duração de empréstimo">
+<!ENTITY field.combcirc.duration_rule.label "Regra de duração de empréstimo">
+<!ENTITY field.acirc.duration_rule.label "Regra de duração de empréstimo">
+<!ENTITY field.rodcirc.duration_rule.label "Regra de duração de empréstimo">
+<!ENTITY field.bravm.attr_value.label "Mapa de Atributo">
+<!ENTITY field.asv.required.label "É Requerido?">
+<!ENTITY field.atevparam.value.label "Valor do Parâmetro">
+<!ENTITY field.atc.id.label "ID de Trânsito">
+<!ENTITY field.artc.id.label "ID de Trânsito">
+<!ENTITY field.ahtc.id.label "ID de Trânsito">
+<!ENTITY field.iatc.id.label "ID de Trânsito">
+<!ENTITY field.acqfy.year_end.label "Final do Ano">
+<!ENTITY field.acqpro.url.label "URL">
+<!ENTITY field.auri.href.label "URI">
+<!ENTITY field.auricnm.uri.label "URI">
+<!ENTITY field.sitem.uri.label "URI">
+<!ENTITY class.acqclt.label "Claim Type">
+<!ENTITY field.acqcl.type.label "Claim Type">
+<!ENTITY field.acqscl.type.label "Claim Type">
+<!ENTITY field.circ.payments.label "Transações de Pagamentos">
+<!ENTITY field.combcirc.payments.label "Transações de Pagamentos">
+<!ENTITY field.acirc.payments.label "Transações de Pagamentos">
+<!ENTITY field.rodcirc.payments.label "Transações de Pagamentos">
+<!ENTITY field.brt.fine_amount.label "Montante da Multa">
+<!ENTITY field.bresv.fine_amount.label "Montante da Multa">
+<!ENTITY field.chmm.user_home_ou.label "Biblioteca do Usuário">
+<!ENTITY field.rmocbbhol.home_ou.label "Biblioteca do Usuário">
+<!ENTITY field.rmobbhol.home_ou.label "Biblioteca do Usuário">
+<!ENTITY class.aun.label "Notas do Usuário">
+<!ENTITY field.mp.forgive_payment.label "Detalhes de Perdão de Dívida">
+<!ENTITY field.mbp.forgive_payment.label "Detalhes de Perdão de Dívida">
+<!ENTITY field.mndp.forgive_payment.label "Detalhes de Perdão de Dívida">
+<!ENTITY field.brsrc.deposit.label "Um depósito é requerido?">
+<!ENTITY field.sunit.deposit.label "Um depósito é requerido?">
+<!ENTITY field.acp.deposit.label "Um depósito é requerido?">
+<!ENTITY field.rhrr.bib_record.label "Registro Bib Destino">
+<!ENTITY field.ahr.expire_time.label "Reserva Expirada (Data/Hora)">
+<!ENTITY field.bre.full_record_entries.label "Campos MARC reduzidos ">
+<!ENTITY field.acqpo.amount_spent.label "Montante Gasto">
+<!ENTITY class.rr.label "Relatório">
+<!ENTITY field.cmsa.field_class.label "Class">
+<!ENTITY field.cmf.field_class.label "Class">
+<!ENTITY field.mp.voided.label "Anulado?">
+<!ENTITY field.mbp.voided.label "Anulado?">
+<!ENTITY field.mndp.voided.label "Anulado?">
+<!ENTITY field.mdp.voided.label "Anulado?">
+<!ENTITY field.mb.voided.label "Anulado?">
+<!ENTITY class.viiad.label "Importar Definição de Atributo de Item">
+<!ENTITY field.rccc.circ_lib.label "Localização da Biblioteca de Circulação: Nome Abreviado (Regulado)">
+<!ENTITY field.jub.lineitem_details.label "Detalhes do Item de Linha">
+<!ENTITY field.qfs.is_aggregate.label "Is Aggregate">
+<!ENTITY class.stgc.label "Estágio Cartão">
+<!ENTITY class.acplo.label "Ordem de Posição de Exemplar/Prateleira">
+<!ENTITY field.acqpa.valid.label "É Valido?">
+<!ENTITY field.ancihu.item_type.label "Item: Tipo">
+<!ENTITY field.citm.value.label "Item: Tipo">
+<!ENTITY class.mafe.label "Entrada do Campo Autor">
+<!ENTITY field.acqlisum.recv_count.label "Receive Count">
+<!ENTITY field.ahr.phone_notify.label "Notificações: Nº do Telefone">
+<!ENTITY field.mg.billable_transaction.label "Ligação Transação Cobrável">
+<!ENTITY class.cmpctm.label "MARC21 Physical Characteristic Type Map">
+<!ENTITY field.mrd.date1.label "Data1">
+<!ENTITY class.vaq.label "Importar/Sobrepõe  Fila de Autorização">
+<!ENTITY field.bresv.billings.label "Itens de Linha da Cobrança">
+<!ENTITY field.mbt.billings.label "Itens de Linha da Cobrança">
+<!ENTITY field.bre.last_xact_id.label "Último ID de Transação">
+<!ENTITY field.au.last_xact_id.label "Último ID de Transação">
+<!ENTITY field.sre.last_xact_id.label "Último ID de Transação">
+<!ENTITY field.rccbs.usr.label "Link do Usuário">
+<!ENTITY class.ssubn.label "Subscription Note">
+<!ENTITY field.vqbrad.id.label "ID">
+<!ENTITY field.vqarad.id.label "ID">
+<!ENTITY field.cin.id.label "ID">
+<!ENTITY field.cmfinm.id.label "ID">
+<!ENTITY field.cracct.id.label "ID">
+<!ENTITY field.cmf.id.label "ID">
+<!ENTITY field.auricnm.id.label "ID">
+<!ENTITY field.chdd.id.label "ID">
+<!ENTITY field.chddv.id.label "ID">
+<!ENTITY field.pgpt.id.label "ID">
+<!ENTITY field.ausp.id.label "ID">
+<!ENTITY field.auss.id.label "ID">
+<!ENTITY field.sre.id.label "ID">
+<!ENTITY field.scap.id.label "ID">
+<!ENTITY field.ssub.id.label "ID">
+<!ENTITY field.ssubn.id.label "ID">
+<!ENTITY field.sdist.id.label "ID">
+<!ENTITY field.sdistn.id.label "ID">
+<!ENTITY field.sstr.id.label "ID">
+<!ENTITY field.srlu.id.label "ID">
+<!ENTITY field.siss.id.label "ID">
+<!ENTITY field.sunit.id.label "ID">
+<!ENTITY field.sitem.id.label "ID">
+<!ENTITY field.sin.id.label "ID">
+<!ENTITY field.sbsum.id.label "ID">
+<!ENTITY field.sssum.id.label "ID">
+<!ENTITY field.sisum.id.label "ID">
+<!ENTITY field.sra.id.label "ID">
+<!ENTITY field.ssr.id.label "ID">
+<!ENTITY field.ahrn.id.label "ID">
+<!ENTITY field.act.id.label "ID">
+<!ENTITY field.cbt.id.label "ID">
+<!ENTITY field.aurt.id.label "ID">
+<!ENTITY field.aur.id.label "ID">
+<!ENTITY field.acqie.id.label "ID">
+<!ENTITY field.acqii.id.label "ID">
+<!ENTITY field.acqpa.id.label "ID">
+<!ENTITY field.acqpc.id.label "ID">
+<!ENTITY field.acqcr.id.label "ID">
+<!ENTITY field.acqpoi.id.label "ID">
+<!ENTITY field.acqphsm.id.label "ID">
+<!ENTITY field.acqdfa.id.label "ID">
+<!ENTITY field.acqclp.id.label "ID">
+<!ENTITY field.acqclpa.id.label "ID">
+<!ENTITY field.cmfpm.id.label "ID">
+<!ENTITY field.cmpcsm.id.label "ID">
+<!ENTITY field.cmpcvm.id.label "ID">
+<!ENTITY class.qfs.label "Function Signature">
+<!ENTITY field.ath.core_type.label "Tipo da Principal">
+<!ENTITY field.mb.billing_type.label "Tipo de Fatura Legada">
+<!ENTITY field.acqpa.street1.label "Rua (1)">
+<!ENTITY field.clm.value.label "Idioma">
+<!ENTITY field.acqpa.street2.label "Rua (2)">
+<!ENTITY field.cust.datatype.label "Datatype">
+<!ENTITY class.qdt.label "Datatype">
+<!ENTITY field.qfpd.datatype.label "Datatype">
+<!ENTITY field.vqbra.id.label "ID do Atributo">
+<!ENTITY field.vqara.id.label "ID do Atributo">
+<!ENTITY class.brav.label "Valor do Atributo de Recurso">
+<!ENTITY field.acqlisum.claim_count.label "Claim Count">
+<!ENTITY class.cvrfm.label "Formato da Gravação em Vídeo">
+<!ENTITY field.chmm.marc_vr_format.label "Formato da Gravação em Vídeo">
+<!ENTITY field.ccmm.marc_vr_format.label "Formato da Gravação em Vídeo">
+<!ENTITY class.sdistn.label "Distribution Note">
+<!ENTITY field.acqfs.id.label "Fonte de Financiamento, ID">
+<!ENTITY field.acqfscred.funding_source.label "Fonte de Financiamento, ID">
+<!ENTITY field.acqofscred.funding_source.label "Fonte de Financiamento, ID">
+<!ENTITY field.atev.state.label "Estado">
+<!ENTITY field.aua.state.label "Estado">
+<!ENTITY field.acqpa.state.label "Estado">
+<!ENTITY field.acqpca.state.label "Estado">
+<!ENTITY field.acqpo.state.label "Estado">
+<!ENTITY field.acqpoh.state.label "Estado">
+<!ENTITY field.jub.state.label "Estado">
+<!ENTITY field.acqlih.state.label "Estado">
+<!ENTITY field.stgma.state.label "Estado">
+<!ENTITY field.stgba.state.label "Estado">
+<!ENTITY field.qrc.id.label "Record Column ID">
+<!ENTITY field.ccmcmtm.id.label "Entrar ID">
+<!ENTITY field.actsce.id.label "Entrar ID">
+<!ENTITY field.actscecm.id.label "Entrar ID">
+<!ENTITY field.asce.id.label "Entrar ID">
+<!ENTITY field.acqdfe.id.label "Entrar ID">
+<!ENTITY field.rsce1.id.label "Entrar ID">
+<!ENTITY field.rsce2.id.label "Entrar ID">
+<!ENTITY field.chmm.age_hold_protect_rule.label "Regra de Tempo para Proteção de Reserva">
+<!ENTITY field.cxt.prefix.label "Prefixo de "Namespace"">
+<!ENTITY field.chmm.include_frozen_holds.label "Máx incluidos Congelados">
+<!ENTITY class.asvr.label "Resposta de Pesquisa">
+<!ENTITY field.au.claims_never_checked_out_count.label "Número de Requisições Não Retiradas">
+<!ENTITY field.au.permissions.label "Todas Permissões">
+<!ENTITY field.cit.id.label "Identificação: ID">
+<!ENTITY field.acnc.normalizer.label "Normalizer function">
+<!ENTITY field.aou.users.label "Usuários">
+<!ENTITY field.vii.price.label "Preço">
+<!ENTITY field.viiad.price.label "Preço">
+<!ENTITY field.sunit.price.label "Preço">
+<!ENTITY field.acp.price.label "Preço">
+<!ENTITY field.act.price.label "Preço">
+<!ENTITY field.rocit.price.label "Preço">
+<!ENTITY field.pgt.id.label "ID do Grupo">
+<!ENTITY class.ocirccount.label "Contagem Total de Circulação">
+<!ENTITY field.vii.deposit_amount.label "Montante Depositado">
+<!ENTITY field.viiad.deposit_amount.label "Montante Depositado">
+<!ENTITY field.brsrc.deposit_amount.label "Montante Depositado">
+<!ENTITY field.sunit.deposit_amount.label "Montante Depositado">
+<!ENTITY field.acp.deposit_amount.label "Montante Depositado">
+<!ENTITY field.act.deposit_amount.label "Montante Depositado">
+<!ENTITY field.rocit.deposit_amount.label "Montante Depositado">
+<!ENTITY field.acqpron.id.label "Nota PO, ID">
+<!ENTITY field.acqpon.id.label "Nota PO, ID">
+<!ENTITY field.chmm.marc_type.label "MARC: Tipo">
+<!ENTITY field.ccmm.marc_type.label "MARC: Tipo">
+<!ENTITY field.rccc.item_type.label "MARC: Tipo">
+<!ENTITY field.bre.edit_date.label "Última Data/Hora de Edição">
+<!ENTITY field.ahr.shelf_time.label "Tempo de Prateleira">
+<!ENTITY field.acqie.amount_paid.label "Amount Paid">
+<!ENTITY field.acqii.amount_paid.label "Amount Paid">
+<!ENTITY field.rccc.dewey_range_tens.label "Faixa Dewey - Dezenas">
+<!ENTITY class.acqofscred.label "Ordered Funding Source Credit">
+<!ENTITY field.rsr.geographic_subject.label "Assuntos de Geografia (normalizados)">
+<!ENTITY field.auss.query_text.label "Query Text">
+<!ENTITY field.acpl.label_suffix.label "Label Suffix">
+<!ENTITY field.atc.target_copy.label "Exemplar Transitado">
+<!ENTITY field.artc.target_copy.label "Exemplar Transitado">
+<!ENTITY field.ahtc.target_copy.label "Exemplar Transitado">
+<!ENTITY field.iatc.target_copy.label "Exemplar Transitado">
+<!ENTITY field.acqie.phys_item_count.label "Physical Item Count">
+<!ENTITY class.vbm.label "Registro Bib Enfileirado">
+<!ENTITY field.acqpo.lineitems.label "Itens de Linha">
+<!ENTITY field.mfr.record.label "Entrada de Registro Catalográfico">
+<!ENTITY field.mrd.record.label "Entrada de Registro Catalográfico">
+<!ENTITY class.sin.label "Item Note">
+<!ENTITY field.acqfy.id.label "Ano Fiscal, ID">
+<!ENTITY field.ccmm.usr_age_lower_bound.label "Idade do Usuário: Limite Inferior">
+<!ENTITY field.czs.record_format.label "Formato da Gravação">
+<!ENTITY field.atevdef.cleanup_success.label "Limpeza bem sucedida">
+<!ENTITY class.pgpm.label "Mapa dp Grupo de Permissão">
+<!ENTITY field.ahr.notifications.label "Notificações">
+<!ENTITY field.circ.payment_total.label "Totais do Pagamento">
+<!ENTITY field.combcirc.payment_total.label "Totais do Pagamento">
+<!ENTITY field.acirc.payment_total.label "Totais do Pagamento">
+<!ENTITY field.bresv.payment_total.label "Totais do Pagamento">
+<!ENTITY field.mg.payment_total.label "Totais do Pagamento">
+<!ENTITY field.mbt.payment_total.label "Totais do Pagamento">
+<!ENTITY field.rodcirc.payment_total.label "Totais do Pagamento">
+<!ENTITY field.rccc.patron_id.label "Link do Usuário">
+<!ENTITY field.afscv.val.label "Column Value">
+<!ENTITY field.acn.notes.label "Observações">
+<!ENTITY field.ssub.notes.label "Observações">
+<!ENTITY field.sdist.notes.label "Observações">
+<!ENTITY field.sitem.notes.label "Observações">
+<!ENTITY field.ahr.notes.label "Observações">
+<!ENTITY field.acqpo.notes.label "Observações">
+<!ENTITY field.vqbra.attr_value.label "Valor">
+<!ENTITY field.vqara.attr_value.label "Valor">
+<!ENTITY field.cgf.value.label "Valor">
+<!ENTITY field.aus.value.label "Valor">
+<!ENTITY field.ssubn.value.label "Valor">
+<!ENTITY field.sdistn.value.label "Valor">
+<!ENTITY field.sin.value.label "Valor">
+<!ENTITY field.asce.value.label "Valor">
+<!ENTITY field.acqlia.attr_value.label "Valor">
+<!ENTITY field.bmpc.value.label "Valor">
+<!ENTITY field.cmpcvm.value.label "Valor">
+<!ENTITY class.rsce1.label "Entrada CAT1">
+<!ENTITY field.acqpo.ordering_agency.label "Agência de Encomendas">
+<!ENTITY field.acqpoh.ordering_agency.label "Agência de Encomendas">
+<!ENTITY field.acrlid.ordering_agency.label "Agência de Encomendas">
+<!ENTITY field.ahrn.slip.label "Capa?">
+<!ENTITY field.qxp.left_operand.label "Left Operand">
+<!ENTITY field.xbet.left_operand.label "Left Operand">
+<!ENTITY field.xcase.left_operand.label "Left Operand">
+<!ENTITY field.xcast.left_operand.label "Left Operand">
+<!ENTITY field.xin.left_operand.label "Left Operand">
+<!ENTITY field.xisnull.left_operand.label "Left Operand">
+<!ENTITY field.xop.left_operand.label "Left Operand">
+<!ENTITY class.cnct.label "Tipo Não-catalogado">
+<!ENTITY class.ahn.label "Notificação de Reserva">
+<!ENTITY field.rcirct.id.label "ID da Circulação">
+<!ENTITY field.rmocbbol.id.label "ID da Circulação">
+<!ENTITY field.rmocbbcol.id.label "ID da Circulação">
+<!ENTITY field.rmocbbhol.id.label "ID da Circulação">
+<!ENTITY field.aou.holds_address.label "Reservas Recebendo Endereço">
+<!ENTITY field.acqlih.selector.label "Selector">
+<!ENTITY field.rocit.tcn_value.label "TCN">
+<!ENTITY field.acqie.cost_billed.label "Cost Billed">
+<!ENTITY field.acqii.cost_billed.label "Cost Billed">
+<!ENTITY class.aupr.label "User password reset requests">
+<!ENTITY field.artc.copy_status.label "Situação do Exemplar em Transito">
+<!ENTITY field.ahtc.copy_status.label "Situação do Exemplar em Transito">
+<!ENTITY field.qxp.parenthesize.label "Is Parenthesized">
+<!ENTITY field.xbet.parenthesize.label "Is Parenthesized">
+<!ENTITY field.xbind.parenthesize.label "Is Parenthesized">
+<!ENTITY field.xbool.parenthesize.label "Is Parenthesized">
+<!ENTITY field.xcase.parenthesize.label "Is Parenthesized">
+<!ENTITY field.xcast.parenthesize.label "Is Parenthesized">
+<!ENTITY field.xcol.parenthesize.label "Is Parenthesized">
+<!ENTITY field.xex.parenthesize.label "Is Parenthesized">
+<!ENTITY field.xfunc.parenthesize.label "Is Parenthesized">
+<!ENTITY field.xin.parenthesize.label "Is Parenthesized">
+<!ENTITY field.xisnull.parenthesize.label "Is Parenthesized">
+<!ENTITY field.xnull.parenthesize.label "Is Parenthesized">
+<!ENTITY field.xnum.parenthesize.label "Is Parenthesized">
+<!ENTITY field.xop.parenthesize.label "Is Parenthesized">
+<!ENTITY field.xser.parenthesize.label "Is Parenthesized">
+<!ENTITY field.xstr.parenthesize.label "Is Parenthesized">
+<!ENTITY field.xsubq.parenthesize.label "Is Parenthesized">
+<!ENTITY field.brsrc.user_fee.label "Taxa de Usuário">
+<!ENTITY field.acqcl.id.label "Claim ID">
+<!ENTITY field.acqcle.claim.label "Claim ID">
+<!ENTITY field.acqscl.id.label "Claim ID">
+<!ENTITY field.acqscle.claim.label "Claim ID">
+<!ENTITY field.mp.credit_payment.label "Detalhes do Pagto em Crédito">
+<!ENTITY field.mbp.credit_payment.label "Detalhes do Pagto em Crédito">
+<!ENTITY field.mndp.credit_payment.label "Detalhes do Pagto em Crédito">
+<!ENTITY field.sdist.unit_label_suffix.label "Unit Label Suffix">
+<!ENTITY field.qxp.subquery.label "Subquery">
+<!ENTITY field.xex.subquery.label "Subquery">
+<!ENTITY field.xin.subquery.label "Subquery">
+<!ENTITY field.xsubq.subquery.label "Subquery">
+<!ENTITY class.ccmm.label "Ponto correspondência matricial de Circulação">
+<!ENTITY field.acqlid.eg_copy_id.label "Cópia Evergreen ID">
+<!ENTITY class.scap.label "Caption and Pattern">
+<!ENTITY field.rccc.demographic_general_division.label "Tempo de Residência do Usuário">
+<!ENTITY class.ccmcmt.label "Matrix de Circulação Subteste Modificador de Circulação">
+<!ENTITY field.rsr.corporate_subject.label "Nome de Assuntos Compartilhados(normalizado)">
+<!ENTITY class.vqbr.label "Registro Bib Enfileirado">
+<!ENTITY field.acqfs.name.label "Nome da fonte de financiamento">
+<!ENTITY class.acqdfe.label "Fórmula de Distribuição, Entrada">
+<!ENTITY field.aua.id.label "ID do Endereço">
+<!ENTITY field.acqpca.id.label "ID do Endereço">
+<!ENTITY field.rccbs.patron_county.label "País do Usuário">
+<!ENTITY field.acqf.tags.label "Etiquetas">
+<!ENTITY class.cracct.label "Remote (3rd party) Account">
+<!ENTITY field.stgu.usrname.label "Nome do Usuário">
+<!ENTITY field.stgc.usrname.label "Nome do Usuário">
+<!ENTITY field.stgma.usrname.label "Nome do Usuário">
+<!ENTITY field.stgba.usrname.label "Nome do Usuário">
+<!ENTITY field.stgsc.usrname.label "Nome do Usuário">
+<!ENTITY field.aur.other_info.label "Other Info">
+<!ENTITY field.chmm.requestor_grp.label "Grupo de Permissão Solicitante">
+<!ENTITY class.mvr.label "Registro Virtual">
+<!ENTITY class.brt.label "Tipo de Recurso">
+<!ENTITY field.brsrc.type.label "Tipo de Recurso">
+<!ENTITY field.bra.resource_type.label "Tipo de Recurso">
+<!ENTITY field.cxt.xslt.label "XSLT">
+<!ENTITY field.au.addresses.label "Todos Endereços">
+<!ENTITY field.ccmm.usr_age_upper_bound.label "Idade do Usuário: Limite Superior">
+<!ENTITY class.stgsc.label "Etapa de Categoria Estatística">
+<!ENTITY field.aua.post_code.label "Código Postal">
+<!ENTITY field.acqpca.post_code.label "Código Postal">
+<!ENTITY field.stgma.post_code.label "Código Postal">
+<!ENTITY field.stgba.post_code.label "Código Postal">
+<!ENTITY field.acqpo.po_items.label "PO Items">
+<!ENTITY field.amtr.matchpoint.label "ID do Ponto de Correspondência">
+<!ENTITY field.chmm.id.label "ID do Ponto de Correspondência">
+<!ENTITY field.ccmm.id.label "ID do Ponto de Correspondência">
+<!ENTITY field.ccmcmt.matchpoint.label "ID do Ponto de Correspondência">
+<!ENTITY field.rccbs.profile_group.label "Grupo de Perfil do Usuário">
+<!ENTITY field.au.performed_circulations.label "Circulações Realizadas como Admin">
+<!ENTITY field.asvr.id.label "ID da Resposta">
+<!ENTITY field.asva.id.label "ID da Resposta">
+<!ENTITY class.ahrn.label "Nota de Requisição de Reserva">
+<!ENTITY field.rmobbol.billing_types.label "Tipos de Cobrança">
+<!ENTITY field.rmobbcol.billing_types.label "Tipos de Cobrança">
+<!ENTITY field.rmobbhol.billing_types.label "Tipos de Cobrança">
+<!ENTITY field.aua.city.label "Cidade">
+<!ENTITY field.acqpa.city.label "Cidade">
+<!ENTITY field.acqpca.city.label "Cidade">
+<!ENTITY field.stgma.city.label "Cidade">
+<!ENTITY field.stgba.city.label "Cidade">
+<!ENTITY field.ccm.avg_wait_time.label "Average Wait Time">
+<!ENTITY field.acqscl.item.label "Serial Item">
+<!ENTITY field.sunit.holds.label "Reservas">
+<!ENTITY field.acp.holds.label "Reservas">
+<!ENTITY field.sunit.summary_contents.label "Summary Contents">
+<!ENTITY class.rccc.label "Visualização Clássica da Circulação">
+<!ENTITY field.aihu.id.label "ID de Uso">
+<!ENTITY field.ancihu.id.label "ID de Uso">
+<!ENTITY field.atc.dest_recv_time.label "Recebe Data/Hora">
+<!ENTITY field.artc.dest_recv_time.label "Recebe Data/Hora">
+<!ENTITY field.ahtc.dest_recv_time.label "Recebe Data/Hora">
+<!ENTITY field.iatc.dest_recv_time.label "Recebe Data/Hora">
+<!ENTITY field.asv.poll.label "Estilo da Enquete?">
+<!ENTITY field.qcb.id.label "Case Branch ID">
+<!ENTITY class.ocirclist.label "Abrir Circulação">
+<!ENTITY field.acpn.owning_copy.label "Exemplar">
+<!ENTITY field.aout.can_have_vols.label "Pode ter Volumes?">
+<!ENTITY field.rocit.stop_fines.label "Razão de Parar Multa">
+<!ENTITY field.clfm.description.label "Descrição do LitF">
+<!ENTITY field.aihu.item.label "Item">
+<!ENTITY class.sitem.label "Item">
+<!ENTITY field.sin.item.label "Item">
+<!ENTITY class.acp.label "Item">
+<!ENTITY field.aout.parent.label "Tipo da Principal">
+<!ENTITY class.rud.label "Demografia do Usuário">
+<!ENTITY field.atev.add_time.label "Incluir Horas">
+<!ENTITY field.sitem.date_expected.label "Date Expected">
+<!ENTITY field.acqpro.holding_tag.label "Etiqueta de Reservas">
+<!ENTITY field.acqct.label.label "Rótulo da Moeda">
+<!ENTITY class.afscv.label "Fieldset Column Value">
+<!ENTITY field.brsrc.tgt_rsrcs.label "Reserva  de Recursos Deestino">
+<!ENTITY field.sunit.dummy_author.label "Autor Vazio de Precat">
+<!ENTITY field.acp.dummy_author.label "Autor Vazio de Precat">
+<!ENTITY field.qbv.default_value.label "Default Value">
+<!ENTITY field.cmfpm.default_val.label "Default Value">
+<!ENTITY field.acqlin.id.label "PO Line Item Note ID">
+<!ENTITY field.ahr.cancel_note.label "Nota de cancelamento">
+<!ENTITY field.acqedi.vendacct.label "Vendor Account Number">
+<!ENTITY class.combcirc.label "Combinação de Circulações Ativas e Velhas">
+<!ENTITY field.vmp.preserve_spec.label "Preserve Specification">
+<!ENTITY field.mp.goods_payment.label "Detalhes de Pagto em Bens">
+<!ENTITY field.mbp.goods_payment.label "Detalhes de Pagto em Bens">
+<!ENTITY field.mndp.goods_payment.label "Detalhes de Pagto em Bens">
+<!ENTITY class.rmobbol.label "Balanço de Circulações Abertas pela Biblioteca Proprietária">
+<!ENTITY class.mndp.label "Pagamentos: Funcionário (Não-Caixa)">
+<!ENTITY field.brt.id.label "Tipo de Recurso ID">
+<!ENTITY field.acqfdeb.fund.label "Fundo ID">
+<!ENTITY field.acqf.id.label "Fundo ID">
+<!ENTITY field.acqfat.fund.label "Fundo ID">
+<!ENTITY field.acqfdt.fund.label "Fundo ID">
+<!ENTITY field.acqfet.fund.label "Fundo ID">
+<!ENTITY field.acqfst.fund.label "Fundo ID">
+<!ENTITY field.acqfcb.fund.label "Fundo ID">
+<!ENTITY field.acqafat.fund.label "Fundo ID">
+<!ENTITY field.acqafet.fund.label "Fundo ID">
+<!ENTITY field.acqafst.fund.label "Fundo ID">
+<!ENTITY field.acqafsb.fund.label "Fundo ID">
+<!ENTITY field.acqafcb.fund.label "Fundo ID">
+<!ENTITY field.acqfsb.fund.label "Fundo ID">
+<!ENTITY field.acqftm.fund.label "Fundo ID">
+<!ENTITY field.acqinv.recv_date.label "Invoice Date">
+<!ENTITY field.sdist.basic_summary.label "Basic Issue Summary">
+<!ENTITY class.sbsum.label "Basic Issue Summary">
+<!ENTITY field.sunit.floating.label "Is Floating">
+<!ENTITY field.acp.floating.label "Is Floating">
+<!ENTITY field.rocit.patron_name.label "Nome do Usuário">
+<!ENTITY field.aou.phone.label "Nº de Telefone">
+<!ENTITY class.atc.label "Exemplar em Transito">
+<!ENTITY field.acqie.purchase_order.label "Ordem de Compra">
+<!ENTITY field.acqii.purchase_order.label "Ordem de Compra">
+<!ENTITY class.acqpo.label "Ordem de Compra">
+<!ENTITY field.acqpon.purchase_order.label "Ordem de Compra">
+<!ENTITY field.acqpoi.purchase_order.label "Ordem de Compra">
+<!ENTITY field.jub.purchase_order.label "Ordem de Compra">
+<!ENTITY field.acqlih.purchase_order.label "Ordem de Compra">
+<!ENTITY field.acqedim.purchase_order.label "Ordem de Compra">
+<!ENTITY field.acrlid.purchase_order.label "Ordem de Compra">
+<!ENTITY class.mfe.label "Combined Field Entry View">
+<!ENTITY field.acqedim.id.label "EDI Message ID">
+<!ENTITY field.acplo.position.label "Posição">
+<!ENTITY field.srlu.pos.label "Posição">
+<!ENTITY field.acqdfe.position.label "Posição">
+<!ENTITY field.sunit.circ_as_type.label "Tipo da Circulação (MARC)">
+<!ENTITY field.acp.circ_as_type.label "Tipo da Circulação (MARC)">
+<!ENTITY class.acqliad.label "Definição de Atributo do Item-de-Linha">
+<!ENTITY field.aws.id.label "ID da Estação de Trabalho">
+<!ENTITY field.au.wsid.label "ID da Estação de Trabalho">
+<!ENTITY field.bram.id.label "Mapa de Atributo de Recurso ID">
+<!ENTITY field.acqftr.funding_source_credit.label "Funding Source Credit ID">
+<!ENTITY field.acqfy.year_begin.label "Início do Ano">
+<!ENTITY field.ahr.usr.label "Usuário da  Reserva">
+<!ENTITY field.ssub.record_entry.label "Cesta de Entrada do Registro Catalográfico">
+<!ENTITY field.au.usrgroup.label "Ligação Familiar ou outro Grupo">
+<!ENTITY field.aout.depth.label "Profundidade do Tipo">
+<!ENTITY field.acqpro.email.label "Email">
+<!ENTITY field.acqpc.email.label "Email">
+<!ENTITY field.rhcrpb.hold_count.label "Active Holds">
+<!ENTITY class.lasso.label "Laço da Org">
+<!ENTITY field.au.fund_alloc_pcts.label "Percentuais de Alocação do Fundo">
+<!ENTITY field.aou.fund_alloc_pcts.label "Percentuais de Alocação do Fundo">
+<!ENTITY field.acqfs.fund_alloc_pcts.label "Percentuais de Alocação do Fundo">
+<!ENTITY field.combcirc.usr_profile.label "Grupo de Perfis de Usuário">
+<!ENTITY field.acirc.usr_profile.label "Grupo de Perfis de Usuário">
+<!ENTITY field.rccc.profile_group.label "Grupo de Perfis de Usuário">
+<!ENTITY field.rccbs.usr_home_ou_shortname.label "Nome Abreviado (regulado) da Biblioteca do Usuário">
+<!ENTITY field.acqii.fund.label "Fundo">
+<!ENTITY class.acqf.label "Fundo">
+<!ENTITY field.acqfa.fund.label "Fundo">
+<!ENTITY field.acqpoi.fund.label "Fundo">
+<!ENTITY field.acqlid.fund.label "Fundo">
+<!ENTITY field.aiit.prorate.label "Prorate?">
+<!ENTITY field.acqftm.id.label "Entrada de Mapa ID">
+<!ENTITY class.cubn.label "Obs da Cesta de Usuário">
+<!ENTITY field.rccc.owning_lib_name.label "Biblioteca Proprietária Nome Abreviado (Regulado)">
+<!ENTITY class.iatc.label "Transito de exemplares entre-sistemas">
+<!ENTITY field.acqclp.name.label "Claim Policy Name">
+<!ENTITY class.atclean.label "Ative Evento de Limpeza">
+<!ENTITY field.acqda.debit_amount.label "Montante Depositado">
+<!ENTITY class.acqafcb.label "All Fund Combined Total">
+<!ENTITY field.ateo.error_events.label "Eventos de Erro">
+<!ENTITY field.aun.value.label "Conteúdo da Nota">
+<!ENTITY field.acpn.value.label "Conteúdo da Nota">
+<!ENTITY field.sdist.holding_lib.label "Holding Lib">
+<!ENTITY field.vii.priv_note.label "Observação Privativa">
+<!ENTITY field.viiad.priv_note.label "Observação Privativa">
+<!ENTITY field.qxp.literal.label "Literal">
+<!ENTITY field.xbool.literal.label "Literal">
+<!ENTITY field.xnum.literal.label "Literal">
+<!ENTITY field.xstr.literal.label "Literal">
+<!ENTITY field.acqpron.value.label "Valor do Voto">
+<!ENTITY field.acqlin.value.label "Valor do Voto">
+<!ENTITY field.rsr.summary.label "Sumário (normalizado)">
+<!ENTITY class.xbind.label "Bind Variable Expression">
+<!ENTITY field.sra.bump_type.label "Tipo de Lombada">
+<!ENTITY field.brsrc.curr_rsrcs.label "Reserva de Recursos Atuais">
+<!ENTITY class.artc.label "Reservation Transit">
+<!ENTITY field.auoi.usr.label "Usuário">
+<!ENTITY field.aun.usr.label "Usuário">
+<!ENTITY field.aupr.usr.label "Usuário">
+<!ENTITY field.aus.usr.label "Usuário">
+<!ENTITY field.ausp.usr.label "Usuário">
+<!ENTITY field.aua.usr.label "Usuário">
+<!ENTITY field.bresv.usr.label "Usuário">
+<!ENTITY field.ac.usr.label "Usuário">
+<!ENTITY field.mg.usr.label "Usuário">
+<!ENTITY field.mbt.usr.label "Usuário">
+<!ENTITY field.actscecm.target_usr.label "Usuário">
+<!ENTITY field.aur.usr.label "Usuário">
+<!ENTITY field.acqliuad.usr.label "Usuário">
+<!ENTITY field.rccbs.billing_location_name.label "Nome da Localização de Cobrança">
+<!ENTITY field.afs.stored_query.label "Stored Query">
+<!ENTITY class.qsq.label "Stored Query">
+<!ENTITY field.acqft.id.label "Mapa do">
+<!ENTITY field.cxt.namespace_uri.label "URI de Namespace">
+<!ENTITY field.acqpoh.audit_time.label "Editar Hora">
+<!ENTITY field.acqlih.audit_time.label "Editar Hora">
+<!ENTITY field.sra.field.label "Campo Índice">
+<!ENTITY class.xnum.label "Number Expression">
+<!ENTITY field.aur.pubdate.label "Publication Date">
+<!ENTITY field.au.mailing_address.label "Endereço de Correspondência">
+<!ENTITY field.aou.mailing_address.label "Endereço de Correspondência">
+<!ENTITY class.acqdf.label "Fórmula de Distribuição">
+<!ENTITY field.acqdfa.formula.label "Fórmula de Distribuição">
+<!ENTITY field.jub.source_label.label "Rótulo de Origem">
+<!ENTITY field.acqlih.source_label.label "Rótulo de Origem">
+<!ENTITY field.acqexr.to_currency.label "Para Moeda">
+<!ENTITY class.acqfscred.label "Crédito para Fonte de Financiamento">
+<!ENTITY field.vii.location.label "Localização na Prateleira">
+<!ENTITY field.viiad.location.label "Localização na Prateleira">
+<!ENTITY field.combcirc.copy_location.label "Localização na Prateleira">
+<!ENTITY field.acirc.copy_location.label "Localização na Prateleira">
+<!ENTITY field.sunit.location.label "Localização na Prateleira">
+<!ENTITY field.acp.location.label "Localização na Prateleira">
+<!ENTITY field.acqlid.location.label "Localização na Prateleira">
+<!ENTITY field.rccc.shelving_location.label "Localização na Prateleira">
+<!ENTITY field.chmm.pickup_ou.label "Selecione a Biblioteca">
+<!ENTITY field.bresv.pickup_lib.label "Selecione a Biblioteca">
+<!ENTITY field.ahr.pickup_lib.label "Selecione a Biblioteca">
+<!ENTITY field.aur.pickup_lib.label "Selecione a Biblioteca">
+<!ENTITY field.bre.keyword_field_entries.label "Entradas Indexadas do Campo Palavra-Chave">
+<!ENTITY class.rxbt.label "Totais de Transações de Faturamento">
+<!ENTITY field.au.home_ou.label "Home Library">
+<!ENTITY field.stgu.home_ou.label "Home Library">
+<!ENTITY field.cit.name.label "Nome de Identificação">
+<!ENTITY field.sunit.cost.label "Host">
+<!ENTITY field.acp.cost.label "Host">
+<!ENTITY field.mbt.circulation.label "Ligação da Circulação">
+<!ENTITY field.atc.copy_status.label "Situação de Exemplar Prétrânsito">
+<!ENTITY field.iatc.copy_status.label "Situação de Exemplar Prétrânsito">
+<!ENTITY field.ccmm.copy_owning_lib.label "Biblioteca dona do Exemplar">
+<!ENTITY field.qsq.offset_count.label "OFFSET count">
+<!ENTITY field.aufhl.count.label "Contagem de Voltas">
+<!ENTITY field.aufhil.count.label "Contagem de Voltas">
+<!ENTITY field.aufhol.count.label "Contagem de Voltas">
+<!ENTITY field.ahn.notify_staff.label "Avisando a Administração">
+<!ENTITY field.siss.date_published.label "Date Published">
+<!ENTITY field.clfm.value.label "Nome do LitF">
+<!ENTITY field.ahr.shelf_expire_time.label "Tempo de Expiração na Prateleira">
+<!ENTITY field.ateo.is_error.label "É Erro">
+<!ENTITY field.circ.desk_renewal.label "Renovação no Balcão">
+<!ENTITY field.combcirc.desk_renewal.label "Renovação no Balcão">
+<!ENTITY field.acirc.desk_renewal.label "Renovação no Balcão">
+<!ENTITY field.rodcirc.desk_renewal.label "Renovação no Balcão">
+<!ENTITY field.acqpro.name.label "Nome do Fornecedor">
+<!ENTITY field.crahp.age.label "Item: Idade">
+<!ENTITY field.au.ident_type.label "Tipo de Identificação Primário">
+<!ENTITY field.stgu.ident_type.label "Tipo de Identificação Primário">
+<!ENTITY field.mbts.xact_start.label "Hora de Início da Transação">
+<!ENTITY field.mbtslv.xact_start.label "Hora de Início da Transação">
+<!ENTITY field.cust.fm_class.label "Fielmapper Class">
+<!ENTITY field.aua.within_city_limits.label "Dentro dos Limites da Cidade?">
+<!ENTITY field.sbsum.textual_holdings.label "Textual Holdings">
+<!ENTITY field.sssum.textual_holdings.label "Textual Holdings">
+<!ENTITY field.sisum.textual_holdings.label "Textual Holdings">
+<!ENTITY field.rhrr.hold_type.label "Tipo de Solicitação de Reserva">
+<!ENTITY field.srlu.department.label "Department">
+<!ENTITY field.acqexr.ratio.label "Razão">
+<!ENTITY field.atenv.event_def.label "Definição de Evento">
+<!ENTITY field.atev.event_def.label "Definição de Evento">
+<!ENTITY field.atevparam.event_def.label "Definição de Evento">
+<!ENTITY field.qxp.right_operand.label "Right Operand">
+<!ENTITY field.xop.right_operand.label "Right Operand">
+<!ENTITY class.rssr.label "Extração Simples de Registro">
+<!ENTITY class.acqdfa.label "Distribution Formula Application">
+<!ENTITY field.acpn.create_date.label "Data/Hora de Criação da Obs">
+<!ENTITY field.atev.update_process.label "Processo de Atualização">
+<!ENTITY class.mbp.label "Pagamentos: Em Material">
+<!ENTITY field.rccc.dewey.label "Deway/Prefixo do nº de Chamada">
+<!ENTITY field.ath.passive.label "Passivo">
+<!ENTITY field.aout.org_units.label "Unidades Org">
+<!ENTITY field.jub.selector.label "Selecionando Usuário">
+<!ENTITY field.ccm.magnetic_media.label "Mídia Magnética">
+<!ENTITY class.acqpl.label "Selection List">
+<!ENTITY field.jub.picklist.label "Selection List">
+<!ENTITY field.acqlih.picklist.label "Selection List">
+<!ENTITY field.ssub.issuances.label "Emissão">
+<!ENTITY field.jub.item_count.label "Contagem de Item">
+<!ENTITY field.acqdfe.item_count.label "Contagem de Item">
+<!ENTITY field.acqlisum.item_count.label "Contagem de Item">
+<!ENTITY field.ahr.target.label "ID do Objeto Destino">
+<!ENTITY field.atev.run_time.label "Tempo de Execução">
+<!ENTITY field.acqftr.src_amount.label "Source Amount">
+<!ENTITY field.asvq.responses.label "Respostas">
+<!ENTITY field.asv.responses.label "Respostas">
+<!ENTITY field.aur.publisher.label "Publisher">
+<!ENTITY field.qxp.negate.label "Negate?">
+<!ENTITY field.xbet.negate.label "Negate?">
+<!ENTITY field.xbool.negate.label "Negate?">
+<!ENTITY field.xcase.negate.label "Negate?">
+<!ENTITY field.xcast.negate.label "Negate?">
+<!ENTITY field.xcol.negate.label "Negate?">
+<!ENTITY field.xex.negate.label "Negate?">
+<!ENTITY field.xfunc.negate.label "Negate?">
+<!ENTITY field.xin.negate.label "Negate?">
+<!ENTITY field.xisnull.negate.label "Negate?">
+<!ENTITY field.xnull.negate.label "Negate?">
+<!ENTITY field.xop.negate.label "Negate?">
+<!ENTITY field.xser.negate.label "Negate?">
+<!ENTITY class.csg.label "Settings Group">
+<!ENTITY field.cust.grp.label "Settings Group">
+<!ENTITY field.auri.call_numbers.label "Nº de Chamadas">
+<!ENTITY field.bre.call_numbers.label "Nº de Chamadas">
+<!ENTITY field.mp.payment_ts.label "Data/hora de Pagamento">
+<!ENTITY field.mbp.payment_ts.label "Data/hora de Pagamento">
+<!ENTITY field.mndp.payment_ts.label "Data/hora de Pagamento">
+<!ENTITY field.mdp.payment_ts.label "Data/hora de Pagamento">
+<!ENTITY field.aupr.request_time.label "Tempo Requisitado">
+<!ENTITY field.bresv.request_time.label "Tempo Requisitado">
+<!ENTITY field.acqf.balance_warning_percent.label "Balance Warning Percent">
+<!ENTITY field.aur.max_fee.label "Max Acceptable Fee">
+<!ENTITY class.sstr.label "Stream">
+<!ENTITY field.srlu.stream.label "Stream">
+<!ENTITY field.sitem.stream.label "Stream">
+<!ENTITY field.mrd.control_type.label "Ctrl">
+<!ENTITY field.qxp.cast_type.label "Cast Type">
+<!ENTITY field.xcast.cast_type.label "Cast Type">
+<!ENTITY class.ancihu.label "Uso Interno Não-catalogado">
+<!ENTITY field.sdist.bind_unit_template.label "Bind Unit Template">
+<!ENTITY field.cin.param_count.label "Contagem de Parâmetro Requerido">
+<!ENTITY field.sbsum.show_generated.label "Show Generated?">
+<!ENTITY field.sssum.show_generated.label "Show Generated?">
+<!ENTITY field.sisum.show_generated.label "Show Generated?">
+<!ENTITY field.qxp.id.label "Expression ID">
+<!ENTITY field.xbet.id.label "Expression ID">
+<!ENTITY field.xbind.id.label "Expression ID">
+<!ENTITY field.xbool.id.label "Expression ID">
+<!ENTITY field.xcase.id.label "Expression ID">
+<!ENTITY field.xcast.id.label "Expression ID">
+<!ENTITY field.xcol.id.label "Expression ID">
+<!ENTITY field.xex.id.label "Expression ID">
+<!ENTITY field.xfunc.id.label "Expression ID">
+<!ENTITY field.xin.id.label "Expression ID">
+<!ENTITY field.xisnull.id.label "Expression ID">
+<!ENTITY field.xnull.id.label "Expression ID">
+<!ENTITY field.xnum.id.label "Expression ID">
+<!ENTITY field.xop.id.label "Expression ID">
+<!ENTITY field.xser.id.label "Expression ID">
+<!ENTITY field.xstr.id.label "Expression ID">
+<!ENTITY field.xsubq.id.label "Expression ID">
+<!ENTITY field.mbts.total_owed.label "Total de Dívidas">
+<!ENTITY field.mbtslv.total_owed.label "Total de Dívidas">
+<!ENTITY field.mbts.last_payment_ts.label "Última DataHora de Pagamento">
+<!ENTITY field.mbtslv.last_payment_ts.label "Última DataHora de Pagamento">
+<!ENTITY class.rsr.label "Registro Simples">
+<!ENTITY class.rmocbbcol.label "Faturas de Circulações Abertas pela Biblioteca de Circulação e Biblioteca Proprietária">
+<!ENTITY field.asvr.answer.label "Resposta">
+<!ENTITY class.xcase.label "Case Expression">
+<!ENTITY field.vii.status.label "Situação">
+<!ENTITY field.viiad.status.label "Situação">
+<!ENTITY field.sitem.status.label "Situação">
+<!ENTITY field.ahr.status.label "Situação">
+<!ENTITY field.act.status.label "Situação">
+<!ENTITY field.acqedim.status.label "Situação">
+<!ENTITY field.afs.status.label "Situação">
+<!ENTITY field.rocit.status.label "Situação">
+<!ENTITY field.rocit.patron_barcode.label "Código-de-barras do Usuário">
+<!ENTITY field.acqftr.dest_amount.label "Destination Amount">
+<!ENTITY field.cmfinm.field.label "Campo Metabib">
+<!ENTITY class.cmf.label "Campo Metabib">
+<!ENTITY class.mbts.label "Sumário da Transação Faturavel">
+<!ENTITY field.acqfscred.id.label "ID do Crédito">
+<!ENTITY field.mrd.item_lang.label "Idioma">
+<!ENTITY field.cblvl.value.label "Nível Cat">
+<!ENTITY field.mrd.id.label "ID do Descritor">
+<!ENTITY class.cbrebt.label "Tipo Cesta do Registro Catalográfico">
+<!ENTITY class.vibtf.label "Importar/Sobrepor Campos para Remoção">
+<!ENTITY field.viiad.id.label "ID do Definição">
+<!ENTITY field.atenv.id.label "ID do Definição">
+<!ENTITY field.atevdef.id.label "ID do Definição">
+<!ENTITY field.acqliad.id.label "ID do Definição">
+<!ENTITY field.acqlimad.id.label "ID do Definição">
+<!ENTITY field.acqligad.id.label "ID do Definição">
+<!ENTITY field.acqliuad.id.label "ID do Definição">
+<!ENTITY field.acqlipad.id.label "ID do Definição">
+<!ENTITY field.acqlilad.id.label "ID do Definição">
+<!ENTITY field.qsf.id.label "Subfield ID">
+<!ENTITY field.rmsr.biblio_record.label "Registro Bibliogáfico Completo">
+<!ENTITY field.rssr.biblio_record.label "Registro Bibliogáfico Completo">
+<!ENTITY field.rsr.biblio_record.label "Registro Bibliogáfico Completo">
+<!ENTITY field.vqbr.marc.label "MARC">
+<!ENTITY field.vqar.marc.label "MARC">
+<!ENTITY field.sre.marc.label "MARC">
+<!ENTITY field.jub.marc.label "MARC">
+<!ENTITY field.acqlih.marc.label "MARC">
+<!ENTITY field.aou.resv_requests.label "Requisições de Reservas">
+<!ENTITY class.aihu.label "Uso interno">
+<!ENTITY class.ccmcmtm.label "Circulation Matrix Circulation Modifier Subtest Circulation Modifier Set">
+<!ENTITY field.qsq.limit_count.label "LIMIT count">
+<!ENTITY field.aou.ill_address.label "Endereço de recepção de empréstimo entre bibliotecas (EEB)">
+<!ENTITY class.cbrebi.label "Item de Cesta da Entrada de Registro Bibliográfico">
+<!ENTITY class.atcol.label "Ative o coletor de ambiente">
+<!ENTITY field.rmsr.author.label "Autor (normalizado)">
+<!ENTITY field.rssr.author.label "Autor (normalizado)">
+<!ENTITY field.rsr.author.label "Autor (normalizado)">
+<!ENTITY field.vii.holdable.label "Reservável">
+<!ENTITY field.viiad.holdable.label "Reservável">
+<!ENTITY field.circ.stop_fines_time.label "Data/Hora de Parada da Multa">
+<!ENTITY field.combcirc.stop_fines_time.label "Data/Hora de Parada da Multa">
+<!ENTITY field.acirc.stop_fines_time.label "Data/Hora de Parada da Multa">
+<!ENTITY field.rodcirc.stop_fines_time.label "Data/Hora de Parada da Multa">
+<!ENTITY field.acn.copies.label "Cópias">
+<!ENTITY field.acpl.copies.label "Cópias">
+<!ENTITY field.ssr.excluded.label "Excluído">
+<!ENTITY class.acqfap.label "Percentual de alocação do fundo">
+<!ENTITY class.aou.label "Unidade Organizacional">
+<!ENTITY field.ancc.circ_time.label "Data/Hora da Circulação">
+<!ENTITY field.rccc.xact_start.label "Data/Hora da Circulação">
+<!ENTITY class.msefe.label "Entrada do Campo Séries">
+<!ENTITY field.ergbhu.id.label "ID Bib">
+<!ENTITY field.rmsr.issn.label "ISSN">
+<!ENTITY field.rssr.issn.label "ISSN">
+<!ENTITY field.rsr.issn.label "ISSN">
+<!ENTITY field.ahr.selection_depth.label "Item: Profundidade da Seleção">
+<!ENTITY field.vii.copy_number.label "Nº do Exemplar">
+<!ENTITY field.viiad.copy_number.label "Nº do Exemplar">
+<!ENTITY class.bresv.label "Reservas">
+<!ENTITY field.bravm.reservation.label "Reservas">
+<!ENTITY field.rxpt.unvoided.label "Montante pago não anulado">
+<!ENTITY field.acqfdt.amount.label "Montante de Débito Total">
+<!ENTITY field.cam.code.label "Código do Público">
+<!ENTITY field.rlcd.last_delete_date.label "Recebe Data/Hora">
+<!ENTITY class.atevdef.label "Ativar Definição do Evento">
+<!ENTITY field.cbt.default_price.label "Preço padrão">
+<!ENTITY field.amtr.fail_part.label "Parte Falha">
+<!ENTITY class.xin.label "In Expression">
+<!ENTITY field.acqie.billed_per_item.label "Billed Cost per Item">
+<!ENTITY field.jub.claim_policy.label "Claim Policy">
+<!ENTITY field.acqlih.claim_policy.label "Claim Policy">
+<!ENTITY class.acqclp.label "Claim Policy">
+<!ENTITY class.acqpron.label "Nome do Fornecedor">
+<!ENTITY field.auoi.org_unit.label "Unidade organizacional permitida">
+<!ENTITY class.xcast.label "Cast Expression">
+<!ENTITY field.qfr.on_clause.label "On Clause ID">
+<!ENTITY field.circ.duration.label "Duração da Circulação">
+<!ENTITY field.combcirc.duration.label "Duração da Circulação">
+<!ENTITY field.acirc.duration.label "Duração da Circulação">
+<!ENTITY field.cnct.circ_duration.label "Duração da Circulação">
+<!ENTITY field.rodcirc.duration.label "Duração da Circulação">
+<!ENTITY class.xfunc.label "Function Expression">
+<!ENTITY field.ahrn.body.label "Corpo">
+<!ENTITY field.acqft.name.label "Nome da Etiqueta do Fundo">
+<!ENTITY class.ard.label "Descritor de Registro de Autoridade">
+<!ENTITY class.rs.label "Cronograma">
+<!ENTITY field.ccmm.recurring_fine_rule.label "Regra para recorrer a multa">
+<!ENTITY field.circ.recurring_fine_rule.label "Regra para recorrer a multa">
+<!ENTITY field.combcirc.recurring_fine_rule.label "Regra para recorrer a multa">
+<!ENTITY field.acirc.recurring_fine_rule.label "Regra para recorrer a multa">
+<!ENTITY class.crrf.label "Regra para recorrer a multa">
+<!ENTITY field.rodcirc.recurring_fine_rule.label "Regra para recorrer a multa">
+<!ENTITY field.atev.complete_time.label "Tempo Completo">
+<!ENTITY class.acqda.label "Debit Attribution">
+<!ENTITY class.ausp.label "Penalidade Permanente de Usuário">
+<!ENTITY field.acqexr.id.label "Taxa de câmbio, ID">
+<!ENTITY class.vqbra.label "Atributto do registro de bib à atender">
+<!ENTITY field.aun.create_date.label "Data/Hora de Criação">
+<!ENTITY field.sunit.create_date.label "Data/Hora de Criação">
+<!ENTITY field.acp.create_date.label "Data/Hora de Criação">
+<!ENTITY class.vii.label "Importar ID de Item">
+<!ENTITY field.atevparam.param.label "Nome do Parâmetro">
+<!ENTITY field.rocit.due_date.label "Data de Vencimento">
+<!ENTITY field.acqfa.allocator.label "Alocação de Usuário">
+<!ENTITY field.acqfap.allocator.label "Alocação de Usuário">
+<!ENTITY class.acqfst.label "Total Gasto do Fundo">
+<!ENTITY field.afs.classname.label "Class Name">
+<!ENTITY field.qfr.class_name.label "Class Name">
+<!ENTITY class.pgpt.label "Entrada Grupo de Multa">
+<!ENTITY class.vam.label "Correspondência de Registro de Autorização Enfileirado">
+<!ENTITY field.qsq.having_clause.label "HAVING Clause">
+<!ENTITY field.qfs.function_name.label "Function Name">
+<!ENTITY class.actsc.label "Categoria Estatística de Usuário">
+<!ENTITY class.auss.label "User Saved Search">
+<!ENTITY field.au.suffix.label "Sufixo/Título">
+<!ENTITY field.chddv.ceiling_date.label "Ceiling Date">
+<!ENTITY field.chmm.max_holds.label "Reservas Máx">
+<!ENTITY class.ac.label "Cartão da Biblioteca">
+<!ENTITY field.aihu.staff.label "Gravando Funcionário">
+<!ENTITY field.ancihu.staff.label "Gravando Funcionário">
+<!ENTITY field.acplo.id.label "Ordem de Posição, ID">
+<!ENTITY field.aou.billing_address.label "Endereço de Cobrança">
+<!ENTITY field.atc.source_send_time.label "Envia Data/Hora">
+<!ENTITY field.artc.source_send_time.label "Envia Data/Hora">
+<!ENTITY field.ahtc.source_send_time.label "Envia Data/Hora">
+<!ENTITY field.iatc.source_send_time.label "Envia Data/Hora">
+<!ENTITY field.aurt.label.label "Type Label">
+<!ENTITY class.mg.label "Transação">
+<!ENTITY field.cmsa.alias.label "Alias (RegExp)">
+<!ENTITY field.aur.phone_notify.label "Phone Notify">
+<!ENTITY class.cmc.label "Metabib Class">
+<!ENTITY field.qseq.child_query.label "Child Query">
+<!ENTITY field.acqinv.shipper.label "Shipper">
+<!ENTITY field.acqedi.vendcode.label "Vendor Assigned Code">
+<!ENTITY field.sdist.supplement_summary.label "Sumário Edição Suplementar">
+<!ENTITY class.sssum.label "Sumário Edição Suplementar">
+<!ENTITY class.rmobbcol.label "Balanço de Circulações Abertas pela Biblioteca de Circulação e Biblioteca Proprietária">
+<!ENTITY field.ahr.notify_time.label "Hora de Notificação">
+<!ENTITY field.afs.id.label "Fieldset ID">
+<!ENTITY field.afscv.fieldset.label "Fieldset ID">
+<!ENTITY class.ahr.label "Solicitação de Reserva">
+<!ENTITY field.bre.notes.label "Registro de observações Não-MARC">
+<!ENTITY field.acqpro.currency_type.label "Moeda">
+<!ENTITY field.acqfs.currency_type.label "Moeda">
+<!ENTITY class.rmocbbol.label "Faturas de Circulação em Aberto pela Biblioteca Proprietária">
+<!ENTITY field.acqfap.fund_code.label "Cód. do Fundo">
+<!ENTITY class.atevparam.label "Ativar parâmetro do evento">
+<!ENTITY field.bre.deleted.label "Esta Excluído?">
+<!ENTITY class.accs.label "Circulation Chain Summary">
+<!ENTITY field.sunit.circulate.label "Pode Circular">
+<!ENTITY field.acp.circulate.label "Pode Circular">
+<!ENTITY class.acqlia.label "Atributo de Item de Linha">
+<!ENTITY field.ccmm.grp.label "Grupos de Permissão">
+<!ENTITY class.pgt.label "Grupos de Permissão">
+<!ENTITY field.ahr.id.label "Reserva ID">
+<!ENTITY field.ahrn.hold.label "Reserva ID">
+<!ENTITY field.rhrr.id.label "Reserva ID">
+<!ENTITY field.aufhl.hold.label "Reserva ID">
+<!ENTITY field.aufhml.hold.label "Reserva ID">
+<!ENTITY field.aufhil.hold.label "Reserva ID">
+<!ENTITY field.aufhmxl.hold.label "Reserva ID">
+<!ENTITY field.aufhol.hold.label "Reserva ID">
+<!ENTITY field.mbts.last_billing_ts.label "Última DataHora de Fatura">
+<!ENTITY field.mbtslv.last_billing_ts.label "Última DataHora de Fatura">
+<!ENTITY class.xnull.label "Null Expression">
+<!ENTITY field.rocit.dewey_block_tens.label "Dewy Dezenas">
+<!ENTITY field.acqlia.lineitem.label "Item-de-linha">
+<!ENTITY field.acqdfa.lineitem.label "Item-de-linha">
+<!ENTITY field.acrlid.lineitem.label "Item-de-linha">
+<!ENTITY field.acqlisum.lineitem.label "Item-de-linha">
+<!ENTITY field.bresv.cancel_time.label "Hora de Cancelamento">
+<!ENTITY field.aout.children.label "Tipos Subordinados">
+<!ENTITY field.bre.fixed_fields.label "Entrar Campo Fixo">
+<!ENTITY field.chmm.ref_flag.label "Referencia?">
+<!ENTITY field.ccmm.ref_flag.label "Referencia?">
+<!ENTITY field.act.ref.label "Referencia?">
+<!ENTITY field.rsr.external_uri.label "Lista URl Externa (normalizada)">
+<!ENTITY field.vii.owning_lib.label "Biblioteca Proprietária">
+<!ENTITY field.viiad.owning_lib.label "Biblioteca Proprietária">
+<!ENTITY field.atevdef.owner.label "Biblioteca Proprietária">
+<!ENTITY field.aws.owning_lib.label "Biblioteca Proprietária">
+<!ENTITY field.chmm.item_owning_ou.label "Biblioteca Proprietária">
+<!ENTITY field.acn.owning_lib.label "Biblioteca Proprietária">
+<!ENTITY field.brt.owner.label "Biblioteca Proprietária">
+<!ENTITY field.brsrc.owner.label "Biblioteca Proprietária">
+<!ENTITY field.bra.owner.label "Biblioteca Proprietária">
+<!ENTITY field.brav.owner.label "Biblioteca Proprietária">
+<!ENTITY field.ssub.owning_lib.label "Biblioteca Proprietária">
+<!ENTITY field.asv.owner.label "Biblioteca Proprietária">
+<!ENTITY field.asc.owner.label "Biblioteca Proprietária">
+<!ENTITY field.actsc.owner.label "Biblioteca Proprietária">
+<!ENTITY field.cnct.owning_lib.label "Biblioteca Proprietária">
+<!ENTITY field.acqliat.owning_lib.label "Biblioteca Proprietária">
+<!ENTITY field.acqlid.owning_lib.label "Biblioteca Proprietária">
+<!ENTITY field.acqdfe.owning_lib.label "Biblioteca Proprietária">
+<!ENTITY field.afs.owning_lib.label "Biblioteca Proprietária">
+<!ENTITY field.rmocbbol.owning_lib.label "Biblioteca Proprietária">
+<!ENTITY field.rmobbol.owning_lib.label "Biblioteca Proprietária">
+<!ENTITY field.rmocbbcol.owning_lib.label "Biblioteca Proprietária">
+<!ENTITY field.rmobbcol.owning_lib.label "Biblioteca Proprietária">
+<!ENTITY field.rmocbbhol.owning_lib.label "Biblioteca Proprietária">
+<!ENTITY field.rmobbhol.owning_lib.label "Biblioteca Proprietária">
+<!ENTITY field.rocit.circ_lib_name.label "Nome da Bib Circ">
+<!ENTITY field.actsc.usr_summary.label "Sumário de Usuário">
+<!ENTITY class.mus.label "Sumário de Usuário">
+<!ENTITY field.mbtslv.billing_location.label "Localização da Cobrança">
+<!ENTITY field.mg.billing_location.label "Localização da Cobrança">
+<!ENTITY field.circ.circ_staff.label "Setor de CIrculação">
+<!ENTITY field.combcirc.circ_staff.label "Setor de CIrculação">
+<!ENTITY field.acirc.circ_staff.label "Setor de CIrculação">
+<!ENTITY field.ancc.staff.label "Setor de CIrculação">
+<!ENTITY field.rodcirc.circ_staff.label "Setor de CIrculação">
+<!ENTITY class.asce.label "Item: Stat. Entr. Cat.">
+<!ENTITY field.mg.billings.label "Cobranças">
+<!ENTITY field.aun.creator.label "Criando Funcionário">
+<!ENTITY field.acqlid.recv_time.label "Data de Recebimento Atual">
+<!ENTITY field.acpl.hold_verify.label "Separação de Reserva Requer Verificação">
+<!ENTITY field.rccbs.last_payment_ts.label "Data/Hora do último pagamento">
+<!ENTITY class.ccbn.label "Copiar Nota da Cesta">
+<!ENTITY field.sunit.copy_number.label "Nº do Exemplar">
+<!ENTITY field.acp.copy_number.label "Nº do Exemplar">
+<!ENTITY field.mbts.last_payment_type.label "Último Tipo de Pagamento">
+<!ENTITY field.mbtslv.last_payment_type.label "Último Tipo de Pagamento">
+<!ENTITY field.rccbs.last_payment_type.label "Último Tipo de Pagamento">
+<!ENTITY field.brsrc.id.label "Recurso ID">
+<!ENTITY class.stgu.label "Etapa de Usuário">
+<!ENTITY field.rmsr.isbn.label "ISBN">
+<!ENTITY field.rssr.isbn.label "ISBN">
+<!ENTITY field.rsr.isbn.label "ISBN">
+<!ENTITY field.scap.pattern_code.label "Pattern Code">
+<!ENTITY field.au.first_given_name.label "Primeiro Nome">
+<!ENTITY field.stgu.first_given_name.label "Primeiro Nome">
+<!ENTITY field.acqpa.post_code.label "Código Postal">
+<!ENTITY class.cam.label "Mapa do Público">
+<!ENTITY field.vii.barcode.label "Código de Barras">
+<!ENTITY field.viiad.barcode.label "Código de Barras">
+<!ENTITY field.brsrc.barcode.label "Código de Barras">
+<!ENTITY field.sunit.barcode.label "Código de Barras">
+<!ENTITY field.ac.barcode.label "Código de Barras">
+<!ENTITY field.acp.barcode.label "Código de Barras">
+<!ENTITY field.acqlid.barcode.label "Código de Barras">
+<!ENTITY field.stgc.barcode.label "Código de Barras">
+<!ENTITY field.rocit.barcode.label "Código de Barras">
+<!ENTITY field.qfs.id.label "Function Signature ID">
+<!ENTITY field.rccc.dewey_block_tens.label "Bloco Dewey - Dezenas">
+<!ENTITY field.acqfs.credits.label "Créditos">
+<!ENTITY field.au.open_billable_transactions_summary.label "Abrir Transações Faturáveis">
+<!ENTITY field.sunit.ref.label "É Referencia">
+<!ENTITY field.acp.ref.label "É Referencia">
+<!ENTITY field.bresv.target_resource_type.label "Tipo do Recurso Destinatário">
+<!ENTITY field.pgt.parent.label "Grupo Principal">
+<!ENTITY class.acqscle.label "Serial Claim Event">
+<!ENTITY field.acqofscred.id.label "Ordered Fund Src ID">
+<!ENTITY field.vmp.strip_spec.label "Remove Specification">
+<!ENTITY field.acqlid.id.label "Detalhe do Item, ID">
+<!ENTITY field.acqpro.id.label "Item de Catálogo">
+<!ENTITY class.qsi.label "Select Item">
+<!ENTITY field.cmrtm.type_val.label "Type Value">
+<!ENTITY class.aoucd.label "Datas de Fechamento">
+<!ENTITY field.aou.closed_dates.label "Datas de Fechamento">
+<!ENTITY field.actsce.value.label "Entrar Valor">
+<!ENTITY field.rsce1.value.label "Entrar Valor">
+<!ENTITY field.rsce2.value.label "Entrar Valor">
+<!ENTITY class.cin.label "Normalizador de Indexação">
+<!ENTITY field.combcirc.copy_circ_lib.label "Biblioteca de Circulação de Exemplar">
+<!ENTITY field.acirc.copy_circ_lib.label "Biblioteca de Circulação de Exemplar">
+<!ENTITY field.ssr.checked.label "Verificado">
+<!ENTITY field.acqclt.id.label "Claim Type ID">
+<!ENTITY field.vbq.item_attr_def.label "Item Import Attribute Definition">
+<!ENTITY field.acp.id.label "ID do Exemplar">
+<!ENTITY field.erfcc.id.label "ID do Exemplar">
+<!ENTITY field.circbyyr.copy.label "ID do Exemplar">
+<!ENTITY field.rocit.id.label "ID do Exemplar">
+<!ENTITY field.atev.target.label "Destino ID">
+<!ENTITY field.aur.author.label "Autor">
+<!ENTITY field.acqii.author.label "Autor">
+<!ENTITY field.acqpoi.author.label "Autor">
+<!ENTITY field.rocit.author.label "Autor">
+<!ENTITY field.ccmcmt.id.label "ID de Teste">
+<!ENTITY class.rmsr.label "Extração Rápida e Simples de Registro">
+<!ENTITY field.ahr.cancel_cause.label "Causa de cancelamento">
+<!ENTITY field.viiad.keep.label "Manter">
+<!ENTITY field.bre.tcn_source.label "TCN: Fonte">
+<!ENTITY field.rmsr.tcn_source.label "TCN: Fonte">
+<!ENTITY field.rssr.tcn_source.label "TCN: Fonte">
+<!ENTITY field.rsr.tcn_source.label "TCN: Fonte">
+<!ENTITY field.aur.mentioned.label "Mentioned In">
+<!ENTITY field.artc.dest.label "Biblioteca Destino">
+<!ENTITY field.ahtc.dest.label "Biblioteca Destino">
+<!ENTITY field.acqcle.id.label "Claim Event ID">
+<!ENTITY field.acqscle.id.label "Claim Event ID">
+<!ENTITY field.atevdef.group_field.label "Processando Campo de Contexto de Grupo">
+<!ENTITY field.rocit.pubdate.label "Data de Pub">
+<!ENTITY field.rccc.copy_id.label "Link do Exemplar">
+<!ENTITY class.acqphsm.label "Provider Holding Subfield Map">
+<!ENTITY field.ssub.distributions.label "Distributions">
+<!ENTITY field.ccmcmtm.circ_mod_test.label "Subteste de Modificador de Circulação ID">
+<!ENTITY field.asvq.question.label "Questão">
+<!ENTITY field.asvr.question.label "Questão">
+<!ENTITY field.asva.question.label "Questão">
+<!ENTITY class.acqfet.label "Ônus total do fundo">
+<!ENTITY field.atc.source.label "Fonte">
+<!ENTITY field.sre.source.label "Fonte">
+<!ENTITY field.iatc.source.label "Fonte">
+<!ENTITY class.msfe.label "Entrada do Campo Assunto">
+<!ENTITY field.sdist.unit_label_prefix.label "Unit Label Prefix">
+<!ENTITY field.circ.opac_renewal.label "Renovação OPAC">
+<!ENTITY field.combcirc.opac_renewal.label "Renovação OPAC">
+<!ENTITY field.acirc.opac_renewal.label "Renovação OPAC">
+<!ENTITY field.rodcirc.opac_renewal.label "Renovação OPAC">
+<!ENTITY field.rccbs.barcode.label "Código de Barras do Usuário">
+<!ENTITY field.acpl.label_prefix.label "Label Prefix">
+<!ENTITY field.acqpro.default_claim_policy.label "Default Claim Policy">
+<!ENTITY field.qsi.id.label "Select Item ID">
+<!ENTITY field.acqie.inv_item_count.label "Invoice Item Count">
+<!ENTITY class.ccpbt.label "Tipo Cesta de Exemplar">
+<!ENTITY field.scap.subscription.label "Subscrição">
+<!ENTITY class.ssub.label "Subscrição">
+<!ENTITY field.ssubn.subscription.label "Subscrição">
+<!ENTITY field.sdist.subscription.label "Subscrição">
+<!ENTITY field.siss.subscription.label "Subscrição">
+<!ENTITY field.afs.name.label "Fieldset Name">
+<!ENTITY field.mrd.bib_level.label "NCat">
+<!ENTITY field.acqda.id.label "Debit Attribution ID">
+<!ENTITY field.ahr.request_time.label "Requisista Data/Hora">
+<!ENTITY field.aur.request_date.label "Requisista Data/Hora">
+<!ENTITY class.acqliuad.label "Definição de Atributo de Usuário de Item de Linha">
+<!ENTITY field.rccbs.xact_finish.label "Data/Hora do Fim da Transação">
+<!ENTITY class.aoc.label "Abrir Circulação">
+<!ENTITY field.rmsr.title.label "Título Original (normalizado)">
+<!ENTITY field.rssr.title.label "Título Original (normalizado)">
+<!ENTITY field.rsr.title.label "Título Original (normalizado)">
+<!ENTITY field.aihu.use_time.label "Data/Hora Uso">
+<!ENTITY field.ancihu.use_time.label "Data/Hora Uso">
+<!ENTITY field.qcb.result.label "Result">
+<!ENTITY field.mcrp.accepting_usr.label "Autorizando Membro da Administração">
+<!ENTITY field.mwp.accepting_usr.label "Autorizando Membro da Administração">
+<!ENTITY field.mgp.accepting_usr.label "Autorizando Membro da Administração">
+<!ENTITY field.mckp.accepting_usr.label "Autorizando Membro da Administração">
+<!ENTITY class.rodcirc.label "Circulação Vencida">
+<!ENTITY field.bre.active.label "Esta Ativo?">
+<!ENTITY field.ausp.stop_date.label "Data de Parada">
+<!ENTITY field.aua.pending.label "Pendente">
+<!ENTITY field.acqftr.src_fund.label "Source Fund">
+<!ENTITY class.au.label "ILL Usuário">
+<!ENTITY field.acqpro.phone.label "Telefone">
+<!ENTITY field.acqpc.phone.label "Telefone">
+<!ENTITY field.acqedim.create_time.label "Time Created">
+<!ENTITY field.bre.quality.label "Qualidade Global">
+<!ENTITY field.auri.active.label "Ativo">
+<!ENTITY field.au.active.label "Ativo">
+<!ENTITY field.sra.active.label "Ativo">
+<!ENTITY field.acqpro.active.label "Ativo">
+<!ENTITY field.acqf.active.label "Ativo">
+<!ENTITY field.bram.value.label "Valor de Atributo">
+<!ENTITY field.circbyyr.count.label "Contagem">
+<!ENTITY field.ahrn.staff.label "Administrativo?">
+<!ENTITY field.mbts.total_paid.label "Total Pago">
+<!ENTITY field.mbtslv.total_paid.label "Total Pago">
+<!ENTITY field.rccbs.total_paid.label "Total Pago">
+<!ENTITY class.ccb.label "Copiar Cesta">
+<!ENTITY field.vmp.add_spec.label "Add Specification">
+<!ENTITY field.aur.email_notify.label "Email Notify">
+<!ENTITY field.mcrp.payment.label "Link de Pagamento">
+<!ENTITY field.mwp.payment.label "Link de Pagamento">
+<!ENTITY field.mgp.payment.label "Link de Pagamento">
+<!ENTITY field.mckp.payment.label "Link de Pagamento">
+<!ENTITY field.acpl.holdable.label "É Reservável?">
+<!ENTITY field.rccc.patron_city.label "Cidade do Usuário">
+<!ENTITY class.aur.label "User Purchase Request">
+<!ENTITY field.asva.responses.label "Respostas usindo esta Resposta">
+<!ENTITY class.xisnull.label "IS NULL Expression">
+<!ENTITY field.ssub.expected_date_offset.label "Expected Date Offset">
+<!ENTITY field.rmsr.publisher.label "Editora (normalizado)">
+<!ENTITY field.rssr.publisher.label "Editora (normalizado)">
+<!ENTITY field.rsr.publisher.label "Editora (normalizado)">
+<!ENTITY field.acqpro.edi_default.label "EDI Default">
+<!ENTITY field.mb.id.label "ID de Cobrança">
+<!ENTITY field.acqedi.id.label "EDI Account ID">
+<!ENTITY field.acqpoh.audit_id.label "Audit ID">
+<!ENTITY field.acqlih.audit_id.label "Audit ID">
+<!ENTITY field.scap.end_date.label "Data final">
+<!ENTITY field.ssub.end_date.label "Data final">
+<!ENTITY class.brsrc.label "Recurso">
+<!ENTITY field.bram.resource.label "Recurso">
+<!ENTITY field.cam.value.label "Público">
+<!ENTITY field.vii.circ_as_type.label "Circular como Tipo MARC">
+<!ENTITY field.viiad.circ_as_type.label "Circular como Tipo MARC">
+<!ENTITY field.acqpo.lineitem_count.label "Contagem de item de linha">
+<!ENTITY field.au.reservations.label "Reservas">
+<!ENTITY class.rmocbbhol.label "Faturas de Circulação em Aberto pela Biblioteca do Usuário e Biblioteca Proprietária">
+<!ENTITY field.pgpt.threshold.label "Entrada">
+<!ENTITY field.rccbs.billing_location.label "Link da Localização de Cobrança">
+<!ENTITY field.au.evening_phone.label "Telefone à Noite">
+<!ENTITY field.stgu.evening_phone.label "Telefone à Noite">
+<!ENTITY field.acqedim.remote_file.label "Filename">
+<!ENTITY field.accs.last_renewal_workstation.label "Last Renewal Workstation">
+<!ENTITY field.pgt.name.label "Nome do Grupo">
+<!ENTITY class.acqpca.label "Endereço de Contato do Fornecedor">
+<!ENTITY field.chmm.item_circ_ou.label "Item: Biblioteca de Circ">
+<!ENTITY field.mckp.xact.label "Link de transação">
+<!ENTITY field.acqfsrcb.amount.label "Saldo Restante">
+<!ENTITY class.vqara.label "Atributo de Registro de Autoridade Enfileirado">
+<!ENTITY field.vqbr.purpose.label "Propósito">
+<!ENTITY field.vqar.purpose.label "Propósito">
+<!ENTITY field.aur.location.label "Publication Location">
+<!ENTITY field.acqcr.keep_debits.label "Keep Debits?">
+<!ENTITY field.ateo.create_time.label "Criar Data/Hora">
+<!ENTITY field.acn.create_date.label "Criar Data/Hora">
+<!ENTITY field.au.super_user.label "É Super Usuário">
+<!ENTITY field.cmfpm.rec_type.label "Record Type">
+<!ENTITY field.vqbr.attributes.label "Atributos">
+<!ENTITY field.vqar.attributes.label "Atributos">
+<!ENTITY field.rccc.patron_zip.label "Código do CEP do Usuário">
+<!ENTITY field.brt.resource_attrs.label "Atributos de Recurso">
+<!ENTITY field.aou.rsrc_attrs.label "Atributos de Recurso">
+<!ENTITY field.brt.elbow_room.label "Inter-booking and Inter-circulation Interval">
+<!ENTITY class.cgf.label "Global Flags and Settings">
+<!ENTITY class.acqedim.label "EDI Message">
+<!ENTITY field.atevdef.params.label "Parâmetros">
+<!ENTITY field.ahn.id.label "Notificação: ID">
+<!ENTITY field.cmf.search_field.label "Search Field">
+<!ENTITY field.sre.editor.label "Editor">
+<!ENTITY field.siss.editor.label "Editor">
+<!ENTITY field.sitem.editor.label "Editor">
+<!ENTITY field.act.editor.label "Editor">
+<!ENTITY field.acqpron.editor.label "Editor">
+<!ENTITY field.acqpl.editor.label "Editor">
+<!ENTITY field.acqpo.editor.label "Editor">
+<!ENTITY field.acqpoh.editor.label "Editor">
+<!ENTITY field.acqpon.editor.label "Editor">
+<!ENTITY field.jub.editor.label "Editor">
+<!ENTITY field.acqlih.editor.label "Editor">
+<!ENTITY field.acqlin.editor.label "Editor">
+<!ENTITY field.acqfscred.effective_date.label "Effective Date">
+<!ENTITY class.afr.label "Registro de Autoridade Completo">
+<!ENTITY field.ocirccount.lost.label "Host">
+<!ENTITY field.ocirclist.lost.label "Host">
+<!ENTITY field.au.dob.label "Data de Nascimento">
+<!ENTITY field.rud.dob.label "Data de Nascimento">
+<!ENTITY field.stgu.dob.label "Data de Nascimento">
+<!ENTITY field.cmc.fields.label "Campo">
+<!ENTITY field.bre.creator.label "Criador do Registro">
+<!ENTITY field.acqedim.edi.label "EDI Message Body">
+<!ENTITY field.acqpron.create_time.label "Data/Hora de Criação">
+<!ENTITY field.acqpl.create_time.label "Data/Hora de Criação">
+<!ENTITY field.acqpo.create_time.label "Data/Hora de Criação">
+<!ENTITY field.acqpon.create_time.label "Data/Hora de Criação">
+<!ENTITY field.jub.create_time.label "Data/Hora de Criação">
+<!ENTITY field.acqlin.create_time.label "Data/Hora de Criação">
+<!ENTITY field.afs.creation_time.label "Data/Hora de Criação">
+<!ENTITY field.acqlid.collection_code.label "Código de Coleção">
+<!ENTITY field.acqfat.amount.label "Valor Total Alocado">
+<!ENTITY field.acqafat.amount.label "Valor Total Alocado">
+<!ENTITY field.sdist.bind_call_number.label "Bind Call Number">
+<!ENTITY field.atevdef.reactor.label "Reator">
+<!ENTITY field.cmf.weight.label "Weight">
+<!ENTITY class.mbt.label "Transação Cobrável">
+<!ENTITY field.mp.xact.label "Transação Cobrável">
+<!ENTITY field.mbp.xact.label "Transação Cobrável">
+<!ENTITY field.mndp.xact.label "Transação Cobrável">
+<!ENTITY field.mdp.xact.label "Transação Cobrável">
+<!ENTITY field.aou.parent_ou.label "Unidade Organizacional Principal">
+<!ENTITY field.au.photo_url.label "URL: Foto">
+<!ENTITY class.mp.label "Pagamentos: Todos">
+<!ENTITY field.asv.questions.label "Questões">
+<!ENTITY field.atevdef.env.label "Entradas de Ambiente">
+<!ENTITY field.acqftr.dest_fund.label "Destination Fund">
+<!ENTITY field.qxp.parent_expr.label "Parent Expression">
+<!ENTITY field.qcb.parent_expr.label "Parent Expression">
+<!ENTITY field.xbet.parent_expr.label "Parent Expression">
+<!ENTITY field.xbind.parent_expr.label "Parent Expression">
+<!ENTITY field.xbool.parent_expr.label "Parent Expression">
+<!ENTITY field.xcase.parent_expr.label "Parent Expression">
+<!ENTITY field.xcast.parent_expr.label "Parent Expression">
+<!ENTITY field.xcol.parent_expr.label "Parent Expression">
+<!ENTITY field.xex.parent_expr.label "Parent Expression">
+<!ENTITY field.xfunc.parent_expr.label "Parent Expression">
+<!ENTITY field.xin.parent_expr.label "Parent Expression">
+<!ENTITY field.xisnull.parent_expr.label "Parent Expression">
+<!ENTITY field.xnull.parent_expr.label "Parent Expression">
+<!ENTITY field.xnum.parent_expr.label "Parent Expression">
+<!ENTITY field.xop.parent_expr.label "Parent Expression">
+<!ENTITY field.xser.parent_expr.label "Parent Expression">
+<!ENTITY field.xstr.parent_expr.label "Parent Expression">
+<!ENTITY field.xsubq.parent_expr.label "Parent Expression">
+<!ENTITY field.cmfpm.start_pos.label "Start Postion">
+<!ENTITY field.cmpcsm.start_pos.label "Start Postion">
+<!ENTITY field.qfr.function_call.label "Function Call ID">
+<!ENTITY field.mckp.check_number.label "Nº de Verificação">
+<!ENTITY field.au.ident_value.label "Identificação Primária">
+<!ENTITY field.aur.cancel_reason.label "Cancel Reason">
+<!ENTITY class.acqcr.label "Cancel Reason">
+<!ENTITY field.acqpo.cancel_reason.label "Cancel Reason">
+<!ENTITY field.acqpoh.cancel_reason.label "Cancel Reason">
+<!ENTITY field.jub.cancel_reason.label "Cancel Reason">
+<!ENTITY field.acqlih.cancel_reason.label "Cancel Reason">
+<!ENTITY field.acqlid.cancel_reason.label "Cancel Reason">
+<!ENTITY field.mrd.char_encoding.label "Character Encoding">
+<!ENTITY field.acqcle.event_date.label "Event Date">
+<!ENTITY field.acqscle.event_date.label "Event Date">
+<!ENTITY field.au.money_summary.label "Sumário de Dinheiro">
+<!ENTITY field.sdist.receive_call_number.label "Receive Call Number">
+<!ENTITY field.acqdf.use_count.label "Contagem de Uso">
+<!ENTITY field.rocit.use_count.label "Contagem de Uso">
+<!ENTITY field.ahrcc.label.label "Indicação de Causa">
+<!ENTITY field.ocirccount.overdue.label "Overdue">
+<!ENTITY field.ocirclist.overdue.label "Overdue">
+<!ENTITY field.qcb.condition.label "Condition">
+<!ENTITY class.puopm.label "Mapa de Permissão de Objeto de Usuário">
+<!ENTITY field.circ.stop_fines.label "Razão de Parada da Multa">
+<!ENTITY field.combcirc.stop_fines.label "Razão de Parada da Multa">
+<!ENTITY field.acirc.stop_fines.label "Razão de Parada da Multa">
+<!ENTITY field.rodcirc.stop_fines.label "Razão de Parada da Multa">
+<!ENTITY field.afscv.id.label "Column Value ID">
+<!ENTITY field.rsr.genre.label "Gêneros (normalizado)">
+<!ENTITY class.rhrr.label "Registro de Requisição de Reserva">
+<!ENTITY class.aurt.label "User Purchase Request Type">
+<!ENTITY class.ccs.label "Situação do Exemplar">
+<!ENTITY field.sunit.status.label "Situação do Exemplar">
+<!ENTITY field.acp.status.label "Situação do Exemplar">
+<!ENTITY field.acqlisum.encumbrance_amount.label "Total do Montante Comprometido">
+<!ENTITY field.atevdef.opt_in_setting.label "Tipo de Configuração Opt-In">
+<!ENTITY field.rmobbol.balance.label "Saldo">
+<!ENTITY field.rmobbcol.balance.label "Saldo">
+<!ENTITY field.rmobbhol.balance.label "Saldo">
+<!ENTITY field.acqclpa.claim_policy.label "Claim Policy ID">
+<!ENTITY field.au.standing_penalties.label "Penalidades Padrões">
+<!ENTITY class.acqct.label "Tipo de Moeda">
+<!ENTITY field.acqf.currency_type.label "Tipo de Moeda">
+<!ENTITY field.aout.can_have_users.label "Pode ter Usuários?">
+<!ENTITY field.actsce.owner.label "Entrar Proprietário">
+<!ENTITY field.asce.owner.label "Entrar Proprietário">
+<!ENTITY field.rsce1.owner.label "Entrar Proprietário">
+<!ENTITY field.rsce2.owner.label "Entrar Proprietário">
+<!ENTITY field.jub.attributes.label "Atributos Descritivos">
+<!ENTITY field.actscecm.stat_cat_entry.label "Entrar Texto">
+<!ENTITY field.artc.prev_dest.label "Biblioteca Destino Anterior">
+<!ENTITY field.ahtc.prev_dest.label "Biblioteca Destino Anterior">
+<!ENTITY field.cin.func.label "Função">
+<!ENTITY field.cust.opac_visible.label "OPAC/Patron Visible">
+<!ENTITY class.xex.label "Exists Expression">
+<!ENTITY field.aur.volume.label "Volume">
+<!ENTITY field.siss.edit_date.label "Editar Data">
+<!ENTITY field.sitem.edit_date.label "Editar Data">
+<!ENTITY field.act.edit_date.label "Editar Data">
+<!ENTITY field.rocit.edit_date.label "Editar Data">
+<!ENTITY field.acqlin.alert_text.label "Alert Text">
+<!ENTITY field.cmpctm.ptype_key.label "Type Key">
+<!ENTITY field.cmpcsm.ptype_key.label "Type Key">
+<!ENTITY field.accs.num_circs.label "Total Circs">
+<!ENTITY field.chdd.ceiling_date.label "Current Ceiling Date">
+<!ENTITY field.acqclpa.action_interval.label "Action Interval">
+<!ENTITY field.ccmcmt.items_out.label "Itens: Saídas">
+<!ENTITY field.siss.holding_type.label "Tipo da Reserva">
+<!ENTITY class.aoup.label "Proximidade da Unidade Org">
+<!ENTITY field.acqlimad.remove.label "Remover">
+<!ENTITY field.acqlipad.remove.label "Remover">
+<!ENTITY field.bre.authority_links.label "Authority Links">
+<!ENTITY class.qcb.label "Case Branch">
+<!ENTITY field.circ.recurring_fine.label "Montante de Multas Recorrendo">
+<!ENTITY field.combcirc.recurring_fine.label "Montante de Multas Recorrendo">
+<!ENTITY field.acirc.recurring_fine.label "Montante de Multas Recorrendo">
+<!ENTITY field.rodcirc.recurring_fine.label "Montante de Multas Recorrendo">
+<!ENTITY field.asv.end_date.label "Data/hora Final da Pesquisa">
+<!ENTITY field.mg.xact_start.label ""TimeStamp" do Início da Transação">
+<!ENTITY field.bresv.target_resource.label "Recurso Destino">
+<!ENTITY field.vqbrad.ident.label "É Identificador?">
+<!ENTITY field.vqarad.ident.label "É Identificador?">
+<!ENTITY field.acqliad.ident.label "É Identificador?">
+<!ENTITY field.acqlimad.ident.label "É Identificador?">
+<!ENTITY field.acqligad.ident.label "É Identificador?">
+<!ENTITY field.acqliuad.ident.label "É Identificador?">
+<!ENTITY field.acqlipad.ident.label "É Identificador?">
+<!ENTITY field.acqlilad.ident.label "É Identificador?">
+<!ENTITY field.circ.renewal_remaining.label "Renovações Remanescentes">
+<!ENTITY field.combcirc.renewal_remaining.label "Renovações Remanescentes">
+<!ENTITY field.acirc.renewal_remaining.label "Renovações Remanescentes">
+<!ENTITY field.rodcirc.renewal_remaining.label "Renovações Remanescentes">
+<!ENTITY field.mb.void_time.label "Anula Registro de Tempo">
+<!ENTITY field.au.billable_transactions.label "Transações Cobráveis">

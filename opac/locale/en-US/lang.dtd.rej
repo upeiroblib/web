@@ -1,0 +1,579 @@
+***************
+*** 39,44 ****
+  <!ENTITY common.step6.label 'Step 6)'>
+  <!ENTITY common.username "Username">
+  <!ENTITY common.username.label "Username:">
+  <!ENTITY common.password "Password">
+  <!ENTITY common.refresh "Refresh">
+  <!ENTITY common.submit "Submit">
+--- 39,45 ----
+  <!ENTITY common.step6.label 'Step 6)'>
+  <!ENTITY common.username "Username">
+  <!ENTITY common.username.label "Username:">
++ <!ENTITY common.barcode "Barcode">
+  <!ENTITY common.password "Password">
+  <!ENTITY common.refresh "Refresh">
+  <!ENTITY common.submit "Submit">
+***************
+*** 68,73 ****
+  <!ENTITY common.login.accesskey "L">
+  <!ENTITY common.password.accesskey "P">
+  <!ENTITY common.username.accesskey "U">
+  <!ENTITY staff.about.title "About">
+  <!ENTITY staff.acp_label_barcode "Barcode">
+  <!ENTITY staff.acp_label_call_number "Call Number">
+--- 69,75 ----
+  <!ENTITY common.login.accesskey "L">
+  <!ENTITY common.password.accesskey "P">
+  <!ENTITY common.username.accesskey "U">
++ <!ENTITY common.barcode.accesskey "B">
+  <!ENTITY staff.about.title "About">
+  <!ENTITY staff.acp_label_barcode "Barcode">
+  <!ENTITY staff.acp_label_call_number "Call Number">
+***************
+*** 191,196 ****
+  <!ENTITY staff.auth.locale.accesskey "e">
+  <!ENTITY staff.auth.apply_locale_btn.label "Apply Locale">
+  <!ENTITY staff.auth.apply_locale_btn.accesskey "A">
+  <!ENTITY staff.bills_current_payment_label "Current Payment">
+  <!ENTITY staff.bills_information "Information">
+  <!ENTITY staff.bills_interface_label "Bills">
+--- 193,204 ----
+  <!ENTITY staff.auth.locale.accesskey "e">
+  <!ENTITY staff.auth.apply_locale_btn.label "Apply Locale">
+  <!ENTITY staff.auth.apply_locale_btn.accesskey "A">
++ <!ENTITY staff.auth.verify.caption "Verify Credentials">
++ <!ENTITY staff.auth.verify.submit.label "Verify">
++ <!ENTITY staff.auth.verify.submit.accesskey "V">
++ <!ENTITY staff.auth.verify.retrieve.label "Retrieve">
++ <!ENTITY staff.auth.verify.retrieve.accesskey "R">
++ 
+  <!ENTITY staff.bills_current_payment_label "Current Payment">
+  <!ENTITY staff.bills_information "Information">
+  <!ENTITY staff.bills_interface_label "Bills">
+***************
+*** 557,562 ****
+  <!ENTITY staff.main.auth.debug.clear.accesskey "C">
+  <!ENTITY staff.main.auth.debug.javascript "JavaScript Console">
+  <!ENTITY staff.main.auth.debug.javascript.accesskey "J">
+  <!ENTITY staff.main.auth.hostname "Hostname">
+  <!ENTITY staff.main.auth.hostname.accesskey "H">
+  <!ENTITY staff.main.auth.offline.caption "Offline Use">
+--- 565,578 ----
+  <!ENTITY staff.main.auth.debug.clear.accesskey "C">
+  <!ENTITY staff.main.auth.debug.javascript "JavaScript Console">
+  <!ENTITY staff.main.auth.debug.javascript.accesskey "J">
++ <!ENTITY staff.main.auth.debug.debugger "Debugger">
++ <!ENTITY staff.main.auth.debug.debugger.accesskey "D">
++ <!ENTITY staff.main.auth.debug.inspector "DOM Inspector">
++ <!ENTITY staff.main.auth.debug.inspector.accesskey "I">
++ <!ENTITY staff.main.auth.debug.chrome_list "Chrome List">
++ <!ENTITY staff.main.auth.debug.chrome_list.accesskey "">
++ <!ENTITY staff.main.auth.debug.js_shell "Javascript Shell">
++ <!ENTITY staff.main.auth.debug.js_shell.accesskey "">
+  <!ENTITY staff.main.auth.hostname "Hostname">
+  <!ENTITY staff.main.auth.hostname.accesskey "H">
+  <!ENTITY staff.main.auth.offline.caption "Offline Use">
+***************
+*** 571,576 ****
+  <!ENTITY staff.main.auth.status "Status">
+  <!ENTITY staff.main.auth.version "Version">
+  <!ENTITY staff.main.auth.workstation "Workstation">
+  <!ENTITY staff.main.menu.acquisitions.accesskey "q">
+  <!ENTITY staff.main.menu.acquisitions.label "Acquisitions">
+  <!ENTITY staff.main.menu.admin.accesskey "-">
+--- 587,602 ----
+  <!ENTITY staff.main.auth.status "Status">
+  <!ENTITY staff.main.auth.version "Version">
+  <!ENTITY staff.main.auth.workstation "Workstation">
++ <!ENTITY staff.main.button_bar.check_out.label "Check Out">
++ <!ENTITY staff.main.button_bar.check_out.accesskey "">
++ <!ENTITY staff.main.button_bar.check_in.label "Check In">
++ <!ENTITY staff.main.button_bar.check_in.accesskey "">
++ <!ENTITY staff.main.button_bar.item_status.label "Item Status">
++ <!ENTITY staff.main.button_bar.item_status.accesskey "">
++ <!ENTITY staff.main.button_bar.patron_search.label "Patron Search">
++ <!ENTITY staff.main.button_bar.patron_search.accesskey "">
++ <!ENTITY staff.main.button_bar.patron_registration.label "Patron Registration">
++ <!ENTITY staff.main.button_bar.patron_registration.accesskey "">
+  <!ENTITY staff.main.menu.acquisitions.accesskey "q">
+  <!ENTITY staff.main.menu.acquisitions.label "Acquisitions">
+  <!ENTITY staff.main.menu.admin.accesskey "-">
+***************
+*** 583,592 ****
+  <!ENTITY staff.main.menu.admin.cmd_console.label "JavaScript Console">
+  <!ENTITY staff.main.menu.admin.cmd_shell.accesskey "H">
+  <!ENTITY staff.main.menu.admin.cmd_shell.label "JavaScript Shell">
+  <!ENTITY staff.main.menu.admin.cmd_test.label "Test Module">
+  <!ENTITY staff.main.menu.admin.copy_location_edit.accesskey "L">
+  <!ENTITY staff.main.menu.admin.copy_location_edit.label "Copy Location Editor">
+  <!ENTITY staff.main.menu.admin.developer.accesskey "-">
+  <!ENTITY staff.main.menu.admin.developer.label "For developers...">
+  <!ENTITY staff.main.menu.admin.download_patrons.accesskey "D">
+  <!ENTITY staff.main.menu.admin.download_patrons.label "Download Offline Patron List">
+--- 609,641 ----
+  <!ENTITY staff.main.menu.admin.cmd_console.label "JavaScript Console">
+  <!ENTITY staff.main.menu.admin.cmd_shell.accesskey "H">
+  <!ENTITY staff.main.menu.admin.cmd_shell.label "JavaScript Shell">
++ <!ENTITY staff.main.menu.admin.cmd_chrome_shell.accesskey "">
++ <!ENTITY staff.main.menu.admin.cmd_chrome_shell.label "JavaScript Shell (Chrome)">
+  <!ENTITY staff.main.menu.admin.cmd_test.label "Test Module">
+  <!ENTITY staff.main.menu.admin.copy_location_edit.accesskey "L">
+  <!ENTITY staff.main.menu.admin.copy_location_edit.label "Copy Location Editor">
+  <!ENTITY staff.main.menu.admin.developer.accesskey "-">
++ 
++ <!ENTITY staff.main.menu.admin.local_admin.conify.action_trigger.label "Notifications / Action Triggers">
++ <!ENTITY staff.main.menu.admin.local_admin.conify.survey.label "Surveys">
++ <!ENTITY staff.main.menu.admin.local_admin.conify.idl_field_doc.label "Field Documentation">
++ <!ENTITY staff.main.menu.admin.local_admin.conify.standing_penalty.label "Standing Penalties">
++ <!ENTITY staff.main.menu.admin.local_admin.conify.grp_penalty_threshold.label "Group Penalty Thresholds">
++ <!ENTITY staff.main.menu.admin.local_admin.circ_matrix_matchpoint.label "Circulation Policies">
++ <!ENTITY staff.main.menu.admin.local_admin.hold_matrix_matchpoint.label "Hold Policies">
++ 
++ <!ENTITY staff.main.menu.admin.server_admin.label "Server Administration">
++ <!ENTITY staff.main.menu.admin.server_admin.conify.org_unit_type.label "Organization Types">
++ <!ENTITY staff.main.menu.admin.server_admin.conify.org_unit.label "Organizational Units">
++ <!ENTITY staff.main.menu.admin.server_admin.conify.grp_tree.label "Permission Groups">
++ <!ENTITY staff.main.menu.admin.server_admin.conify.perm_list.label "Permissions">
++ <!ENTITY staff.main.menu.admin.server_admin.conify.copy_status.label "Copy Statuses">
++ <!ENTITY staff.main.menu.admin.server_admin.conify.marc_code_maps.label "MARC Codes">
++ <!ENTITY staff.main.menu.admin.server_admin.conify.billing_type.label "Billing Types">
++ <!ENTITY staff.main.menu.admin.server_admin.conify.z3950_source.label "Z39.50 Servers">
++ <!ENTITY staff.main.menu.admin.server_admin.conify.circulation_modifier.label "Circulation Modifiers">
++ 
++ 
+  <!ENTITY staff.main.menu.admin.developer.label "For developers...">
+  <!ENTITY staff.main.menu.admin.download_patrons.accesskey "D">
+  <!ENTITY staff.main.menu.admin.download_patrons.label "Download Offline Patron List">
+***************
+*** 595,601 ****
+  <!ENTITY staff.main.menu.admin.key "i">
+  <!ENTITY staff.main.menu.admin.label "Admin">
+  <!ENTITY staff.main.menu.admin.local_admin.accesskey "L">
+- <!ENTITY staff.main.menu.admin.local_admin.label "Local System Administration">
+  <!ENTITY staff.main.menu.admin.non_cat_type_edit.accesskey "n">
+  <!ENTITY staff.main.menu.admin.non_cat_type_edit.label "Non-Cataloged Type Editor">
+  <!ENTITY staff.main.menu.admin.offline_xacts.accesskey "T">
+--- 644,650 ----
+  <!ENTITY staff.main.menu.admin.key "i">
+  <!ENTITY staff.main.menu.admin.label "Admin">
+  <!ENTITY staff.main.menu.admin.local_admin.accesskey "L">
++ <!ENTITY staff.main.menu.admin.local_admin.label "Local Administration">
+  <!ENTITY staff.main.menu.admin.non_cat_type_edit.accesskey "n">
+  <!ENTITY staff.main.menu.admin.non_cat_type_edit.label "Non-Cataloged Type Editor">
+  <!ENTITY staff.main.menu.admin.offline_xacts.accesskey "T">
+***************
+*** 617,622 ****
+  <!ENTITY staff.main.menu.admin.xuleditor.accesskey "X">
+  <!ENTITY staff.main.menu.admin.xuleditor.label "XUL Test">
+  <!ENTITY staff.main.menu.admin.venkman.label "Venkman">
+  <!ENTITY staff.main.menu.cat.accesskey "g">
+  <!ENTITY staff.main.menu.cat.add_bib.key "B">
+  <!ENTITY staff.main.menu.cat.add_bib.label "Add Bib Record">
+--- 666,674 ----
+  <!ENTITY staff.main.menu.admin.xuleditor.accesskey "X">
+  <!ENTITY staff.main.menu.admin.xuleditor.label "XUL Test">
+  <!ENTITY staff.main.menu.admin.venkman.label "Venkman">
++ <!ENTITY staff.main.menu.admin.ping "Ping Server">
++ <!ENTITY staff.main.menu.admin.toggle_buttonbar.accesskey "B">
++ <!ENTITY staff.main.menu.admin.toggle_buttonbar.label "Toggle Button Bar">
+  <!ENTITY staff.main.menu.cat.accesskey "g">
+  <!ENTITY staff.main.menu.cat.add_bib.key "B">
+  <!ENTITY staff.main.menu.cat.add_bib.label "Add Bib Record">
+***************
+*** 656,661 ****
+  <!ENTITY staff.main.menu.cat.vandelay.label "MARC Batch Import/Export">
+  <!ENTITY staff.main.menu.cat.z39_50_import.accesskey "Z">
+  <!ENTITY staff.main.menu.cat.z39_50_import.label "Import Record from Z39.50">
+  <!ENTITY staff.main.menu.circ.barcode.retrieve_patron "Retrieve Patron by Barcode">
+  <!ENTITY staff.main.menu.circ.barcode.retrieve_patron.accesskey "P">
+  <!ENTITY staff.main.menu.circ.barcode.show_item "Show Item Status by Barcode">
+--- 708,728 ----
+  <!ENTITY staff.main.menu.cat.vandelay.label "MARC Batch Import/Export">
+  <!ENTITY staff.main.menu.cat.z39_50_import.accesskey "Z">
+  <!ENTITY staff.main.menu.cat.z39_50_import.label "Import Record from Z39.50">
++ 
++ <!ENTITY staff.main.menu.acq.label "Acquisitions (Preview)">
++ <!ENTITY staff.main.menu.acq.picklist.label "Selection Lists">
++ <!ENTITY staff.main.menu.acq.bib_search.label "Title Search">
++ <!ENTITY staff.main.menu.acq.brief_record.label "New Brief Record">
++ <!ENTITY staff.main.menu.acq.upload.label "Load Order Record">
++ <!ENTITY staff.main.menu.acq.po.label "Purchase Orders">
++ 
++ <!ENTITY staff.main.menu.acq.fund.label "Funds">
++ <!ENTITY staff.main.menu.acq.funding_source.label "Funding Sources">
++ <!ENTITY staff.main.menu.acq.provider.label "Providers">
++ <!ENTITY staff.main.menu.acq.distrib_formula.label "Distribution Formulas">
++ <!ENTITY staff.main.menu.acq.currency_type.label "Currency Types">
++ <!ENTITY staff.main.menu.acq.exchange_rate.label "Exchange Rates">
++ 
+  <!ENTITY staff.main.menu.circ.barcode.retrieve_patron "Retrieve Patron by Barcode">
+  <!ENTITY staff.main.menu.circ.barcode.retrieve_patron.accesskey "P">
+  <!ENTITY staff.main.menu.circ.barcode.show_item "Show Item Status by Barcode">
+***************
+*** 705,710 ****
+  <!ENTITY staff.main.menu.circ.reprint.label "Re-Print Last">
+  <!ENTITY staff.main.menu.circ.special.key "S">
+  <!ENTITY staff.main.menu.circ.special.label "Special Circulation">
+  <!ENTITY staff.main.menu.edit.buckets.copies "Copy Buckets">
+  <!ENTITY staff.main.menu.edit.buckets.copies.accesskey "B">
+  <!ENTITY staff.main.menu.edit.buckets.key "B">
+--- 772,779 ----
+  <!ENTITY staff.main.menu.circ.reprint.label "Re-Print Last">
+  <!ENTITY staff.main.menu.circ.special.key "S">
+  <!ENTITY staff.main.menu.circ.special.label "Special Circulation">
++ <!ENTITY staff.main.menu.circ.verify_credentials "Verify Credentials">
++ <!ENTITY staff.main.menu.circ.verify_credentials.accesskey "V">
+  <!ENTITY staff.main.menu.edit.buckets.copies "Copy Buckets">
+  <!ENTITY staff.main.menu.edit.buckets.copies.accesskey "B">
+  <!ENTITY staff.main.menu.edit.buckets.key "B">
+***************
+*** 1123,1128 ****
+  <!ENTITY staff.patron_display.items.print_receipt.accesskey 'P'>
+  <!ENTITY staff.patron_display.items_claimed_returned.label 'Items Claimed Returned:'>
+  <!ENTITY staff.patron_display.library_card.label 'Library Card:'>
+  <!ENTITY staff.patron_display.mailing.city.label 'Mailing City:'>
+  <!ENTITY staff.patron_display.mailing.post_code.label 'Mailing ZIP:'>
+  <!ENTITY staff.patron_display.mailing.state.label 'Mailing State:'>
+--- 1192,1201 ----
+  <!ENTITY staff.patron_display.items.print_receipt.accesskey 'P'>
+  <!ENTITY staff.patron_display.items_claimed_returned.label 'Items Claimed Returned:'>
+  <!ENTITY staff.patron_display.library_card.label 'Library Card:'>
++ <!ENTITY staff.patron_display.verify_password.label 'Test Password'>
++ <!ENTITY staff.patron_display.verify_password.accesskey 'P'>
++ <!ENTITY staff.patron_display.toggle_summary.label 'Toggle Summary'>
++ <!ENTITY staff.patron_display.toggle_summary.accesskey 'T'>
+  <!ENTITY staff.patron_display.mailing.city.label 'Mailing City:'>
+  <!ENTITY staff.patron_display.mailing.post_code.label 'Mailing ZIP:'>
+  <!ENTITY staff.patron_display.mailing.state.label 'Mailing State:'>
+***************
+*** 1142,1147 ****
+  <!ENTITY staff.patron_display.standing.label 'Standing:'>
+  <!ENTITY staff.patron_display.status.caption 'Status'>
+  <!ENTITY staff.patron_display_interface_label "Patron">
+  <!ENTITY staff.patron_editor_interface_label "Patron Edit">
+  <!ENTITY staff.patron_interface_label "Patron ">
+  <!ENTITY staff.patron_navbar.bills 'Bills'>
+--- 1215,1229 ----
+  <!ENTITY staff.patron_display.standing.label 'Standing:'>
+  <!ENTITY staff.patron_display.status.caption 'Status'>
+  <!ENTITY staff.patron_display_interface_label "Patron">
++ <!ENTITY staff.patron_display.penalty.caption "Staff-Generated Blocks / Standing Penalties">
++ <!ENTITY staff.patron_display.penalty.menu.actions.label "Actions for these Penalties">
++ <!ENTITY staff.patron_display.penalty.menu.actions.accesskey "P">
++ <!ENTITY staff.patron_display.penalty.menu.apply.label "Apply New Penalty">
++ <!ENTITY staff.patron_display.penalty.menu.apply.accesskey "N">
++ <!ENTITY staff.patron_display.penalty.menu.actions.remove.label "Remove from Patron">
++ <!ENTITY staff.patron_display.penalty.menu.actions.remove.accesskey "R">
++ <!ENTITY staff.patron_display.penalty.menu.actions.edit.label "Edit Note">
++ <!ENTITY staff.patron_display.penalty.menu.actions.edit.accesskey "E">
+  <!ENTITY staff.patron_editor_interface_label "Patron Edit">
+  <!ENTITY staff.patron_interface_label "Patron ">
+  <!ENTITY staff.patron_navbar.bills 'Bills'>
+***************
+*** 1152,1172 ****
+  <!ENTITY staff.patron_navbar.edit.accesskey 'E'>
+  <!ENTITY staff.patron_navbar.holds 'Holds'>
+  <!ENTITY staff.patron_navbar.holds.accesskey 'H'>
+- <!ENTITY staff.patron_navbar.info 'Info'>
+- <!ENTITY staff.patron_navbar.info.accesskey 'o'>
+  <!ENTITY staff.patron_navbar.items 'Items Out'>
+  <!ENTITY staff.patron_navbar.items.accesskey 'I'>
+  <!ENTITY staff.patron_navbar.items.problem_items.caption 'Lost, Claimed Returned, Long Overdue, Has Unpaid Billings'>
+  <!ENTITY staff.patron_navbar.refresh 'Refresh'>
+- <!ENTITY staff.patron_navbar.refresh.accesskey 'R'>
+  <!ENTITY staff.patron_navbar.retrieve 'Retrieve Patron'>
+  <!ENTITY staff.patron_navbar.retrieve.accesskey 'R'>
+  <!ENTITY staff.patron_register_interface_label "New Patron">
+  <!ENTITY staff.patron_search_form.caption 'Search for Patron'>
+  <!ENTITY staff.patron_search_form.city.accesskey ''>
+  <!ENTITY staff.patron_search_form.city.label 'City:'>
+  <!ENTITY staff.patron_search_form.clear.accesskey 'C'>
+  <!ENTITY staff.patron_search_form.clear.label 'Clear Form'>
+  <!ENTITY staff.patron_search_form.email.accesskey ''>
+  <!ENTITY staff.patron_search_form.email.label 'Email:'>
+  <!ENTITY staff.patron_search_form.family_name.accesskey 'L'>
+--- 1234,1262 ----
+  <!ENTITY staff.patron_navbar.edit.accesskey 'E'>
+  <!ENTITY staff.patron_navbar.holds 'Holds'>
+  <!ENTITY staff.patron_navbar.holds.accesskey 'H'>
++ <!ENTITY staff.patron_navbar.alert 'Display Alert and Messages'>
++ <!ENTITY staff.patron_navbar.alert.accesskey 'A'>
++ <!ENTITY staff.patron_navbar.other 'Other'>
++ <!ENTITY staff.patron_navbar.other.accesskey 'o'>
+  <!ENTITY staff.patron_navbar.items 'Items Out'>
+  <!ENTITY staff.patron_navbar.items.accesskey 'I'>
+  <!ENTITY staff.patron_navbar.items.problem_items.caption 'Lost, Claimed Returned, Long Overdue, Has Unpaid Billings'>
+  <!ENTITY staff.patron_navbar.refresh 'Refresh'>
++ <!ENTITY staff.patron_navbar.refresh.accesskey ''>
+  <!ENTITY staff.patron_navbar.retrieve 'Retrieve Patron'>
+  <!ENTITY staff.patron_navbar.retrieve.accesskey 'R'>
++ <!ENTITY staff.patron_navbar.actions.menu.label 'Actions for this Patron'>
++ <!ENTITY staff.patron_navbar.actions.menu.accesskey 'A'>
++ <!ENTITY staff.patron_navbar.actions.menu.standing_penalties.label 'Messages'>
++ <!ENTITY staff.patron_navbar.actions.menu.standing_penalties.accesskey 'M'>
+  <!ENTITY staff.patron_register_interface_label "New Patron">
+  <!ENTITY staff.patron_search_form.caption 'Search for Patron'>
+  <!ENTITY staff.patron_search_form.city.accesskey ''>
+  <!ENTITY staff.patron_search_form.city.label 'City:'>
+  <!ENTITY staff.patron_search_form.clear.accesskey 'C'>
+  <!ENTITY staff.patron_search_form.clear.label 'Clear Form'>
++ <!ENTITY staff.patron_search_form.alias.accesskey ''>
++ <!ENTITY staff.patron_search_form.alias.label 'Alias:'>
+  <!ENTITY staff.patron_search_form.email.accesskey ''>
+  <!ENTITY staff.patron_search_form.email.label 'Email:'>
+  <!ENTITY staff.patron_search_form.family_name.accesskey 'L'>
+***************
+*** 1175,1180 ****
+  <!ENTITY staff.patron_search_form.first_given_name.label 'First Name:'>
+  <!ENTITY staff.patron_search_form.ident.accesskey ''>
+  <!ENTITY staff.patron_search_form.ident.label 'ID:'>
+  <!ENTITY staff.patron_search_form.phone.accesskey 'P'>
+  <!ENTITY staff.patron_search_form.phone.label 'Phone:'>
+  <!ENTITY staff.patron_search_form.post_code.accesskey ''>
+--- 1265,1274 ----
+  <!ENTITY staff.patron_search_form.first_given_name.label 'First Name:'>
+  <!ENTITY staff.patron_search_form.ident.accesskey ''>
+  <!ENTITY staff.patron_search_form.ident.label 'ID:'>
++ <!ENTITY staff.patron_search_form.usrname.accesskey 'O'>
++ <!ENTITY staff.patron_search_form.usrname.label 'OPAC Login:'>
++ <!ENTITY staff.patron_search_form.card.accesskey 'B'>
++ <!ENTITY staff.patron_search_form.card.label 'Barcode:'>
+  <!ENTITY staff.patron_search_form.phone.accesskey 'P'>
+  <!ENTITY staff.patron_search_form.phone.label 'Phone:'>
+  <!ENTITY staff.patron_search_form.post_code.accesskey ''>
+***************
+*** 1498,1520 ****
+  <!ENTITY staff.server.admin.org_settings.circ.hold_boundary.soft "Holds: Soft boundary">
+  <!ENTITY staff.server.admin.org_settings.opac.barcode_regex "Patron barcode format">
+  <!ENTITY staff.server.admin.org_settings.opac.barcode_regex.desc 'Regular expression defining the patron barcode format'>
+  <!ENTITY staff.server.admin.org_settings.circ.item_checkout_history.max "Maximum previous checkouts displayed">
+  <!ENTITY staff.server.admin.org_settings.circ.item_checkout_history.max.desc "This is maximum number of previous circulations the staff client will display when investigating item details">
+  <!ENTITY staff.server.admin.org_settings.circ.reshelving_complete.interval "Change reshelving status interval">
+  <!ENTITY staff.server.admin.org_settings.circ.reshelving_complete.interval.desc 'Amount of time to wait before changing an item from "reshelving" status to "available".  Examples "1 day", "6 hours"'>
+  <!ENTITY staff.server.admin.org_settings.circ.selfcheck.patron_login_timeout "Selfcheck: Patron Login Timeout (in seconds)">
+  <!ENTITY staff.server.admin.org_settings.circ.selfcheck.patron_login_timeout.desc "Number of seconds of inactivity before the patron is logged out of the selfcheck interface">
+  <!ENTITY staff.server.admin.org_settings.circ.selfcheck.alert_on_checkout_event "Selfcheck: Pop-up alert for errors">
+  <!ENTITY staff.server.admin.org_settings.circ.selfcheck.alert_on_checkout_event.desc "If true, checkout/renewal errors will cause a pop-up window in addition to the on-screen message">
+  <!ENTITY staff.server.admin.org_settings.circ.selfcheck.require_patron_password "Selfcheck: Require patron password">
+  <!ENTITY staff.server.admin.org_settings.circ.selfcheck.require_patron_password.desc "If true, patrons will be required to enter their password in addition to their username/barcode to log into the selfcheck interface">
+  <!ENTITY staff.server.admin.org_settings.cat.bib.keep_on_empty "Do not automatically delete empty bib records">
+  <!ENTITY staff.server.admin.org_settings.cat.bib.keep_on_empty.desc 'Do not automatically delete a bib record when all attached copies are deleted'>
+  <!ENTITY staff.server.admin.org_settings.cat.bib.alert_on_empty 'Alert on empty bib records'>
+  <!ENTITY staff.server.admin.org_settings.cat.bib.alert_on_empty.desc "Alert staff when the last copy for a record is being deleted">
+  
+  
+  
+  <!ENTITY staff.server.admin.stat_cat.title "Evergreen: Statistical Category Editor">
+  <!ENTITY staff.server.admin.stat_cat.greeting "Welcome ">
+  <!ENTITY staff.server.admin.stat_cat.heading " Statistical Category Editor">
+--- 1592,1649 ----
+  <!ENTITY staff.server.admin.org_settings.circ.hold_boundary.soft "Holds: Soft boundary">
+  <!ENTITY staff.server.admin.org_settings.opac.barcode_regex "Patron barcode format">
+  <!ENTITY staff.server.admin.org_settings.opac.barcode_regex.desc 'Regular expression defining the patron barcode format'>
++ <!ENTITY staff.server.admin.org_settings.global.password_regex "Password format">
++ <!ENTITY staff.server.admin.org_settings.global.password_regex.desc 'Regular expression defining the password format'>
+  <!ENTITY staff.server.admin.org_settings.circ.item_checkout_history.max "Maximum previous checkouts displayed">
+  <!ENTITY staff.server.admin.org_settings.circ.item_checkout_history.max.desc "This is maximum number of previous circulations the staff client will display when investigating item details">
+  <!ENTITY staff.server.admin.org_settings.circ.reshelving_complete.interval "Change reshelving status interval">
+  <!ENTITY staff.server.admin.org_settings.circ.reshelving_complete.interval.desc 'Amount of time to wait before changing an item from "reshelving" status to "available".  Examples "1 day", "6 hours"'>
++ <!ENTITY staff.server.admin.org_settings.circ.hold_estimate_wait_interval "Holds: Estimated Wait (Days)">
++ <!ENTITY staff.server.admin.org_settings.circ.hold_estimate_wait_interval.desc "When predicting the amount of time a patron will be waiting for a hold to be fulfilled,this is the default/average number of days to assume an item will be checked out.">
+  <!ENTITY staff.server.admin.org_settings.circ.selfcheck.patron_login_timeout "Selfcheck: Patron Login Timeout (in seconds)">
+  <!ENTITY staff.server.admin.org_settings.circ.selfcheck.patron_login_timeout.desc "Number of seconds of inactivity before the patron is logged out of the selfcheck interface">
+  <!ENTITY staff.server.admin.org_settings.circ.selfcheck.alert_on_checkout_event "Selfcheck: Pop-up alert for errors">
+  <!ENTITY staff.server.admin.org_settings.circ.selfcheck.alert_on_checkout_event.desc "If true, checkout/renewal errors will cause a pop-up window in addition to the on-screen message">
+  <!ENTITY staff.server.admin.org_settings.circ.selfcheck.require_patron_password "Selfcheck: Require patron password">
+  <!ENTITY staff.server.admin.org_settings.circ.selfcheck.require_patron_password.desc "If true, patrons will be required to enter their password in addition to their username/barcode to log into the selfcheck interface">
++ <!ENTITY staff.server.admin.org_settings.global.juvenile_age_threshold "Juvenile Age Threshold">
++ <!ENTITY staff.server.admin.org_settings.global.juvenile_age_threshold.desc 'The age at which a user is no long considered a juvenile.  For example, "18 years".'>
+  <!ENTITY staff.server.admin.org_settings.cat.bib.keep_on_empty "Do not automatically delete empty bib records">
+  <!ENTITY staff.server.admin.org_settings.cat.bib.keep_on_empty.desc 'Do not automatically delete a bib record when all attached copies are deleted'>
+  <!ENTITY staff.server.admin.org_settings.cat.bib.alert_on_empty 'Alert on empty bib records'>
+  <!ENTITY staff.server.admin.org_settings.cat.bib.alert_on_empty.desc "Alert staff when the last copy for a record is being deleted">
++ <!ENTITY staff.server.admin.org_settings.patron.password.use_phone "Patron: password from phone #">
++ <!ENTITY staff.server.admin.org_settings.patron.password.use_phone.desc "Use the last 4 digits of the patrons phone number as the default password when creating new users">
++ <!ENTITY staff.server.admin.org_settings.circ.charge_on_damaged "Charge item price when marked damaged">
++ <!ENTITY staff.server.admin.org_settings.circ.charge_on_damaged.desc "Charge item price when marked damaged">
++ <!ENTITY staff.server.admin.org_settings.circ.damaged_item_processing_fee "Charge processing fee for damaged items">
++ <!ENTITY staff.server.admin.org_settings.circ.damaged_item_processing_fee.desc "Charge processing fee for damaged items">
+  
+  
+  
++ <!ENTITY staff.server.admin.org_settings.circ.void_item_billing_on_lost_return "Void lost item fine when returned">
++ <!ENTITY staff.server.admin.org_settings.circ.void_item_billing_on_lost_return.desc "Void lost item fine when returned">
++ <!ENTITY staff.server.admin.org_settings.circ.void_item_billing_on_lost_return_before_interval "Void lost item fine when returned before interval">
++ <!ENTITY staff.server.admin.org_settings.circ.void_item_billing_on_lost_return_before_interval.desc "Void lost item fine when returned before interval">
++ 
++ <!ENTITY staff.server.admin.org_settings.circ.void_lost_on_checkin "Circ: Void lost item billing when returned">
++ <!ENTITY staff.server.admin.org_settings.circ.void_lost_on_checkin.desc "Void lost item billing when returned">
++ <!ENTITY staff.server.admin.org_settings.circ.max_accept_return_of_lost "Circ: Void lost max interval">
++ <!ENTITY staff.server.admin.org_settings.circ.max_accept_return_of_lost.desc "Items that have been lost this long will not result in voided billings when returned.  E.g. \'6 months\'">
++ <!ENTITY staff.server.admin.org_settings.circ.void_lost_proc_fee_on_checkin "Circ: Void processing fee on lost item return">
++ <!ENTITY staff.server.admin.org_settings.circ.void_lost_proc_fee_on_checkin.desc "Void processing fee when lost item returned">
++ <!ENTITY staff.server.admin.org_settings.circ.restore_overdue_on_lost_return "Circ: Restore overdues on lost item return">
++ <!ENTITY staff.server.admin.org_settings.circ.restore_overdue_on_lost_return.desc "Restore overdue fines on lost item return">
++ <!ENTITY staff.server.admin.org_settings.circ.lost_immediately_available "Circ: Lost items usable on checkin">
++ <!ENTITY staff.server.admin.org_settings.circ.lost_immediately_available.desc "Lost items are usable on checkin instead of going \'home\' first">
++ <!ENTITY staff.server.admin.org_settings.opac.allow_pending_address "OPAC: Allow pending addresses">
++ <!ENTITY staff.server.admin.org_settings.opac.allow_pending_address.desc "If enabled, patrons can create and edit existing addresses.  Addresses are kept in a pending state until staff approves the changes">
++ <!ENTITY staff.server.admin.org_settings.ui.circ.show_billing_tab_on_bills "Show billing tab first when bills are present">
++ <!ENTITY staff.server.admin.org_settings.ui.circ.show_billing_tab_on_bills.desc "If enabled and a patron has outstanding bills and the alert page is not required, show the billing tab by default, instead of the checkout tab, when a patron is loaded">
++ <!ENTITY staff.server.admin.org_settings.ui.circ.patron_display_timeout_interval "GUI: Patron display timeout interval">
++ <!ENTITY staff.server.admin.org_settings.ui.circ.patron_display_timeout_interval.desc "Set this if you would like patron displays in the staff client to be closed after a certain interval of inactivity.  Example \'5 minutes\'">
++ 
++ 
+  <!ENTITY staff.server.admin.stat_cat.title "Evergreen: Statistical Category Editor">
+  <!ENTITY staff.server.admin.stat_cat.greeting "Welcome ">
+  <!ENTITY staff.server.admin.stat_cat.heading " Statistical Category Editor">
+***************
+*** 1751,1760 ****
+  <!ENTITY staff.circ.print_list.line_item.label "Line Item">
+  <!ENTITY staff.circ.print_list.footer.label "Footer">
+  <!ENTITY staff.main.data.loading "Loading data...">
+- <!ENTITY staff.main.ws_info.entry "Enter a workstation name and library to register this client under:">
+- <!ENTITY staff.main.ws_info.name "Name">
+  <!ENTITY staff.main.ws_info.register_btn.label "Register">
+  <!ENTITY staff.main.ws_info.register_btn.accesskey "R">
+  <!ENTITY staff.cat.bib_brief.record_summary "Record Summary">
+  <!ENTITY staff.cat.bib_brief.title "Title:">
+  <!ENTITY staff.cat.bib_brief.view_marc "View MARC">
+--- 1880,1892 ----
+  <!ENTITY staff.circ.print_list.line_item.label "Line Item">
+  <!ENTITY staff.circ.print_list.footer.label "Footer">
+  <!ENTITY staff.main.data.loading "Loading data...">
++ <!ENTITY staff.main.ws_info.entry "Enter a workstation name and organization to register this client under.  This will be used for statistics and auditing, and for determining the 'place' where check-ins and check-outs occur.">
++ <!ENTITY staff.main.ws_info.name "WS Name">
++ <!ENTITY staff.main.ws_info.organization "Organization">
+  <!ENTITY staff.main.ws_info.register_btn.label "Register">
+  <!ENTITY staff.main.ws_info.register_btn.accesskey "R">
++ <!ENTITY staff.main.ws_info.help_btn.label "Help">
++ <!ENTITY staff.main.ws_info.help_btn.accesskey "H">
+  <!ENTITY staff.cat.bib_brief.record_summary "Record Summary">
+  <!ENTITY staff.cat.bib_brief.title "Title:">
+  <!ENTITY staff.cat.bib_brief.view_marc "View MARC">
+***************
+*** 1972,1977 ****
+  <!ENTITY staff.cat.marcedit.options.label "Options">
+  <!ENTITY staff.cat.marcedit.stackSubfields.label "Stack subfields">
+  <!ENTITY staff.cat.marcedit.stackSubfields.accesskey "s">
+  <!ENTITY staff.cat.marcedit.validate.label "Validate">
+  <!ENTITY staff.cat.marcedit.validate.accesskey "V">
+  <!ENTITY staff.cat.marcedit.save-button.accesskey "d">
+--- 2104,2115 ----
+  <!ENTITY staff.cat.marcedit.options.label "Options">
+  <!ENTITY staff.cat.marcedit.stackSubfields.label "Stack subfields">
+  <!ENTITY staff.cat.marcedit.stackSubfields.accesskey "s">
++ <!ENTITY staff.cat.marcedit.fastItemAdd.label "Fast Item Add">
++ <!ENTITY staff.cat.marcedit.fastItemAdd.accesskey "A">
++ <!ENTITY staff.cat.marcedit.fastItemAdd_callnumber.label "Call Number">
++ <!ENTITY staff.cat.marcedit.fastItemAdd_callnumber.accesskey "C">
++ <!ENTITY staff.cat.marcedit.fastItemAdd_barcode.label "Item Barcode">
++ <!ENTITY staff.cat.marcedit.fastItemAdd_barcode.accesskey "B">
+  <!ENTITY staff.cat.marcedit.validate.label "Validate">
+  <!ENTITY staff.cat.marcedit.validate.accesskey "V">
+  <!ENTITY staff.cat.marcedit.save-button.accesskey "d">
+***************
+*** 2268,2273 ****
+  <!ENTITY staff.patron.display_overlay.search_form.accesskey "F">
+  <!ENTITY staff.patron.display_overlay.retrieve_patron.label "Retrieve Patron">
+  <!ENTITY staff.patron.display_overlay.retrieve_patron.accesskey "R">
+  <!ENTITY staff.patron.bills_overlay.selected_balance.value "Selected Balance:">
+  <!ENTITY staff.patron.bills_overlay.unselected.value "Un-Selected:">
+  <!ENTITY staff.patron.bills_overlay.voided.value "Voided:">
+--- 2406,2413 ----
+  <!ENTITY staff.patron.display_overlay.search_form.accesskey "F">
+  <!ENTITY staff.patron.display_overlay.retrieve_patron.label "Retrieve Patron">
+  <!ENTITY staff.patron.display_overlay.retrieve_patron.accesskey "R">
++ <!ENTITY staff.patron.display_overlay.merge_patrons.label "Merge Patrons">
++ <!ENTITY staff.patron.display_overlay.merge_patrons.accesskey "M">
+  <!ENTITY staff.patron.bills_overlay.selected_balance.value "Selected Balance:">
+  <!ENTITY staff.patron.bills_overlay.unselected.value "Un-Selected:">
+  <!ENTITY staff.patron.bills_overlay.voided.value "Voided:">
+***************
+*** 2292,2297 ****
+  <!ENTITY staff.patron.holds_overlay.holds_export.label "Export">
+  <!ENTITY staff.patron.holds_overlay.print.label "Print">
+  <!ENTITY staff.patron.holds_overlay.print.accesskey "P">
+  <!ENTITY staff.patron.info_group.clone.label "Register a New Group Member by Cloning Selected Patrons">
+  <!ENTITY staff.patron.info_group.clone.accesskey "N">
+  <!ENTITY staff.patron.info_group.remove.accesskey "R">
+--- 2432,2439 ----
+  <!ENTITY staff.patron.holds_overlay.holds_export.label "Export">
+  <!ENTITY staff.patron.holds_overlay.print.label "Print">
+  <!ENTITY staff.patron.holds_overlay.print.accesskey "P">
++ <!ENTITY staff.patron.holds_overlay.place_hold.label "Place Hold">
++ <!ENTITY staff.patron.holds_overlay.place_hold.accesskey "H">
+  <!ENTITY staff.patron.info_group.clone.label "Register a New Group Member by Cloning Selected Patrons">
+  <!ENTITY staff.patron.info_group.clone.accesskey "N">
+  <!ENTITY staff.patron.info_group.remove.accesskey "R">
+***************
+*** 2302,2307 ****
+  <!ENTITY staff.patron.info_group.add.label "Move another patron to this patron group.">
+  <!ENTITY staff.patron.info_group.retrieve_p.accesskey "P">
+  <!ENTITY staff.patron.info_group.retrieve_p.label "Retrieve Selected Patrons">
+  <!ENTITY staff.patron.info_group.group_member.label "Group Members">
+  <!ENTITY staff.patron.info_group.choose_an_action.label "Choose an Action...">
+  <!ENTITY staff.patron.info_group.choose_an_action.accesskey "A">
+--- 2444,2451 ----
+  <!ENTITY staff.patron.info_group.add.label "Move another patron to this patron group.">
+  <!ENTITY staff.patron.info_group.retrieve_p.accesskey "P">
+  <!ENTITY staff.patron.info_group.retrieve_p.label "Retrieve Selected Patrons">
++ <!ENTITY staff.patron.info_group.merge_patrons.accesskey "">
++ <!ENTITY staff.patron.info_group.merge_patrons.label "Merge Selected Patrons">
+  <!ENTITY staff.patron.info_group.group_member.label "Group Members">
+  <!ENTITY staff.patron.info_group.choose_an_action.label "Choose an Action...">
+  <!ENTITY staff.patron.info_group.choose_an_action.accesskey "A">
+***************
+*** 2556,2561 ****
+  <!ENTITY ev.staff.patron.ue_xhtml.profile_group.label "Profile Group">
+  <!ENTITY ev.staff.patron.ue_xhtml.ue_addr_delete.label "Delete this Address">
+  <!ENTITY ev.staff.patron.ue_xhtml.ue_addr_detach.label "Detach this Address">
+  <!ENTITY ev.staff.patron.ue_xhtml.primary_ident_ssn_help.label "(XXX-YY-ZZZZ)">
+  <!ENTITY ev.staff.patron.ue_xhtml.primary_ident_dl_help.label "(GA-123456789)">
+  <!ENTITY ev.staff.patron.ue_xhtml.edit.label "Edit">
+--- 2700,2707 ----
+  <!ENTITY ev.staff.patron.ue_xhtml.profile_group.label "Profile Group">
+  <!ENTITY ev.staff.patron.ue_xhtml.ue_addr_delete.label "Delete this Address">
+  <!ENTITY ev.staff.patron.ue_xhtml.ue_addr_detach.label "Detach this Address">
++ <!ENTITY ev.staff.patron.ue_xhtml.ue_addr_approve.label "Approve Pending Address">
++ <!ENTITY ev.staff.patron.ue_xhtml.ue_addr_approve_confirm.label "Approve pending address?  This operation will be be instantenous.">
+  <!ENTITY ev.staff.patron.ue_xhtml.primary_ident_ssn_help.label "(XXX-YY-ZZZZ)">
+  <!ENTITY ev.staff.patron.ue_xhtml.primary_ident_dl_help.label "(GA-123456789)">
+  <!ENTITY ev.staff.patron.ue_xhtml.edit.label "Edit">
+***************
+*** 2565,2570 ****
+  <!ENTITY ev.staff.patron.ue_xhtml.net_access_level.label "Internet Access Level">
+  <!ENTITY ev.staff.patron.ue_xhtml.active.label "Active">
+  <!ENTITY ev.staff.patron.ue_xhtml.barred.label "Barred">
+  <!ENTITY ev.staff.patron.ue_xhtml.set_family_group_lead_account.label "Set as Family or Group Lead Account">
+  <!ENTITY ev.staff.patron.ue_xhtml.claims_returned_count.label "Claims Returned Count">
+  <!ENTITY ev.staff.patron.ue_xhtml.alert_message.label "Alert Message">
+--- 2711,2717 ----
+  <!ENTITY ev.staff.patron.ue_xhtml.net_access_level.label "Internet Access Level">
+  <!ENTITY ev.staff.patron.ue_xhtml.active.label "Active">
+  <!ENTITY ev.staff.patron.ue_xhtml.barred.label "Barred">
++ <!ENTITY ev.staff.patron.ue_xhtml.juvenile.label "Juvenile">
+  <!ENTITY ev.staff.patron.ue_xhtml.set_family_group_lead_account.label "Set as Family or Group Lead Account">
+  <!ENTITY ev.staff.patron.ue_xhtml.claims_returned_count.label "Claims Returned Count">
+  <!ENTITY ev.staff.patron.ue_xhtml.alert_message.label "Alert Message">
+***************
+*** 2600,2604 ****
+  <!ENTITY ev.staff.patron.ue_xhtml.cancel.value "Cancel">
+  <!ENTITY ev.staff.patron.ue_xhtml.alert_message_reset.value "Clear">
+  <!ENTITY ev.staff.patron.ue_xhtml.date_selector.label "Date selector">
+  <!ENTITY staff.portal.title "Evergreen Staff Client Portal Page">
+  <!ENTITY staff.portal.default.welcome "This is the Evergreen staff client portal page. You can customize this with the information or functionality your organization needs to support its operations. For example, you could add links to process and procedure documents.">
+--- 2747,2758 ----
+  <!ENTITY ev.staff.patron.ue_xhtml.cancel.value "Cancel">
+  <!ENTITY ev.staff.patron.ue_xhtml.alert_message_reset.value "Clear">
+  <!ENTITY ev.staff.patron.ue_xhtml.date_selector.label "Date selector">
++ <!ENTITY ev.staff.patron.ue_xhtml.alias.label "Alias">
+  <!ENTITY staff.portal.title "Evergreen Staff Client Portal Page">
+  <!ENTITY staff.portal.default.welcome "This is the Evergreen staff client portal page. You can customize this with the information or functionality your organization needs to support its operations. For example, you could add links to process and procedure documents.">
++ <!ENTITY ui.circ.patron_summary.horizontal "GUI: Alternative Horizontal Patron Summary Panel">
++ <!ENTITY ui.circ.patron_summary.horizontal.desc "This replaces the vertical Patron Summary Sidebar.">
++ <!ENTITY ui.general.button_bar "GUI: Above-Tab Button Bar">
++ <!ENTITY ui.general.button_bar.desc "This enables a row of buttons and/or icons between the top-level menu system and the tabbed interfaces.">
++ <!ENTITY ui.network.progress_meter "GUI: Network Activity Meter">
++ <!ENTITY ui.network.progress_meter.desc "This enables a network activity indicator in the bottom status bar.">

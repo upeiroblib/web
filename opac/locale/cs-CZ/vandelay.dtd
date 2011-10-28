@@ -1,0 +1,112 @@
+<!ENTITY vandelay.add.existing.queue "nebo přidat k existujícímu seznamu">
+<!ENTITY vandelay.auth.attrs "Authority attributes">
+<!ENTITY vandelay.auth.records "Autoritní záznam">
+<!ENTITY vandelay.auto.import.noncolliding "Automatický import nekolidujících záznamů">
+<!ENTITY vandelay.auto.import.auto_overlay_exact "Auto Merge/Overlay Exact Matches">
+<!ENTITY vandelay.auto.import.auto_overlay_1match "Auto Merge/Overlay When Exactly 1 Match is Found">
+<!ENTITY vandelay.auto.import.merge_profile "Merge/Overlay Profile">
+<!ENTITY vandelay.auto.width "Auto Width">
+<!ENTITY vandelay.back.to.import.queue "Zpět k importování seznamu">
+<!ENTITY vandelay.bib.attrs "Bibliographic attributes">
+<!ENTITY vandelay.bib.records "Bibliografický záznam">
+<!ENTITY vandelay.cancel "Zrušit">
+<!ENTITY vandelay.edit "Editovat">
+<!ENTITY vandelay.code "Kód">
+<!ENTITY vandelay.column "Sloupec">
+<!ENTITY vandelay.create.attr.def "Vytvořte definici pole">
+<!ENTITY vandelay.create "Vytvořit">
+<!ENTITY vandelay.create.date "Vytvořit datum">
+<!ENTITY vandelay.create.upload.queue "Vytvořit nový seznam pro nahrání">
+<!ENTITY vandelay.creator "Vytvořil">
+<!ENTITY vandelay.delete.queue "Smazat seznam">
+<!ENTITY vandelay.delete.record "Smazat záznam">
+<!ENTITY vandelay.descrip "Popis">
+<!ENTITY vandelay.dest.match.point "Destination Match Point">
+<!ENTITY vandelay.display "Zobrazit">
+<!ENTITY vandelay.done "Hotovo">
+<!ENTITY vandelay.edit.attributes "Editovat pole">
+<!ENTITY vandelay.edit.attrs "Editovat pole">
+<!ENTITY vandelay.edit.profiles "Edit Merge / Overlay Profiles">
+<!ENTITY vandelay.edit.import_item_attrs "Edit Import Item Attributes">
+<!ENTITY vandelay.false "False">
+<!ENTITY vandelay.file.to.upload "Soubor k nahrání">
+<!ENTITY vandelay.for.example "Příklad">
+<!ENTITY vandelay.identifier "Identifikátor">
+<!ENTITY vandelay.id.field "Identifier Field?">
+<!ENTITY vandelay.id "ID">
+<!ENTITY vandelay.import.matches "Import Matches">
+<!ENTITY vandelay.import.records "Importovat záznamy">
+<!ENTITY vandelay.import.selected "Importovat vybrané">
+<!ENTITY vandelay.import.all "Importovat vše">
+<!ENTITY vandelay.import.time "Importovat čas">
+<!ENTITY vandelay.inspect.queue "Zkontrolovat seznam">
+<!ENTITY vandelay.last.edit.date "Poslední editované datum">
+<!ENTITY vandelay.limit.to.collision.matches "Limit to Collision Matches">
+<!ENTITY vandelay.limit.to.non.imported "Limit to Non-Imported Records">
+<!ENTITY vandelay.marc.file.upload "Evergreen MARC File Upload">
+<!ENTITY vandelay.marc.record "Záznam MARC">
+<!ENTITY vandelay.matches "Matches">
+<!ENTITY vandelay.next.page "Next Page &#187;">
+<!ENTITY vandelay.overlay.selected.record "Overlay selected record with imported record">
+<!ENTITY vandelay.overlay.target "Overlay Target">
+<!ENTITY vandelay.page "Stránka">
+<!ENTITY vandelay.powered.by.evergreen "Powered by Evergreen!">
+<!ENTITY vandelay.prev.page "&#171; Previous Page">
+<!ENTITY vandelay.processing "Zpracovávání... ">
+<!ENTITY vandelay.queue "Queue">
+<!ENTITY vandelay.queue.type "Queue Type">
+<!ENTITY vandelay.record.queue "Record Queue">
+<!ENTITY vandelay.record.type "Typ záznamu">
+<!ENTITY vandelay.refresh "Obnovit">
+<!ENTITY vandelay.remove.advanced "Odstranit (pokročilé)">
+<!ENTITY vandelay.remove "Odstranit">
+<!ENTITY vandelay.results.per.page "Výsledků na stránku">
+<!ENTITY vandelay.retrieve.queue "Vyhledávání seznamu">
+<!ENTITY vandelay.return "Návrat">
+<!ENTITY vandelay.select.cols "Select Columns">
+<!ENTITY vandelay.select.queue "Select a Queue to Inspect">
+<!ENTITY vandelay.source.match.point "Source Match Point">
+<!ENTITY vandelay.source "Zdroj">
+<!ENTITY vandelay.subfields "Podpole">
+<!ENTITY vandelay.subfield "Podlpole">
+<!ENTITY vandelay.sure.to.delete "Jste si jistý, že chcete smazat tento záznam?">
+<!ENTITY vandelay.sure.to.delete.queue "Are you sure you want to delete this queue?">
+<!ENTITY vandelay.tags "Identifikátor/y">
+<!ENTITY vandelay.tag "Identifikátor">
+<!ENTITY vandelay.tcn.source "TCN Source">
+<!ENTITY vandelay.tcn.value "TCN Value">
+<!ENTITY vandelay.tooltip.subfields "You can enter multiple subfields, separated by spaces and/or commas.">
+<!ENTITY vandelay.tooltip.tags "You can enter multiple tags, separated by spaces and/or commas.">
+<!ENTITY vandelay.true "Pravda">
+<!ENTITY vandelay.update "Aktualizace">
+<!ENTITY vandelay.uploading "Nahrávání">
+<!ENTITY vandelay.upload.status "Status nahrávání">
+<!ENTITY vandelay.upload "Nahrát">
+<!ENTITY vandelay.vandelay "Vandelay">
+<!ENTITY vandelay.view.marc "Podívat se na MARC">
+<!ENTITY vandelay.xpath.advanced "XPath (pokročilý)">
+<!ENTITY vandelay.xpath "XPath">
+<!ENTITY vandelay.save "Uložit změny">
+<!ENTITY vandelay.record_saved "Záznam uložen">
+<!ENTITY vandelay.export.records "Exportovat záznamy">
+<!ENTITY vandelay.export.use_field_no "Use Field Number">
+<!ENTITY vandelay.export.from_csv "Z CSV souboru">
+<!ENTITY vandelay.export.record_id "ID záznamu">
+<!ENTITY vandelay.export.or "Nebo">
+<!ENTITY vandelay.export.format "Formát záznamu">
+<!ENTITY vandelay.export.format.marc21 "MARC21">
+<!ENTITY vandelay.export.format.unimarc "UNIMARC">
+<!ENTITY vandelay.export.format.xml "MARC XML">
+<!ENTITY vandelay.export.format.bre "Evergreen Record Entry">
+<!ENTITY vandelay.export.encoding "Kódování záznamu">
+<!ENTITY vandelay.export.utf8 "UTF-8">
+<!ENTITY vandelay.export.marc8 "MARC8">
+<!ENTITY vandelay.export.holdings "Obsahuje vlastnictví v bibliografických záznamech">
+<!ENTITY vandelay.export.retrieve "Vyhledat záznam">
+<!ENTITY vandelay.export.field_no_hint "(začít od nuly)">
+<!ENTITY vandelay.export.bucket "Record Bucket ID">
+<!ENTITY vandelay.select_actions "--Akce--">
+<!ENTITY vandelay.queue.total "Celkem:">
+<!ENTITY vandelay.queue.imported "Importováno:">
+<!ENTITY vandelay.queue.column_picker.title "Column Picker">
+<!ENTITY vandelay.import.bib_sources "Select a Record Source">

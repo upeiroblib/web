@@ -1,0 +1,48 @@
+<!--	=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+	UPEI - Robertson Library (roblib)
+	Any definition that has "roblib." is new 
+	Any definition that does not have "roblib." is an override from opac.dtd
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+
+<!--	================================================================= 
+		Some generic stuff 
+		================================================================= -->
+
+
+<!ENTITY common.password "PIN">
+<!ENTITY common.roblib.search.catalogue " Catalogue">
+
+
+<!-- ================================================================= 
+		More generic stuff 
+================================================================= -->
+<!ENTITY navigate.roblib.libraryhome "Library Home Page">
+<!ENTITY navigate.roblib.libraryhome.title "Go to the Library Home Page">
+<!ENTITY navigate.roblib.libraryhome.url "http://library.upei.ca">
+<!ENTITY navigate.roblib.newsearch "New Search">
+<!ENTITY navigate.roblib.newsearch.title "Go to the New Search page">
+
+<!-- ================================================================= 
+		search formats
+		================================================================= -->
+
+<!ENTITY opac.search.electronic "Software/Multimedia">
+
+
+<!--	================================================================= 
+	Footer
+	================================================================= -->
+<!ENTITY footer.roblib.libraryhome.url "http://library.upei.ca">
+<!ENTITY footer.roblib.libraryhome "Library Homepage">
+<!ENTITY footer.roblib.rlwelcome "Welcome to the UPEI Library Catalogue! ">
+<!ENTITY footer.roblib.rlwelcome2 "We're proud to be the world's first academic library running Evergreen ">
+<!ENTITY footer.roblib.rlwelcome.url "http://library.upei.ca/node/279">
+<!ENTITY footer.roblib.rlwelcomelink "(learn more about this project)">
+
+<!--	================================================================= 
+	Rdetail
+	================================================================= -->
+<!-- overriding username variable from opac.dtd to PIN -->
+<!ENTITY login.username "Enter your UPEI barcode">
+
+

@@ -1,0 +1,41 @@
+8
+
+dir
+9740
+svn://svn.open-ils.org/ILS/branches/rel_1_2_2/Open-ILS/web/opac/common/xml
+svn://svn.open-ils.org/ILS
+
+
+
+2006-04-10T20:23:40.000000Z
+3645
+erickson
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+dcc99617-32d9-48b4-a31d-7c20da2025e4
+
+item_lang_options.xml
+file
+
+
+
+
+2008-05-31T01:06:12.000000Z
+67aac6e320dc71b9b382e2a00d561cb4
+2006-04-10T20:23:40.000000Z
+3645
+erickson
+has-props
+

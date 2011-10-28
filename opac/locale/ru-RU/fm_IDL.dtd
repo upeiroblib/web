@@ -1,0 +1,2821 @@
+<!ENTITY field.bre.source.label "Источник записи">
+<!ENTITY class.rxpt.label "Итоги оплаченной транзакции">
+<!ENTITY field.acn.label_sortkey.label "Sort Key">
+<!ENTITY field.sunit.sort_key.label "Sort Key">
+<!ENTITY field.mrd.vr_format.label "Формат видеозаписи">
+<!ENTITY class.acqlih.label "Line Item History">
+<!ENTITY field.au.ident_value2.label "Вторичная идентификация">
+<!ENTITY field.sdist.record_entry.label "Legacy Record Entry">
+<!ENTITY field.acqfst.amount.label "Общая сумма израсходованных средств">
+<!ENTITY field.acqafst.amount.label "Общая сумма израсходованных средств">
+<!ENTITY field.auri.use_restriction.label "Использование информации">
+<!ENTITY class.cmrtm.label "MARC21 Record Type Map">
+<!ENTITY field.mp.credit_card_payment.label "Подробности оплаты кредитной картой">
+<!ENTITY field.mbp.credit_card_payment.label "Подробности оплаты кредитной картой">
+<!ENTITY field.cracct.host.label "Сервер">
+<!ENTITY field.czs.host.label "Сервер">
+<!ENTITY field.acqedi.host.label "Сервер">
+<!ENTITY field.rccbs.patron_city.label "Город пользователя">
+<!ENTITY class.cmsa.label "Metabib Search Alias">
+<!ENTITY field.circ.billing_total.label "Итоги счетов">
+<!ENTITY field.combcirc.billing_total.label "Итоги счетов">
+<!ENTITY field.acirc.billing_total.label "Итоги счетов">
+<!ENTITY field.bresv.billing_total.label "Итоги счетов">
+<!ENTITY field.mg.billing_total.label "Итоги счетов">
+<!ENTITY field.mbt.billing_total.label "Итоги счетов">
+<!ENTITY field.rodcirc.billing_total.label "Итоги счетов">
+<!ENTITY field.qsq.where_clause.label "WHERE Clause">
+<!ENTITY field.brt.transferable.label "Переносимый">
+<!ENTITY class.aoa.label "Адрес организации">
+<!ENTITY field.auri.id.label "URI ID">
+<!ENTITY field.mcrp.id.label "ID платежа">
+<!ENTITY field.au.claims_returned_count.label "Подсчёт возвращенных (экземпляров)">
+<!ENTITY class.acqfsrcct.label "Общий кредит источнику финансирования">
+<!ENTITY class.acqlipad.label "Определение атрибутов провайдера строки (Line Item )">
+<!ENTITY field.bra.required.label "Требуется">
+<!ENTITY field.bresv.booking_interval.label "Интервал заказа">
+<!ENTITY field.cmfinm.params.label "Параметры (JSON Array)">
+<!ENTITY field.vii.ref.label "Ссылка">
+<!ENTITY field.viiad.ref.label "Ссылка">
+<!ENTITY field.rocit.ref.label "Ссылка">
+<!ENTITY field.acqfsb.amount.label "Остаток после использования">
+<!ENTITY class.atenv.label "Триггер события формы записи">
+<!ENTITY class.cit.label "Тип индефикации">
+<!ENTITY field.vbm.matched_attr.label "Подобранный атрибут">
+<!ENTITY field.vam.matched_attr.label "Подобранный атрибут">
+<!ENTITY field.ahn.method.label "Метод  извещения">
+<!ENTITY class.bravm.label "Резервирование карты значения атрибутов">
+<!ENTITY field.bravm.id.label "Резервирование карты значения атрибутов">
+<!ENTITY field.rccc.call_number.label "Ссылка шифра хранения документа">
+<!ENTITY field.circ.checkin_lib.label "Регистрация библиотеки">
+<!ENTITY field.combcirc.checkin_lib.label "Регистрация библиотеки">
+<!ENTITY field.acirc.checkin_lib.label "Регистрация библиотеки">
+<!ENTITY field.rodcirc.checkin_lib.label "Регистрация библиотеки">
+<!ENTITY class.citm.label "Карта типа единицы">
+<!ENTITY field.rccbs.billing_location_shortname.label "Краткое (Полики) имя расположения счетов">
+<!ENTITY class.aous.label "Установка организационной единицы">
+<!ENTITY field.rxbt.unvoided.label "Вексельная сумма аннулирована">
+<!ENTITY field.atevdef.hook.label "Крюк">
+<!ENTITY field.ssr.deleted.label "Удалено">
+<!ENTITY field.rocit.deleted.label "Удалено">
+<!ENTITY field.mcrp.payment_ts.label "Отметка времени оплаты">
+<!ENTITY field.mwp.payment_ts.label "Отметка времени оплаты">
+<!ENTITY field.mgp.payment_ts.label "Отметка времени оплаты">
+<!ENTITY field.mckp.payment_ts.label "Отметка времени оплаты">
+<!ENTITY field.aou.attr_vals.label "Значение атрибута">
+<!ENTITY field.vii.record.label "Импортировать запись">
+<!ENTITY field.bra.valid_values.label "Допустимые  величины">
+<!ENTITY field.sstr.items.label "Единица">
+<!ENTITY field.siss.items.label "Единица">
+<!ENTITY field.ac.active.label "Активный?">
+<!ENTITY field.au.other_phone.label "Другой номер телефона">
+<!ENTITY class.acqfdeb.label "Дебетовать из фонда">
+<!ENTITY field.rxpt.total.label "Итог оплаченной суммы">
+<!ENTITY field.au.family_name.label "Фамилия">
+<!ENTITY field.stgu.family_name.label "Фамилия">
+<!ENTITY class.rlcd.label "Last Copy Delete Time">
+<!ENTITY class.mous.label "Открой резюме пользователя">
+<!ENTITY field.au.stat_cat_entries.label "Заявки Статистических Категорий">
+<!ENTITY field.sunit.stat_cat_entries.label "Заявки Статистических Категорий">
+<!ENTITY field.acp.stat_cat_entries.label "Заявки Статистических Категорий">
+<!ENTITY field.vmp.owner.label "Владелец">
+<!ENTITY field.vibtf.owner.label "Владелец">
+<!ENTITY field.viiad.owner.label "Владелец">
+<!ENTITY field.vbq.owner.label "Владелец">
+<!ENTITY field.vaq.owner.label "Владелец">
+<!ENTITY field.cracct.owner.label "Владелец">
+<!ENTITY field.are.owner.label "Владелец">
+<!ENTITY field.bre.owner.label "Владелец">
+<!ENTITY field.chdd.owner.label "Владелец">
+<!ENTITY field.auss.owner.label "Владелец">
+<!ENTITY field.acqpro.owner.label "Владелец">
+<!ENTITY field.acqfs.owner.label "Владелец">
+<!ENTITY field.acqpl.owner.label "Владелец">
+<!ENTITY field.acqpo.owner.label "Владелец">
+<!ENTITY field.acqpoh.owner.label "Владелец">
+<!ENTITY field.acqedi.owner.label "Владелец">
+<!ENTITY field.afs.owner.label "Владелец">
+<!ENTITY field.bresv.current_resource.label "Текущий ресурс">
+<!ENTITY class.acqfcb.label "Комбинированный баланс фонда">
+<!ENTITY field.ahr.holdable_formats.label "Сохраняющие форматы (для хранения М-типа)">
+<!ENTITY class.acqie.label "Invoice Entry">
+<!ENTITY field.pgpt.grp.label "Группа">
+<!ENTITY field.au.ident_type2.label "Вид вторичной идентификации">
+<!ENTITY field.auoi.staff.label "Штатный сотрудник">
+<!ENTITY field.sbsum.generated_coverage.label "Generated Coverage">
+<!ENTITY field.sssum.generated_coverage.label "Generated Coverage">
+<!ENTITY field.sisum.generated_coverage.label "Generated Coverage">
+<!ENTITY class.mdp.label "Оплата: Рабочий стол">
+<!ENTITY field.qrc.column_type.label "Column Type">
+<!ENTITY field.aou.shortname.label "Краткое (Политики) имя">
+<!ENTITY field.acn.deleted.label "Удалено?">
+<!ENTITY field.au.deleted.label "Удалено?">
+<!ENTITY field.sre.deleted.label "Удалено?">
+<!ENTITY field.sunit.deleted.label "Удалено?">
+<!ENTITY field.acp.deleted.label "Удалено?">
+<!ENTITY field.mg.xact_finish.label "Временная отметка окончания транзакции">
+<!ENTITY field.mb.billing_ts.label "Временная отметка выписанного счета">
+<!ENTITY class.crcd.label "Нормы продолжительности циркуляции">
+<!ENTITY class.acqpa.label "Адрес провайдера">
+<!ENTITY field.acqlia.id.label "ID Значения атрибута">
+<!ENTITY class.ahcm.label "Карта хранения экземпляра">
+<!ENTITY class.arn.label "Примечание авторитетной записи">
+<!ENTITY class.rocit.label "Классический список единицы">
+<!ENTITY field.acqpon.value.label "Стоимость голосования">
+<!ENTITY field.vii.definition.label "Определение атрибута">
+<!ENTITY class.acqcl.label "Claim">
+<!ENTITY class.cbt.label "Тип счета">
+<!ENTITY field.rmocbbol.billing_type.label "Тип счета">
+<!ENTITY field.rmocbbcol.billing_type.label "Тип счета">
+<!ENTITY field.rmocbbhol.billing_type.label "Тип счета">
+<!ENTITY class.rrf.label "Папка отчета">
+<!ENTITY field.jub.lineitem_notes.label "Примечания строки">
+<!ENTITY field.ahtc.hold.label "Транзит требуемого хранения">
+<!ENTITY field.aout.name.label "Имя типа">
+<!ENTITY field.ahr.cancel_time.label "Дата/время отмены хранения">
+<!ENTITY class.acqcle.label "Claim Event">
+<!ENTITY class.xcol.label "Column Expression">
+<!ENTITY field.cza.format.label "Формат">
+<!ENTITY field.cvrfm.value.label "Формат">
+<!ENTITY field.cmf.format.label "Формат">
+<!ENTITY class.aiit.label "Non-bibliographic Invoice Item Type">
+<!ENTITY field.au.usrname.label "Имя пользователя  OPAC/Персонала клиентов">
+<!ENTITY field.vii.circ_lib.label "Циркулирующая библиотека">
+<!ENTITY field.viiad.circ_lib.label "Циркулирующая библиотека">
+<!ENTITY field.circ.circ_lib.label "Циркулирующая библиотека">
+<!ENTITY field.combcirc.circ_lib.label "Циркулирующая библиотека">
+<!ENTITY field.acirc.circ_lib.label "Циркулирующая библиотека">
+<!ENTITY field.sunit.circ_lib.label "Циркулирующая библиотека">
+<!ENTITY field.acp.circ_lib.label "Циркулирующая библиотека">
+<!ENTITY field.ancc.circ_lib.label "Циркулирующая библиотека">
+<!ENTITY field.aufhl.circ_lib.label "Циркулирующая библиотека">
+<!ENTITY field.aufhil.circ_lib.label "Циркулирующая библиотека">
+<!ENTITY field.aufhol.circ_lib.label "Циркулирующая библиотека">
+<!ENTITY field.rodcirc.circ_lib.label "Циркулирующая библиотека">
+<!ENTITY field.rmocbbcol.circ_lib.label "Циркулирующая библиотека">
+<!ENTITY field.rmobbcol.circ_lib.label "Циркулирующая библиотека">
+<!ENTITY field.afs.scheduled_time.label "Scheduled Time">
+<!ENTITY field.auri.call_number_maps.label "Карты шифров хранения документов">
+<!ENTITY class.acnn.label "Примечание шифра хранения документа">
+<!ENTITY field.qdt.is_numeric.label "Is Numeric">
+<!ENTITY class.cmfpm.label "MARC21 Fixed Field Map">
+<!ENTITY field.ccmm.max_fine_rule.label "Норма максимального штрафа">
+<!ENTITY field.circ.max_fine_rule.label "Норма максимального штрафа">
+<!ENTITY field.combcirc.max_fine_rule.label "Норма максимального штрафа">
+<!ENTITY field.acirc.max_fine_rule.label "Норма максимального штрафа">
+<!ENTITY class.crmf.label "Норма максимального штрафа">
+<!ENTITY field.rodcirc.max_fine_rule.label "Норма максимального штрафа">
+<!ENTITY class.chmm.label "Совпадение матриц  Хранения">
+<!ENTITY field.bre.subject_field_entries.label "Индексированные записи поля тематического понятия">
+<!ENTITY class.acpl.label "Место хранения экземпляров/стеллажей">
+<!ENTITY field.acqofscred.sort_date.label "Установить дату">
+<!ENTITY field.asvr.response_group_id.label "ID Группы реагирования">
+<!ENTITY class.aus.label "Установка пользователя">
+<!ENTITY class.actscecm.label "Ввод статистической категории пользователя">
+<!ENTITY field.aoa.san.label "SAN (сеть [устройств] хранения данных)">
+<!ENTITY field.acqpro.san.label "SAN (сеть [устройств] хранения данных)">
+<!ENTITY field.accs.checkout_workstation.label "Зарегистрированная  рабочая станция">
+<!ENTITY class.asc.label "Активы Статистической Категории">
+<!ENTITY class.jub.label "Единица строки">
+<!ENTITY field.acqlin.lineitem.label "Единица строки">
+<!ENTITY field.cracct.path.label "XPath">
+<!ENTITY field.acqedi.path.label "XPath">
+<!ENTITY field.vii.pub_note.label "Общедоступные примечания">
+<!ENTITY field.viiad.pub_note.label "Общедоступные примечания">
+<!ENTITY field.sunit.total_circ_count.label "Общая циркуляция">
+<!ENTITY field.acp.total_circ_count.label "Общая циркуляция">
+<!ENTITY field.rccbs.usr_home_ou_name.label "Название домашней библиотеки пользователя">
+<!ENTITY field.au.credit_forward_balance.label "Остаток кредита пользователя">
+<!ENTITY field.scap.enum_5.label "Enum 5">
+<!ENTITY class.mcrp.label "Домашний платеж по кредиту">
+<!ENTITY field.acn.uri_maps.label "Карты URI">
+<!ENTITY field.ahr.eligible_copies.label "Годные экземпляры">
+<!ENTITY field.rccbs.total_owed.label "Итоговая сумма">
+<!ENTITY field.rmocbbol.billed.label "Итоговая сумма">
+<!ENTITY field.rmocbbcol.billed.label "Итоговая сумма">
+<!ENTITY field.rmocbbhol.billed.label "Итоговая сумма">
+<!ENTITY field.brav.valid_value.label "Допустимое значение">
+<!ENTITY field.mp.check_payment.label "Проверить детали оплаты">
+<!ENTITY field.mbp.check_payment.label "Проверить детали оплаты">
+<!ENTITY field.asvr.effective_date.label "Дата/время эффективного ответа">
+<!ENTITY field.ahr.capture_time.label "Дата/время захвата">
+<!ENTITY field.acqpl.id.label "Selection List ID">
+<!ENTITY class.pupm.label "Список полномочий пользователя">
+<!ENTITY class.auricnm.label "Электронный доступ URI к списку шифров хранения документов">
+<!ENTITY field.acqfap.percent.label "Процент">
+<!ENTITY field.crahp.id.label "Правило ID">
+<!ENTITY field.crmf.id.label "Правило ID">
+<!ENTITY field.sunit.loan_duration.label "Продолжительность выдачи">
+<!ENTITY field.acp.loan_duration.label "Продолжительность выдачи">
+<!ENTITY field.act.loan_duration.label "Продолжительность выдачи">
+<!ENTITY field.vbq.queue_type.label "Тип">
+<!ENTITY field.vaq.queue_type.label "Тип">
+<!ENTITY field.mrd.item_type.label "Тип">
+<!ENTITY field.aua.address_type.label "Тип">
+<!ENTITY field.scap.type.label "Тип">
+<!ENTITY field.mb.btype.label "Тип">
+<!ENTITY field.acqpca.address_type.label "Тип">
+<!ENTITY field.acqlia.attr_type.label "Тип">
+<!ENTITY field.qbv.type.label "Тип">
+<!ENTITY field.bmpc.ptype.label "Тип">
+<!ENTITY field.cracct.username.label "Имя пользователя">
+<!ENTITY field.acqedi.username.label "Имя пользователя">
+<!ENTITY class.ccnbn.label "Примечание Корзины шифров">
+<!ENTITY field.ausp.staff.label "Персонал">
+<!ENTITY field.ahn.hold.label "Хранение">
+<!ENTITY field.aufh.hold.label "Хранение">
+<!ENTITY field.atev.id.label "ID события">
+<!ENTITY field.atevparam.id.label "ID события">
+<!ENTITY class.cubin.label "Примечание единицы Отдела пользователя (User Bucket )">
+<!ENTITY field.acqafsb.amount.label "Total Spent Balance">
+<!ENTITY class.ccbi.label "Единица  из Корзины Копий">
+<!ENTITY field.acqpo.order_date.label "Дата заказа">
+<!ENTITY field.acqpoh.order_date.label "Дата заказа">
+<!ENTITY field.sunit.fine_level.label "Уровень штрафа">
+<!ENTITY field.acp.fine_level.label "Уровень штрафа">
+<!ENTITY field.act.fine_level.label "Уровень штрафа">
+<!ENTITY field.atevdef.validator.label "Валидатор">
+<!ENTITY field.acqpon.vendor_public.label "Vendor Public">
+<!ENTITY field.acqlin.vendor_public.label "Vendor Public">
+<!ENTITY field.pgt.application_perm.label "Необходимые полномочия">
+<!ENTITY field.sunit.status_changed_time.label "Время замены статуса экземпляра">
+<!ENTITY field.acp.status_changed_time.label "Время замены статуса экземпляра">
+<!ENTITY field.sunit.mint_condition.label "Идеальное состояние">
+<!ENTITY field.ahr.mint_condition.label "Идеальное состояние">
+<!ENTITY field.acp.mint_condition.label "Идеальное состояние">
+<!ENTITY field.rccc.dewey_block_hundreds.label "Блок Дьюи - Сотни">
+<!ENTITY field.chmm.marc_form.label "Форма MARC">
+<!ENTITY field.ccmm.marc_form.label "Форма MARC">
+<!ENTITY field.rccc.item_form.label "Форма MARC">
+<!ENTITY field.cmfinm.pos.label "Заказ по заявлению">
+<!ENTITY field.ssr.visible.label "Доступен">
+<!ENTITY field.sdist.streams.label "Streams">
+<!ENTITY field.atev.error_output.label "Ошибка вывода  [данных]">
+<!ENTITY field.circ.id.label "ID циркуляции">
+<!ENTITY field.combcirc.id.label "ID циркуляции">
+<!ENTITY field.acirc.id.label "ID циркуляции">
+<!ENTITY field.rodcirc.id.label "ID циркуляции">
+<!ENTITY field.chmm.active.label "Активный?">
+<!ENTITY field.ccmm.active.label "Активный?">
+<!ENTITY field.scap.active.label "Активный?">
+<!ENTITY class.ascecm.label "Копия Карты ввода статистических категорий">
+<!ENTITY field.atc.prev_hop.label "Предыдущий  прыжок(шаг) (неиспользованный)">
+<!ENTITY field.iatc.prev_hop.label "Предыдущий  прыжок(шаг) (неиспользованный)">
+<!ENTITY field.rocit.stat_cat_1_value.label "Значение унаследованной Stat Cat 1">
+<!ENTITY field.acpl.circulate.label "Может  циркулировать?">
+<!ENTITY field.sunit.stat_cat_entry_copy_maps.label "Карты ввода статистических категорий">
+<!ENTITY field.acp.stat_cat_entry_copy_maps.label "Карты ввода статистических категорий">
+<!ENTITY field.atcol.module.label "Название модуля">
+<!ENTITY field.atval.module.label "Название модуля">
+<!ENTITY field.atreact.module.label "Название модуля">
+<!ENTITY field.atclean.module.label "Название модуля">
+<!ENTITY class.ccnbin.label "Примечание единицы Корзины шифров хранения документов">
+<!ENTITY field.vqbr.create_time.label "Время создания">
+<!ENTITY field.vqar.create_time.label "Время создания">
+<!ENTITY field.acqfdeb.create_time.label "Время создания">
+<!ENTITY field.acqfa.create_time.label "Время создания">
+<!ENTITY field.acqfap.create_time.label "Время создания">
+<!ENTITY field.acqpoh.create_time.label "Время создания">
+<!ENTITY field.acqlih.create_time.label "Время создания">
+<!ENTITY field.acqdfa.create_time.label "Время создания">
+<!ENTITY field.combcirc.usr_birth_year.label "Год рождения клиента">
+<!ENTITY field.acirc.usr_birth_year.label "Год рождения клиента">
+<!ENTITY field.atc.hold_transit_copy.label "Транзит Хранения">
+<!ENTITY class.ahtc.label "Транзит Хранения">
+<!ENTITY field.iatc.hold_transit_copy.label "Транзит Хранения">
+<!ENTITY field.accs.last_stop_fines_time.label "Last Stop Fines Time">
+<!ENTITY field.aur.need_before.label "Need Before Date/Time">
+<!ENTITY field.acqfdeb.encumbrance.label "Обременение">
+<!ENTITY field.ccm.sip2_media_type.label "Тип носителя SIP2">
+<!ENTITY field.vqbrad.code.label "Код">
+<!ENTITY field.vqarad.code.label "Код">
+<!ENTITY field.cza.code.label "Код">
+<!ENTITY field.ccm.code.label "Код">
+<!ENTITY field.aiit.code.label "Код">
+<!ENTITY field.acqim.code.label "Код">
+<!ENTITY field.ccpbt.code.label "Код">
+<!ENTITY field.ccnbt.code.label "Код">
+<!ENTITY field.cbrebt.code.label "Код">
+<!ENTITY field.cubt.code.label "Код">
+<!ENTITY field.cvrfm.code.label "Код">
+<!ENTITY field.acqpro.code.label "Код">
+<!ENTITY field.acqipm.code.label "Код">
+<!ENTITY field.acqfs.code.label "Код">
+<!ENTITY field.acqf.code.label "Код">
+<!ENTITY field.acqliat.code.label "Код">
+<!ENTITY field.acqliad.code.label "Код">
+<!ENTITY field.acqlimad.code.label "Код">
+<!ENTITY field.acqligad.code.label "Код">
+<!ENTITY field.acqliuad.code.label "Код">
+<!ENTITY field.acqlipad.code.label "Код">
+<!ENTITY field.acqlilad.code.label "Код">
+<!ENTITY field.acqclt.code.label "Код">
+<!ENTITY field.acqclet.code.label "Код">
+<!ENTITY field.cmrtm.code.label "Код">
+<!ENTITY class.cubi.label "Единица Корзины пользователя">
+<!ENTITY field.circ.due_date.label "Дата/Время возврата">
+<!ENTITY field.combcirc.due_date.label "Дата/Время возврата">
+<!ENTITY field.acirc.due_date.label "Дата/Время возврата">
+<!ENTITY field.rodcirc.due_date.label "Дата/Время возврата">
+<!ENTITY class.acqafsb.label "Баланс израсходованных фондом">
+<!ENTITY class.acqafst.label "All Fund Spent Total">
+<!ENTITY field.aur.holdable_formats.label "Holdable Formats">
+<!ENTITY field.acqpo.id.label "ID заказа на покупку [приобретение]">
+<!ENTITY field.acqpoh.id.label "ID заказа на покупку [приобретение]">
+<!ENTITY field.sunit.age_protect.label "Защита хранения по возрасту">
+<!ENTITY field.acp.age_protect.label "Защита хранения по возрасту">
+<!ENTITY field.brt.name.label "Tиповое  имя ресурса">
+<!ENTITY class.sunit.label "Unit">
+<!ENTITY field.sitem.unit.label "Unit">
+<!ENTITY class.cst.label "Постоянный штраф">
+<!ENTITY class.csp.label "Постоянный штраф">
+<!ENTITY field.ausp.standing_penalty.label "Постоянный штраф">
+<!ENTITY field.circ.checkin_staff.label "Регистрация персонала">
+<!ENTITY field.combcirc.checkin_staff.label "Регистрация персонала">
+<!ENTITY field.acirc.checkin_staff.label "Регистрация персонала">
+<!ENTITY field.rodcirc.checkin_staff.label "Регистрация персонала">
+<!ENTITY field.mdp.cash_drawer.label "Кассы">
+<!ENTITY field.acnc.field.label "Call number fields">
+<!ENTITY class.cza.label "Атрибут Z39.50">
+<!ENTITY field.amtr.success.label "Успешно">
+<!ENTITY class.srlu.label "Routing List User">
+<!ENTITY field.mrd.pub_status.label "Статус издания">
+<!ENTITY field.aufhmxl.max.label "Max Loop">
+<!ENTITY field.atev.async_output.label "Асинхронный вывод">
+<!ENTITY class.ccnbt.label "Тип Корзины шифров хранения документов">
+<!ENTITY field.mckp.cash_drawer.label "Ссылка рабочей  станции">
+<!ENTITY field.combcirc.usr_post_code.label "ZIP Читателя">
+<!ENTITY field.acirc.usr_post_code.label "ZIP Читателя">
+<!ENTITY field.circ.xact_start.label "Дата/Время регистрации выдачи (документов)">
+<!ENTITY field.combcirc.xact_start.label "Дата/Время регистрации выдачи (документов)">
+<!ENTITY field.acirc.xact_start.label "Дата/Время регистрации выдачи (документов)">
+<!ENTITY field.rodcirc.xact_start.label "Дата/Время регистрации выдачи (документов)">
+<!ENTITY class.acqclet.label "Claim Event Type">
+<!ENTITY field.acqcle.type.label "Claim Event Type">
+<!ENTITY field.acqscle.type.label "Claim Event Type">
+<!ENTITY field.circ.billable_transaction.label "База сделки">
+<!ENTITY field.combcirc.billable_transaction.label "База сделки">
+<!ENTITY field.acirc.billable_transaction.label "База сделки">
+<!ENTITY field.rodcirc.billable_transaction.label "База сделки">
+<!ENTITY class.acqlin.label "Примечание единицы строки">
+<!ENTITY field.cnct.in_house.label "В доме?">
+<!ENTITY field.au.card.label "Используемый читательский билет">
+<!ENTITY field.acpn.creator.label "Примечание  создателя">
+<!ENTITY field.acqlisum.estimated_amount.label "Estimated Amount">
+<!ENTITY field.acqfsrcat.amount.label "Всего выделено из источника финансирования">
+<!ENTITY field.atevdef.template.label "Шаблон">
+<!ENTITY class.rt.label "Шаблон">
+<!ENTITY field.brt.resources.label "Ресурсы">
+<!ENTITY field.aou.resources.label "Ресурсы">
+<!ENTITY field.sstr.routing_label.label "Routing Label">
+<!ENTITY field.circ.target_copy.label "Циркулирующая единица">
+<!ENTITY field.combcirc.target_copy.label "Циркулирующая единица">
+<!ENTITY field.acirc.target_copy.label "Циркулирующая единица">
+<!ENTITY field.rodcirc.target_copy.label "Циркулирующая единица">
+<!ENTITY class.cubt.label "Тип Корзины пользователя">
+<!ENTITY field.ccmm.is_renewal.label "Обновления?">
+<!ENTITY field.act.age_protect.label "Возрастная защита">
+<!ENTITY field.act.floating.label "Floating?">
+<!ENTITY field.cracct.account.label "Account">
+<!ENTITY field.acqedi.account.label "Account">
+<!ENTITY field.acqf.debits.label "Дебеты">
+<!ENTITY class.ccbin.label "Примечание единицы  Корзины Копий">
+<!ENTITY field.atc.prev_dest.label "Предшествующее место назначения">
+<!ENTITY class.acnc.label "Call number classification scheme">
+<!ENTITY class.aufh.label "Невыполненные цели Хранения">
+<!ENTITY field.sre.creator.label "Создатель">
+<!ENTITY field.ssubn.creator.label "Создатель">
+<!ENTITY field.sdistn.creator.label "Создатель">
+<!ENTITY field.siss.creator.label "Создатель">
+<!ENTITY field.sitem.creator.label "Создатель">
+<!ENTITY field.sin.creator.label "Создатель">
+<!ENTITY field.act.creator.label "Создатель">
+<!ENTITY field.acqpron.creator.label "Создатель">
+<!ENTITY field.acqpl.creator.label "Создатель">
+<!ENTITY field.acqpo.creator.label "Создатель">
+<!ENTITY field.acqpoh.creator.label "Создатель">
+<!ENTITY field.acqpon.creator.label "Создатель">
+<!ENTITY field.jub.creator.label "Создатель">
+<!ENTITY field.acqlih.creator.label "Создатель">
+<!ENTITY field.acqlin.creator.label "Создатель">
+<!ENTITY field.acqdfa.creator.label "Создатель">
+<!ENTITY field.acqcle.creator.label "Создатель">
+<!ENTITY field.acqscle.creator.label "Создатель">
+<!ENTITY field.rocit.creator.label "Создатель">
+<!ENTITY field.rsr.series_statement.label "Отчет серий (нормализован)">
+<!ENTITY class.rccbs.label "Резюме классической  открытой транзакции">
+<!ENTITY field.artc.prev_hop.label "Предыдущие остановить">
+<!ENTITY field.ahtc.prev_hop.label "Предыдущие остановить">
+<!ENTITY field.acqpa.address_type.label "Тип адреса">
+<!ENTITY field.ahr.cut_in_line.label "Начало очереди">
+<!ENTITY field.czs.auth.label "Авторизация">
+<!ENTITY field.acn.editor.label "Последнее изменение пользователя">
+<!ENTITY field.bre.editor.label "Последнее изменение пользователя">
+<!ENTITY field.sunit.editor.label "Последнее изменение пользователя">
+<!ENTITY field.acp.editor.label "Последнее изменение пользователя">
+<!ENTITY field.aou.settings.label "Настройки">
+<!ENTITY field.acqafet.amount.label "Общая сумма обременения">
+<!ENTITY field.qfpd.function_id.label "Function ID">
+<!ENTITY field.qxp.function_id.label "Function ID">
+<!ENTITY field.xfunc.function_id.label "Function ID">
+<!ENTITY field.vqbr.queue.label "Очередь">
+<!ENTITY field.vqar.queue.label "Очередь">
+<!ENTITY field.vbm.queued_record.label "Запись очереди">
+<!ENTITY field.vam.queued_record.label "Запись очереди">
+<!ENTITY class.acqpoh.label "Purchase Order History">
+<!ENTITY class.crahp.label "Правило защиты срока Хранения">
+<!ENTITY field.aou.workstations.label "Рабочии станции">
+<!ENTITY field.aur.article_title.label "Article Title">
+<!ENTITY field.au.hold_requests.label "Запрашивать все хранения">
+<!ENTITY field.au.master_account.label "Является ведущим счетом группы">
+<!ENTITY field.ahr.frozen.label "В настоящее время замороженные">
+<!ENTITY field.acqpca.contact.label "Контакт">
+<!ENTITY class.puwoum.label "Карта Пользователя рабочей организационной единицы">
+<!ENTITY field.accs.last_checkin_workstation.label "Зарегистрированная  рабочая станция">
+<!ENTITY class.mgp.label "Оплата товаров">
+<!ENTITY field.ccmm.org_unit.label "Отдел организации">
+<!ENTITY field.pgpt.org_unit.label "Отдел организации">
+<!ENTITY field.ausp.org_unit.label "Отдел организации">
+<!ENTITY field.acplo.org.label "Отдел организации">
+<!ENTITY field.cbt.owner.label "Отдел организации">
+<!ENTITY field.acqf.org.label "Отдел организации">
+<!ENTITY field.acqfap.org.label "Отдел организации">
+<!ENTITY field.acqpl.org_unit.label "Отдел организации">
+<!ENTITY field.acqclt.org_unit.label "Отдел организации">
+<!ENTITY field.acqclet.org_unit.label "Отдел организации">
+<!ENTITY field.acqclp.org_unit.label "Отдел организации">
+<!ENTITY class.mkfe.label "Ввод Поля ключевого слова">
+<!ENTITY class.asvq.label "Вопрос опроса пользователей">
+<!ENTITY class.mfae.label "Combined Facet Entry">
+<!ENTITY field.circ.phone_renewal.label "Обновление телефона">
+<!ENTITY field.combcirc.phone_renewal.label "Обновление телефона">
+<!ENTITY field.acirc.phone_renewal.label "Обновление телефона">
+<!ENTITY field.rodcirc.phone_renewal.label "Обновление телефона">
+<!ENTITY field.combcirc.usr_home_ou.label "Домашняя библиотека читателя">
+<!ENTITY field.acirc.usr_home_ou.label "Домашняя библиотека читателя">
+<!ENTITY class.siss.label "Выпуск">
+<!ENTITY field.sitem.issuance.label "Выпуск">
+<!ENTITY class.mife.label "Identifier Field Entry">
+<!ENTITY field.acqlia.definition.label "Определение">
+<!ENTITY class.sra.label "Важность регулировки">
+<!ENTITY field.aur.article_pages.label "Article Pages">
+<!ENTITY field.cmf.facet_field.label "Facet Field">
+<!ENTITY field.sre.edit_date.label "Изменить дату">
+<!ENTITY field.acqlid.claims.label "Claims">
+<!ENTITY class.ppl.label "Список Полномочий">
+<!ENTITY field.aufh.fail_time.label "Перенастроить дату/время">
+<!ENTITY field.bmpc.id.label "Temp ID">
+<!ENTITY class.acqinv.label "Invoice">
+<!ENTITY field.acqie.invoice.label "Invoice">
+<!ENTITY field.acqii.invoice.label "Invoice">
+<!ENTITY field.atenv.path.label "Маршрут поля">
+<!ENTITY field.mdp.accepting_usr.label "Принимать пользователя">
+<!ENTITY class.qrc.label "Record Column">
+<!ENTITY field.ahr.thaw_date.label "Дата оттаивания (если заморожены)">
+<!ENTITY field.acqinv.inv_type.label "Invoice Type">
+<!ENTITY field.acqpro.fax_phone.label "Fax Phone">
+<!ENTITY field.acqpa.fax_phone.label "Fax Phone">
+<!ENTITY field.acqpca.fax_phone.label "Fax Phone">
+<!ENTITY class.bmpc.label "MARC21 Physical Characteristics">
+<!ENTITY field.acqinv.payment_method.label "Payment Method">
+<!ENTITY class.afs.label "Fieldset">
+<!ENTITY field.rmsr.pubdate.label "Год издания (стандартный)">
+<!ENTITY field.rssr.pubdate.label "Год издания (стандартный)">
+<!ENTITY field.rsr.pubdate.label "Год издания (стандартный)">
+<!ENTITY field.scap.enum_1.label "Enum 1">
+<!ENTITY field.scap.enum_3.label "Enum 3">
+<!ENTITY field.scap.enum_2.label "Enum 2">
+<!ENTITY field.asva.answer.label "Ответ текста">
+<!ENTITY field.scap.enum_4.label "Enum 4">
+<!ENTITY field.scap.enum_6.label "Enum 6">
+<!ENTITY field.vqbr.id.label "ID Записи">
+<!ENTITY field.vqar.id.label "ID Записи">
+<!ENTITY field.bre.id.label "ID Записи">
+<!ENTITY field.aufh.id.label "ID Записи">
+<!ENTITY field.rmsr.id.label "ID Записи">
+<!ENTITY field.rssr.id.label "ID Записи">
+<!ENTITY field.rsr.id.label "ID Записи">
+<!ENTITY field.rlcd.id.label "ID Записи">
+<!ENTITY field.rhcrpb.id.label "ID Записи">
+<!ENTITY field.siss.holding_link_id.label "Holding Link ID">
+<!ENTITY field.sdist.index_summary.label "Index Issue Summary">
+<!ENTITY class.sisum.label "Index Issue Summary">
+<!ENTITY field.au.email.label "Адрес электронной почты">
+<!ENTITY field.aou.email.label "Адрес электронной почты">
+<!ENTITY field.stgu.email.label "Адрес электронной почты">
+<!ENTITY class.xbool.label "Boolean Expression">
+<!ENTITY field.mrd.audience.label "Audn">
+<!ENTITY class.xstr.label "String Expression">
+<!ENTITY class.acrlid.label "Claim Ready Lineitem Details">
+<!ENTITY field.acqdf.name.label "Название формулы">
+<!ENTITY field.circ.usr.label "Пользователь  библиотеки">
+<!ENTITY field.ancc.patron.label "Пользователь  библиотеки">
+<!ENTITY field.rodcirc.usr.label "Пользователь  библиотеки">
+<!ENTITY field.cmfpm.length.label "Length">
+<!ENTITY field.cmpcsm.length.label "Length">
+<!ENTITY field.au.cards.label "Все читательские билеты">
+<!ENTITY field.sitem.shadowed.label "Shadowed?">
+<!ENTITY field.qfpd.id.label "Function Param Def ID">
+<!ENTITY class.amtr.label "Матрица результатов испытаний">
+<!ENTITY field.rccbs.patron_zip.label "Индекс Пользователя">
+<!ENTITY field.mrd.cat_form.label "Cat Form">
+<!ENTITY field.bresv.pickup_time.label "Время срабатывания">
+<!ENTITY field.atc.dest.label "Адрес назначения">
+<!ENTITY field.iatc.dest.label "Адрес назначения">
+<!ENTITY class.mfp.label "Простите оплату">
+<!ENTITY field.vqbr.imported_as.label "Заключительная целевая запись">
+<!ENTITY field.vqar.imported_as.label "Заключительная целевая запись">
+<!ENTITY field.acn.uris.label "URIs">
+<!ENTITY class.acqfat.label "Итог ассигнований">
+<!ENTITY field.rocit.stat_cat_2_value.label "Значение унаследованной Stat Cat 2">
+<!ENTITY class.svr.label "Серийная виртуальная запись">
+<!ENTITY field.chmm.distance_is_from_owner.label "Диапазон от библиотеки владеющей копией">
+<!ENTITY field.ahr.bib_rec.label "Ссылка биб. записи">
+<!ENTITY field.acqii.inv_item_type.label "Invoice Item Type">
+<!ENTITY field.acqpoi.inv_item_type.label "Invoice Item Type">
+<!ENTITY field.stgsc.value.label "Ценность статистической категории">
+<!ENTITY field.acqftr.transfer_time.label "Transfer Time">
+<!ENTITY class.mfr.label "Уплощенные МАРК поля">
+<!ENTITY class.acpn.label "Копировать примечание">
+<!ENTITY field.atc.persistant_transfer.label "Является стойким? (Не используется)">
+<!ENTITY field.iatc.persistant_transfer.label "Является стойким? (Не используется)">
+<!ENTITY field.aou.fiscal_calendar.label "Финансовый календарь">
+<!ENTITY class.acqfc.label "Финансовый календарь">
+<!ENTITY class.qseq.label "Query Sequence">
+<!ENTITY field.qxp.operator.label "Operator">
+<!ENTITY field.xop.operator.label "Operator">
+<!ENTITY field.xser.operator.label "Operator">
+<!ENTITY field.acqct.code.label "Код валюты">
+<!ENTITY class.coust.label "Тип установки организационной единицы">
+<!ENTITY field.ancc.duedate.label "Действительная дата/время возврата">
+<!ENTITY field.circ.unrecovered.label "Невозмещенный долг">
+<!ENTITY field.bresv.unrecovered.label "Невозмещенный долг">
+<!ENTITY field.mbt.unrecovered.label "Невозмещенный долг">
+<!ENTITY class.auoi.label "Включение совместного использования файлов пользователя">
+<!ENTITY field.aun.title.label "Название заметки">
+<!ENTITY field.acpn.title.label "Название заметки">
+<!ENTITY field.combcirc.copy_owning_lib.label "Библиотека имеющая копию">
+<!ENTITY field.acirc.copy_owning_lib.label "Библиотека имеющая копию">
+<!ENTITY field.aua.replaces.label "Заменяет">
+<!ENTITY class.ancc.label "Циркуляция некаталогизированных">
+<!ENTITY field.brav.id.label "ID Значения атрибута ресурсов">
+<!ENTITY field.siss.holding_code.label "Holding Code">
+<!ENTITY field.rccc.patron_home_lib.label "Ссылка домашней библиотеки читателя">
+<!ENTITY field.circ.billings.label "Счета транзакции">
+<!ENTITY field.combcirc.billings.label "Счета транзакции">
+<!ENTITY field.acirc.billings.label "Счета транзакции">
+<!ENTITY field.rodcirc.billings.label "Счета транзакции">
+<!ENTITY class.stgma.label "Этап почтового адреса">
+<!ENTITY field.bra.id.label "ID атрибутов ресурса">
+<!ENTITY field.crmf.is_percent.label "Есть Процент">
+<!ENTITY field.acqfy.calendar.label "Календарь">
+<!ENTITY class.acqligad.label "Определение атрибутов сформированной единицы строки">
+<!ENTITY field.bresv.summary.label "Сводка оплаты">
+<!ENTITY field.mbt.summary.label "Сводка оплаты">
+<!ENTITY class.bra.label "Признак ресурса">
+<!ENTITY field.brav.attr.label "Признак ресурса">
+<!ENTITY field.bram.resource_attr.label "Признак ресурса">
+<!ENTITY class.acqpro.label "Провайдер">
+<!ENTITY field.acqpron.provider.label "Провайдер">
+<!ENTITY field.acqinv.provider.label "Провайдер">
+<!ENTITY field.acqpa.provider.label "Провайдер">
+<!ENTITY field.acqpc.provider.label "Провайдер">
+<!ENTITY field.acqpo.provider.label "Провайдер">
+<!ENTITY field.acqpoh.provider.label "Провайдер">
+<!ENTITY field.jub.provider.label "Провайдер">
+<!ENTITY field.acqlih.provider.label "Провайдер">
+<!ENTITY field.acqlipad.provider.label "Провайдер">
+<!ENTITY field.acqphsm.provider.label "Провайдер">
+<!ENTITY field.acqedi.provider.label "Провайдер">
+<!ENTITY class.qbv.label "Bind Variable">
+<!ENTITY field.qxp.bind_variable.label "Bind Variable">
+<!ENTITY field.xbind.bind_variable.label "Bind Variable">
+<!ENTITY field.qseq.id.label "Query Seq ID">
+<!ENTITY field.vqbr.matches.label "Совпадения">
+<!ENTITY field.vqar.matches.label "Совпадения">
+<!ENTITY field.qxp.type.label "Expression Type">
+<!ENTITY field.ancc.id.label "ID циркуляции не каталогизированной (единицы)">
+<!ENTITY field.bresv.xact_start.label "Дата/время начала транзакции">
+<!ENTITY field.mbt.xact_start.label "Дата/время начала транзакции">
+<!ENTITY field.rccbs.xact_start.label "Дата/время начала транзакции">
+<!ENTITY class.rmobbhol.label "Открытый циркуляционный баланс пользователя домашней библиотеки и собственной библиотеки">
+<!ENTITY class.qfr.label "From Relation">
+<!ENTITY class.chddv.label "Hard Due Date Values">
+<!ENTITY field.asvq.survey.label "Опрос">
+<!ENTITY field.asvr.survey.label "Опрос">
+<!ENTITY class.asv.label "Опрос">
+<!ENTITY field.aus.id.label "ID настройки">
+<!ENTITY class.cub.label "Корзина пользователя">
+<!ENTITY field.sunit.dummy_isbn.label "Макет ISBN">
+<!ENTITY field.acp.dummy_isbn.label "Макет ISBN">
+<!ENTITY field.ath.key.label "Кнопка громкой связи">
+<!ENTITY field.acn.label.label "Ярлык шифра">
+<!ENTITY field.acqlid.cn_label.label "Ярлык шифра">
+<!ENTITY field.rccc.call_number_label.label "Ярлык шифра">
+<!ENTITY field.aua.county.label "Округ">
+<!ENTITY field.acqpa.county.label "Округ">
+<!ENTITY field.acqpca.county.label "Округ">
+<!ENTITY field.au.prefix.label "Префикс">
+<!ENTITY field.ahrn.pub.label "Паб?">
+<!ENTITY field.jub.expected_recv_time.label "Ожидаемая  дата получения">
+<!ENTITY field.act.circ_modifier.label "Модификатор циркуляции">
+<!ENTITY field.acqlid.circ_modifier.label "Модификатор циркуляции">
+<!ENTITY field.rccc.circ_modifier.label "Модификатор циркуляции">
+<!ENTITY field.rocit.circ_modifier.label "Модификатор циркуляции">
+<!ENTITY field.rsr.series_title.label "Заглавие серии (стандартное)">
+<!ENTITY field.acqfcb.amount.label "Остаток после Расходов и Препятствий">
+<!ENTITY field.aufh.current_copy.label "Незавершенный экземпляр">
+<!ENTITY field.qsq.type.label "Query type">
+<!ENTITY class.rof.label "Папка вывода [данных]">
+<!ENTITY field.stgu.row_id.label "ID ряда">
+<!ENTITY field.stgc.row_id.label "ID ряда">
+<!ENTITY field.stgma.row_id.label "ID ряда">
+<!ENTITY field.stgba.row_id.label "ID ряда">
+<!ENTITY field.stgsc.row_id.label "ID ряда">
+<!ENTITY field.siss.caption_and_pattern.label "Caption/Pattern">
+<!ENTITY field.vqbrad.description.label "Описание">
+<!ENTITY field.vqarad.description.label "Описание">
+<!ENTITY field.cin.description.label "Описание">
+<!ENTITY field.ath.description.label "Описание">
+<!ENTITY field.atcol.description.label "Описание">
+<!ENTITY field.atval.description.label "Описание">
+<!ENTITY field.atreact.description.label "Описание">
+<!ENTITY field.atclean.description.label "Описание">
+<!ENTITY field.ccm.description.label "Описание">
+<!ENTITY field.cam.description.label "Описание">
+<!ENTITY field.cust.description.label "Описание">
+<!ENTITY field.asv.description.label "Описание">
+<!ENTITY field.pgt.description.label "Описание">
+<!ENTITY field.acqcr.description.label "Описание">
+<!ENTITY field.acqliat.description.label "Описание">
+<!ENTITY field.acqliad.description.label "Описание">
+<!ENTITY field.acqlimad.description.label "Описание">
+<!ENTITY field.acqligad.description.label "Описание">
+<!ENTITY field.acqliuad.description.label "Описание">
+<!ENTITY field.acqlipad.description.label "Описание">
+<!ENTITY field.acqlilad.description.label "Описание">
+<!ENTITY field.acqclt.description.label "Описание">
+<!ENTITY field.acqclet.description.label "Описание">
+<!ENTITY field.acqclp.description.label "Описание">
+<!ENTITY field.qbv.description.label "Описание">
+<!ENTITY field.acqpl.entry_count.label "Подсчёт библиографической записи">
+<!ENTITY field.aufh.circ_lib.label "Библиотека невыполнения (обязательств и т. п.)">
+<!ENTITY class.mtfe.label "Ввод поля заглавия">
+<!ENTITY class.clm.label "Карта языка">
+<!ENTITY field.brsrc.attr_maps.label "Карты  атрибутов  ресурса">
+<!ENTITY field.bra.attr_maps.label "Карты  атрибутов  ресурса">
+<!ENTITY field.brav.attr_maps.label "Карты  атрибутов  ресурса">
+<!ENTITY field.asv.usr_summary.label "Устройство отображения в резюме пользователя">
+<!ENTITY field.rccc.stat_cat_1_value.label "Значение унаследованной CAT1">
+<!ENTITY field.qfr.parent_relation.label "Parent Relation ID">
+<!ENTITY class.acqfy.label "Финансовый год">
+<!ENTITY field.acqfy.year.label "Финансовый год">
+<!ENTITY field.circ.checkin_time.label "Дата/Время приема (книги)">
+<!ENTITY field.combcirc.checkin_time.label "Дата/Время приема (книги)">
+<!ENTITY field.acirc.checkin_time.label "Дата/Время приема (книги)">
+<!ENTITY field.rodcirc.checkin_time.label "Дата/Время приема (книги)">
+<!ENTITY field.act.owning_lib.label "Библиотека владеющая копией">
+<!ENTITY field.rocit.owning_lib.label "Библиотека владеющая копией">
+<!ENTITY field.mbts.last_billing_type.label "Последний тип счета">
+<!ENTITY field.mbtslv.last_billing_type.label "Последний тип счета">
+<!ENTITY field.rccbs.last_billing_type.label "Последний тип счета">
+<!ENTITY field.qsi.stored_query.label "Stored Query ID">
+<!ENTITY field.qobi.stored_query.label "Stored Query ID">
+<!ENTITY field.qdt.datatype_name.label "Datatype Name">
+<!ENTITY field.sre.active.label "Активен">
+<!ENTITY field.czs.attrs.label "Attrs">
+<!ENTITY field.aihu.org_unit.label "Использование библиотеки">
+<!ENTITY field.ancihu.org_unit.label "Использование библиотеки">
+<!ENTITY field.acqcr.org_unit.label "Использование библиотеки">
+<!ENTITY field.ergbhu.update_type.label "Обновить тип">
+<!ENTITY field.bre.marc.label "MARC21Slim">
+<!ENTITY field.acqpron.edit_time.label "Изменить время">
+<!ENTITY field.acqpl.edit_time.label "Изменить время">
+<!ENTITY field.acqpo.edit_time.label "Изменить время">
+<!ENTITY field.acqpoh.edit_time.label "Изменить время">
+<!ENTITY field.acqpon.edit_time.label "Изменить время">
+<!ENTITY field.jub.edit_time.label "Изменить время">
+<!ENTITY field.acqlih.edit_time.label "Изменить время">
+<!ENTITY field.acqlin.edit_time.label "Изменить время">
+<!ENTITY field.ssubn.title.label "Заглавие">
+<!ENTITY field.sdistn.title.label "Заглавие">
+<!ENTITY field.sin.title.label "Заглавие">
+<!ENTITY field.ahrn.title.label "Заглавие">
+<!ENTITY field.aur.title.label "Заглавие">
+<!ENTITY field.acqpoi.title.label "Заглавие">
+<!ENTITY field.rocit.title.label "Заглавие">
+<!ENTITY field.vqbr.bib_source.label "Источник  библиографической информации">
+<!ENTITY class.cbs.label "Источник  библиографической информации">
+<!ENTITY field.circ.checkin_scan_time.label "Регистрировать прием сканированной даты/времени">
+<!ENTITY field.acirc.checkin_scan_time.label "Регистрировать прием сканированной даты/времени">
+<!ENTITY field.acqinv.payment_auth.label "Квитанция">
+<!ENTITY class.mwp.label "Оплата труда">
+<!ENTITY class.acirc.label "Старая (безклиентная) циркуляция">
+<!ENTITY field.acqda.funding_source_credit.label "Funding Source Credit">
+<!ENTITY class.acqfsrcb.label "Баланс источника финансирования">
+<!ENTITY class.pugm.label "Карта  группы пользователей">
+<!ENTITY class.lmap.label "Карта  Org Lasso">
+<!ENTITY field.aua.street2.label "Улица (2)">
+<!ENTITY field.acqpca.street2.label "Улица (2)">
+<!ENTITY field.stgma.street2.label "Улица (2)">
+<!ENTITY field.stgba.street2.label "Улица (2)">
+<!ENTITY field.qsq.use_distinct.label "Use DISTINCT">
+<!ENTITY class.auri.label "Электронный доступ URI">
+<!ENTITY field.au.barred.label "Запрещено">
+<!ENTITY class.ateo.label "Выходные  данные события">
+<!ENTITY field.crahp.name.label "Имя правила">
+<!ENTITY field.crmf.name.label "Имя правила">
+<!ENTITY field.viiad.tag.label "Признак">
+<!ENTITY field.mfr.tag.label "Признак">
+<!ENTITY field.cmfpm.tag.label "Признак">
+<!ENTITY field.acqf.rollover.label "Rollover">
+<!ENTITY field.vqbrad.xpath.label "XPath">
+<!ENTITY field.vqarad.xpath.label "XPath">
+<!ENTITY field.cmf.xpath.label "XPath">
+<!ENTITY field.acqlimad.xpath.label "XPath">
+<!ENTITY field.acqligad.xpath.label "XPath">
+<!ENTITY field.acqlipad.xpath.label "XPath">
+<!ENTITY field.mrd.date2.label "Дата2">
+<!ENTITY field.artc.source.label "Посылающая библиотека">
+<!ENTITY field.ahtc.source.label "Посылающая библиотека">
+<!ENTITY field.cgf.label.label "Ярлык">
+<!ENTITY field.cracct.label.label "Ярлык">
+<!ENTITY field.czs.label.label "Ярлык">
+<!ENTITY field.cza.label.label "Ярлык">
+<!ENTITY field.atenv.label.label "Ярлык">
+<!ENTITY field.aiit.name.label "Ярлык">
+<!ENTITY field.acqim.name.label "Ярлык">
+<!ENTITY field.ccpbt.label.label "Ярлык">
+<!ENTITY field.ccnbt.label.label "Ярлык">
+<!ENTITY field.cbrebt.label.label "Ярлык">
+<!ENTITY field.cubt.label.label "Ярлык">
+<!ENTITY field.cmc.label.label "Ярлык">
+<!ENTITY field.cmf.label.label "Ярлык">
+<!ENTITY field.auri.label.label "Ярлык">
+<!ENTITY field.cust.label.label "Ярлык">
+<!ENTITY field.sdist.label.label "Ярлык">
+<!ENTITY field.siss.label.label "Ярлык">
+<!ENTITY field.acqcr.label.label "Ярлык">
+<!ENTITY field.acqedi.label.label "Ярлык">
+<!ENTITY field.qbv.label.label "Ярлык">
+<!ENTITY field.cmpctm.label.label "Ярлык">
+<!ENTITY field.cmpcsm.label.label "Ярлык">
+<!ENTITY field.cmpcvm.label.label "Ярлык">
+<!ENTITY field.cmfinm.norm.label "Нормализатор (сигнала)">
+<!ENTITY field.mrd.item_form.label "Форма">
+<!ENTITY field.bre.subscriptions.label "Подписка">
+<!ENTITY field.acqie.actual_cost.label "Actual Cost">
+<!ENTITY field.acqii.actual_cost.label "Actual Cost">
+<!ENTITY field.mfr.ind1.label "Индикатор 1">
+<!ENTITY field.mfr.ind2.label "Индикатор 2">
+<!ENTITY field.au.checkins.label "Регистрация">
+<!ENTITY field.aou.checkins.label "Регистрация">
+<!ENTITY field.cblvl.code.label "Код уровня библиографической записи">
+<!ENTITY field.acpl.id.label "ID Местонахождения">
+<!ENTITY field.acplo.location.label "ID Местонахождения">
+<!ENTITY field.acqdf.owner.label "Владелец формулы">
+<!ENTITY class.sdist.label "Distribution">
+<!ENTITY field.sdistn.distribution.label "Distribution">
+<!ENTITY field.sstr.distribution.label "Distribution">
+<!ENTITY field.sbsum.distribution.label "Distribution">
+<!ENTITY field.sssum.distribution.label "Distribution">
+<!ENTITY field.sisum.distribution.label "Distribution">
+<!ENTITY field.bre.simple_record.label "Избранные отрывки из простой записи ">
+<!ENTITY class.actsce.label "Ввод пользователя  Stat Cat">
+<!ENTITY field.au.juvenile.label "Юношеский">
+<!ENTITY class.acqftm.label "Заключительная карта фонда">
+<!ENTITY class.acn.label "Шифр хранения документа/тома">
+<!ENTITY field.sunit.call_number.label "Шифр хранения документа/тома">
+<!ENTITY field.acp.call_number.label "Шифр хранения документа/тома">
+<!ENTITY field.sunit.notes.label "Примечания экземпляра">
+<!ENTITY field.acp.notes.label "Примечания экземпляра">
+<!ENTITY field.vii.deposit.label "Депозит">
+<!ENTITY field.viiad.deposit.label "Депозит">
+<!ENTITY field.vbm.id.label "Соответствующий  ID">
+<!ENTITY field.vam.id.label "Соответствующий  ID">
+<!ENTITY field.actscecm.stat_cat.label "Статистическая категория">
+<!ENTITY field.acqfc.id.label "ID Финансового календаря">
+<!ENTITY field.vii.circulate.label "Циркулировать">
+<!ENTITY field.viiad.circulate.label "Циркулировать">
+<!ENTITY class.abl.label "Authority-Bibliographic Record Link">
+<!ENTITY field.aur.isxn.label "ISSN">
+<!ENTITY field.acn.edit_date.label "Последний редактировал  Дата/Время">
+<!ENTITY field.sunit.edit_date.label "Последний редактировал  Дата/Время">
+<!ENTITY field.acp.edit_date.label "Последний редактировал  Дата/Время">
+<!ENTITY field.vbq.id.label "ID очерёдности">
+<!ENTITY field.vaq.id.label "ID очерёдности">
+<!ENTITY field.brt.tgt_rsrc_types.label "Типы целевого ресурса">
+<!ENTITY field.actsce.stat_cat.label "Stat Cat">
+<!ENTITY field.asce.stat_cat.label "Stat Cat">
+<!ENTITY field.asc.required.label "Required">
+<!ENTITY field.acqfs.summary.label "Резюме">
+<!ENTITY field.acqf.summary.label "Резюме">
+<!ENTITY field.rccc.dewey_range_hundreds.label "Диапазон Дьюи  -  Сотни">
+<!ENTITY class.qxp.label "Expression">
+<!ENTITY field.qsi.expression.label "Expression">
+<!ENTITY field.qobi.expression.label "Expression">
+<!ENTITY class.acqedi.label "EDI Account">
+<!ENTITY field.acqedim.account.label "EDI Account">
+<!ENTITY field.cracct.last_activity.label "Last Activity">
+<!ENTITY field.acqedi.last_activity.label "Last Activity">
+<!ENTITY field.ocirccount.out.label "Out">
+<!ENTITY field.ocirclist.out.label "Out">
+<!ENTITY field.aupr.has_been_reset.label "Was Reset?">
+<!ENTITY field.au.settings.label "Все настройки пользователя">
+<!ENTITY field.rocit.dewey_block_hundreds.label "Сотни Дьюи">
+<!ENTITY field.pgt.perm_interval.label "Истечение временного срока пользователя">
+<!ENTITY class.acqliat.label "Line Item Alert Text">
+<!ENTITY class.mrd.label "Дескриптор основной записи">
+<!ENTITY field.chmm.transit_range.label "Диапазон транзита">
+<!ENTITY field.mwp.id.label "ID платежа">
+<!ENTITY field.mgp.id.label "ID платежа">
+<!ENTITY field.mckp.id.label "ID платежа">
+<!ENTITY field.mp.id.label "ID платежа">
+<!ENTITY field.mbp.id.label "ID платежа">
+<!ENTITY field.mndp.id.label "ID платежа">
+<!ENTITY field.mdp.id.label "ID платежа">
+<!ENTITY class.cbrebin.label "Примечание ввода библиографической записи Единицы Корзины">
+<!ENTITY field.chdd.forceto.label "Always Use?">
+<!ENTITY class.cifm.label "Карта формы единицы">
+<!ENTITY field.jub.eg_bib_id.label "Библиографическая идентификация Evergreen">
+<!ENTITY field.acqlih.eg_bib_id.label "Библиографическая идентификация Evergreen">
+<!ENTITY field.atevdef.granularity.label "Уровень модульности [системы]">
+<!ENTITY field.afs.pkey_value.label "Primary Key Value">
+<!ENTITY field.bra.name.label "Предполагаемое имя ресурса">
+<!ENTITY field.acqlisum.cancel_count.label "Cancel Count">
+<!ENTITY class.acqft.label "Ярлык фонда">
+<!ENTITY field.mbts.usr.label "Выставлять счёт клиенту">
+<!ENTITY field.mbtslv.usr.label "Выставлять счёт клиенту">
+<!ENTITY field.acqlisum.paid_amount.label "Paid Amount">
+<!ENTITY field.acqii.title.label "Title or Item Name">
+<!ENTITY field.cifm.code.label "Код формы единицы">
+<!ENTITY class.i18n_l.label "Место действия">
+<!ENTITY field.rmsr.quality.label "Общее качество записи">
+<!ENTITY field.rssr.quality.label "Общее качество записи">
+<!ENTITY field.rsr.quality.label "Общее качество записи">
+<!ENTITY field.sunit.detailed_contents.label "Detailed Contents">
+<!ENTITY field.vii.id.label "ID импортированной единицы">
+<!ENTITY class.clfm.label "Литературная форма">
+<!ENTITY field.rccc.lit_form.label "Литературная форма">
+<!ENTITY field.ahr.prev_check_time.label "Дата/время последнего таргетинга">
+<!ENTITY field.ssr.rel.label "Релевантность">
+<!ENTITY field.rccc.language.label "Язык единицы">
+<!ENTITY class.acqlisum.label "Lineitem Summary">
+<!ENTITY class.vqarad.label "Определение атрибутов Авторитетной записи в очереди">
+<!ENTITY field.aout.opac_label.label "Ярлык  OPAC">
+<!ENTITY field.atevdef.usr_field.label "Участвовать в сфере деятельности пользователя">
+<!ENTITY field.au.survey_responses.label "Отклики на опрос">
+<!ENTITY field.acqofscred.sort_priority.label "Sort Priority">
+<!ENTITY class.acqscl.label "Serial Claim">
+<!ENTITY class.rsce2.label "CAT2  библиографическая запись">
+<!ENTITY field.acqedim.process_time.label "Time Processed">
+<!ENTITY field.aout.id.label "ID вида">
+<!ENTITY class.bre.label "Библиографическая запись">
+<!ENTITY field.brt.record.label "Библиографическая запись">
+<!ENTITY field.ahrcc.id.label "ID Причины">
+<!ENTITY field.acqinv.receiver.label "Receiver">
+<!ENTITY field.mp.cash_payment.label "Детали наличного расчета">
+<!ENTITY field.mbp.cash_payment.label "Детали наличного расчета">
+<!ENTITY field.vmp.id.label "ID поля">
+<!ENTITY field.vibtf.id.label "ID поля">
+<!ENTITY field.mfr.id.label "ID поля">
+<!ENTITY field.acqedi.in_dir.label "Incoming Directory">
+<!ENTITY field.qsq.from_clause.label "FROM Clause">
+<!ENTITY field.ancc.item_type.label "Тип не каталогизированной единицы">
+<!ENTITY field.atev.user_data.label "User Data">
+<!ENTITY field.mbts.balance_owed.label "Остаток долга">
+<!ENTITY field.mbtslv.balance_owed.label "Остаток долга">
+<!ENTITY field.rccbs.balance_owed.label "Остаток долга">
+<!ENTITY field.aua.street1.label "Улица (1)">
+<!ENTITY field.acqpca.street1.label "Улица (1)">
+<!ENTITY field.stgma.street1.label "Улица (1)">
+<!ENTITY field.stgba.street1.label "Улица (1)">
+<!ENTITY field.au.second_given_name.label "Второе имя">
+<!ENTITY field.stgu.second_given_name.label "Второе имя">
+<!ENTITY field.aou.rsrc_types.label "Типы ресурсов">
+<!ENTITY field.aur.lineitem.label "PO строки">
+<!ENTITY field.acqie.lineitem.label "PO строки">
+<!ENTITY field.acqlid.lineitem.label "PO строки">
+<!ENTITY field.acqedim.error_time.label "Time of Error">
+<!ENTITY class.atev.label "Ввод инициированного события">
+<!ENTITY field.rocit.age_protect.label "Возрастная защита">
+<!ENTITY field.acqfc.name.label "Имя финансового календаря">
+<!ENTITY class.czs.label "Источник  Z39.50">
+<!ENTITY field.czs.name.label "Источник  Z39.50">
+<!ENTITY field.cza.source.label "Источник  Z39.50">
+<!ENTITY field.acn.record.label "Библиографическая запись">
+<!ENTITY field.combcirc.copy_bib_record.label "Библиографическая запись">
+<!ENTITY field.acirc.copy_bib_record.label "Библиографическая запись">
+<!ENTITY field.sre.record.label "Библиографическая запись">
+<!ENTITY field.aur.eg_bib.label "Библиографическая запись">
+<!ENTITY field.clfm.code.label "LitF код">
+<!ENTITY field.cifm.value.label "Форма единицы">
+<!ENTITY field.acqftr.id.label "Fund Transfer ID">
+<!ENTITY field.ahr.requestor.label "Запрос пользователя">
+<!ENTITY field.auoi.opt_in_ws.label "Рабочая станция">
+<!ENTITY class.aws.label "Рабочая станция">
+<!ENTITY field.circ.workstation.label "Рабочая станция">
+<!ENTITY field.acirc.workstation.label "Рабочая станция">
+<!ENTITY field.ocirccount.long_overdue.label "Long Overdue">
+<!ENTITY field.ocirclist.long_overdue.label "Long Overdue">
+<!ENTITY field.rocit.owning_lib_name.label "Название своей библиотеки">
+<!ENTITY class.cmfinm.label "Поле метазаписи в карту нормализатора  индексирования">
+<!ENTITY field.vqbra.record.label "Запись">
+<!ENTITY field.vqara.record.label "Запись">
+<!ENTITY field.ssr.record.label "Запись">
+<!ENTITY field.bmpc.record.label "Запись">
+<!ENTITY field.rsr.uniform_title.label "Унифицированное заглавие (стандартное)">
+<!ENTITY field.rhcrpb.hold_copy_ratio.label "Hold/Copy Ratio">
+<!ENTITY field.bresv.return_time.label "Время возврата">
+<!ENTITY field.qdt.is_composite.label "Is Composite">
+<!ENTITY field.rocit.call_number_label.label "Ярлык шифра хранения документа">
+<!ENTITY field.rhrr.target.label "Объект Хранения">
+<!ENTITY class.acqpc.label "Контакт провайдера">
+<!ENTITY field.rccc.circ_lib_id.label "Ссылка о локации циркуляции библиотеки">
+<!ENTITY field.acpl.orders.label "Распоряжения о размещении экземпляра">
+<!ENTITY field.aou.copy_location_orders.label "Распоряжения о размещении экземпляра">
+<!ENTITY field.acqafcb.amount.label "Комбинированный баланс фонда">
+<!ENTITY field.pgt.usergroup.label "Группа пользователей">
+<!ENTITY field.acqfdeb.debit_type.label "Вид  дебета">
+<!ENTITY class.ssr.label "Результат поиска">
+<!ENTITY field.ausp.set_date.label "Установить дату">
+<!ENTITY field.bre.fingerprint.label "Контрольная сумма файла">
+<!ENTITY field.rmsr.fingerprint.label "Контрольная сумма файла">
+<!ENTITY field.rssr.fingerprint.label "Контрольная сумма файла">
+<!ENTITY field.rsr.fingerprint.label "Контрольная сумма файла">
+<!ENTITY field.ateo.data.label "Данные">
+<!ENTITY class.ath.label "Триггерные зоны заглатывания">
+<!ENTITY class.i18n.label "i18n Core">
+<!ENTITY class.circ.label "Циркуляция">
+<!ENTITY field.rccc.id.label "Циркуляция">
+<!ENTITY field.cgf.enabled.label "Enabled">
+<!ENTITY field.atevdef.active.label "Enabled">
+<!ENTITY field.qfr.type.label "From Relation Type">
+<!ENTITY class.rhcrpb.label "Hold/Copy Ratio per Bib">
+<!ENTITY field.artc.reservation.label "Reservation requiring Transit">
+<!ENTITY field.bre.tcn_value.label "TCN значение">
+<!ENTITY field.rmsr.tcn_value.label "TCN значение">
+<!ENTITY field.rssr.tcn_value.label "TCN значение">
+<!ENTITY field.rsr.tcn_value.label "TCN значение">
+<!ENTITY field.asvq.id.label "ID вопроса">
+<!ENTITY class.acqpon.label "Примечание  PO">
+<!ENTITY field.czs.transmission_format.label "Формат трансмиссии">
+<!ENTITY field.acqpoh.audit_action.label "Audit Action">
+<!ENTITY field.acqlih.audit_action.label "Audit Action">
+<!ENTITY field.chddv.active_date.label "Active Date">
+<!ENTITY field.qsf.subfield_type.label "Subfield Type">
+<!ENTITY field.acqfsrcct.amount.label "Итоги кредитов источнику финансирования">
+<!ENTITY class.mct.label "Устройство слежения  за коллекцией">
+<!ENTITY field.qsi.grouped_by.label "Is Grouped By">
+<!ENTITY field.czs.db.label "DB">
+<!ENTITY field.vibtf.field.label "Поле">
+<!ENTITY field.vqbra.field.label "Поле">
+<!ENTITY field.vqara.field.label "Поле">
+<!ENTITY field.cmsa.field.label "Поле">
+<!ENTITY field.acpl.owning_lib.label "Собственная организационная единица">
+<!ENTITY field.sre.owning_lib.label "Собственная организационная единица">
+<!ENTITY field.scap.chron_5.label "Chron 5">
+<!ENTITY field.scap.chron_4.label "Chron 4">
+<!ENTITY field.mbts.xact_finish.label "Время завершения транзакции">
+<!ENTITY field.mbtslv.xact_finish.label "Время завершения транзакции">
+<!ENTITY field.scap.chron_1.label "Chron 1">
+<!ENTITY field.scap.chron_3.label "Chron 3">
+<!ENTITY field.scap.chron_2.label "Chron 2">
+<!ENTITY field.accs.start_time.label "Время начала">
+<!ENTITY field.atev.start_time.label "Время начала">
+<!ENTITY field.bresv.start_time.label "Время начала">
+<!ENTITY class.xop.label "Operator Expression">
+<!ENTITY class.xser.label "Operator Expression">
+<!ENTITY field.rxbt.total.label "Общая сумма счетов">
+<!ENTITY field.circ.xact_finish.label "Дата/время завершения транзакции">
+<!ENTITY field.combcirc.xact_finish.label "Дата/время завершения транзакции">
+<!ENTITY field.acirc.xact_finish.label "Дата/время завершения транзакции">
+<!ENTITY field.bresv.xact_finish.label "Дата/время завершения транзакции">
+<!ENTITY field.mbt.xact_finish.label "Дата/время завершения транзакции">
+<!ENTITY field.rodcirc.xact_finish.label "Дата/время завершения транзакции">
+<!ENTITY field.acqedim.translate_time.label "Time Translated">
+<!ENTITY field.acqftr.transfer_user.label "Transfer User">
+<!ENTITY class.acqfdt.label "Всего списать с фонда">
+<!ENTITY field.vmp.name.label "Имя">
+<!ENTITY field.viiad.name.label "Имя">
+<!ENTITY field.vbq.name.label "Имя">
+<!ENTITY field.vaq.name.label "Имя">
+<!ENTITY field.cgf.name.label "Имя">
+<!ENTITY field.cin.name.label "Имя">
+<!ENTITY field.cza.name.label "Имя">
+<!ENTITY field.atevdef.name.label "Имя">
+<!ENTITY field.ccm.name.label "Имя">
+<!ENTITY field.aus.name.label "Имя">
+<!ENTITY field.cxt.name.label "Имя">
+<!ENTITY field.cmc.name.label "Имя">
+<!ENTITY field.cmf.name.label "Имя">
+<!ENTITY field.acnc.name.label "Имя">
+<!ENTITY field.chdd.name.label "Имя">
+<!ENTITY field.cust.name.label "Имя">
+<!ENTITY field.auss.name.label "Имя">
+<!ENTITY field.acpl.name.label "Имя">
+<!ENTITY field.asv.name.label "Имя">
+<!ENTITY field.aou.name.label "Имя">
+<!ENTITY field.asc.name.label "Имя">
+<!ENTITY field.actsc.name.label "Имя">
+<!ENTITY field.cnct.name.label "Имя">
+<!ENTITY field.act.name.label "Имя">
+<!ENTITY field.cbt.name.label "Имя">
+<!ENTITY field.acqipm.name.label "Имя">
+<!ENTITY field.acqpc.name.label "Имя">
+<!ENTITY field.acqf.name.label "Имя">
+<!ENTITY field.acqpl.name.label "Имя">
+<!ENTITY field.acqpo.name.label "Имя">
+<!ENTITY field.acqpoh.name.label "Имя">
+<!ENTITY field.acqlia.attr_name.label "Имя">
+<!ENTITY field.acqphsm.name.label "Имя">
+<!ENTITY field.qbv.name.label "Имя">
+<!ENTITY field.clm.code.label "Код языка">
+<!ENTITY field.bre.language.label "Код языка">
+<!ENTITY field.au.ws_ou.label "Workstation Org Unit">
+<!ENTITY class.vmp.label "Bib Import Merge Profile">
+<!ENTITY field.qseq.seq_no.label "Sequence Number">
+<!ENTITY field.qsf.seq_no.label "Sequence Number">
+<!ENTITY field.qfpd.seq_no.label "Sequence Number">
+<!ENTITY field.qxp.seq_no.label "Sequence Number">
+<!ENTITY field.qcb.seq_no.label "Sequence Number">
+<!ENTITY field.qfr.seq_no.label "Sequence Number">
+<!ENTITY field.qrc.seq_no.label "Sequence Number">
+<!ENTITY field.qsi.seq_no.label "Sequence Number">
+<!ENTITY field.qobi.seq_no.label "Sequence Number">
+<!ENTITY field.xbet.seq_no.label "Sequence Number">
+<!ENTITY field.xbind.seq_no.label "Sequence Number">
+<!ENTITY field.xbool.seq_no.label "Sequence Number">
+<!ENTITY field.xcase.seq_no.label "Sequence Number">
+<!ENTITY field.xcast.seq_no.label "Sequence Number">
+<!ENTITY field.xcol.seq_no.label "Sequence Number">
+<!ENTITY field.xex.seq_no.label "Sequence Number">
+<!ENTITY field.xfunc.seq_no.label "Sequence Number">
+<!ENTITY field.xin.seq_no.label "Sequence Number">
+<!ENTITY field.xisnull.seq_no.label "Sequence Number">
+<!ENTITY field.xnull.seq_no.label "Sequence Number">
+<!ENTITY field.xnum.seq_no.label "Sequence Number">
+<!ENTITY field.xop.seq_no.label "Sequence Number">
+<!ENTITY field.xser.seq_no.label "Sequence Number">
+<!ENTITY field.xstr.seq_no.label "Sequence Number">
+<!ENTITY field.xsubq.seq_no.label "Sequence Number">
+<!ENTITY field.accs.last_checkin_scan_time.label "Last Checkin Scan Time">
+<!ENTITY field.vii.call_number.label "Шифр хранения документов">
+<!ENTITY field.viiad.call_number.label "Шифр хранения документов">
+<!ENTITY field.auricnm.call_number.label "Шифр хранения документов">
+<!ENTITY field.combcirc.copy_call_number.label "Шифр хранения документов">
+<!ENTITY field.acirc.copy_call_number.label "Шифр хранения документов">
+<!ENTITY field.atev.template_output.label "Шаблон выходной">
+<!ENTITY field.acqdf.id.label "ID Формулы">
+<!ENTITY field.acqdfe.formula.label "ID Формулы">
+<!ENTITY field.act.mint_condition.label "Идеальное состояние">
+<!ENTITY field.circbyyr.is_renewal.label "Обновления">
+<!ENTITY class.bram.label "Карта атрибутов ресурса">
+<!ENTITY field.rccbs.usr_home_ou.label "Связь с домашней библиотекой пользователя">
+<!ENTITY field.acqpc.role.label "Роль">
+<!ENTITY field.au.day_phone.label "Дневной телефон">
+<!ENTITY field.stgu.day_phone.label "Дневной телефон">
+<!ENTITY field.ahr.email_notify.label "Сообщить по электронной почте?">
+<!ENTITY field.acqlisum.invoice_count.label "Invoice Count">
+<!ENTITY class.mups.label "Оплата резюме пользователя">
+<!ENTITY field.acqinv.recv_method.label "Receive Method">
+<!ENTITY field.au.notes.label "Примечания пользователя">
+<!ENTITY field.asc.id.label "ID Stat Cat">
+<!ENTITY field.actsc.id.label "ID Stat Cat">
+<!ENTITY field.stgsc.statcat.label "ID Stat Cat">
+<!ENTITY field.acqexr.from_currency.label "Из валют">
+<!ENTITY field.mrd.enc_level.label "ELvl">
+<!ENTITY field.qsq.use_all.label "Use ALL">
+<!ENTITY class.atreact.label "Реактор триггера событий">
+<!ENTITY field.acqii.po_item.label "ID заказа на покупку [приобретение]">
+<!ENTITY class.acqpoi.label "ID заказа на покупку [приобретение]">
+<!ENTITY field.ahr.selection_ou.label "Выбор места">
+<!ENTITY field.atenv.collector.label "Коллектор">
+<!ENTITY class.acqafet.label "All Fund Encumbrance Total">
+<!ENTITY field.pgt.children.label "Детские группы">
+<!ENTITY field.accs.last_checkin_time.label "Last Checkin Time">
+<!ENTITY class.erfcc.label "Подсчёт общей циркуляции, включая унаследованные">
+<!ENTITY field.act.location.label "Местонахождение">
+<!ENTITY field.acqdfe.location.label "Местонахождение">
+<!ENTITY class.cmpcvm.label "MARC21 Physical Characteristic Value Map">
+<!ENTITY field.rsr.topic_subject.label "Тематика (стандартная)">
+<!ENTITY field.acqpro.prepayment_required.label "Prepayment Required">
+<!ENTITY field.acqpo.prepayment_required.label "Prepayment Required">
+<!ENTITY field.acqpoh.prepayment_required.label "Prepayment Required">
+<!ENTITY field.au.profile.label "Главная (Профиль) Группа Полномочий">
+<!ENTITY field.stgu.profile.label "Главная (Профиль) Группа Полномочий">
+<!ENTITY field.mfr.subfield.label "Подполе">
+<!ENTITY field.acqphsm.subfield.label "Подполе">
+<!ENTITY class.qsf.label "Подполе">
+<!ENTITY field.bmpc.subfield.label "Подполе">
+<!ENTITY field.cmpcsm.subfield.label "Подполе">
+<!ENTITY field.cmpcvm.ptype_subfield.label "Подполе">
+<!ENTITY field.acn.creator.label "Создание пользователей">
+<!ENTITY field.sunit.creator.label "Создание пользователей">
+<!ENTITY field.acp.creator.label "Создание пользователей">
+<!ENTITY field.sunit.holdable.label "Сохраняющий">
+<!ENTITY field.acp.holdable.label "Сохраняющий">
+<!ENTITY class.ergbhu.label "IDбиблиографической записи по библиотечному фонду  Добавить/Удалить   Время (OCLC пакет обновления)">
+<!ENTITY class.acqftr.label "Fund Transfer">
+<!ENTITY field.circ.max_fine.label "Максимальная сумма штрафа">
+<!ENTITY field.combcirc.max_fine.label "Максимальная сумма штрафа">
+<!ENTITY field.acirc.max_fine.label "Максимальная сумма штрафа">
+<!ENTITY field.brt.max_fine.label "Максимальная сумма штрафа">
+<!ENTITY field.bresv.max_fine.label "Максимальная сумма штрафа">
+<!ENTITY field.crmf.amount.label "Максимальная сумма штрафа">
+<!ENTITY field.rodcirc.max_fine.label "Максимальная сумма штрафа">
+<!ENTITY field.act.deposit.label "Депозит">
+<!ENTITY field.auss.target.label "Target">
+<!ENTITY field.acqii.target.label "Target">
+<!ENTITY field.acqpoi.target.label "Target">
+<!ENTITY field.qfr.subquery.label "Subquery ID">
+<!ENTITY field.acqftm.tag.label "Идентификатор тега">
+<!ENTITY field.ccmm.hard_due_date.label "Hard Due Date">
+<!ENTITY class.chdd.label "Hard Due Date">
+<!ENTITY field.chddv.hard_due_date.label "Hard Due Date">
+<!ENTITY field.ahr.hold_type.label "Тип хранения">
+<!ENTITY field.acqfdeb.origin_currency_type.label "Происхождение валюты">
+<!ENTITY field.acqda.credit_amount.label "Credit Amount">
+<!ENTITY field.au.alias.label "Псевдоним  Хранений OPAC/Клиента пользователя">
+<!ENTITY field.aou.children.label "Подчиненные организационные единицы">
+<!ENTITY field.mfr.value.label "Нормированное значение">
+<!ENTITY field.ccmm.circulate.label "Циркулировать?">
+<!ENTITY field.act.circulate.label "Циркулировать?">
+<!ENTITY class.cxt.label "Описание преобразования XML/XSLT">
+<!ENTITY field.accs.last_renewal_time.label "Last Renewal Time">
+<!ENTITY field.ahr.fulfillment_time.label "Дата/Время выполнения">
+<!ENTITY field.ausp.note.label "Примечание">
+<!ENTITY field.srlu.note.label "Примечание">
+<!ENTITY field.mg.note.label "Примечание">
+<!ENTITY field.mwp.note.label "Примечание">
+<!ENTITY field.mgp.note.label "Примечание">
+<!ENTITY field.mckp.note.label "Примечание">
+<!ENTITY field.mp.note.label "Примечание">
+<!ENTITY field.mbp.note.label "Примечание">
+<!ENTITY field.mndp.note.label "Примечание">
+<!ENTITY field.mdp.note.label "Примечание">
+<!ENTITY field.mb.note.label "Примечание">
+<!ENTITY field.acqinv.note.label "Примечание">
+<!ENTITY field.acqie.note.label "Примечание">
+<!ENTITY field.acqii.note.label "Примечание">
+<!ENTITY field.acqftr.note.label "Примечание">
+<!ENTITY field.acqfscred.note.label "Примечание">
+<!ENTITY field.acqofscred.note.label "Примечание">
+<!ENTITY field.acqfa.note.label "Примечание">
+<!ENTITY field.acqfap.note.label "Примечание">
+<!ENTITY field.acqpoi.note.label "Примечание">
+<!ENTITY field.acqlid.note.label "Примечание">
+<!ENTITY field.acqcle.note.label "Примечание">
+<!ENTITY field.acqscle.note.label "Примечание">
+<!ENTITY class.ccnbi.label "Шифр единицы Корзины">
+<!ENTITY class.xbet.label "Between Expression">
+<!ENTITY field.ateo.events.label "События">
+<!ENTITY field.act.circ_lib.label "Circ Lib">
+<!ENTITY field.rocit.circ_lib.label "Circ Lib">
+<!ENTITY field.acn.id.label "ID Шифра/Тома">
+<!ENTITY field.qfr.join_type.label "Join Type">
+<!ENTITY class.vqar.label "Авторитетная запись очереди">
+<!ENTITY field.bresv.capture_staff.label "Захват (данных) штата служащих">
+<!ENTITY class.acqclpa.label "Claim Policy Action">
+<!ENTITY field.acrlid.claim_policy_action.label "Claim Policy Action">
+<!ENTITY field.bresv.payments.label "Плата за единицы строки">
+<!ENTITY field.mbt.payments.label "Плата за единицы строки">
+<!ENTITY field.sra.multiplier.label "Множитель">
+<!ENTITY field.stgu.row_date.label "Данные ряда">
+<!ENTITY field.stgc.row_date.label "Данные ряда">
+<!ENTITY field.stgma.row_date.label "Данные ряда">
+<!ENTITY field.stgba.row_date.label "Данные ряда">
+<!ENTITY field.stgsc.row_date.label "Данные ряда">
+<!ENTITY class.qobi.label "Order By Item">
+<!ENTITY class.cblvl.label "Карта биб. уровня">
+<!ENTITY field.vmp.replace_spec.label "Replace Specification">
+<!ENTITY class.mcp.label "Наличный расчёт">
+<!ENTITY field.mdp.cash_payment.label "Наличный расчёт">
+<!ENTITY field.ahr.fulfillment_lib.label "Выполняющая библиотека">
+<!ENTITY field.rocit.shelving_location.label "Имя Полочного места хранения">
+<!ENTITY field.mb.voider.label "Незанятый сотрудник">
+<!ENTITY field.mcrp.note.label "Квитанция">
+<!ENTITY class.fdoc.label "Документ поля IDL">
+<!ENTITY field.ccmm.script_test.label "Сценарий испытаний">
+<!ENTITY field.qobi.id.label "Order By Item ID">
+<!ENTITY field.bre.create_date.label "Дата/Время создания записи">
+<!ENTITY field.au.create_date.label "Дата/Время создания записи">
+<!ENTITY field.circ.create_time.label "Дата/Время создания записи">
+<!ENTITY field.combcirc.create_time.label "Дата/Время создания записи">
+<!ENTITY field.acirc.create_time.label "Дата/Время создания записи">
+<!ENTITY field.ocirccount.claims_returned.label "Claims Returned">
+<!ENTITY field.ocirclist.claims_returned.label "Claims Returned">
+<!ENTITY field.chmm.request_ou.label "Запрос библиотеки">
+<!ENTITY field.bresv.request_lib.label "Запрос библиотеки">
+<!ENTITY field.asvr.usr.label "Ответить пользователю">
+<!ENTITY class.atval.label "Контрольное устройство условий триггера">
+<!ENTITY class.acqexr.label "Обменный курс (валюты)">
+<!ENTITY field.qxp.table_alias.label "Table Alias">
+<!ENTITY field.qfr.table_alias.label "Table Alias">
+<!ENTITY field.xcol.table_alias.label "Table Alias">
+<!ENTITY field.vbq.complete.label "Завершено">
+<!ENTITY field.vaq.complete.label "Завершено">
+<!ENTITY field.acqinv.complete.label "Завершено">
+<!ENTITY field.stgu.complete.label "Завершено">
+<!ENTITY field.stgc.complete.label "Завершено">
+<!ENTITY field.stgma.complete.label "Завершено">
+<!ENTITY field.stgba.complete.label "Завершено">
+<!ENTITY field.stgsc.complete.label "Завершено">
+<!ENTITY field.cnct.id.label "ID не каталогизированного типа">
+<!ENTITY field.qdt.id.label "Datatype ID">
+<!ENTITY field.atevdef.cleanup_failure.label "Неудача Очистки">
+<!ENTITY field.auoi.id.label "Opt-in ID">
+<!ENTITY field.chmm.usr_grp.label "Группа полномочий пользователя">
+<!ENTITY field.acqclet.library_initiated.label "Library Initiated">
+<!ENTITY field.bresv.attr_val_maps.label "Карты значения атрибутов">
+<!ENTITY field.scap.start_date.label "Дата начала">
+<!ENTITY field.ssub.start_date.label "Дата начала">
+<!ENTITY field.acn.label_class.label "Classification Scheme">
+<!ENTITY class.mb.label "Выставление счета единице строки">
+<!ENTITY field.brav.attr_val_maps.label "Карты значений атрибутов ресурса">
+<!ENTITY field.qfr.id.label "From Relation ID">
+<!ENTITY field.qrc.from_relation.label "From Relation ID">
+<!ENTITY class.mucs.label "Сводка циркуляции пользователя">
+<!ENTITY field.rxpt.voided.label "Аннулировать (вернуть) оплаченные суммы">
+<!ENTITY field.brt.catalog_item.label "Единица каталога">
+<!ENTITY field.brsrc.catalog_item.label "Единица каталога">
+<!ENTITY field.mbts.last_billing_note.label "Заметка Последнего счета">
+<!ENTITY field.mbtslv.last_billing_note.label "Заметка Последнего счета">
+<!ENTITY field.rccbs.last_billing_note.label "Заметка Последнего счета">
+<!ENTITY field.czs.port.label "Порт">
+<!ENTITY class.acqlid.label "Детали единицы строки">
+<!ENTITY class.ahrcc.label "Причина отмены запроса Хранения">
+<!ENTITY class.moucs.label "Открытое резюме циркуляций пользователя">
+<!ENTITY field.acqf.propagate.label "Propagate">
+<!ENTITY field.bre.author_field_entries.label "Индексированные записи поля автора">
+<!ENTITY class.sre.label "Ввод серийной записи">
+<!ENTITY field.vqbrad.remove.label "Удалить RegExp">
+<!ENTITY field.vqarad.remove.label "Удалить RegExp">
+<!ENTITY field.chmm.holdable.label "Удерживаемый">
+<!ENTITY field.act.holdable.label "Удерживаемый">
+<!ENTITY class.mobts.label "Резюме открытой платежной сделки">
+<!ENTITY field.act.circ_as_type.label "Circ As Type">
+<!ENTITY field.acqedim.message_type.label "Message Type">
+<!ENTITY class.vbq.label "Импортировать/покрыть биб. очередь">
+<!ENTITY field.aupr.uuid.label "UUID">
+<!ENTITY field.aur.hold.label "Place Hold">
+<!ENTITY class.act.label "Asset Copy Template">
+<!ENTITY field.artc.persistant_transfer.label "Является постоянным?">
+<!ENTITY field.ahtc.persistant_transfer.label "Является постоянным?">
+<!ENTITY field.acqii.fund_debit.label "Дебет Фонда">
+<!ENTITY field.acqpoi.fund_debit.label "Дебет Фонда">
+<!ENTITY field.acqlid.fund_debit.label "Дебет Фонда">
+<!ENTITY field.acqda.fund_debit.label "Дебет Фонда">
+<!ENTITY field.au.net_access_level.label "Уровень доступа в Интернет">
+<!ENTITY class.xsubq.label "Subquery Expression">
+<!ENTITY field.qfs.return_type.label "Время возврата">
+<!ENTITY field.acqfa.id.label "ID выделения (ресурса)">
+<!ENTITY field.acqfap.id.label "ID выделения (ресурса)">
+<!ENTITY field.mcrp.payment_type.label "Способ оплаты">
+<!ENTITY field.mwp.payment_type.label "Способ оплаты">
+<!ENTITY field.mgp.payment_type.label "Способ оплаты">
+<!ENTITY field.mckp.payment_type.label "Способ оплаты">
+<!ENTITY field.mp.payment_type.label "Способ оплаты">
+<!ENTITY field.mbp.payment_type.label "Способ оплаты">
+<!ENTITY field.mndp.payment_type.label "Способ оплаты">
+<!ENTITY field.mdp.payment_type.label "Способ оплаты">
+<!ENTITY field.sdist.receive_unit_template.label "Receive Unit Template">
+<!ENTITY field.rccbs.last_billing_ts.label "Дата/Время Последнего счета">
+<!ENTITY field.mcrp.amount_collected.label "Инкассированная сумма">
+<!ENTITY field.mwp.amount_collected.label "Инкассированная сумма">
+<!ENTITY field.mgp.amount_collected.label "Инкассированная сумма">
+<!ENTITY field.mckp.amount_collected.label "Инкассированная сумма">
+<!ENTITY field.ahr.current_copy.label "В настоящее время проверяемая (целевая) копия">
+<!ENTITY field.qbv.actual_value.label "Actual Value">
+<!ENTITY class.are.label "Ввод авторитетной записи">
+<!ENTITY field.jub.order_summary.label "Резюме пользователя">
+<!ENTITY class.acqfs.label "Источник финансирования">
+<!ENTITY field.acqfsrcct.funding_source.label "Источник финансирования">
+<!ENTITY field.acqfsrcat.funding_source.label "Источник финансирования">
+<!ENTITY field.acqfsrcb.funding_source.label "Источник финансирования">
+<!ENTITY field.acqfa.funding_source.label "Источник финансирования">
+<!ENTITY field.acqfap.funding_source.label "Источник финансирования">
+<!ENTITY field.acqft.owner.label "Владелец ярлыка фонда">
+<!ENTITY class.acqfa.label "Ассигнование">
+<!ENTITY class.qfpd.label "Function Parameter Definition">
+<!ENTITY field.asvq.answers.label "Ответы">
+<!ENTITY field.rocit.stat_cat_1.label "Унаследованная  Stat Cat 1">
+<!ENTITY field.rocit.stat_cat_2.label "Унаследованная Stat Cat 2">
+<!ENTITY field.bre.identifier_field_entries.label "Индексированный ряд записей поля">
+<!ENTITY field.vbm.field_type.label "Тип поля">
+<!ENTITY field.cza.truncation.label "Усечение">
+<!ENTITY class.cbfp.label "Fingerprint Definition">
+<!ENTITY field.afs.applied_time.label "Applied Time">
+<!ENTITY class.acqipm.label "Invoice Payment Method">
+<!ENTITY class.asva.label "Обзор ответа">
+<!ENTITY field.ahr.transit.label "Транзит">
+<!ENTITY field.atevdef.max_delay.label "Действительная задержка  максимума библиографической записи">
+<!ENTITY field.acqdf.skip_count.label "Подсчёт пропусков">
+<!ENTITY field.bresv.capture_time.label "Время захвата">
+<!ENTITY class.acqafat.label "Итог ассигнований">
+<!ENTITY field.asv.start_date.label "Дата/время начала опроса">
+<!ENTITY class.acqlilad.label "Определение местных атрибутов единицы строки">
+<!ENTITY field.au.checkouts.label "Все циркуляции">
+<!ENTITY field.acqedim.jedi.label "JEDI Message Body">
+<!ENTITY field.aws.name.label "Имя рабочей станции">
+<!ENTITY field.circ.parent_circ.label "Родительский (верхний) уровень циркуляции">
+<!ENTITY field.acirc.parent_circ.label "Родительский (верхний) уровень циркуляции">
+<!ENTITY class.ccnb.label "Корзина шифров">
+<!ENTITY field.ssub.scaps.label "Captions and Patterns">
+<!ENTITY field.ahr.fulfillment_staff.label "Исполняющий персонал">
+<!ENTITY field.acqinv.entries.label "Invoice Entries">
+<!ENTITY field.jub.invoice_entries.label "Invoice Entries">
+<!ENTITY field.mp.work_payment.label "Детали оплаты труда">
+<!ENTITY field.mbp.work_payment.label "Детали оплаты труда">
+<!ENTITY field.mndp.work_payment.label "Детали оплаты труда">
+<!ENTITY class.acqfsb.label "Баланс израсходованных фондом">
+<!ENTITY field.mrd.lit_form.label "LitF">
+<!ENTITY field.auss.query_type.label "Query Type">
+<!ENTITY field.acqfet.amount.label "Общая сумма обременения">
+<!ENTITY field.aua.valid.label "Адрес верный?">
+<!ENTITY field.acqpca.valid.label "Адрес верный?">
+<!ENTITY field.acqclpa.action.label "Action (Event Type)">
+<!ENTITY class.aouhoo.label "Часы работы">
+<!ENTITY field.aou.hours_of_operation.label "Часы работы">
+<!ENTITY field.cmrtm.blvl_val.label "BLvl Value">
+<!ENTITY field.acqedim.error.label "Error">
+<!ENTITY field.aws.circulations.label "Циркуляции">
+<!ENTITY field.sunit.circulations.label "Циркуляции">
+<!ENTITY field.aou.circulations.label "Циркуляции">
+<!ENTITY field.acp.circulations.label "Циркуляции">
+<!ENTITY field.brsrc.overbook.label "Регистрировать большее количество">
+<!ENTITY field.acqinv.id.label "Internal Invoice ID">
+<!ENTITY field.acqfscred.deadline_date.label "Deadline Date">
+<!ENTITY field.aou.resv_pickups.label "Списки  предварительного заказа">
+<!ENTITY field.asv.id.label "ID Опроса">
+<!ENTITY field.rccc.patron_county.label "Округ пользователя библиотеки">
+<!ENTITY class.acqim.label "Invoice Method used by Vendor">
+<!ENTITY field.acqpoi.estimated_cost.label "Estimated Cost">
+<!ENTITY field.crahp.prox.label "Разрешенное соседство">
+<!ENTITY field.cxt.field_class.label "Тип поля">
+<!ENTITY field.mbt.grocery.label "Ссылка счета бакалеи">
+<!ENTITY field.qsi.column_alias.label "Column Alias">
+<!ENTITY field.aou.id.label "ID организационной единицы">
+<!ENTITY field.acqinv.inv_ident.label "Vendor Invoice ID">
+<!ENTITY field.vqbr.import_time.label "Время импорта">
+<!ENTITY field.vqar.import_time.label "Время импорта">
+<!ENTITY field.qseq.parent_query.label "Parent Query">
+<!ENTITY field.acqf.balance_stop_percent.label "Balance Stop Percent">
+<!ENTITY field.atevdef.delay.label "Задержка процесса">
+<!ENTITY class.acqfsrcat.label "Итоговое распределение для источника финансирования">
+<!ENTITY class.cust.label "Вид установки пользователя">
+<!ENTITY field.qfr.table_name.label "Table Name">
+<!ENTITY field.citm.code.label "Код вида единицы">
+<!ENTITY field.au.standing.label "Стоящий (неиспользуемый)">
+<!ENTITY field.cracct.password.label "Пароль">
+<!ENTITY field.au.passwd.label "Пароль">
+<!ENTITY field.acqedi.password.label "Пароль">
+<!ENTITY field.stgu.passwd.label "Пароль">
+<!ENTITY field.rsr.name_subject.label "Имя лица (персоналия) как предметный поисковый признак (стандартное)">
+<!ENTITY class.acqii.label "Non-bibliographic Invoice Item">
+<!ENTITY field.aua.country.label "Страна">
+<!ENTITY field.acqpa.country.label "Страна">
+<!ENTITY field.acqpca.country.label "Страна">
+<!ENTITY field.stgma.country.label "Страна">
+<!ENTITY field.stgba.country.label "Страна">
+<!ENTITY field.ccmm.total_copy_hold_ratio.label "Общий минимум Экземпляр/Коэффициент хранения">
+<!ENTITY field.mg.payments.label "Платежи">
+<!ENTITY field.acqlih.expected_recv_time.label "Ожидаемая  дата получения">
+<!ENTITY field.erfcc.circ_count.label "Подсчёт общей циркуляции">
+<!ENTITY field.bre.title_field_entries.label "Индексированные записи поля заглавия">
+<!ENTITY field.vii.circ_modifier.label "Модификатор циркуляции">
+<!ENTITY field.viiad.circ_modifier.label "Модификатор циркуляции">
+<!ENTITY class.ccm.label "Модификатор циркуляции">
+<!ENTITY field.chmm.circ_modifier.label "Модификатор циркуляции">
+<!ENTITY field.ccmm.circ_modifier.label "Модификатор циркуляции">
+<!ENTITY field.ccmcmtm.circ_mod.label "Модификатор циркуляции">
+<!ENTITY field.sunit.circ_modifier.label "Модификатор циркуляции">
+<!ENTITY field.acp.circ_modifier.label "Модификатор циркуляции">
+<!ENTITY field.aou.addresses.label "Адреса">
+<!ENTITY field.acqpro.addresses.label "Адреса">
+<!ENTITY field.auoi.opt_in_ts.label "Участвовать  Дата/Время">
+<!ENTITY field.afscv.col.label "Column Name">
+<!ENTITY field.qxp.column_name.label "Column Name">
+<!ENTITY field.qrc.column_name.label "Column Name">
+<!ENTITY field.xcol.column_name.label "Column Name">
+<!ENTITY field.xfunc.column_name.label "Column Name">
+<!ENTITY field.acqf.year.label "Год">
+<!ENTITY field.circbyyr.year.label "Год">
+<!ENTITY field.rxbt.voided.label "Сумма счетов аннулированна">
+<!ENTITY field.jub.estimated_unit_price.label "Estimated Unit Price">
+<!ENTITY field.acqlih.estimated_unit_price.label "Estimated Unit Price">
+<!ENTITY class.mbtslv.label "Billable Transaction Summary with Billing Location">
+<!ENTITY field.au.demographic.label "Демографическая  информация">
+<!ENTITY field.mbts.last_payment_note.label "Заметка последней оплаты">
+<!ENTITY field.mbtslv.last_payment_note.label "Заметка последней оплаты">
+<!ENTITY field.rccbs.last_payment_note.label "Заметка последней оплаты">
+<!ENTITY field.au.expire_date.label "Привилегированная дата истечения (о сроке)">
+<!ENTITY field.ac.id.label "ID карточки">
+<!ENTITY field.au.id.label "ID пользователя">
+<!ENTITY field.ocirccount.usr.label "ID пользователя">
+<!ENTITY field.ocirclist.usr.label "ID пользователя">
+<!ENTITY field.rud.id.label "ID пользователя">
+<!ENTITY field.asc.entries.label "Библиографические записи">
+<!ENTITY field.actsc.entries.label "Библиографические записи">
+<!ENTITY field.acqpl.entries.label "Библиографические записи">
+<!ENTITY field.acqdf.entries.label "Библиографические записи">
+<!ENTITY field.sunit.dummy_title.label "Предварительно каталогизированное макетное заглавие">
+<!ENTITY field.acp.dummy_title.label "Предварительно каталогизированное макетное заглавие">
+<!ENTITY field.rccc.patron_home_lib_shortname.label "Краткое (Политики) имя домашней библиотеки читателя">
+<!ENTITY field.aou.atc_prev_dests.label "Транзитный экземпляр предыдущих получателей">
+<!ENTITY field.mcrp.amount.label "Сумма">
+<!ENTITY field.mwp.amount.label "Сумма">
+<!ENTITY field.mgp.amount.label "Сумма">
+<!ENTITY field.mckp.amount.label "Сумма">
+<!ENTITY field.mp.amount.label "Сумма">
+<!ENTITY field.mbp.amount.label "Сумма">
+<!ENTITY field.mndp.amount.label "Сумма">
+<!ENTITY field.mdp.amount.label "Сумма">
+<!ENTITY field.mb.amount.label "Сумма">
+<!ENTITY field.acqfscred.amount.label "Сумма">
+<!ENTITY field.acqofscred.amount.label "Сумма">
+<!ENTITY field.acqfdeb.amount.label "Сумма">
+<!ENTITY field.acqfa.amount.label "Сумма">
+<!ENTITY class.mwps.label "Сводка оплаты Рабочей станции">
+<!ENTITY field.bre.series_field_entries.label "Индексированный ряд записей поля">
+<!ENTITY class.bren.label "Примечание биб. записи">
+<!ENTITY field.jub.distribution_formulas.label "Формула распределения">
+<!ENTITY field.acqclet.id.label "Claim Event Type ID">
+<!ENTITY field.acnc.id.label "Call number class ID">
+<!ENTITY field.aufhml.min.label "Минимум циклов">
+<!ENTITY field.mrd.type_mat.label "TMat">
+<!ENTITY class.mckp.label "Оплата чеками">
+<!ENTITY field.mdp.check_payment.label "Оплата чеками">
+<!ENTITY field.rccc.stat_cat_1.label "Унаследованная CAT1 связь(между данными)">
+<!ENTITY field.ccmm.available_copy_hold_ratio.label "Минимум  доступных  экземпляров/Коэффициент Хранения">
+<!ENTITY field.atev.update_time.label "Время обновления">
+<!ENTITY field.ergbhu.holding_update.label "Время обновления">
+<!ENTITY field.acqinv.items.label "Invoice Items">
+<!ENTITY field.au.groups.label "Дополнительные группы полномочий">
+<!ENTITY class.cbrebn.label "Примечание отдела по вводу библиографической записи">
+<!ENTITY field.accs.last_stop_fines.label "Last Stop Fines">
+<!ENTITY field.ahr.request_lib.label "Запрашиваемая библиотека">
+<!ENTITY field.mcrp.xact.label "Транзакция">
+<!ENTITY field.mb.xact.label "Транзакция">
+<!ENTITY field.acqliat.id.label "Alert Text ID">
+<!ENTITY field.rud.general_division.label "Общий  демографический отдел">
+<!ENTITY field.aou.ou_type.label "Тип организационной единицы">
+<!ENTITY class.aout.label "Тип организационной единицы">
+<!ENTITY field.acqft.map_entries.label "Карта записей">
+<!ENTITY field.ahr.notify_count.label "Сообщить счёт">
+<!ENTITY field.acqpo.amount_encumbered.label "Сумма выделена">
+<!ENTITY field.cmf.facet_xpath.label "Facet XPath">
+<!ENTITY field.act.opac_visible.label "OPAC  доступен">
+<!ENTITY field.rccc.stat_cat_2_value.label "Унаследованная CAT2 ценность">
+<!ENTITY field.asv.opac.label "OPAC обзор?">
+<!ENTITY field.aupr.id.label "Request ID">
+<!ENTITY field.bre.metarecord.label "Метазапись">
+<!ENTITY class.mmr.label "Метазапись">
+<!ENTITY field.rsr.metarecord.label "Метазапись">
+<!ENTITY field.rccc.stat_cat_2.label "Унаследованная CAT2 ссылка">
+<!ENTITY field.aun.id.label "ID Примечания">
+<!ENTITY field.acpn.id.label "ID Примечания">
+<!ENTITY field.vbm.eg_record.label "Evergreen запись">
+<!ENTITY field.vam.eg_record.label "Evergreen запись">
+<!ENTITY class.acqlimad.label "Определение атрибутов MARC строки">
+<!ENTITY field.pgpt.penalty.label "Наказание">
+<!ENTITY class.mccp.label "Оплата кредитной картой">
+<!ENTITY field.mdp.credit_card_payment.label "Оплата кредитной картой">
+<!ENTITY field.srlu.reader.label "Reader">
+<!ENTITY field.cmfpm.fixed_field.label "Fixed Field">
+<!ENTITY field.aun.pub.label "OPAC  доступен?">
+<!ENTITY field.acpn.pub.label "OPAC  доступен?">
+<!ENTITY field.acpl.opac_visible.label "OPAC  доступен?">
+<!ENTITY field.ssubn.pub.label "Public?">
+<!ENTITY field.sdistn.pub.label "Public?">
+<!ENTITY field.sin.pub.label "Public?">
+<!ENTITY field.asvr.answer_date.label "Ответ  Дата/Время">
+<!ENTITY field.acqfdeb.id.label "ID Дебета">
+<!ENTITY field.mbts.xact_type.label "Тип транзакции">
+<!ENTITY field.mbtslv.xact_type.label "Тип транзакции">
+<!ENTITY field.rccbs.xact_type.label "Тип транзакции">
+<!ENTITY field.bresv.end_time.label "Время окончания">
+<!ENTITY field.ateo.id.label "ID выхода">
+<!ENTITY field.au.billing_address.label "Физический адрес">
+<!ENTITY field.cza.id.label "Z39.50  ID атрибут">
+<!ENTITY field.qsf.composite_type.label "Composite Type">
+<!ENTITY field.acqfs.allocations.label "Размещение">
+<!ENTITY field.acqf.allocations.label "Размещение">
+<!ENTITY class.vqbrad.label "Определение атрибутов">
+<!ENTITY field.acqfdeb.origin_amount.label "Источник  суммы">
+<!ENTITY field.aur.request_type.label "Время запроса">
+<!ENTITY class.brn.label "Узел записи">
+<!ENTITY field.circ.circ_type.label "Тип циркуляций">
+<!ENTITY field.combcirc.circ_type.label "Тип циркуляций">
+<!ENTITY field.acirc.circ_type.label "Тип циркуляций">
+<!ENTITY class.rcirct.label "Тип циркуляций">
+<!ENTITY field.rcirct.type.label "Тип циркуляций">
+<!ENTITY field.rccc.circ_type.label "Тип циркуляций">
+<!ENTITY field.rodcirc.circ_type.label "Тип циркуляций">
+<!ENTITY class.cbreb.label "Корзина ввода библиографической записи">
+<!ENTITY class.cmpcsm.label "MARC21 Physical Characteristic Subfield Map">
+<!ENTITY field.rhcrpb.copy_count.label "Holdable Copy Count">
+<!ENTITY field.qsq.id.label "ID очерёдности">
+<!ENTITY field.circ.fine_interval.label "Интервал штрафа">
+<!ENTITY field.combcirc.fine_interval.label "Интервал штрафа">
+<!ENTITY field.acirc.fine_interval.label "Интервал штрафа">
+<!ENTITY field.brt.fine_interval.label "Интервал штрафа">
+<!ENTITY field.bresv.fine_interval.label "Интервал штрафа">
+<!ENTITY field.rodcirc.fine_interval.label "Интервал штрафа">
+<!ENTITY field.circ.checkin_workstation.label "Зарегистрированная  рабочая станция">
+<!ENTITY field.acirc.checkin_workstation.label "Зарегистрированная  рабочая станция">
+<!ENTITY field.acqfc.years.label "Годы">
+<!ENTITY class.aua.label "Адрес пользователя">
+<!ENTITY field.atevdef.delay_field.label "Задержка обработки контекста поля">
+<!ENTITY field.acqcl.lineitem_detail.label "Детали единицы строки">
+<!ENTITY field.acrlid.lineitem_detail.label "Детали единицы строки">
+<!ENTITY field.jub.id.label "ID строки">
+<!ENTITY field.acqlih.id.label "ID строки">
+<!ENTITY class.cnal.label "Уровень сетевого доступа">
+<!ENTITY field.vii.opac_visible.label "OPAC  доступен">
+<!ENTITY field.viiad.opac_visible.label "OPAC  доступен">
+<!ENTITY field.sunit.opac_visible.label "OPAC  доступен">
+<!ENTITY field.aou.opac_visible.label "OPAC  доступен">
+<!ENTITY field.asc.opac_visible.label "OPAC  доступен">
+<!ENTITY field.actsc.opac_visible.label "OPAC  доступен">
+<!ENTITY field.acp.opac_visible.label "OPAC  доступен">
+<!ENTITY field.rocit.opac_visible.label "OPAC  доступен">
+<!ENTITY class.mmrsm.label "Карта источника метазаписи">
+<!ENTITY field.ssr.total.label "Общий результат">
+<!ENTITY class.stgba.label "Этап заполнения адреса для выставления счета">
+<!ENTITY field.vii.alert_message.label "Предупреждение">
+<!ENTITY field.viiad.alert_message.label "Предупреждение">
+<!ENTITY field.au.alert_message.label "Предупреждение">
+<!ENTITY field.sunit.alert_message.label "Предупреждение">
+<!ENTITY field.acp.alert_message.label "Предупреждение">
+<!ENTITY field.act.alert_message.label "Предупреждение">
+<!ENTITY field.sitem.date_received.label "Date Received">
+<!ENTITY field.mbts.id.label "ID транзакции">
+<!ENTITY field.mbtslv.id.label "ID транзакции">
+<!ENTITY field.bresv.id.label "ID транзакции">
+<!ENTITY field.mg.id.label "ID транзакции">
+<!ENTITY field.mbt.id.label "ID транзакции">
+<!ENTITY field.mwp.xact.label "ID транзакции">
+<!ENTITY field.mgp.xact.label "ID транзакции">
+<!ENTITY field.rxbt.xact.label "ID транзакции">
+<!ENTITY field.rxpt.xact.label "ID транзакции">
+<!ENTITY field.rccbs.id.label "ID транзакции">
+<!ENTITY field.ahn.notify_time.label "Дата/время уведомления [извещения]">
+<!ENTITY field.auss.create_date.label "Создать дату">
+<!ENTITY field.sre.create_date.label "Создать дату">
+<!ENTITY field.scap.create_date.label "Создать дату">
+<!ENTITY field.ssubn.create_date.label "Создать дату">
+<!ENTITY field.sdistn.create_date.label "Создать дату">
+<!ENTITY field.siss.create_date.label "Создать дату">
+<!ENTITY field.sitem.create_date.label "Создать дату">
+<!ENTITY field.sin.create_date.label "Создать дату">
+<!ENTITY field.act.create_date.label "Создать дату">
+<!ENTITY field.rocit.create_date.label "Создать дату">
+<!ENTITY field.artc.transit_copy.label "База транзитных">
+<!ENTITY field.ahtc.transit_copy.label "База транзитных">
+<!ENTITY field.ccmm.duration_rule.label "Срок действия правила">
+<!ENTITY field.ccmm.copy_circ_lib.label "Copy Circ Lib">
+<!ENTITY field.bre.share_depth.label "Share Depth">
+<!ENTITY class.rtf.label "Шаблон папки">
+<!ENTITY field.rccbs.demographic_general_division.label "Демографический возраст пользователя">
+<!ENTITY field.ahn.note.label "Правильные заметки">
+<!ENTITY field.circ.duration_rule.label "Норма продолжительности циркуляции">
+<!ENTITY field.combcirc.duration_rule.label "Норма продолжительности циркуляции">
+<!ENTITY field.acirc.duration_rule.label "Норма продолжительности циркуляции">
+<!ENTITY field.rodcirc.duration_rule.label "Норма продолжительности циркуляции">
+<!ENTITY field.bravm.attr_value.label "Карта атрибутов">
+<!ENTITY field.asv.required.label "Необходимо?">
+<!ENTITY field.atevparam.value.label "Значение параметра">
+<!ENTITY field.atc.id.label "ID транзита">
+<!ENTITY field.artc.id.label "ID транзита">
+<!ENTITY field.ahtc.id.label "ID транзита">
+<!ENTITY field.iatc.id.label "ID транзита">
+<!ENTITY field.acqfy.year_end.label "Конец года">
+<!ENTITY field.acqpro.url.label "URL">
+<!ENTITY field.auri.href.label "Унифицированный идентификатор ресурса">
+<!ENTITY field.auricnm.uri.label "Унифицированный идентификатор ресурса">
+<!ENTITY field.sitem.uri.label "Унифицированный идентификатор ресурса">
+<!ENTITY class.acqclt.label "Claim Type">
+<!ENTITY field.acqcl.type.label "Claim Type">
+<!ENTITY field.acqscl.type.label "Claim Type">
+<!ENTITY field.circ.payments.label "Платежи транзакции">
+<!ENTITY field.combcirc.payments.label "Платежи транзакции">
+<!ENTITY field.acirc.payments.label "Платежи транзакции">
+<!ENTITY field.rodcirc.payments.label "Платежи транзакции">
+<!ENTITY field.brt.fine_amount.label "Сумма  штрафа">
+<!ENTITY field.bresv.fine_amount.label "Сумма  штрафа">
+<!ENTITY field.chmm.user_home_ou.label "Домашняя библиотека пользователя">
+<!ENTITY field.rmocbbhol.home_ou.label "Домашняя библиотека пользователя">
+<!ENTITY field.rmobbhol.home_ou.label "Домашняя библиотека пользователя">
+<!ENTITY class.aun.label "Примечание пользователя">
+<!ENTITY field.mp.forgive_payment.label "Не требовать подробности оплаты">
+<!ENTITY field.mbp.forgive_payment.label "Не требовать подробности оплаты">
+<!ENTITY field.mndp.forgive_payment.label "Не требовать подробности оплаты">
+<!ENTITY field.brsrc.deposit.label "Требуемый депозит">
+<!ENTITY field.sunit.deposit.label "Требуемый депозит">
+<!ENTITY field.acp.deposit.label "Требуемый депозит">
+<!ENTITY field.rhrr.bib_record.label "Намеченная библиографическая запись">
+<!ENTITY field.ahr.expire_time.label "Дата/время истечения срока Хранения">
+<!ENTITY field.bre.full_record_entries.label "Сплющенные MARC поля ">
+<!ENTITY field.acqpo.amount_spent.label "Потраченная сумма">
+<!ENTITY class.rr.label "Отчет">
+<!ENTITY field.cmsa.field_class.label "Class">
+<!ENTITY field.cmf.field_class.label "Class">
+<!ENTITY field.mp.voided.label "Аннулирована?">
+<!ENTITY field.mbp.voided.label "Аннулирована?">
+<!ENTITY field.mndp.voided.label "Аннулирована?">
+<!ENTITY field.mdp.voided.label "Аннулирована?">
+<!ENTITY field.mb.voided.label "Аннулирована?">
+<!ENTITY class.viiad.label "Импортировать описание атрибутов единицы">
+<!ENTITY field.rccc.circ_lib.label "Краткое (Политики) имя местонахождения библиотечной циркуляции">
+<!ENTITY field.jub.lineitem_details.label "Детали строки (Line Item )">
+<!ENTITY field.qfs.is_aggregate.label "Is Aggregate">
+<!ENTITY class.stgc.label "Этап карточки">
+<!ENTITY class.acplo.label "Заказ экземпляра / Полочное расположение">
+<!ENTITY field.acqpa.valid.label "Годен?">
+<!ENTITY field.ancihu.item_type.label "Тип единицы">
+<!ENTITY field.citm.value.label "Тип единицы">
+<!ENTITY class.mafe.label "Ввод поля автора">
+<!ENTITY field.acqlisum.recv_count.label "Receive Count">
+<!ENTITY field.ahr.phone_notify.label "Номер телефона для сообщений">
+<!ENTITY field.mg.billable_transaction.label "Ссылка оплачиваемой  транзакции">
+<!ENTITY class.cmpctm.label "MARC21 Physical Characteristic Type Map">
+<!ENTITY field.mrd.date1.label "Дата1">
+<!ENTITY class.vaq.label "Импортировать/покрыть авторитетную строку">
+<!ENTITY field.bresv.billings.label "Единицы строки  биллинга">
+<!ENTITY field.mbt.billings.label "Единицы строки  биллинга">
+<!ENTITY field.bre.last_xact_id.label "ID последней транзакции">
+<!ENTITY field.au.last_xact_id.label "ID последней транзакции">
+<!ENTITY field.sre.last_xact_id.label "ID последней транзакции">
+<!ENTITY field.rccbs.usr.label "Ссылка пользователя">
+<!ENTITY class.ssubn.label "Subscription Note">
+<!ENTITY field.vqbrad.id.label "Идентификационный Номер">
+<!ENTITY field.vqarad.id.label "Идентификационный Номер">
+<!ENTITY field.cin.id.label "Идентификационный Номер">
+<!ENTITY field.cmfinm.id.label "Идентификационный Номер">
+<!ENTITY field.cracct.id.label "Идентификационный Номер">
+<!ENTITY field.cmf.id.label "Идентификационный Номер">
+<!ENTITY field.auricnm.id.label "Идентификационный Номер">
+<!ENTITY field.chdd.id.label "Идентификационный Номер">
+<!ENTITY field.chddv.id.label "Идентификационный Номер">
+<!ENTITY field.pgpt.id.label "Идентификационный Номер">
+<!ENTITY field.ausp.id.label "Идентификационный Номер">
+<!ENTITY field.auss.id.label "Идентификационный Номер">
+<!ENTITY field.sre.id.label "Идентификационный Номер">
+<!ENTITY field.scap.id.label "Идентификационный Номер">
+<!ENTITY field.ssub.id.label "Идентификационный Номер">
+<!ENTITY field.ssubn.id.label "Идентификационный Номер">
+<!ENTITY field.sdist.id.label "Идентификационный Номер">
+<!ENTITY field.sdistn.id.label "Идентификационный Номер">
+<!ENTITY field.sstr.id.label "Идентификационный Номер">
+<!ENTITY field.srlu.id.label "Идентификационный Номер">
+<!ENTITY field.siss.id.label "Идентификационный Номер">
+<!ENTITY field.sunit.id.label "Идентификационный Номер">
+<!ENTITY field.sitem.id.label "Идентификационный Номер">
+<!ENTITY field.sin.id.label "Идентификационный Номер">
+<!ENTITY field.sbsum.id.label "Идентификационный Номер">
+<!ENTITY field.sssum.id.label "Идентификационный Номер">
+<!ENTITY field.sisum.id.label "Идентификационный Номер">
+<!ENTITY field.sra.id.label "Идентификационный Номер">
+<!ENTITY field.ssr.id.label "Идентификационный Номер">
+<!ENTITY field.ahrn.id.label "Идентификационный Номер">
+<!ENTITY field.act.id.label "Идентификационный Номер">
+<!ENTITY field.cbt.id.label "Идентификационный Номер">
+<!ENTITY field.aurt.id.label "Идентификационный Номер">
+<!ENTITY field.aur.id.label "Идентификационный Номер">
+<!ENTITY field.acqie.id.label "Идентификационный Номер">
+<!ENTITY field.acqii.id.label "Идентификационный Номер">
+<!ENTITY field.acqpa.id.label "Идентификационный Номер">
+<!ENTITY field.acqpc.id.label "Идентификационный Номер">
+<!ENTITY field.acqcr.id.label "Идентификационный Номер">
+<!ENTITY field.acqpoi.id.label "Идентификационный Номер">
+<!ENTITY field.acqphsm.id.label "Идентификационный Номер">
+<!ENTITY field.acqdfa.id.label "Идентификационный Номер">
+<!ENTITY field.acqclp.id.label "Идентификационный Номер">
+<!ENTITY field.acqclpa.id.label "Идентификационный Номер">
+<!ENTITY field.cmfpm.id.label "Идентификационный Номер">
+<!ENTITY field.cmpcsm.id.label "Идентификационный Номер">
+<!ENTITY field.cmpcvm.id.label "Идентификационный Номер">
+<!ENTITY class.qfs.label "Function Signature">
+<!ENTITY field.ath.core_type.label "Центральный Тип">
+<!ENTITY field.mb.billing_type.label "Устаревший тип накладной">
+<!ENTITY field.acqpa.street1.label "Улица 1">
+<!ENTITY field.clm.value.label "Язык">
+<!ENTITY field.acqpa.street2.label "Улица 2">
+<!ENTITY field.cust.datatype.label "Datatype">
+<!ENTITY class.qdt.label "Datatype">
+<!ENTITY field.qfpd.datatype.label "Datatype">
+<!ENTITY field.vqbra.id.label "ID атрибута">
+<!ENTITY field.vqara.id.label "ID атрибута">
+<!ENTITY class.brav.label "Значение атрибута ресурсов">
+<!ENTITY field.acqlisum.claim_count.label "Claim Count">
+<!ENTITY class.cvrfm.label "Формат видеозаписи">
+<!ENTITY field.chmm.marc_vr_format.label "Формат видеозаписи">
+<!ENTITY field.ccmm.marc_vr_format.label "Формат видеозаписи">
+<!ENTITY class.sdistn.label "Distribution Note">
+<!ENTITY field.acqfs.id.label "ID источника финансирования">
+<!ENTITY field.acqfscred.funding_source.label "ID источника финансирования">
+<!ENTITY field.acqofscred.funding_source.label "ID источника финансирования">
+<!ENTITY field.atev.state.label "Область/штат">
+<!ENTITY field.aua.state.label "Область/штат">
+<!ENTITY field.acqpa.state.label "Область/штат">
+<!ENTITY field.acqpca.state.label "Область/штат">
+<!ENTITY field.acqpo.state.label "Область/штат">
+<!ENTITY field.acqpoh.state.label "Область/штат">
+<!ENTITY field.jub.state.label "Область/штат">
+<!ENTITY field.acqlih.state.label "Область/штат">
+<!ENTITY field.stgma.state.label "Область/штат">
+<!ENTITY field.stgba.state.label "Область/штат">
+<!ENTITY field.qrc.id.label "Record Column ID">
+<!ENTITY field.ccmcmtm.id.label "ID записи">
+<!ENTITY field.actsce.id.label "ID записи">
+<!ENTITY field.actscecm.id.label "ID записи">
+<!ENTITY field.asce.id.label "ID записи">
+<!ENTITY field.acqdfe.id.label "ID записи">
+<!ENTITY field.rsce1.id.label "ID записи">
+<!ENTITY field.rsce2.id.label "ID записи">
+<!ENTITY field.chmm.age_hold_protect_rule.label "Правила защиты  возраста хранения копий">
+<!ENTITY field.cxt.prefix.label "Префикс пространства имён">
+<!ENTITY field.chmm.include_frozen_holds.label "Максимум содержащих замороженные">
+<!ENTITY class.asvr.label "Ответ, полученный в ходе опроса">
+<!ENTITY field.au.claims_never_checked_out_count.label "Подсчёт никогда невыданных рекламаций">
+<!ENTITY field.au.permissions.label "Все полномочия">
+<!ENTITY field.cit.id.label "ID идентификации">
+<!ENTITY field.acnc.normalizer.label "Normalizer function">
+<!ENTITY field.aou.users.label "Пользователи">
+<!ENTITY field.vii.price.label "Цена">
+<!ENTITY field.viiad.price.label "Цена">
+<!ENTITY field.sunit.price.label "Цена">
+<!ENTITY field.acp.price.label "Цена">
+<!ENTITY field.act.price.label "Цена">
+<!ENTITY field.rocit.price.label "Цена">
+<!ENTITY field.pgt.id.label "ID Группы">
+<!ENTITY class.ocirccount.label "Подсчёт общей циркуляции">
+<!ENTITY field.vii.deposit_amount.label "Сумма вклада">
+<!ENTITY field.viiad.deposit_amount.label "Сумма вклада">
+<!ENTITY field.brsrc.deposit_amount.label "Сумма вклада">
+<!ENTITY field.sunit.deposit_amount.label "Сумма вклада">
+<!ENTITY field.acp.deposit_amount.label "Сумма вклада">
+<!ENTITY field.act.deposit_amount.label "Сумма вклада">
+<!ENTITY field.rocit.deposit_amount.label "Сумма вклада">
+<!ENTITY field.acqpron.id.label "ID примечания PO">
+<!ENTITY field.acqpon.id.label "ID примечания PO">
+<!ENTITY field.chmm.marc_type.label "MARC  вид">
+<!ENTITY field.ccmm.marc_type.label "MARC  вид">
+<!ENTITY field.rccc.item_type.label "MARC  вид">
+<!ENTITY field.bre.edit_date.label "Дата/Время последнего редактирования">
+<!ENTITY field.ahr.shelf_time.label "Время хранения">
+<!ENTITY field.acqie.amount_paid.label "Amount Paid">
+<!ENTITY field.acqii.amount_paid.label "Amount Paid">
+<!ENTITY field.rccc.dewey_range_tens.label "Ряд Дьюи  - Десятки">
+<!ENTITY class.acqofscred.label "Ordered Funding Source Credit">
+<!ENTITY field.rsr.geographic_subject.label "Географическая  тематика (стандартная)">
+<!ENTITY field.auss.query_text.label "Query Text">
+<!ENTITY field.acpl.label_suffix.label "Label Suffix">
+<!ENTITY field.atc.target_copy.label "Экземпляр доставлен">
+<!ENTITY field.artc.target_copy.label "Экземпляр доставлен">
+<!ENTITY field.ahtc.target_copy.label "Экземпляр доставлен">
+<!ENTITY field.iatc.target_copy.label "Экземпляр доставлен">
+<!ENTITY field.acqie.phys_item_count.label "Physical Item Count">
+<!ENTITY class.vbm.label "Сравнить очередную биб. запись">
+<!ENTITY field.acqpo.lineitems.label "Ряд единиц">
+<!ENTITY field.mfr.record.label "Ввод биб. записи">
+<!ENTITY field.mrd.record.label "Ввод биб. записи">
+<!ENTITY class.sin.label "Item Note">
+<!ENTITY field.acqfy.id.label "ID финансового года">
+<!ENTITY field.ccmm.usr_age_lower_bound.label "Возраст пользователя: Нижний предел">
+<!ENTITY field.czs.record_format.label "Формат записи">
+<!ENTITY field.atevdef.cleanup_success.label "Успешная очистка">
+<!ENTITY class.pgpm.label "Список полномочий группы">
+<!ENTITY field.ahr.notifications.label "Извещения">
+<!ENTITY field.circ.payment_total.label "Итоги оплаты">
+<!ENTITY field.combcirc.payment_total.label "Итоги оплаты">
+<!ENTITY field.acirc.payment_total.label "Итоги оплаты">
+<!ENTITY field.bresv.payment_total.label "Итоги оплаты">
+<!ENTITY field.mg.payment_total.label "Итоги оплаты">
+<!ENTITY field.mbt.payment_total.label "Итоги оплаты">
+<!ENTITY field.rodcirc.payment_total.label "Итоги оплаты">
+<!ENTITY field.rccc.patron_id.label "Ссылка читателя">
+<!ENTITY field.afscv.val.label "Column Value">
+<!ENTITY field.acn.notes.label "Примечания">
+<!ENTITY field.ssub.notes.label "Примечания">
+<!ENTITY field.sdist.notes.label "Примечания">
+<!ENTITY field.sitem.notes.label "Примечания">
+<!ENTITY field.ahr.notes.label "Примечания">
+<!ENTITY field.acqpo.notes.label "Примечания">
+<!ENTITY field.vqbra.attr_value.label "Значение">
+<!ENTITY field.vqara.attr_value.label "Значение">
+<!ENTITY field.cgf.value.label "Значение">
+<!ENTITY field.aus.value.label "Значение">
+<!ENTITY field.ssubn.value.label "Значение">
+<!ENTITY field.sdistn.value.label "Значение">
+<!ENTITY field.sin.value.label "Значение">
+<!ENTITY field.asce.value.label "Значение">
+<!ENTITY field.acqlia.attr_value.label "Значение">
+<!ENTITY field.bmpc.value.label "Значение">
+<!ENTITY field.cmpcvm.value.label "Значение">
+<!ENTITY class.rsce1.label "Ввод CAT1">
+<!ENTITY field.acqpo.ordering_agency.label "Заказ агентства">
+<!ENTITY field.acqpoh.ordering_agency.label "Заказ агентства">
+<!ENTITY field.acrlid.ordering_agency.label "Заказ агентства">
+<!ENTITY field.ahrn.slip.label "Бланк?">
+<!ENTITY field.qxp.left_operand.label "Left Operand">
+<!ENTITY field.xbet.left_operand.label "Left Operand">
+<!ENTITY field.xcase.left_operand.label "Left Operand">
+<!ENTITY field.xcast.left_operand.label "Left Operand">
+<!ENTITY field.xin.left_operand.label "Left Operand">
+<!ENTITY field.xisnull.left_operand.label "Left Operand">
+<!ENTITY field.xop.left_operand.label "Left Operand">
+<!ENTITY class.cnct.label "Некаталогизированный тип">
+<!ENTITY class.ahn.label "Уведомление хранения">
+<!ENTITY field.rcirct.id.label "ID циркуляции">
+<!ENTITY field.rmocbbol.id.label "ID циркуляции">
+<!ENTITY field.rmocbbcol.id.label "ID циркуляции">
+<!ENTITY field.rmocbbhol.id.label "ID циркуляции">
+<!ENTITY field.aou.holds_address.label "Адрес получения  Хранений">
+<!ENTITY field.acqlih.selector.label "Selector">
+<!ENTITY field.rocit.tcn_value.label "TCN">
+<!ENTITY field.acqie.cost_billed.label "Cost Billed">
+<!ENTITY field.acqii.cost_billed.label "Cost Billed">
+<!ENTITY class.aupr.label "User password reset requests">
+<!ENTITY field.artc.copy_status.label "Статус экземпляра во время транзита">
+<!ENTITY field.ahtc.copy_status.label "Статус экземпляра во время транзита">
+<!ENTITY field.qxp.parenthesize.label "Is Parenthesized">
+<!ENTITY field.xbet.parenthesize.label "Is Parenthesized">
+<!ENTITY field.xbind.parenthesize.label "Is Parenthesized">
+<!ENTITY field.xbool.parenthesize.label "Is Parenthesized">
+<!ENTITY field.xcase.parenthesize.label "Is Parenthesized">
+<!ENTITY field.xcast.parenthesize.label "Is Parenthesized">
+<!ENTITY field.xcol.parenthesize.label "Is Parenthesized">
+<!ENTITY field.xex.parenthesize.label "Is Parenthesized">
+<!ENTITY field.xfunc.parenthesize.label "Is Parenthesized">
+<!ENTITY field.xin.parenthesize.label "Is Parenthesized">
+<!ENTITY field.xisnull.parenthesize.label "Is Parenthesized">
+<!ENTITY field.xnull.parenthesize.label "Is Parenthesized">
+<!ENTITY field.xnum.parenthesize.label "Is Parenthesized">
+<!ENTITY field.xop.parenthesize.label "Is Parenthesized">
+<!ENTITY field.xser.parenthesize.label "Is Parenthesized">
+<!ENTITY field.xstr.parenthesize.label "Is Parenthesized">
+<!ENTITY field.xsubq.parenthesize.label "Is Parenthesized">
+<!ENTITY field.brsrc.user_fee.label "Плата за пользование">
+<!ENTITY field.acqcl.id.label "Claim ID">
+<!ENTITY field.acqcle.claim.label "Claim ID">
+<!ENTITY field.acqscl.id.label "Claim ID">
+<!ENTITY field.acqscle.claim.label "Claim ID">
+<!ENTITY field.mp.credit_payment.label "Детали кредитных расчетов">
+<!ENTITY field.mbp.credit_payment.label "Детали кредитных расчетов">
+<!ENTITY field.mndp.credit_payment.label "Детали кредитных расчетов">
+<!ENTITY field.sdist.unit_label_suffix.label "Unit Label Suffix">
+<!ENTITY field.qxp.subquery.label "Subquery">
+<!ENTITY field.xex.subquery.label "Subquery">
+<!ENTITY field.xin.subquery.label "Subquery">
+<!ENTITY field.xsubq.subquery.label "Subquery">
+<!ENTITY class.ccmm.label "Точка согласованной работы матрицы циркуляций">
+<!ENTITY field.acqlid.eg_copy_id.label "ID копий Evergreen">
+<!ENTITY class.scap.label "Caption and Pattern">
+<!ENTITY field.rccc.demographic_general_division.label "Демографический возраст читателя">
+<!ENTITY class.ccmcmt.label "Матрица циркуляции  Субтест модификатора циркуляции">
+<!ENTITY field.rsr.corporate_subject.label "Корпоративное Название темы (стандартное)">
+<!ENTITY class.vqbr.label "Биб. запись очереди">
+<!ENTITY field.acqfs.name.label "Имя источника финансирования">
+<!ENTITY class.acqdfe.label "Ввод формулы распределения">
+<!ENTITY field.aua.id.label "ID адреса">
+<!ENTITY field.acqpca.id.label "ID адреса">
+<!ENTITY field.rccbs.patron_county.label "Пользователь округа">
+<!ENTITY field.acqf.tags.label "Ярлыки">
+<!ENTITY class.cracct.label "Remote (3rd party) Account">
+<!ENTITY field.stgu.usrname.label "Имя пользователя">
+<!ENTITY field.stgc.usrname.label "Имя пользователя">
+<!ENTITY field.stgma.usrname.label "Имя пользователя">
+<!ENTITY field.stgba.usrname.label "Имя пользователя">
+<!ENTITY field.stgsc.usrname.label "Имя пользователя">
+<!ENTITY field.aur.other_info.label "Other Info">
+<!ENTITY field.chmm.requestor_grp.label "Отправить по запросу группу полномочий">
+<!ENTITY class.mvr.label "Виртуальная запись">
+<!ENTITY class.brt.label "Тип ресурса">
+<!ENTITY field.brsrc.type.label "Тип ресурса">
+<!ENTITY field.bra.resource_type.label "Тип ресурса">
+<!ENTITY field.cxt.xslt.label "XSLT">
+<!ENTITY field.au.addresses.label "Все адреса">
+<!ENTITY field.ccmm.usr_age_upper_bound.label "Возраст Пользователя: Верхний предел">
+<!ENTITY class.stgsc.label "Этап Статистической Категории">
+<!ENTITY field.aua.post_code.label "Почтовый индекс">
+<!ENTITY field.acqpca.post_code.label "Почтовый индекс">
+<!ENTITY field.stgma.post_code.label "Почтовый индекс">
+<!ENTITY field.stgba.post_code.label "Почтовый индекс">
+<!ENTITY field.acqpo.po_items.label "PO Items">
+<!ENTITY field.amtr.matchpoint.label "ID Совпадений">
+<!ENTITY field.chmm.id.label "ID Совпадений">
+<!ENTITY field.ccmm.id.label "ID Совпадений">
+<!ENTITY field.ccmcmt.matchpoint.label "ID Совпадений">
+<!ENTITY field.rccbs.profile_group.label "Набор  параметров  пользователя">
+<!ENTITY field.au.performed_circulations.label "Циркуляция выполнена как Персонал">
+<!ENTITY field.asvr.id.label "ID Ответа">
+<!ENTITY field.asva.id.label "ID Ответа">
+<!ENTITY class.ahrn.label "Примечание запроса хранения">
+<!ENTITY field.rmobbol.billing_types.label "Типы выписанных счетов">
+<!ENTITY field.rmobbcol.billing_types.label "Типы выписанных счетов">
+<!ENTITY field.rmobbhol.billing_types.label "Типы выписанных счетов">
+<!ENTITY field.aua.city.label "Город">
+<!ENTITY field.acqpa.city.label "Город">
+<!ENTITY field.acqpca.city.label "Город">
+<!ENTITY field.stgma.city.label "Город">
+<!ENTITY field.stgba.city.label "Город">
+<!ENTITY field.ccm.avg_wait_time.label "Average Wait Time">
+<!ENTITY field.acqscl.item.label "Serial Item">
+<!ENTITY field.sunit.holds.label "Хранения">
+<!ENTITY field.acp.holds.label "Хранения">
+<!ENTITY field.sunit.summary_contents.label "Summary Contents">
+<!ENTITY class.rccc.label "Классический вид циркуляции">
+<!ENTITY field.aihu.id.label "Использовать ID">
+<!ENTITY field.ancihu.id.label "Использовать ID">
+<!ENTITY field.atc.dest_recv_time.label "Дата/Время получения">
+<!ENTITY field.artc.dest_recv_time.label "Дата/Время получения">
+<!ENTITY field.ahtc.dest_recv_time.label "Дата/Время получения">
+<!ENTITY field.iatc.dest_recv_time.label "Дата/Время получения">
+<!ENTITY field.asv.poll.label "Стиль опроса?">
+<!ENTITY field.qcb.id.label "Case Branch ID">
+<!ENTITY class.ocirclist.label "Открытая циркуляция">
+<!ENTITY field.acpn.owning_copy.label "Копия">
+<!ENTITY field.aout.can_have_vols.label "Может иметь тома?">
+<!ENTITY field.rocit.stop_fines.label "Остановить Причину Штрафа">
+<!ENTITY field.clfm.description.label "Описание LitF">
+<!ENTITY field.aihu.item.label "Единица">
+<!ENTITY class.sitem.label "Единица">
+<!ENTITY field.sin.item.label "Единица">
+<!ENTITY class.acp.label "Единица">
+<!ENTITY field.aout.parent.label "Тип родителя">
+<!ENTITY class.rud.label "Демографические показатели пользователя">
+<!ENTITY field.atev.add_time.label "Добавить время">
+<!ENTITY field.sitem.date_expected.label "Date Expected">
+<!ENTITY field.acqpro.holding_tag.label "Ярлык Хранений">
+<!ENTITY field.acqct.label.label "Этикетка с валютой">
+<!ENTITY class.afscv.label "Fieldset Column Value">
+<!ENTITY field.brsrc.tgt_rsrcs.label "Резервирование целевых ресурсов">
+<!ENTITY field.sunit.dummy_author.label "Ранее каталогизированный фиктивный Автор">
+<!ENTITY field.acp.dummy_author.label "Ранее каталогизированный фиктивный Автор">
+<!ENTITY field.qbv.default_value.label "Default Value">
+<!ENTITY field.cmfpm.default_val.label "Default Value">
+<!ENTITY field.acqlin.id.label "ID примечания POединицы строки">
+<!ENTITY field.ahr.cancel_note.label "Примечание об отмене">
+<!ENTITY field.acqedi.vendacct.label "Vendor Account Number">
+<!ENTITY class.combcirc.label "Комбинированные старые и текущие циркуляции">
+<!ENTITY field.vmp.preserve_spec.label "Preserve Specification">
+<!ENTITY field.mp.goods_payment.label "Детали оплаты товаров">
+<!ENTITY field.mbp.goods_payment.label "Детали оплаты товаров">
+<!ENTITY field.mndp.goods_payment.label "Детали оплаты товаров">
+<!ENTITY class.rmobbol.label "Открытый циркуляционный баланс библиотеки владеющей копией">
+<!ENTITY class.mndp.label "Платежи: Non-ящик Персонал чекодатель">
+<!ENTITY field.brt.id.label "ID Вида  ресурса">
+<!ENTITY field.acqfdeb.fund.label "ID Фонда">
+<!ENTITY field.acqf.id.label "ID Фонда">
+<!ENTITY field.acqfat.fund.label "ID Фонда">
+<!ENTITY field.acqfdt.fund.label "ID Фонда">
+<!ENTITY field.acqfet.fund.label "ID Фонда">
+<!ENTITY field.acqfst.fund.label "ID Фонда">
+<!ENTITY field.acqfcb.fund.label "ID Фонда">
+<!ENTITY field.acqafat.fund.label "ID Фонда">
+<!ENTITY field.acqafet.fund.label "ID Фонда">
+<!ENTITY field.acqafst.fund.label "ID Фонда">
+<!ENTITY field.acqafsb.fund.label "ID Фонда">
+<!ENTITY field.acqafcb.fund.label "ID Фонда">
+<!ENTITY field.acqfsb.fund.label "ID Фонда">
+<!ENTITY field.acqftm.fund.label "ID Фонда">
+<!ENTITY field.acqinv.recv_date.label "Invoice Date">
+<!ENTITY field.sdist.basic_summary.label "Basic Issue Summary">
+<!ENTITY class.sbsum.label "Basic Issue Summary">
+<!ENTITY field.sunit.floating.label "Is Floating">
+<!ENTITY field.acp.floating.label "Is Floating">
+<!ENTITY field.rocit.patron_name.label "Имя пользователя библиотеки">
+<!ENTITY field.aou.phone.label "Номер телефона">
+<!ENTITY class.atc.label "Копия транзитных">
+<!ENTITY field.acqie.purchase_order.label "Заказ на покупку">
+<!ENTITY field.acqii.purchase_order.label "Заказ на покупку">
+<!ENTITY class.acqpo.label "Заказ на покупку">
+<!ENTITY field.acqpon.purchase_order.label "Заказ на покупку">
+<!ENTITY field.acqpoi.purchase_order.label "Заказ на покупку">
+<!ENTITY field.jub.purchase_order.label "Заказ на покупку">
+<!ENTITY field.acqlih.purchase_order.label "Заказ на покупку">
+<!ENTITY field.acqedim.purchase_order.label "Заказ на покупку">
+<!ENTITY field.acrlid.purchase_order.label "Заказ на покупку">
+<!ENTITY class.mfe.label "Combined Field Entry View">
+<!ENTITY field.acqedim.id.label "EDI Message ID">
+<!ENTITY field.acplo.position.label "Позиция">
+<!ENTITY field.srlu.pos.label "Позиция">
+<!ENTITY field.acqdfe.position.label "Позиция">
+<!ENTITY field.sunit.circ_as_type.label "Тип циркуляции (MARC)">
+<!ENTITY field.acp.circ_as_type.label "Тип циркуляции (MARC)">
+<!ENTITY class.acqliad.label "Определение атрибутов единицы строки">
+<!ENTITY field.aws.id.label "ID Рабочей станции">
+<!ENTITY field.au.wsid.label "ID Рабочей станции">
+<!ENTITY field.bram.id.label "ID Карты атрибутов ресурса">
+<!ENTITY field.acqftr.funding_source_credit.label "Funding Source Credit ID">
+<!ENTITY field.acqfy.year_begin.label "Год начинается">
+<!ENTITY field.ahr.usr.label "Пользователь Хранения">
+<!ENTITY field.ssub.record_entry.label "Корзина ввода библиографической записи">
+<!ENTITY field.au.usrgroup.label "Семейная взаимосвязь или другая Группа">
+<!ENTITY field.aout.depth.label "Тип глубины">
+<!ENTITY field.acqpro.email.label "Электронная почта">
+<!ENTITY field.acqpc.email.label "Электронная почта">
+<!ENTITY field.rhcrpb.hold_count.label "Active Holds">
+<!ENTITY class.lasso.label "Org Lasso">
+<!ENTITY field.au.fund_alloc_pcts.label "Процент ассигнований">
+<!ENTITY field.aou.fund_alloc_pcts.label "Процент ассигнований">
+<!ENTITY field.acqfs.fund_alloc_pcts.label "Процент ассигнований">
+<!ENTITY field.combcirc.usr_profile.label "Профиль группа пользователя библиотеки">
+<!ENTITY field.acirc.usr_profile.label "Профиль группа пользователя библиотеки">
+<!ENTITY field.rccc.profile_group.label "Профиль группа пользователя библиотеки">
+<!ENTITY field.rccbs.usr_home_ou_shortname.label "Краткое (Политики) имя домашней библиотеки пользователя">
+<!ENTITY field.acqii.fund.label "Фонд">
+<!ENTITY class.acqf.label "Фонд">
+<!ENTITY field.acqfa.fund.label "Фонд">
+<!ENTITY field.acqpoi.fund.label "Фонд">
+<!ENTITY field.acqlid.fund.label "Фонд">
+<!ENTITY field.aiit.prorate.label "Prorate?">
+<!ENTITY field.acqftm.id.label "ID ввода карты">
+<!ENTITY class.cubn.label "Примечание Корзины Пользователя">
+<!ENTITY field.rccc.owning_lib_name.label "Краткое (Политики) имя библиотеки владеющей копией">
+<!ENTITY class.iatc.label "Внутрисистемный транзит экземпляра">
+<!ENTITY field.acqclp.name.label "Claim Policy Name">
+<!ENTITY class.atclean.label "Триггер очистки событий">
+<!ENTITY field.acqda.debit_amount.label "Сумма вклада">
+<!ENTITY class.acqafcb.label "All Fund Combined Total">
+<!ENTITY field.ateo.error_events.label "Ошибка результатов">
+<!ENTITY field.aun.value.label "Содержание примечания">
+<!ENTITY field.acpn.value.label "Содержание примечания">
+<!ENTITY field.sdist.holding_lib.label "Holding Lib">
+<!ENTITY field.vii.priv_note.label "Личное замечание">
+<!ENTITY field.viiad.priv_note.label "Личное замечание">
+<!ENTITY field.qxp.literal.label "Literal">
+<!ENTITY field.xbool.literal.label "Literal">
+<!ENTITY field.xnum.literal.label "Literal">
+<!ENTITY field.xstr.literal.label "Literal">
+<!ENTITY field.acqpron.value.label "Стоимость голосования">
+<!ENTITY field.acqlin.value.label "Стоимость голосования">
+<!ENTITY field.rsr.summary.label "Резюме (стандартное)">
+<!ENTITY class.xbind.label "Bind Variable Expression">
+<!ENTITY field.sra.bump_type.label "Выпуклый  вид">
+<!ENTITY field.brsrc.curr_rsrcs.label "Резервирование имеющихся ресурсов">
+<!ENTITY class.artc.label "Reservation Transit">
+<!ENTITY field.auoi.usr.label "Пользователь">
+<!ENTITY field.aun.usr.label "Пользователь">
+<!ENTITY field.aupr.usr.label "Пользователь">
+<!ENTITY field.aus.usr.label "Пользователь">
+<!ENTITY field.ausp.usr.label "Пользователь">
+<!ENTITY field.aua.usr.label "Пользователь">
+<!ENTITY field.bresv.usr.label "Пользователь">
+<!ENTITY field.ac.usr.label "Пользователь">
+<!ENTITY field.mg.usr.label "Пользователь">
+<!ENTITY field.mbt.usr.label "Пользователь">
+<!ENTITY field.actscecm.target_usr.label "Пользователь">
+<!ENTITY field.aur.usr.label "Пользователь">
+<!ENTITY field.acqliuad.usr.label "Пользователь">
+<!ENTITY field.rccbs.billing_location_name.label "Название Расположения счетов">
+<!ENTITY field.afs.stored_query.label "Stored Query">
+<!ENTITY class.qsq.label "Stored Query">
+<!ENTITY field.acqft.id.label "ID Фонда тегов">
+<!ENTITY field.cxt.namespace_uri.label "URI  пространства имён">
+<!ENTITY field.acqpoh.audit_time.label "Изменить время">
+<!ENTITY field.acqlih.audit_time.label "Изменить время">
+<!ENTITY field.sra.field.label "Указатель  поля">
+<!ENTITY class.xnum.label "Number Expression">
+<!ENTITY field.aur.pubdate.label "Publication Date">
+<!ENTITY field.au.mailing_address.label "Почтовый адрес">
+<!ENTITY field.aou.mailing_address.label "Почтовый адрес">
+<!ENTITY class.acqdf.label "Формула распределения">
+<!ENTITY field.acqdfa.formula.label "Формула распределения">
+<!ENTITY field.jub.source_label.label "Ярлык источника">
+<!ENTITY field.acqlih.source_label.label "Ярлык источника">
+<!ENTITY field.acqexr.to_currency.label "Для валют">
+<!ENTITY class.acqfscred.label "Кредит  Источнику финансирования">
+<!ENTITY field.vii.location.label "Размещение на полках">
+<!ENTITY field.viiad.location.label "Размещение на полках">
+<!ENTITY field.combcirc.copy_location.label "Размещение на полках">
+<!ENTITY field.acirc.copy_location.label "Размещение на полках">
+<!ENTITY field.sunit.location.label "Размещение на полках">
+<!ENTITY field.acp.location.label "Размещение на полках">
+<!ENTITY field.acqlid.location.label "Размещение на полках">
+<!ENTITY field.rccc.shelving_location.label "Размещение на полках">
+<!ENTITY field.chmm.pickup_ou.label "Библиотека подбора">
+<!ENTITY field.bresv.pickup_lib.label "Библиотека подбора">
+<!ENTITY field.ahr.pickup_lib.label "Библиотека подбора">
+<!ENTITY field.aur.pickup_lib.label "Библиотека подбора">
+<!ENTITY field.bre.keyword_field_entries.label "Индексирование записей поля ключевого слова">
+<!ENTITY class.rxbt.label "Итоги выписанных счетов  за транзакцию">
+<!ENTITY field.au.home_ou.label "Домашняя библиотека">
+<!ENTITY field.stgu.home_ou.label "Домашняя библиотека">
+<!ENTITY field.cit.name.label "Идентификационное имя">
+<!ENTITY field.sunit.cost.label "Сервер">
+<!ENTITY field.acp.cost.label "Сервер">
+<!ENTITY field.mbt.circulation.label "Циркуляция ссылки счетов">
+<!ENTITY field.atc.copy_status.label "Статус копии до транзита">
+<!ENTITY field.iatc.copy_status.label "Статус копии до транзита">
+<!ENTITY field.ccmm.copy_owning_lib.label "Библиотека имеющая копию">
+<!ENTITY field.qsq.offset_count.label "OFFSET count">
+<!ENTITY field.aufhl.count.label "Подсчёт циклов">
+<!ENTITY field.aufhil.count.label "Подсчёт циклов">
+<!ENTITY field.aufhol.count.label "Подсчёт циклов">
+<!ENTITY field.ahn.notify_staff.label "Персонал уведомлен">
+<!ENTITY field.siss.date_published.label "Date Published">
+<!ENTITY field.clfm.value.label "Имя LitF">
+<!ENTITY field.ahr.shelf_expire_time.label "Истечение полочного времени">
+<!ENTITY field.ateo.is_error.label "Есть ошибка">
+<!ENTITY field.circ.desk_renewal.label "Обновление стола">
+<!ENTITY field.combcirc.desk_renewal.label "Обновление стола">
+<!ENTITY field.acirc.desk_renewal.label "Обновление стола">
+<!ENTITY field.rodcirc.desk_renewal.label "Обновление стола">
+<!ENTITY field.acqpro.name.label "Имя провайдера">
+<!ENTITY field.crahp.age.label "Возраст единицы">
+<!ENTITY field.au.ident_type.label "Основной вид идентификации">
+<!ENTITY field.stgu.ident_type.label "Основной вид идентификации">
+<!ENTITY field.mbts.xact_start.label "Время начала транзакции">
+<!ENTITY field.mbtslv.xact_start.label "Время начала транзакции">
+<!ENTITY field.cust.fm_class.label "Fielmapper Class">
+<!ENTITY field.aua.within_city_limits.label "В черте города?">
+<!ENTITY field.sbsum.textual_holdings.label "Textual Holdings">
+<!ENTITY field.sssum.textual_holdings.label "Textual Holdings">
+<!ENTITY field.sisum.textual_holdings.label "Textual Holdings">
+<!ENTITY field.rhrr.hold_type.label "Тип запроса Хранения">
+<!ENTITY field.srlu.department.label "Department">
+<!ENTITY field.acqexr.ratio.label "Коэффициент">
+<!ENTITY field.atenv.event_def.label "Определение событий">
+<!ENTITY field.atev.event_def.label "Определение событий">
+<!ENTITY field.atevparam.event_def.label "Определение событий">
+<!ENTITY field.qxp.right_operand.label "Right Operand">
+<!ENTITY field.xop.right_operand.label "Right Operand">
+<!ENTITY class.rssr.label "Извлечение простой записи">
+<!ENTITY class.acqdfa.label "Distribution Formula Application">
+<!ENTITY field.acpn.create_date.label "Создание примечания  Дата/Время">
+<!ENTITY field.atev.update_process.label "Обновить процесс">
+<!ENTITY class.mbp.label "Платежи: Brick-and-mortar">
+<!ENTITY field.rccc.dewey.label "Дьюи/код шифра хранения документа">
+<!ENTITY field.ath.passive.label "Пассивный">
+<!ENTITY field.aout.org_units.label "Организационные единицы">
+<!ENTITY field.jub.selector.label "Выбор пользователя">
+<!ENTITY field.ccm.magnetic_media.label "Магнитный носитель (данных)">
+<!ENTITY class.acqpl.label "Selection List">
+<!ENTITY field.jub.picklist.label "Selection List">
+<!ENTITY field.acqlih.picklist.label "Selection List">
+<!ENTITY field.ssub.issuances.label "Выпуск">
+<!ENTITY field.jub.item_count.label "Подсчёт единицы">
+<!ENTITY field.acqdfe.item_count.label "Подсчёт единицы">
+<!ENTITY field.acqlisum.item_count.label "Подсчёт единицы">
+<!ENTITY field.ahr.target.label "ID Целевого объекта">
+<!ENTITY field.atev.run_time.label "Время работы">
+<!ENTITY field.acqftr.src_amount.label "Source Amount">
+<!ENTITY field.asvq.responses.label "Отклики">
+<!ENTITY field.asv.responses.label "Отклики">
+<!ENTITY field.aur.publisher.label "Publisher">
+<!ENTITY field.qxp.negate.label "Negate?">
+<!ENTITY field.xbet.negate.label "Negate?">
+<!ENTITY field.xbool.negate.label "Negate?">
+<!ENTITY field.xcase.negate.label "Negate?">
+<!ENTITY field.xcast.negate.label "Negate?">
+<!ENTITY field.xcol.negate.label "Negate?">
+<!ENTITY field.xex.negate.label "Negate?">
+<!ENTITY field.xfunc.negate.label "Negate?">
+<!ENTITY field.xin.negate.label "Negate?">
+<!ENTITY field.xisnull.negate.label "Negate?">
+<!ENTITY field.xnull.negate.label "Negate?">
+<!ENTITY field.xop.negate.label "Negate?">
+<!ENTITY field.xser.negate.label "Negate?">
+<!ENTITY class.csg.label "Settings Group">
+<!ENTITY field.cust.grp.label "Settings Group">
+<!ENTITY field.auri.call_numbers.label "Шифры хранения документов">
+<!ENTITY field.bre.call_numbers.label "Шифры хранения документов">
+<!ENTITY field.mp.payment_ts.label "Дата/время платежа">
+<!ENTITY field.mbp.payment_ts.label "Дата/время платежа">
+<!ENTITY field.mndp.payment_ts.label "Дата/время платежа">
+<!ENTITY field.mdp.payment_ts.label "Дата/время платежа">
+<!ENTITY field.aupr.request_time.label "Время запроса">
+<!ENTITY field.bresv.request_time.label "Время запроса">
+<!ENTITY field.acqf.balance_warning_percent.label "Balance Warning Percent">
+<!ENTITY field.aur.max_fee.label "Max Acceptable Fee">
+<!ENTITY class.sstr.label "Stream">
+<!ENTITY field.srlu.stream.label "Stream">
+<!ENTITY field.sitem.stream.label "Stream">
+<!ENTITY field.mrd.control_type.label "Ctrl">
+<!ENTITY field.qxp.cast_type.label "Cast Type">
+<!ENTITY field.xcast.cast_type.label "Cast Type">
+<!ENTITY class.ancihu.label "Не каталогизированно для местного использования">
+<!ENTITY field.sdist.bind_unit_template.label "Bind Unit Template">
+<!ENTITY field.cin.param_count.label "Подсчёт требуемых параметров">
+<!ENTITY field.sbsum.show_generated.label "Show Generated?">
+<!ENTITY field.sssum.show_generated.label "Show Generated?">
+<!ENTITY field.sisum.show_generated.label "Show Generated?">
+<!ENTITY field.qxp.id.label "Expression ID">
+<!ENTITY field.xbet.id.label "Expression ID">
+<!ENTITY field.xbind.id.label "Expression ID">
+<!ENTITY field.xbool.id.label "Expression ID">
+<!ENTITY field.xcase.id.label "Expression ID">
+<!ENTITY field.xcast.id.label "Expression ID">
+<!ENTITY field.xcol.id.label "Expression ID">
+<!ENTITY field.xex.id.label "Expression ID">
+<!ENTITY field.xfunc.id.label "Expression ID">
+<!ENTITY field.xin.id.label "Expression ID">
+<!ENTITY field.xisnull.id.label "Expression ID">
+<!ENTITY field.xnull.id.label "Expression ID">
+<!ENTITY field.xnum.id.label "Expression ID">
+<!ENTITY field.xop.id.label "Expression ID">
+<!ENTITY field.xser.id.label "Expression ID">
+<!ENTITY field.xstr.id.label "Expression ID">
+<!ENTITY field.xsubq.id.label "Expression ID">
+<!ENTITY field.mbts.total_owed.label "Всего позаимствовано">
+<!ENTITY field.mbtslv.total_owed.label "Всего позаимствовано">
+<!ENTITY field.mbts.last_payment_ts.label "Отметка времени последнего платежа">
+<!ENTITY field.mbtslv.last_payment_ts.label "Отметка времени последнего платежа">
+<!ENTITY class.rsr.label "Простая запись">
+<!ENTITY class.rmocbbcol.label "Открытое обращение счетов библиотекой, выдающей документы на дом  и собственной библиотекой">
+<!ENTITY field.asvr.answer.label "Ответ">
+<!ENTITY class.xcase.label "Case Expression">
+<!ENTITY field.vii.status.label "Статус">
+<!ENTITY field.viiad.status.label "Статус">
+<!ENTITY field.sitem.status.label "Статус">
+<!ENTITY field.ahr.status.label "Статус">
+<!ENTITY field.act.status.label "Статус">
+<!ENTITY field.acqedim.status.label "Статус">
+<!ENTITY field.afs.status.label "Статус">
+<!ENTITY field.rocit.status.label "Статус">
+<!ENTITY field.rocit.patron_barcode.label "Штрих-код клиента">
+<!ENTITY field.acqftr.dest_amount.label "Destination Amount">
+<!ENTITY field.cmfinm.field.label "Metabib поле">
+<!ENTITY class.cmf.label "Metabib поле">
+<!ENTITY class.mbts.label "Резюме оплачиваемой транзакции">
+<!ENTITY field.acqfscred.id.label "ID кредита">
+<!ENTITY field.mrd.item_lang.label "Язык">
+<!ENTITY field.cblvl.value.label "Библ.  уровень">
+<!ENTITY field.mrd.id.label "ID дескриптора">
+<!ENTITY class.cbrebt.label "Вид библиографической записи в Корзине">
+<!ENTITY class.vibtf.label "Импортировать/покрыть поля для удаления">
+<!ENTITY field.viiad.id.label "ID пояснений">
+<!ENTITY field.atenv.id.label "ID пояснений">
+<!ENTITY field.atevdef.id.label "ID пояснений">
+<!ENTITY field.acqliad.id.label "ID пояснений">
+<!ENTITY field.acqlimad.id.label "ID пояснений">
+<!ENTITY field.acqligad.id.label "ID пояснений">
+<!ENTITY field.acqliuad.id.label "ID пояснений">
+<!ENTITY field.acqlipad.id.label "ID пояснений">
+<!ENTITY field.acqlilad.id.label "ID пояснений">
+<!ENTITY field.qsf.id.label "Subfield ID">
+<!ENTITY field.rmsr.biblio_record.label "Полная библиографическая запись">
+<!ENTITY field.rssr.biblio_record.label "Полная библиографическая запись">
+<!ENTITY field.rsr.biblio_record.label "Полная библиографическая запись">
+<!ENTITY field.vqbr.marc.label "MARC">
+<!ENTITY field.vqar.marc.label "MARC">
+<!ENTITY field.sre.marc.label "MARC">
+<!ENTITY field.jub.marc.label "MARC">
+<!ENTITY field.acqlih.marc.label "MARC">
+<!ENTITY field.aou.resv_requests.label "Просьба  бронирования">
+<!ENTITY class.aihu.label "Для внутреннего пользования">
+<!ENTITY class.ccmcmtm.label "Матрица  циркуляции Субтест модификатора циркуляции Установка модификатора циркуляции">
+<!ENTITY field.qsq.limit_count.label "LIMIT count">
+<!ENTITY field.aou.ill_address.label "Адрес получения МБА">
+<!ENTITY class.cbrebi.label "Bвод библиографической записи Единицы Корзины">
+<!ENTITY class.atcol.label "Коллектор окружающей среды триггера">
+<!ENTITY field.rmsr.author.label "Автор (стандартный)">
+<!ENTITY field.rssr.author.label "Автор (стандартный)">
+<!ENTITY field.rsr.author.label "Автор (стандартный)">
+<!ENTITY field.vii.holdable.label "Сохраняющий">
+<!ENTITY field.viiad.holdable.label "Сохраняющий">
+<!ENTITY field.circ.stop_fines_time.label "Дата/время прекращения штрафа">
+<!ENTITY field.combcirc.stop_fines_time.label "Дата/время прекращения штрафа">
+<!ENTITY field.acirc.stop_fines_time.label "Дата/время прекращения штрафа">
+<!ENTITY field.rodcirc.stop_fines_time.label "Дата/время прекращения штрафа">
+<!ENTITY field.acn.copies.label "Копии">
+<!ENTITY field.acpl.copies.label "Копии">
+<!ENTITY field.ssr.excluded.label "Забракованный">
+<!ENTITY class.acqfap.label "Процент ассигнования">
+<!ENTITY class.aou.label "Подразделение организации">
+<!ENTITY field.ancc.circ_time.label "Дата/Время циркуляции">
+<!ENTITY field.rccc.xact_start.label "Дата/Время циркуляции">
+<!ENTITY class.msefe.label "Поле серии">
+<!ENTITY field.ergbhu.id.label "ID библиографии">
+<!ENTITY field.rmsr.issn.label "ISSN">
+<!ENTITY field.rssr.issn.label "ISSN">
+<!ENTITY field.rsr.issn.label "ISSN">
+<!ENTITY field.ahr.selection_depth.label "Глубина  отбора единицы">
+<!ENTITY field.vii.copy_number.label "Число копий">
+<!ENTITY field.viiad.copy_number.label "Число копий">
+<!ENTITY class.bresv.label "Резервирование">
+<!ENTITY field.bravm.reservation.label "Резервирование">
+<!ENTITY field.rxpt.unvoided.label "Аннулировать выплаченную сумму">
+<!ENTITY field.acqfdt.amount.label "Общая сумма Дебета">
+<!ENTITY field.cam.code.label "Код целевой группы">
+<!ENTITY field.rlcd.last_delete_date.label "Дата/Время получения">
+<!ENTITY class.atevdef.label "Описание инициирования события">
+<!ENTITY field.cbt.default_price.label "Стандартная цена">
+<!ENTITY field.amtr.fail_part.label "Отказ элемента">
+<!ENTITY class.xin.label "In Expression">
+<!ENTITY field.acqie.billed_per_item.label "Billed Cost per Item">
+<!ENTITY field.jub.claim_policy.label "Claim Policy">
+<!ENTITY field.acqlih.claim_policy.label "Claim Policy">
+<!ENTITY class.acqclp.label "Claim Policy">
+<!ENTITY class.acqpron.label "Имя провайдера">
+<!ENTITY field.auoi.org_unit.label "Разрешенная организационная единица">
+<!ENTITY class.xcast.label "Cast Expression">
+<!ENTITY field.qfr.on_clause.label "On Clause ID">
+<!ENTITY field.circ.duration.label "Продолжительность циркуляции">
+<!ENTITY field.combcirc.duration.label "Продолжительность циркуляции">
+<!ENTITY field.acirc.duration.label "Продолжительность циркуляции">
+<!ENTITY field.cnct.circ_duration.label "Продолжительность циркуляции">
+<!ENTITY field.rodcirc.duration.label "Продолжительность циркуляции">
+<!ENTITY class.xfunc.label "Function Expression">
+<!ENTITY field.ahrn.body.label "Содержимое">
+<!ENTITY field.acqft.name.label "Имя фонда в тегах">
+<!ENTITY class.ard.label "Дескриптор авторитетной записи">
+<!ENTITY class.rs.label "Расписание">
+<!ENTITY field.ccmm.recurring_fine_rule.label "Повторяющаяся норма штрафа">
+<!ENTITY field.circ.recurring_fine_rule.label "Повторяющаяся норма штрафа">
+<!ENTITY field.combcirc.recurring_fine_rule.label "Повторяющаяся норма штрафа">
+<!ENTITY field.acirc.recurring_fine_rule.label "Повторяющаяся норма штрафа">
+<!ENTITY class.crrf.label "Повторяющаяся норма штрафа">
+<!ENTITY field.rodcirc.recurring_fine_rule.label "Повторяющаяся норма штрафа">
+<!ENTITY field.atev.complete_time.label "Полное время">
+<!ENTITY class.acqda.label "Debit Attribution">
+<!ENTITY class.ausp.label "Постоянный штраф пользователя">
+<!ENTITY field.acqexr.id.label "ID валютного курса">
+<!ENTITY class.vqbra.label "Атрибут очередной библиографической записи">
+<!ENTITY field.aun.create_date.label "Дата/время создания">
+<!ENTITY field.sunit.create_date.label "Дата/время создания">
+<!ENTITY field.acp.create_date.label "Дата/время создания">
+<!ENTITY class.vii.label "ID импортированной единицы">
+<!ENTITY field.atevparam.param.label "Название параметра">
+<!ENTITY field.rocit.due_date.label "Дата возврата (материалов)">
+<!ENTITY field.acqfa.allocator.label "Выделенный пользователь">
+<!ENTITY field.acqfap.allocator.label "Выделенный пользователь">
+<!ENTITY class.acqfst.label "Общий расход из фонда">
+<!ENTITY field.afs.classname.label "Class Name">
+<!ENTITY field.qfr.class_name.label "Class Name">
+<!ENTITY class.pgpt.label "Граница набора штрафов">
+<!ENTITY class.vam.label "Совпадение Авторитетной записи в очереди">
+<!ENTITY field.qsq.having_clause.label "HAVING Clause">
+<!ENTITY field.qfs.function_name.label "Function Name">
+<!ENTITY class.actsc.label "Статистическая категория пользователя">
+<!ENTITY class.auss.label "User Saved Search">
+<!ENTITY field.au.suffix.label "Суффикс/Заглавие">
+<!ENTITY field.chddv.ceiling_date.label "Ceiling Date">
+<!ENTITY field.chmm.max_holds.label "Максимум Хранений">
+<!ENTITY class.ac.label "Читательский билет">
+<!ENTITY field.aihu.staff.label "Регистрация персонала">
+<!ENTITY field.ancihu.staff.label "Регистрация персонала">
+<!ENTITY field.acplo.id.label "ID очерёдности местоположения">
+<!ENTITY field.aou.billing_address.label "Адрес для выставления счета">
+<!ENTITY field.atc.source_send_time.label "Дата/время отправки">
+<!ENTITY field.artc.source_send_time.label "Дата/время отправки">
+<!ENTITY field.ahtc.source_send_time.label "Дата/время отправки">
+<!ENTITY field.iatc.source_send_time.label "Дата/время отправки">
+<!ENTITY field.aurt.label.label "Type Label">
+<!ENTITY class.mg.label "Продовольственная сделка">
+<!ENTITY field.cmsa.alias.label "Alias (RegExp)">
+<!ENTITY field.aur.phone_notify.label "Phone Notify">
+<!ENTITY class.cmc.label "Metabib Class">
+<!ENTITY field.qseq.child_query.label "Child Query">
+<!ENTITY field.acqinv.shipper.label "Shipper">
+<!ENTITY field.acqedi.vendcode.label "Vendor Assigned Code">
+<!ENTITY field.sdist.supplement_summary.label "Резюме дополнительного издания">
+<!ENTITY class.sssum.label "Резюме дополнительного издания">
+<!ENTITY class.rmobbcol.label "Открытый циркуляционный баланс библиотеки, выдающей документы на дом  и  собственной библиотеки">
+<!ENTITY field.ahr.notify_time.label "Сообщать время">
+<!ENTITY field.afs.id.label "Fieldset ID">
+<!ENTITY field.afscv.fieldset.label "Fieldset ID">
+<!ENTITY class.ahr.label "Запрос Хранения">
+<!ENTITY field.bre.notes.label "Примечания не MARC записей">
+<!ENTITY field.acqpro.currency_type.label "Валюта">
+<!ENTITY field.acqfs.currency_type.label "Валюта">
+<!ENTITY class.rmocbbol.label "Открытое обращение счетов  собственной библиотеки">
+<!ENTITY field.acqfap.fund_code.label "Законы фонда">
+<!ENTITY class.atevparam.label "Коэффициент инициированного события">
+<!ENTITY field.bre.deleted.label "Удалены?">
+<!ENTITY class.accs.label "Circulation Chain Summary">
+<!ENTITY field.sunit.circulate.label "Может циркулировать">
+<!ENTITY field.acp.circulate.label "Может циркулировать">
+<!ENTITY class.acqlia.label "Атрибуты строки">
+<!ENTITY field.ccmm.grp.label "Группа полномочий">
+<!ENTITY class.pgt.label "Группа полномочий">
+<!ENTITY field.ahr.id.label "ID хранения">
+<!ENTITY field.ahrn.hold.label "ID хранения">
+<!ENTITY field.rhrr.id.label "ID хранения">
+<!ENTITY field.aufhl.hold.label "ID хранения">
+<!ENTITY field.aufhml.hold.label "ID хранения">
+<!ENTITY field.aufhil.hold.label "ID хранения">
+<!ENTITY field.aufhmxl.hold.label "ID хранения">
+<!ENTITY field.aufhol.hold.label "ID хранения">
+<!ENTITY field.mbts.last_billing_ts.label "Временная отметка последнего  счета">
+<!ENTITY field.mbtslv.last_billing_ts.label "Временная отметка последнего  счета">
+<!ENTITY class.xnull.label "Null Expression">
+<!ENTITY field.rocit.dewey_block_tens.label "Десятки Дьюи">
+<!ENTITY field.acqlia.lineitem.label "Строка единиц">
+<!ENTITY field.acqdfa.lineitem.label "Строка единиц">
+<!ENTITY field.acrlid.lineitem.label "Строка единиц">
+<!ENTITY field.acqlisum.lineitem.label "Строка единиц">
+<!ENTITY field.bresv.cancel_time.label "Отменить время">
+<!ENTITY field.aout.children.label "Второстепенные типы">
+<!ENTITY field.bre.fixed_fields.label "Фиксированное описание  поля">
+<!ENTITY field.chmm.ref_flag.label "Ссылка">
+<!ENTITY field.ccmm.ref_flag.label "Ссылка">
+<!ENTITY field.act.ref.label "Ссылка">
+<!ENTITY field.rsr.external_uri.label "Внешний список URI (стандартный)">
+<!ENTITY field.vii.owning_lib.label "Библиотека собственник">
+<!ENTITY field.viiad.owning_lib.label "Библиотека собственник">
+<!ENTITY field.atevdef.owner.label "Библиотека собственник">
+<!ENTITY field.aws.owning_lib.label "Библиотека собственник">
+<!ENTITY field.chmm.item_owning_ou.label "Библиотека собственник">
+<!ENTITY field.acn.owning_lib.label "Библиотека собственник">
+<!ENTITY field.brt.owner.label "Библиотека собственник">
+<!ENTITY field.brsrc.owner.label "Библиотека собственник">
+<!ENTITY field.bra.owner.label "Библиотека собственник">
+<!ENTITY field.brav.owner.label "Библиотека собственник">
+<!ENTITY field.ssub.owning_lib.label "Библиотека собственник">
+<!ENTITY field.asv.owner.label "Библиотека собственник">
+<!ENTITY field.asc.owner.label "Библиотека собственник">
+<!ENTITY field.actsc.owner.label "Библиотека собственник">
+<!ENTITY field.cnct.owning_lib.label "Библиотека собственник">
+<!ENTITY field.acqliat.owning_lib.label "Библиотека собственник">
+<!ENTITY field.acqlid.owning_lib.label "Библиотека собственник">
+<!ENTITY field.acqdfe.owning_lib.label "Библиотека собственник">
+<!ENTITY field.afs.owning_lib.label "Библиотека собственник">
+<!ENTITY field.rmocbbol.owning_lib.label "Библиотека собственник">
+<!ENTITY field.rmobbol.owning_lib.label "Библиотека собственник">
+<!ENTITY field.rmocbbcol.owning_lib.label "Библиотека собственник">
+<!ENTITY field.rmobbcol.owning_lib.label "Библиотека собственник">
+<!ENTITY field.rmocbbhol.owning_lib.label "Библиотека собственник">
+<!ENTITY field.rmobbhol.owning_lib.label "Библиотека собственник">
+<!ENTITY field.rocit.circ_lib_name.label "Имя  циркулярной библиотеки">
+<!ENTITY field.actsc.usr_summary.label "Резюме пользователя">
+<!ENTITY class.mus.label "Резюме пользователя">
+<!ENTITY field.mbtslv.billing_location.label "Расположение счетов">
+<!ENTITY field.mg.billing_location.label "Расположение счетов">
+<!ENTITY field.circ.circ_staff.label "Персонал отдела абонемента в библиотеке">
+<!ENTITY field.combcirc.circ_staff.label "Персонал отдела абонемента в библиотеке">
+<!ENTITY field.acirc.circ_staff.label "Персонал отдела абонемента в библиотеке">
+<!ENTITY field.ancc.staff.label "Персонал отдела абонемента в библиотеке">
+<!ENTITY field.rodcirc.circ_staff.label "Персонал отдела абонемента в библиотеке">
+<!ENTITY class.asce.label "Ввод статистической категории единицы">
+<!ENTITY field.mg.billings.label "Себестоимость товара, на который складом выписан счет">
+<!ENTITY field.aun.creator.label "Создающий персонал">
+<!ENTITY field.acqlid.recv_time.label "Фактическая дата получения">
+<!ENTITY field.acpl.hold_verify.label "Требуется проверка захваченного хранения">
+<!ENTITY field.rccbs.last_payment_ts.label "Дата/время последнего платежа">
+<!ENTITY class.ccbn.label "Примечание Корзины копий">
+<!ENTITY field.sunit.copy_number.label "Номер экземпляра (дублета) по тому">
+<!ENTITY field.acp.copy_number.label "Номер экземпляра (дублета) по тому">
+<!ENTITY field.mbts.last_payment_type.label "Последний тип оплаты">
+<!ENTITY field.mbtslv.last_payment_type.label "Последний тип оплаты">
+<!ENTITY field.rccbs.last_payment_type.label "Последний тип оплаты">
+<!ENTITY field.brsrc.id.label "ID ресурса">
+<!ENTITY class.stgu.label "Шаг пользователя">
+<!ENTITY field.rmsr.isbn.label "Международный стандартный номер книги, ИСБН">
+<!ENTITY field.rssr.isbn.label "Международный стандартный номер книги, ИСБН">
+<!ENTITY field.rsr.isbn.label "Международный стандартный номер книги, ИСБН">
+<!ENTITY field.scap.pattern_code.label "Pattern Code">
+<!ENTITY field.au.first_given_name.label "Имя">
+<!ENTITY field.stgu.first_given_name.label "Имя">
+<!ENTITY field.acqpa.post_code.label "Почтовый индекс">
+<!ENTITY class.cam.label "Список группы">
+<!ENTITY field.vii.barcode.label "Штрих-код">
+<!ENTITY field.viiad.barcode.label "Штрих-код">
+<!ENTITY field.brsrc.barcode.label "Штрих-код">
+<!ENTITY field.sunit.barcode.label "Штрих-код">
+<!ENTITY field.ac.barcode.label "Штрих-код">
+<!ENTITY field.acp.barcode.label "Штрих-код">
+<!ENTITY field.acqlid.barcode.label "Штрих-код">
+<!ENTITY field.stgc.barcode.label "Штрих-код">
+<!ENTITY field.rocit.barcode.label "Штрих-код">
+<!ENTITY field.qfs.id.label "Function Signature ID">
+<!ENTITY field.rccc.dewey_block_tens.label "Блок Дьюи - Десятки">
+<!ENTITY field.acqfs.credits.label "Кредиты">
+<!ENTITY field.au.open_billable_transactions_summary.label "Открытые Платежные Сделки">
+<!ENTITY field.sunit.ref.label "Cсылка">
+<!ENTITY field.acp.ref.label "Cсылка">
+<!ENTITY field.bresv.target_resource_type.label "Целевой тип ресурса">
+<!ENTITY field.pgt.parent.label "Родительская группа">
+<!ENTITY class.acqscle.label "Serial Claim Event">
+<!ENTITY field.acqofscred.id.label "Ordered Fund Src ID">
+<!ENTITY field.vmp.strip_spec.label "Remove Specification">
+<!ENTITY field.acqlid.id.label "ID элемента единицы">
+<!ENTITY field.acqpro.id.label "ID провайдера">
+<!ENTITY class.qsi.label "Select Item">
+<!ENTITY field.cmrtm.type_val.label "Type Value">
+<!ENTITY class.aoucd.label "Закрытые даты">
+<!ENTITY field.aou.closed_dates.label "Закрытые даты">
+<!ENTITY field.actsce.value.label "Входящая стоимость">
+<!ENTITY field.rsce1.value.label "Входящая стоимость">
+<!ENTITY field.rsce2.value.label "Входящая стоимость">
+<!ENTITY class.cin.label "Нормализатор Индексации">
+<!ENTITY field.combcirc.copy_circ_lib.label "Копия библиотеки, выдающей книги на дом">
+<!ENTITY field.acirc.copy_circ_lib.label "Копия библиотеки, выдающей книги на дом">
+<!ENTITY field.ssr.checked.label "Проверенный">
+<!ENTITY field.acqclt.id.label "Claim Type ID">
+<!ENTITY field.vbq.item_attr_def.label "Item Import Attribute Definition">
+<!ENTITY field.acp.id.label "Копия ID">
+<!ENTITY field.erfcc.id.label "Копия ID">
+<!ENTITY field.circbyyr.copy.label "Копия ID">
+<!ENTITY field.rocit.id.label "Копия ID">
+<!ENTITY field.atev.target.label "Опознавание цели">
+<!ENTITY field.aur.author.label "Автор">
+<!ENTITY field.acqii.author.label "Автор">
+<!ENTITY field.acqpoi.author.label "Автор">
+<!ENTITY field.rocit.author.label "Автор">
+<!ENTITY field.ccmcmt.id.label "ID испытаний">
+<!ENTITY class.rmsr.label "Быстрое извлечение простой записи">
+<!ENTITY field.ahr.cancel_cause.label "Причина отмены">
+<!ENTITY field.viiad.keep.label "Хранить">
+<!ENTITY field.bre.tcn_source.label "Источник TCN">
+<!ENTITY field.rmsr.tcn_source.label "Источник TCN">
+<!ENTITY field.rssr.tcn_source.label "Источник TCN">
+<!ENTITY field.rsr.tcn_source.label "Источник TCN">
+<!ENTITY field.aur.mentioned.label "Mentioned In">
+<!ENTITY field.artc.dest.label "Библиотека назначения">
+<!ENTITY field.ahtc.dest.label "Библиотека назначения">
+<!ENTITY field.acqcle.id.label "Claim Event ID">
+<!ENTITY field.acqscle.id.label "Claim Event ID">
+<!ENTITY field.atevdef.group_field.label "Группа обработки контекста поля">
+<!ENTITY field.rocit.pubdate.label "Дата издания">
+<!ENTITY field.rccc.copy_id.label "Скопировать ссылку">
+<!ENTITY class.acqphsm.label "Провайдер Карты подполя библиотечного фонда">
+<!ENTITY field.ssub.distributions.label "Distributions">
+<!ENTITY field.ccmcmtm.circ_mod_test.label "ID Субтестов модификатора циркуляции">
+<!ENTITY field.asvq.question.label "Вопрос">
+<!ENTITY field.asvr.question.label "Вопрос">
+<!ENTITY field.asva.question.label "Вопрос">
+<!ENTITY class.acqfet.label "Препятствия общего фонда">
+<!ENTITY field.atc.source.label "Источник">
+<!ENTITY field.sre.source.label "Источник">
+<!ENTITY field.iatc.source.label "Источник">
+<!ENTITY class.msfe.label "Ввод поля тематического понятия">
+<!ENTITY field.sdist.unit_label_prefix.label "Unit Label Prefix">
+<!ENTITY field.circ.opac_renewal.label "Обновление OPAC">
+<!ENTITY field.combcirc.opac_renewal.label "Обновление OPAC">
+<!ENTITY field.acirc.opac_renewal.label "Обновление OPAC">
+<!ENTITY field.rodcirc.opac_renewal.label "Обновление OPAC">
+<!ENTITY field.rccbs.barcode.label "Штрих-код пользователя">
+<!ENTITY field.acpl.label_prefix.label "Label Prefix">
+<!ENTITY field.acqpro.default_claim_policy.label "Default Claim Policy">
+<!ENTITY field.qsi.id.label "Select Item ID">
+<!ENTITY field.acqie.inv_item_count.label "Invoice Item Count">
+<!ENTITY class.ccpbt.label "Тип Корзины Копий">
+<!ENTITY field.scap.subscription.label "Подписка">
+<!ENTITY class.ssub.label "Подписка">
+<!ENTITY field.ssubn.subscription.label "Подписка">
+<!ENTITY field.sdist.subscription.label "Подписка">
+<!ENTITY field.siss.subscription.label "Подписка">
+<!ENTITY field.afs.name.label "Fieldset Name">
+<!ENTITY field.mrd.bib_level.label "BLvl">
+<!ENTITY field.acqda.id.label "Debit Attribution ID">
+<!ENTITY field.ahr.request_time.label "Дата/Время запроса">
+<!ENTITY field.aur.request_date.label "Дата/Время запроса">
+<!ENTITY class.acqliuad.label "Определение атрибутов пользователя единицы строки">
+<!ENTITY field.rccbs.xact_finish.label "Дата/Время окончания  транзакции">
+<!ENTITY class.aoc.label "Открытая циркуляция">
+<!ENTITY field.rmsr.title.label "Основное заглавие (стандартное)">
+<!ENTITY field.rssr.title.label "Основное заглавие (стандартное)">
+<!ENTITY field.rsr.title.label "Основное заглавие (стандартное)">
+<!ENTITY field.aihu.use_time.label "Использовать Дату/Время">
+<!ENTITY field.ancihu.use_time.label "Использовать Дату/Время">
+<!ENTITY field.qcb.result.label "Result">
+<!ENTITY field.mcrp.accepting_usr.label "Приём штатного сотрудника">
+<!ENTITY field.mwp.accepting_usr.label "Приём штатного сотрудника">
+<!ENTITY field.mgp.accepting_usr.label "Приём штатного сотрудника">
+<!ENTITY field.mckp.accepting_usr.label "Приём штатного сотрудника">
+<!ENTITY class.rodcirc.label "Просроченная циркуляция">
+<!ENTITY field.bre.active.label "Активен?">
+<!ENTITY field.ausp.stop_date.label "Остановка даты">
+<!ENTITY field.aua.pending.label "В ожидании">
+<!ENTITY field.acqftr.src_fund.label "Source Fund">
+<!ENTITY class.au.label "Пользователь ILS">
+<!ENTITY field.acqpro.phone.label "Телефон">
+<!ENTITY field.acqpc.phone.label "Телефон">
+<!ENTITY field.acqedim.create_time.label "Time Created">
+<!ENTITY field.bre.quality.label "Общее качество">
+<!ENTITY field.auri.active.label "Активный">
+<!ENTITY field.au.active.label "Активный">
+<!ENTITY field.sra.active.label "Активный">
+<!ENTITY field.acqpro.active.label "Активный">
+<!ENTITY field.acqf.active.label "Активный">
+<!ENTITY field.bram.value.label "Значение атрибута">
+<!ENTITY field.circbyyr.count.label "Подсчёт">
+<!ENTITY field.ahrn.staff.label "Персонал?">
+<!ENTITY field.mbts.total_paid.label "Общая сумма выплат">
+<!ENTITY field.mbtslv.total_paid.label "Общая сумма выплат">
+<!ENTITY field.rccbs.total_paid.label "Общая сумма выплат">
+<!ENTITY class.ccb.label "Корзина Копий">
+<!ENTITY field.vmp.add_spec.label "Add Specification">
+<!ENTITY field.aur.email_notify.label "Email Notify">
+<!ENTITY field.mcrp.payment.label "Ссылка оплаты">
+<!ENTITY field.mwp.payment.label "Ссылка оплаты">
+<!ENTITY field.mgp.payment.label "Ссылка оплаты">
+<!ENTITY field.mckp.payment.label "Ссылка оплаты">
+<!ENTITY field.acpl.holdable.label "Сохраняющий?">
+<!ENTITY field.rccc.patron_city.label "Город  Пользователя библиотеки">
+<!ENTITY class.aur.label "User Purchase Request">
+<!ENTITY field.asva.responses.label "Отвечать используя этот ответ">
+<!ENTITY class.xisnull.label "IS NULL Expression">
+<!ENTITY field.ssub.expected_date_offset.label "Expected Date Offset">
+<!ENTITY field.rmsr.publisher.label "Издатель (стандартный)">
+<!ENTITY field.rssr.publisher.label "Издатель (стандартный)">
+<!ENTITY field.rsr.publisher.label "Издатель (стандартный)">
+<!ENTITY field.acqpro.edi_default.label "EDI Default">
+<!ENTITY field.mb.id.label "ID счетов">
+<!ENTITY field.acqedi.id.label "EDI Account ID">
+<!ENTITY field.acqpoh.audit_id.label "Audit ID">
+<!ENTITY field.acqlih.audit_id.label "Audit ID">
+<!ENTITY field.scap.end_date.label "Дата окончания">
+<!ENTITY field.ssub.end_date.label "Дата окончания">
+<!ENTITY class.brsrc.label "Ресурс">
+<!ENTITY field.bram.resource.label "Ресурс">
+<!ENTITY field.cam.value.label "Аудитория">
+<!ENTITY field.vii.circ_as_type.label "Циркулировать как MARC тип">
+<!ENTITY field.viiad.circ_as_type.label "Циркулировать как MARC тип">
+<!ENTITY field.acqpo.lineitem_count.label "Подсчёт  строки">
+<!ENTITY field.au.reservations.label "Резервирование">
+<!ENTITY class.rmocbbhol.label "Счета открытых циркуляций пользователя Домашней библиотеки и Библиотеки владеющей копией">
+<!ENTITY field.pgpt.threshold.label "Порог">
+<!ENTITY field.rccbs.billing_location.label "Ссылка о местонахождение счетов">
+<!ENTITY field.au.evening_phone.label "Вечерний телефон">
+<!ENTITY field.stgu.evening_phone.label "Вечерний телефон">
+<!ENTITY field.acqedim.remote_file.label "Filename">
+<!ENTITY field.accs.last_renewal_workstation.label "Last Renewal Workstation">
+<!ENTITY field.pgt.name.label "Имя Группы">
+<!ENTITY class.acqpca.label "Контактный адрес поставщика">
+<!ENTITY field.chmm.item_circ_ou.label "Библиотека циркуляции единицы">
+<!ENTITY field.mckp.xact.label "Ссылка транзакции">
+<!ENTITY field.acqfsrcb.amount.label "Остаток">
+<!ENTITY class.vqara.label "Атрибуты Авторитетной записи из очереди">
+<!ENTITY field.vqbr.purpose.label "Цель">
+<!ENTITY field.vqar.purpose.label "Цель">
+<!ENTITY field.aur.location.label "Publication Location">
+<!ENTITY field.acqcr.keep_debits.label "Keep Debits?">
+<!ENTITY field.ateo.create_time.label "Создать Дату/Время">
+<!ENTITY field.acn.create_date.label "Создать Дату/Время">
+<!ENTITY field.au.super_user.label "Это первоклассный пользователь">
+<!ENTITY field.cmfpm.rec_type.label "Record Type">
+<!ENTITY field.vqbr.attributes.label "Атрибуты">
+<!ENTITY field.vqar.attributes.label "Атрибуты">
+<!ENTITY field.rccc.patron_zip.label "Индекс читателя">
+<!ENTITY field.brt.resource_attrs.label "Атрибуты ресурсов">
+<!ENTITY field.aou.rsrc_attrs.label "Атрибуты ресурсов">
+<!ENTITY field.brt.elbow_room.label "Inter-booking and Inter-circulation Interval">
+<!ENTITY class.cgf.label "Global Flags and Settings">
+<!ENTITY class.acqedim.label "EDI Message">
+<!ENTITY field.atevdef.params.label "Параметры">
+<!ENTITY field.ahn.id.label "ID Уведомления">
+<!ENTITY field.cmf.search_field.label "Search Field">
+<!ENTITY field.sre.editor.label "Редактор">
+<!ENTITY field.siss.editor.label "Редактор">
+<!ENTITY field.sitem.editor.label "Редактор">
+<!ENTITY field.act.editor.label "Редактор">
+<!ENTITY field.acqpron.editor.label "Редактор">
+<!ENTITY field.acqpl.editor.label "Редактор">
+<!ENTITY field.acqpo.editor.label "Редактор">
+<!ENTITY field.acqpoh.editor.label "Редактор">
+<!ENTITY field.acqpon.editor.label "Редактор">
+<!ENTITY field.jub.editor.label "Редактор">
+<!ENTITY field.acqlih.editor.label "Редактор">
+<!ENTITY field.acqlin.editor.label "Редактор">
+<!ENTITY field.acqfscred.effective_date.label "Effective Date">
+<!ENTITY class.afr.label "Полная авторитетная запись">
+<!ENTITY field.ocirccount.lost.label "Сервер">
+<!ENTITY field.ocirclist.lost.label "Сервер">
+<!ENTITY field.au.dob.label "Дата рождения">
+<!ENTITY field.rud.dob.label "Дата рождения">
+<!ENTITY field.stgu.dob.label "Дата рождения">
+<!ENTITY field.cmc.fields.label "Поле">
+<!ENTITY field.bre.creator.label "Создатель записи">
+<!ENTITY field.acqedim.edi.label "EDI Message Body">
+<!ENTITY field.acqpron.create_time.label "Время создания">
+<!ENTITY field.acqpl.create_time.label "Время создания">
+<!ENTITY field.acqpo.create_time.label "Время создания">
+<!ENTITY field.acqpon.create_time.label "Время создания">
+<!ENTITY field.jub.create_time.label "Время создания">
+<!ENTITY field.acqlin.create_time.label "Время создания">
+<!ENTITY field.afs.creation_time.label "Время создания">
+<!ENTITY field.acqlid.collection_code.label "Код коллекции">
+<!ENTITY field.acqfat.amount.label "Общая сумма распределения (средств)">
+<!ENTITY field.acqafat.amount.label "Общая сумма распределения (средств)">
+<!ENTITY field.sdist.bind_call_number.label "Bind Call Number">
+<!ENTITY field.atevdef.reactor.label "Реактор">
+<!ENTITY field.cmf.weight.label "Weight">
+<!ENTITY class.mbt.label "Платежные транзакции">
+<!ENTITY field.mp.xact.label "Платежные транзакции">
+<!ENTITY field.mbp.xact.label "Платежные транзакции">
+<!ENTITY field.mndp.xact.label "Платежные транзакции">
+<!ENTITY field.mdp.xact.label "Платежные транзакции">
+<!ENTITY field.aou.parent_ou.label "Родительская организационная единица">
+<!ENTITY field.au.photo_url.label "Фото URL">
+<!ENTITY class.mp.label "Платежи: Все">
+<!ENTITY field.asv.questions.label "Вопросы">
+<!ENTITY field.atevdef.env.label "Окружающая среда  записей">
+<!ENTITY field.acqftr.dest_fund.label "Destination Fund">
+<!ENTITY field.qxp.parent_expr.label "Parent Expression">
+<!ENTITY field.qcb.parent_expr.label "Parent Expression">
+<!ENTITY field.xbet.parent_expr.label "Parent Expression">
+<!ENTITY field.xbind.parent_expr.label "Parent Expression">
+<!ENTITY field.xbool.parent_expr.label "Parent Expression">
+<!ENTITY field.xcase.parent_expr.label "Parent Expression">
+<!ENTITY field.xcast.parent_expr.label "Parent Expression">
+<!ENTITY field.xcol.parent_expr.label "Parent Expression">
+<!ENTITY field.xex.parent_expr.label "Parent Expression">
+<!ENTITY field.xfunc.parent_expr.label "Parent Expression">
+<!ENTITY field.xin.parent_expr.label "Parent Expression">
+<!ENTITY field.xisnull.parent_expr.label "Parent Expression">
+<!ENTITY field.xnull.parent_expr.label "Parent Expression">
+<!ENTITY field.xnum.parent_expr.label "Parent Expression">
+<!ENTITY field.xop.parent_expr.label "Parent Expression">
+<!ENTITY field.xser.parent_expr.label "Parent Expression">
+<!ENTITY field.xstr.parent_expr.label "Parent Expression">
+<!ENTITY field.xsubq.parent_expr.label "Parent Expression">
+<!ENTITY field.cmfpm.start_pos.label "Start Postion">
+<!ENTITY field.cmpcsm.start_pos.label "Start Postion">
+<!ENTITY field.qfr.function_call.label "Function Call ID">
+<!ENTITY field.mckp.check_number.label "Контрольный номер">
+<!ENTITY field.au.ident_value.label "Первичная  идентификация">
+<!ENTITY field.aur.cancel_reason.label "Cancel Reason">
+<!ENTITY class.acqcr.label "Cancel Reason">
+<!ENTITY field.acqpo.cancel_reason.label "Cancel Reason">
+<!ENTITY field.acqpoh.cancel_reason.label "Cancel Reason">
+<!ENTITY field.jub.cancel_reason.label "Cancel Reason">
+<!ENTITY field.acqlih.cancel_reason.label "Cancel Reason">
+<!ENTITY field.acqlid.cancel_reason.label "Cancel Reason">
+<!ENTITY field.mrd.char_encoding.label "Кодировка символов">
+<!ENTITY field.acqcle.event_date.label "Event Date">
+<!ENTITY field.acqscle.event_date.label "Event Date">
+<!ENTITY field.au.money_summary.label "Денежная сводка">
+<!ENTITY field.sdist.receive_call_number.label "Receive Call Number">
+<!ENTITY field.acqdf.use_count.label "Используй счёт">
+<!ENTITY field.rocit.use_count.label "Используй счёт">
+<!ENTITY field.ahrcc.label.label "Этикетка">
+<!ENTITY field.ocirccount.overdue.label "Overdue">
+<!ENTITY field.ocirclist.overdue.label "Overdue">
+<!ENTITY field.qcb.condition.label "Condition">
+<!ENTITY class.puopm.label "Список выделенных полномочий пользователя">
+<!ENTITY field.circ.stop_fines.label "Причина прекращения штрафа">
+<!ENTITY field.combcirc.stop_fines.label "Причина прекращения штрафа">
+<!ENTITY field.acirc.stop_fines.label "Причина прекращения штрафа">
+<!ENTITY field.rodcirc.stop_fines.label "Причина прекращения штрафа">
+<!ENTITY field.afscv.id.label "Column Value ID">
+<!ENTITY field.rsr.genre.label "Жанры (стандартные)">
+<!ENTITY class.rhrr.label "Запрос записи для Хранения">
+<!ENTITY class.aurt.label "User Purchase Request Type">
+<!ENTITY class.ccs.label "Статус Копии">
+<!ENTITY field.sunit.status.label "Статус Копии">
+<!ENTITY field.acp.status.label "Статус Копии">
+<!ENTITY field.acqlisum.encumbrance_amount.label "Общая сумма обременения">
+<!ENTITY field.atevdef.opt_in_setting.label "Участвовать в установке вида">
+<!ENTITY field.rmobbol.balance.label "Баланс">
+<!ENTITY field.rmobbcol.balance.label "Баланс">
+<!ENTITY field.rmobbhol.balance.label "Баланс">
+<!ENTITY field.acqclpa.claim_policy.label "Claim Policy ID">
+<!ENTITY field.au.standing_penalties.label "Штрафное положение">
+<!ENTITY class.acqct.label "Тип валюты">
+<!ENTITY field.acqf.currency_type.label "Тип валюты">
+<!ENTITY field.aout.can_have_users.label "Может есть пользователи?">
+<!ENTITY field.actsce.owner.label "Владелец записи">
+<!ENTITY field.asce.owner.label "Владелец записи">
+<!ENTITY field.rsce1.owner.label "Владелец записи">
+<!ENTITY field.rsce2.owner.label "Владелец записи">
+<!ENTITY field.jub.attributes.label "Описательное определение">
+<!ENTITY field.actscecm.stat_cat_entry.label "Ввод Текста">
+<!ENTITY field.artc.prev_dest.label "Предыдущая библиотека назначения">
+<!ENTITY field.ahtc.prev_dest.label "Предыдущая библиотека назначения">
+<!ENTITY field.cin.func.label "Функция">
+<!ENTITY field.cust.opac_visible.label "OPAC/Patron Visible">
+<!ENTITY class.xex.label "Exists Expression">
+<!ENTITY field.aur.volume.label "Volume">
+<!ENTITY field.siss.edit_date.label "Изменить дату">
+<!ENTITY field.sitem.edit_date.label "Изменить дату">
+<!ENTITY field.act.edit_date.label "Изменить дату">
+<!ENTITY field.rocit.edit_date.label "Изменить дату">
+<!ENTITY field.acqlin.alert_text.label "Alert Text">
+<!ENTITY field.cmpctm.ptype_key.label "Type Key">
+<!ENTITY field.cmpcsm.ptype_key.label "Type Key">
+<!ENTITY field.accs.num_circs.label "Total Circs">
+<!ENTITY field.chdd.ceiling_date.label "Current Ceiling Date">
+<!ENTITY field.acqclpa.action_interval.label "Action Interval">
+<!ENTITY field.ccmcmt.items_out.label "Единицы выданы">
+<!ENTITY field.siss.holding_type.label "Тип хранения">
+<!ENTITY class.aoup.label "Схожесть организационной единицы">
+<!ENTITY field.acqlimad.remove.label "Удалить">
+<!ENTITY field.acqlipad.remove.label "Удалить">
+<!ENTITY field.bre.authority_links.label "Authority Links">
+<!ENTITY class.qcb.label "Case Branch">
+<!ENTITY field.circ.recurring_fine.label "Повторяющаяся сумма штрафа">
+<!ENTITY field.combcirc.recurring_fine.label "Повторяющаяся сумма штрафа">
+<!ENTITY field.acirc.recurring_fine.label "Повторяющаяся сумма штрафа">
+<!ENTITY field.rodcirc.recurring_fine.label "Повторяющаяся сумма штрафа">
+<!ENTITY field.asv.end_date.label "Окончание опроса  Дата/Время">
+<!ENTITY field.mg.xact_start.label "Отметка времени начала транзакции">
+<!ENTITY field.bresv.target_resource.label "Целевой ресурс">
+<!ENTITY field.vqbrad.ident.label "Идентификатор?">
+<!ENTITY field.vqarad.ident.label "Идентификатор?">
+<!ENTITY field.acqliad.ident.label "Идентификатор?">
+<!ENTITY field.acqlimad.ident.label "Идентификатор?">
+<!ENTITY field.acqligad.ident.label "Идентификатор?">
+<!ENTITY field.acqliuad.ident.label "Идентификатор?">
+<!ENTITY field.acqlipad.ident.label "Идентификатор?">
+<!ENTITY field.acqlilad.ident.label "Идентификатор?">
+<!ENTITY field.circ.renewal_remaining.label "Обновление остальных">
+<!ENTITY field.combcirc.renewal_remaining.label "Обновление остальных">
+<!ENTITY field.acirc.renewal_remaining.label "Обновление остальных">
+<!ENTITY field.rodcirc.renewal_remaining.label "Обновление остальных">
+<!ENTITY field.mb.void_time.label "Аннулировать метку времени">
+<!ENTITY field.au.billable_transactions.label "Платежные Сделки">

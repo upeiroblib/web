@@ -1,0 +1,112 @@
+<!ENTITY vandelay.add.existing.queue "ou Incluir numa fila existente">
+<!ENTITY vandelay.auth.attrs "Atributos de autoridade">
+<!ENTITY vandelay.auth.records "Registros de autoridade">
+<!ENTITY vandelay.auto.import.noncolliding "Auto-importa registro sem colisão">
+<!ENTITY vandelay.auto.import.auto_overlay_exact "Auto Merge/Overlay Exact Matches">
+<!ENTITY vandelay.auto.import.auto_overlay_1match "Auto Merge/Overlay When Exactly 1 Match is Found">
+<!ENTITY vandelay.auto.import.merge_profile "Merge/Overlay Profile">
+<!ENTITY vandelay.auto.width "Largura automática">
+<!ENTITY vandelay.back.to.import.queue "Voltar para fila de importação">
+<!ENTITY vandelay.bib.attrs "Atributos bibliográfico">
+<!ENTITY vandelay.bib.records "Registros bibliográficos">
+<!ENTITY vandelay.cancel "Cancelar">
+<!ENTITY vandelay.edit "Editar">
+<!ENTITY vandelay.code "Código">
+<!ENTITY vandelay.column "Coluna">
+<!ENTITY vandelay.create.attr.def "Criar definição de atributo">
+<!ENTITY vandelay.create "Criar">
+<!ENTITY vandelay.create.date "Criar data">
+<!ENTITY vandelay.create.upload.queue "Criar uma nova fila de upload">
+<!ENTITY vandelay.creator "Criador">
+<!ENTITY vandelay.delete.queue "Excluir fila">
+<!ENTITY vandelay.delete.record "Excluir registro">
+<!ENTITY vandelay.descrip "Descrição">
+<!ENTITY vandelay.dest.match.point "Destinação do ponto de correspondência">
+<!ENTITY vandelay.display "Exibir">
+<!ENTITY vandelay.done "Feito">
+<!ENTITY vandelay.edit.attributes "Editar atributos">
+<!ENTITY vandelay.edit.attrs "Editar atributos">
+<!ENTITY vandelay.edit.profiles "Edit Merge / Overlay Profiles">
+<!ENTITY vandelay.edit.import_item_attrs "Edit Import Item Attributes">
+<!ENTITY vandelay.false "Falso">
+<!ENTITY vandelay.file.to.upload "Arquivo para fazer upload:">
+<!ENTITY vandelay.for.example "Exemplo">
+<!ENTITY vandelay.identifier "Identificador">
+<!ENTITY vandelay.id.field "Campo identificador?">
+<!ENTITY vandelay.id "ID">
+<!ENTITY vandelay.import.matches "Importar encontrados">
+<!ENTITY vandelay.import.records "Importar registros">
+<!ENTITY vandelay.import.selected "Importar selecionado">
+<!ENTITY vandelay.import.all "Importar tudo">
+<!ENTITY vandelay.import.time "Importa Horas">
+<!ENTITY vandelay.inspect.queue "Fila de inspeção">
+<!ENTITY vandelay.last.edit.date "Última data de edição">
+<!ENTITY vandelay.limit.to.collision.matches "Limitar para colisões encontradas">
+<!ENTITY vandelay.limit.to.non.imported "Limitar para registros não importados">
+<!ENTITY vandelay.marc.file.upload "Upload de arquivo MARC Evergreen">
+<!ENTITY vandelay.marc.record "Registro MARC">
+<!ENTITY vandelay.matches "Encontrados">
+<!ENTITY vandelay.next.page "Next Page &#187;">
+<!ENTITY vandelay.overlay.selected.record "Sobrepor o registro selecionado pelo registro importado">
+<!ENTITY vandelay.overlay.target "Destino da sobreposição">
+<!ENTITY vandelay.page "Página">
+<!ENTITY vandelay.powered.by.evergreen "Powered by Evergreen!">
+<!ENTITY vandelay.prev.page "&#171; Previous Page">
+<!ENTITY vandelay.processing "Processando... ">
+<!ENTITY vandelay.queue "Fila">
+<!ENTITY vandelay.queue.type "Tipo de fila">
+<!ENTITY vandelay.record.queue "Fila de registros">
+<!ENTITY vandelay.record.type "Tipo do registro">
+<!ENTITY vandelay.refresh "Atualizar">
+<!ENTITY vandelay.remove.advanced "Remover (avançado)">
+<!ENTITY vandelay.remove "Remover">
+<!ENTITY vandelay.results.per.page "Resultados por página">
+<!ENTITY vandelay.retrieve.queue "Obter fila">
+<!ENTITY vandelay.return "Retornar">
+<!ENTITY vandelay.select.cols "Selecionar colunas">
+<!ENTITY vandelay.select.queue "Selecionar uma fila para inspeção">
+<!ENTITY vandelay.source.match.point "Fonte do ponto de correspondência">
+<!ENTITY vandelay.source "Fonte">
+<!ENTITY vandelay.subfields "Subcampo(s)">
+<!ENTITY vandelay.subfield "Subcampo">
+<!ENTITY vandelay.sure.to.delete "Você tem certeza de que deseja apagar este registro?">
+<!ENTITY vandelay.sure.to.delete.queue "Você tem certeza que deseja excluir esta fila?">
+<!ENTITY vandelay.tags "Tag(s)">
+<!ENTITY vandelay.tag "Tag:">
+<!ENTITY vandelay.tcn.source "TCN: Fonte">
+<!ENTITY vandelay.tcn.value "TCN: Valor">
+<!ENTITY vandelay.tooltip.subfields "Você pode entrar com múltiplos campos separados por espaços e/ou virgulas.">
+<!ENTITY vandelay.tooltip.tags "Você pode entrar com multiplos tags separados por espaços e/ou virgulas.">
+<!ENTITY vandelay.true "Verdadeiro">
+<!ENTITY vandelay.update "Atualizar">
+<!ENTITY vandelay.uploading "Fazendo upload...">
+<!ENTITY vandelay.upload.status "Estado do upload">
+<!ENTITY vandelay.upload "Upload">
+<!ENTITY vandelay.vandelay "Vandelay">
+<!ENTITY vandelay.view.marc "Ver MARC">
+<!ENTITY vandelay.xpath.advanced "XPath (avançado)">
+<!ENTITY vandelay.xpath "XPath">
+<!ENTITY vandelay.save "Salvar alterações">
+<!ENTITY vandelay.record_saved "Registro salvo">
+<!ENTITY vandelay.export.records "Exportar registros">
+<!ENTITY vandelay.export.use_field_no "Usar número do campo">
+<!ENTITY vandelay.export.from_csv "De um arquivo CSV">
+<!ENTITY vandelay.export.record_id "ID do Registro">
+<!ENTITY vandelay.export.or "Ou">
+<!ENTITY vandelay.export.format "Formato do registro">
+<!ENTITY vandelay.export.format.marc21 "MARC21">
+<!ENTITY vandelay.export.format.unimarc "UNIMARC">
+<!ENTITY vandelay.export.format.xml "MARC XML">
+<!ENTITY vandelay.export.format.bre "Entrada de registro Evergreen">
+<!ENTITY vandelay.export.encoding "Codificação do registro">
+<!ENTITY vandelay.export.utf8 "UTF-8">
+<!ENTITY vandelay.export.marc8 "MARC8">
+<!ENTITY vandelay.export.holdings "Incluir reservas nos registros bibliográficos">
+<!ENTITY vandelay.export.retrieve "Obter registros">
+<!ENTITY vandelay.export.field_no_hint "(começando do 0)">
+<!ENTITY vandelay.export.bucket "ID da cesta de registro">
+<!ENTITY vandelay.select_actions "-- Ações --">
+<!ENTITY vandelay.queue.total "Total:">
+<!ENTITY vandelay.queue.imported "Importado:">
+<!ENTITY vandelay.queue.column_picker.title "Escolhedor de coluna">
+<!ENTITY vandelay.import.bib_sources "Selecione a Fonte do Registro">

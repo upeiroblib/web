@@ -1,0 +1,146 @@
+***************
+*** 12,17 ****
+  var noEmailMessageXUL;
+  
+  function holdsHandleStaff() {
+  	swapCanvas($('xulholds_box'));
+  	$('xul_recipient_barcode').focus();
+  	$('xul_recipient_barcode').onkeypress = function(evt) 
+--- 12,21 ----
+  var noEmailMessageXUL;
+  
+  function holdsHandleStaff() {
++ 
++     // if we know the recipient's barcode, use it
++     if(xulG.patron_barcode) return _holdsHandleStaff();
++ 
+  	swapCanvas($('xulholds_box'));
+  	$('xul_recipient_barcode').focus();
+  	$('xul_recipient_barcode').onkeypress = function(evt) 
+***************
+*** 38,44 ****
+  }
+  
+  function _holdsHandleStaff() {
+- 	var barcode = $('xul_recipient_barcode').value;
+  	var user = grabUserByBarcode( G.user.session, barcode );
+  
+  	var evt;
+--- 42,48 ----
+  }
+  
+  function _holdsHandleStaff() {
++ 	var barcode = xulG.patron_barcode || $('xul_recipient_barcode').value;
+  	var user = grabUserByBarcode( G.user.session, barcode );
+  
+  	var evt;
+***************
+*** 52,57 ****
+  		return
+  	}
+  
+  	holdArgs.recipient = user;
+  	holdsDrawEditor();
+  }
+--- 56,63 ----
+  		return
+  	}
+  
++ 	grabUserPrefs(user);
++ 
+  	holdArgs.recipient = user;
+  	holdsDrawEditor();
+  }
+***************
+*** 100,116 ****
+  function _holdsUpdateEditHold() {
+  
+  	var hold = holdArgs.editHold;
+- 	var status = holdArgs.status;
+  
+  	var orgsel = $('holds_org_selector');
+      var frozenbox = $('holds_frozen_chkbox');
+  
+  	setSelector(orgsel, hold.pickup_lib());
+  
+- 	if( hold.capture_time() || status > 2 ) {
+          frozenbox.disabled = true;
+          $('holds_frozen_thaw_input').disabled = true;
+-         if(status == 3) {
+              // no pickup lib changes while in-transit
+  		    orgsel.disabled = true;
+          } else {
+--- 106,122 ----
+  function _holdsUpdateEditHold() {
+  
+  	var hold = holdArgs.editHold;
++ 	var qstats = holdArgs.status;
+  
+  	var orgsel = $('holds_org_selector');
+      var frozenbox = $('holds_frozen_chkbox');
+  
+  	setSelector(orgsel, hold.pickup_lib());
+  
++ 	if( hold.capture_time() || qstats.status > 2 ) {
+          frozenbox.disabled = true;
+          $('holds_frozen_thaw_input').disabled = true;
++         if(qstats.status == 3) {
+              // no pickup lib changes while in-transit
+  		    orgsel.disabled = true;
+          } else {
+***************
+*** 441,455 ****
+  	$('holds_phone').value = holdArgs.recipient.day_phone();
+  	appendClear( $('holds_email'), text(holdArgs.recipient.email()));
+  
+- 	var pref = G.user.prefs[PREF_HOLD_NOTIFY];
+  
+  	if(pref) {
+- 		if( ! pref.match(/email/i) ) 
+  			$('holds_enable_email').checked = false;
+  
+  		if( ! pref.match(/phone/i) ) {
+  			$('holds_phone').disabled = true;
+  			$('holds_enable_phone').checked = false;
+  		}
+  	}
+  
+--- 447,467 ----
+  	$('holds_phone').value = holdArgs.recipient.day_phone();
+  	appendClear( $('holds_email'), text(holdArgs.recipient.email()));
+  
++ 	var pref = holdArgs.recipient.prefs[PREF_HOLD_NOTIFY];
+  
+  	if(pref) {
++ 		if( ! pref.match(/email/i) ) {
+  			$('holds_enable_email').checked = false;
++ 		} else {
++ 			$('holds_enable_email').checked = true;
++ 		}
+  
+  		if( ! pref.match(/phone/i) ) {
+  			$('holds_phone').disabled = true;
+  			$('holds_enable_phone').checked = false;
++ 		} else {
++ 			$('holds_phone').disabled = false;
++ 			$('holds_enable_phone').checked = true;
+  		}
+  	}
+  
+***************
+*** 842,848 ****
+  
+  function holdsCancel(holdid, user) {
+  	if(!user) user = G.user;
+- 	var req = new Request(CANCEL_HOLD, user.session, holdid);
+  	req.send(true);
+  	return req.result();
+  	runEvt('common', 'holdUpdated');
+--- 854,860 ----
+  
+  function holdsCancel(holdid, user) {
+  	if(!user) user = G.user;
++ 	var req = new Request(CANCEL_HOLD, user.session, holdid, /* Patron via OPAC */ 6);
+  	req.send(true);
+  	return req.result();
+  	runEvt('common', 'holdUpdated');

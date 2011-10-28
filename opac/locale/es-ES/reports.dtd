@@ -1,0 +1,216 @@
+<!-- Common Entities -->
+<!ENTITY reports.common.logged_in_as "Usted está registrado como ">
+<!ENTITY reports.common.loading "Cargando…">
+
+<!ENTITY reports.oils_rpt.title "Evergreen: Informes">
+<!ENTITY reports.oils_rpt.insufficient_permissions "No tiene permisos suficientes para ejecutar informes">
+<!ENTITY reports.oils_rpt.my_folders "Mis carpetas">
+<!ENTITY reports.oils_rpt.shared_folders "Carpetas compartidas">
+<!ENTITY reports.oils_rpt.manage_folder_contents "Administrar contenido de carpetas">
+<!ENTITY reports.oils_rpt.manage_folder "Administrar carpetas">
+<!ENTITY reports.oils_rpt.created_by "creado por ">
+<!ENTITY reports.oils_rpt.create_new_sub_folder "Crear una nueva sub-carpeta">
+<!ENTITY reports.oils_rpt.folder_type "Tipo de carpeta: ">
+<!ENTITY reports.oils_rpt.folder_name "Nombre de carpeta:">
+<!ENTITY reports.oils_rpt.share_folder "Compartir esta carpeta:">
+<!ENTITY reports.oils_rpt.do_not_share "No compartir">
+<!ENTITY reports.oils_rpt.share "Compartir">
+<!ENTITY reports.oils_rpt.share_with "Compartir con:">
+<!ENTITY reports.oils_rpt.create_sub_folder "Crear sub-carpeta">
+
+
+<!ENTITY reports.oils_rpt_builder.title "Evergreen: Creador de informes">
+<!ENTITY reports.oils_rpt_builder.reports_home "Reports Home">
+<!ENTITY reports.oils_rpt_builder.cloning_template "Clonando plantilla">
+<!ENTITY reports.oils_rpt_builder.template_name "Nombre de la plantilla: ">
+<!ENTITY reports.oils_rpt_builder.template_description "Descripción de la plantilla: ">
+<!ENTITY reports.oils_rpt_builder.template_type "Tipo de plantilla: ">
+<!ENTITY reports.oils_rpt_builder.save_this_template "Guardar esta plantilla: ">
+<!ENTITY reports.oils_rpt_builder.filtering_note "Indicates that when filtering on the item, a list of named choices will be generated.">
+<!ENTITY reports.oils_rpt_builder.temp_disp_items "Template Display Items">
+<!ENTITY reports.oils_rpt_builder.remove_selected "Eliminar seleccionados">
+
+<!ENTITY reports.oils_rpt_builder.move_up "Subir">
+<!ENTITY reports.oils_rpt_builder.move_down "Bajar">
+<!-- The below two entity strings were the contents of the .xhtml file but I don't think that works when using XML entities -->
+<!-- ENTITY reports.oils_rpt_builder.move_up "Move &uarr;" -->
+<!-- ENTITY reports.oils_rpt_builder.move_down "Move &darr;" -->
+
+<!ENTITY reports.oils_rpt_builder.template_filters "Filtros de plantilla">
+<!ENTITY reports.oils_rpt_builder.report_aggregate_filters "Report Aggregate Filters">
+<!ENTITY reports.oils_rpt_builder.hint "Pista: ">
+<!ENTITY reports.oils_rpt_builder.hint_item_details "Double-click on an item to see the item details.">
+<!ENTITY reports.oils_rpt_builder.template_types "Tipos de plantillas">
+<!ENTITY reports.oils_rpt_builder.display_items "Mostrar elementos">
+<!ENTITY reports.oils_rpt_builder.filters "Filtros">
+<!ENTITY reports.oils_rpt_builder.aggregate_filters "Filtros de Agregado">
+<!ENTITY reports.oils_rpt_builder.create_aggregate_filter "Crear filtro de Agregado">
+<!ENTITY reports.oils_rpt_builder.field_editor_window.label "Select how this field should be displayed:">
+<!ENTITY reports.oils_rpt_builder.add_item "Añadir elemento">
+<!ENTITY reports.oils_rpt_builder.select_filter_to_apply "Select what filter should be applied to this field:">
+<!ENTITY reports.oils_rpt_builder.choose_a_transform "Elija una transformación: ">
+<!ENTITY reports.oils_rpt_builder.choose_a_filter "Elija un filtro: ">
+<!ENTITY reports.oils_rpt_builder.create_filter "Crear filtro">
+<!ENTITY reports.oils_rpt_builder.aggregate_filter_to_apply "Select what aggregate filter should be applied to this field:">
+<!ENTITY reports.oils_rpt_builder.selected_to_sort_columns "Seleccione como se ordenarán las columnas">
+<!ENTITY reports.oils_rpt_builder.choose_column "Elija una columna: ">
+<!ENTITY reports.oils_rpt_builder.choose_sorting_direction "Choose the direction the sorting should occur: ">
+<!ENTITY reports.oils_rpt_builder.ascending "Ascendente">
+<!ENTITY reports.oils_rpt_builder.descending "Descendente">
+<!ENTITY reports.oils_rpt_builder.add_sort "Add Sort">
+<!ENTITY reports.oils_rpt_builder.close_window "Cerrar ventana">
+<!ENTITY reports.oils_rpt_builder.confirm_new_report "This will destroy the report you are currently constructing.  Are you sure you wish to do this?">
+
+
+<!ENTITY reports.oils_rpt_common.action_succeeded "Acción exitosa">
+<!ENTITY reports.oils_rpt_common.action_failed "Acción fallida">
+<!ENTITY reports.oils_rpt_common.generic_calendar_button "Selector de fechas">
+
+
+<!ENTITY reports.oils_rpt_editor.template_name "Nombre de la plantilla:">
+<!ENTITY reports.oils_rpt_editor.template_creator "Creador de plantillas:">
+<!ENTITY reports.oils_rpt_editor.template_description "Descripción de la plantilla:">
+<!ENTITY reports.oils_rpt_editor.report_name "Nombre del informe:">
+<!ENTITY reports.oils_rpt_editor.report_description "Descripción del informe:">
+<!ENTITY reports.oils_rpt_editor.report_columns "Columnas del informe:">
+<!ENTITY reports.oils_rpt_editor.pivot_label_column "Intercambiar etiqueta de columna:">
+<!ENTITY reports.oils_rpt_editor.select_option "Seleccione una (opcional)">
+<!ENTITY reports.oils_rpt_editor.pivot_data_column "Intercambiar datos de columna:">
+<!ENTITY reports.oils_rpt_editor.store_report_definition "Elija una carpeta para almacenar la definición de este informe: ">
+<!ENTITY reports.oils_rpt_editor.selected_folder "Carpeta seleccionada: ">
+<!ENTITY reports.oils_rpt_editor.output_options "Opciones de salida">
+<!ENTITY reports.oils_rpt_editor.excel_output "Salida Excel">
+<!ENTITY reports.oils_rpt_editor.csv_output "Salida CSV">
+<!ENTITY reports.oils_rpt_editor.html_output "Salida HTML">
+<!ENTITY reports.oils_rpt_editor.bar_charts "Bar Charts">
+<!ENTITY reports.oils_rpt_editor.line_charts "Line Charts">
+<!ENTITY reports.oils_rpt_editor.recurring_report "Informe recurrente: ">
+<!ENTITY reports.oils_rpt_editor.recurring_interval "Intervalo de recurrencia: ">
+<!ENTITY reports.oils_rpt_editor.days "Día(s)">
+<!ENTITY reports.oils_rpt_editor.weeks "Semana(s)">
+<!ENTITY reports.oils_rpt_editor.months "Mes(es)">
+<!ENTITY reports.oils_rpt_editor.run_asap "Ejecutar cuanto antes">
+<!ENTITY reports.oils_rpt_editor.sent_to_email "Enviar una notificación al completar a esta dirección de email:">
+<!ENTITY reports.oils_rpt_editor.midnight "Medianoche">
+<!ENTITY reports.oils_rpt_editor.noon "Mediodía">
+<!ENTITY reports.oils_rpt_editor.storage_folder_for_output "Choose a folder to store this report's output:">
+<!ENTITY reports.oils_rpt_editor.save_report "Guardar informe">
+<!ENTITY reports.oils_rpt_editor.empty_parameter "One or more of the user-defined parameters has been left empty. Please fill in all fields.">
+<!ENTITY reports.oils_rpt_editor.same_name "There is already a report in this folder with the given name.">
+
+
+<!ENTITY reports.oils_rpt_folder_manager.change_folder_name "Cambiar el nombre de la carpeta">
+<!ENTITY reports.oils_rpt_folder_manager.delete_folder "Eliminar esta carpeta">
+<!ENTITY reports.oils_rpt_folder_manager.create_new_sub_folder "Crear una nueva sub-carpeta">
+<!ENTITY reports.oils_rpt_folder_manager.share_this_folder "Compartir esta carpeta">
+<!ENTITY reports.oils_rpt_folder_manager.hide_folder "Hide (un-share) this folder">
+<!ENTITY reports.oils_rpt_folder_manager.disable_recurrence "Desactivar recurrencia">
+<!ENTITY reports.oils_rpt_folder_manager.fldr_mngr_actions_submit "Ir">
+<!ENTITY reports.oils_rpt_folder_manager.change_name "Ingrese nuevo nombre:">
+<!ENTITY reports.oils_rpt_folder_manager.submit "Enviar">
+<!ENTITY reports.oils_rpt_folder_manager.folder_name "Nombre de carpeta:">
+<!ENTITY reports.oils_rpt_folder_manager.do_not_share "No compartir">
+<!ENTITY reports.oils_rpt_folder_manager.share "Compartir">
+<!ENTITY reports.oils_rpt_folder_manager.share_with "Compartir con:">
+<!ENTITY reports.oils_rpt_folder_manager.create_sub_folder "Crear sub-carpeta">
+<!ENTITY reports.oils_rpt_folder_manager.change_name_confirm "¿Está seguro que desea cambiar el nombre de esta carpeta?">
+<!ENTITY reports.oils_rpt_folder_manager.delete_name_confirm "¿Está seguro que desea eliminar esta carpeta?">
+<!ENTITY reports.oils_rpt_folder_manager.cannot_delete "Esta carpeta no puede eliminar porque no está vacía.">
+<!ENTITY reports.oils_rpt_folder_manager.already_shared "Esta carpeta ya está compartida">
+<!ENTITY reports.oils_rpt_folder_manager.folder_not_shared "Esta carpeta no esta compartida">
+<!ENTITY reports.oils_rpt_folder_manager.confirm_hide_folder "¿Está seguro que desea ocultar esta carpeta?">
+
+
+<!ENTITY reports.oils_rpt_folder_window.new_report_from_template "Crear un nuevo informe desde la plantilla seleccionada">
+<!ENTITY reports.oils_rpt_folder_window.clone_template "Clonar la plantilla seleccionada">
+<!ENTITY reports.oils_rpt_folder_window.delete_template "Eliminar plantilla(s) seleccionadas">
+<!ENTITY reports.oils_rpt_folder_window.clone_report "Clonar informe">
+<!ENTITY reports.oils_rpt_folder_window.schedule_report "Schedule report">
+<!ENTITY reports.oils_rpt_folder_window.delete_reports "Eliminar los informe(s) seleccionados">
+<!ENTITY reports.oils_rpt_folder_window.view_report_output "View report output">
+<!ENTITY reports.oils_rpt_folder_window.delete_output "Delete selected output(s)">
+<!ENTITY reports.oils_rpt_folder_window.move_templates "Mover la(s) plantilla(s) seleccionada(s) a una carpeta diferente">
+<!ENTITY reports.oils_rpt_folder_window.move_reports "Mover el (los) informe(s) seleccionado(s) a una carpeta diferente">
+<!ENTITY reports.oils_rpt_folder_window.move_output "Mover la(s) salida(s) seleccionada(s) a una carpeta diferente">
+<!ENTITY reports.oils_rpt_folder_window.submit "Enviar">
+<!ENTITY reports.oils_rpt_folder_window.limit_output "Limitar la salida a ">
+<!ENTITY reports.oils_rpt_folder_window.all "Todos">
+<!ENTITY reports.oils_rpt_folder_window.pending_items "Elementos pendientes">
+<!ENTITY reports.oils_rpt_folder_window.new_template "Crear una nueva plantilla para esta carpeta">
+<!ENTITY reports.oils_rpt_folder_window.no_items_to_display "No hay elementos para mostrar">
+<!ENTITY reports.oils_rpt_folder_window.completed_items "Elementos completos">
+<!ENTITY reports.oils_rpt_folder_window.selected_folder "Carpeta seleccionada: ">
+<!ENTITY reports.oils_rpt_folder_window.select_folder "Seleccionar carpeta">
+<!ENTITY reports.oils_rpt_folder_window.cancel "Cancelar">
+<!ENTITY reports.oils_rpt_folder_window.confirm_delete "¿Está seguro que desea eliminar los elementos seleccionados?">
+<!ENTITY reports.oils_rpt_folder_window.dependant_reports_no_delete "One or more of the selected templates could not be deleted because there are reports that depend on them.">
+<!ENTITY reports.oils_rpt_folder_window.dependant_outputs_no_delete "One or more of The selected reports could not be deleted because there are outputs that depend on them.">
+<!ENTITY reports.oils_rpt_folder_window.cannot_delete_another_users_data "No puede eliminar los elementos de otros usuarios">
+<!ENTITY reports.oils_rpt_folder_window.cannot_move_another_users_data "No puede mover los elementos de otros usuarios">
+<!ENTITY reports.oils_rpt_folder_window.delete_all_attached_reports "
+        This will also delete all of your attached reports and outputs for
+        this template.  
+
+        If other users have reports or outputs attached to this template,
+        those will be left untouched and the template will not be deleted.
+        
+        Do you wish to continue?">
+<!ENTITY reports.oils_rpt_folder_window.delete_all_attached_outputs "
+        This will also delete all of your attached outputs for
+        this report.  
+        
+        If other users have outputs attached to this report,
+        those will be left untouched and the report will not be deleted.
+        
+        Do you wish to continue?">
+
+
+<!ENTITY reports.oils_rpt_param_editor.column "Columna">
+<!ENTITY reports.oils_rpt_param_editor.transform "Transformar">
+<!ENTITY reports.oils_rpt_param_editor.action "Acción">
+<!ENTITY reports.oils_rpt_param_editor.user_params "Parámetros de usuario">
+<!ENTITY reports.oils_rpt_param_editor.or "O">
+<!ENTITY reports.oils_rpt_param_editor.use_relative_date "Use a una fecha relativa en su lugar.">
+<!ENTITY reports.oils_rpt_param_editor.days "Día(s)">
+<!ENTITY reports.oils_rpt_param_editor.weeks "Semana(s)">
+<!ENTITY reports.oils_rpt_param_editor.months "Mes(es)">
+<!ENTITY reports.oils_rpt_param_editor.ago " atrás">
+
+
+<!ENTITY reports.xul.template_builder.db_source_browser.label "Database Source Browser">
+<!ENTITY reports.xul.template_builder.sources_menulist.label "Fuentes">
+<!ENTITY reports.xul.template_builder.source_name.label "Nombre de la fuente">
+<!ENTITY reports.xul.template_builder.source_nullable.label "Nullable">
+<!ENTITY reports.xul.template_builder.nullability_select.label "Enable nullability selection">
+<!ENTITY reports.xul.template_builder.source_specifier.label "Source Specifier:">
+<!ENTITY reports.xul.template_builder.field_name.label "Nombre del Campo">
+<!ENTITY reports.xul.template_builder.data_type.label "Tipo de dato">
+<!ENTITY reports.xul.template_builder.field_transform.label "Transformar campo">
+<!ENTITY reports.xul.template_builder.params.label "Parámetros">
+<!ENTITY reports.xul.template_builder.applicable_datatypes.label "Applicable Datatypes">
+<!ENTITY reports.xul.template_builder.output_type.label "Tipo de salida">
+<!ENTITY reports.xul.template_builder.source_add.label "Add Selected Fields">
+<!ENTITY reports.xul.template_builder.template_config_caption.label "Configuración de plantillas">
+<!ENTITY reports.xul.template_builder.name.label "Nombre:">
+<!ENTITY reports.xul.template_builder.description.label "Descripción:">
+<!ENTITY reports.xul.template_builder.save.label "Guardar">
+<!ENTITY reports.xul.template_builder.displayed_fields.label "Campos mostrados">
+<!ENTITY reports.xul.template_builder.base_filters.label "Filtros base">
+<!ENTITY reports.xul.template_builder.aggregate_filters.label "Aggregate Filters">
+<!ENTITY reports.xul.template_builder.display_name.label "Mostrar nombre">
+<!ENTITY reports.xul.template_builder.field_transform_type.label "Tipo de transformación de campo">
+<!ENTITY reports.xul.template_builder.alter_display_header.label "Alter Display Header">
+<!ENTITY reports.xul.template_builder.move_up.label "Subir">
+<!ENTITY reports.xul.template_builder.move_down.label "Bajar">
+<!ENTITY reports.xul.template_builder.remove_selected_field.label "Eliminar el campo seleccionado">
+<!ENTITY reports.xul.template_builder.filter_field.label "Filtrar campo">
+<!ENTITY reports.xul.template_builder.operator.label "Operador">
+<!ENTITY reports.xul.template_builder.value.label "Valor">
+<!ENTITY reports.xul.template_builder.change_transform.label "Change Transform">
+<!ENTITY reports.xul.template_builder.change_operator.label "Cambiar operador">
+<!ENTITY reports.xul.template_builder.change_value.label "Cambiar valor">
+<!ENTITY reports.xul.template_builder.remove_value.label "Eliminar valor">
+<!ENTITY reports.xul.template_builder.remove_selected_fields.label "Eliminar los campos seleccionados">
+<!ENTITY reports.xul.template_builder.table_name.label "Nombre de la Tabla">
+<!ENTITY reports.xul.template_builder.sql_alias.label "Alias SQL">
+<!ENTITY reports.xul.template_builder.relationship.label "Relación">

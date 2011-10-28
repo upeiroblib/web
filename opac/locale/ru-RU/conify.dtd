@@ -1,0 +1,129 @@
+<!-- Common entities -->
+<!ENTITY conify.save_button.label "Сохранить">
+<!ENTITY conify.delete_button.label "Удалить">
+<!ENTITY conify.new_kid_button.label "Новое потомство">
+<!-- Main configuration interface menu -->
+<!ENTITY conify.admin.title "Глобальная :: Администрация">
+<!ENTITY conify.admin.top_pane.title "Контроль">
+<!ENTITY conify.admin.configure "Конфигурация вашего ИБС">
+<!ENTITY conify.admin.left_pane.controls "Контроль">
+<!ENTITY conify.admin.org_unit_type.link "Тип Организации">
+<!ENTITY conify.admin.org_unit.link "Организационная единица">
+<!ENTITY conify.admin.grp_tree.link "Полномочия групп">
+<!ENTITY conify.admin.perm_list.link "Полномочия">
+<!ENTITY conify.admin.copy_status.link "Копия статусов">
+<!ENTITY conify.admin.marc_code_maps.link "коды MARC">
+<!ENTITY conify.admin.bottom_pane.title "Контроль">
+<!-- Organization unit type configuration interface -->
+<!ENTITY conify.org_unit_type.title "Глобальная :: Исполнитель:: Типы организационной единицы">
+<!ENTITY conify.org_unit_type.type_tree.label "Типы организационной единицы">
+<!ENTITY conify.org_unit_type.type_name "Имя типа">
+<!ENTITY conify.org_unit_type.opac_label "OPAC ярлык">
+<!ENTITY conify.org_unit_type.parent_type "Тип родителя">
+<!ENTITY conify.org_unit_type.can_have_volumes "Может  иметь тома и дублеты">
+<!ENTITY conify.org_unit_type.can_have_users "Может  иметь пользователей">
+<!-- Organization unit configuration interface -->
+<!ENTITY conify.org_unit.title "Глобальная :: Исполнитель :: Организационные единицы">
+<!ENTITY conify.org_unit.ou_tree.label "Организационные единицы">
+<!ENTITY conify.org_unit.editor_pane.title "Основные параметры установки">
+<!ENTITY conify.org_unit.editor_pane.org_unit_name "Название Организационной единицы">
+<!ENTITY conify.org_unit.editor_pane.org_unit_code "Код поведения Организационной единицы">
+<!ENTITY conify.org_unit.editor_pane.main_email "Основной электронный адрес">
+<!ENTITY conify.org_unit.editor_pane.main_phone "Основной телеф. номер">
+<!ENTITY conify.org_unit.editor_pane.org_unit_type "Тип организационной единицы">
+<!ENTITY conify.org_unit.editor_pane.parent "Родитель организационной единицы">
+<!ENTITY conify.org_unit.editor_pane.opac_visible "OPAC видим">
+<!-- Hours of operation --> 
+<!ENTITY conify.org_unit.hoo_pane.title "Часы действия">
+<!ENTITY conify.org_unit.hoo_pane.open_time "Открытое время">
+<!ENTITY conify.org_unit.hoo_pane.close_time "Закрытое время">
+<!ENTITY conify.org_unit.hoo_pane.closed "Закрыт">
+<!ENTITY conify.org_unit.hoo_pane.monday "Понедельник">
+<!ENTITY conify.org_unit.hoo_pane.tuesday "Вторник">
+<!ENTITY conify.org_unit.hoo_pane.wednesday "Среда">
+<!ENTITY conify.org_unit.hoo_pane.thursday "Четверг">
+<!ENTITY conify.org_unit.hoo_pane.friday "Пятница">
+<!ENTITY conify.org_unit.hoo_pane.saturday "Суббота">
+<!ENTITY conify.org_unit.hoo_pane.sunday "Воскресенье">
+<!-- Addresses --> 
+<!ENTITY conify.org_unit.addresses_pane.title "Адреса">
+<!ENTITY conify.org_unit.addresses_pane.physical.title "Физический адрес">
+<!ENTITY conify.org_unit.addresses_pane.holds.title "Адрес задерживающего">
+<!ENTITY conify.org_unit.addresses_pane.mailing.title "Почтовый адрес">
+<!ENTITY conify.org_unit.addresses_pane.ill.title "МБА  адрес">
+<!ENTITY conify.org_unit.addresses_pane.type "Тип">
+<!ENTITY conify.org_unit.addresses_pane.valid "Действительный">
+<!ENTITY conify.org_unit.addresses_pane.street1 "Улица 1">
+<!ENTITY conify.org_unit.addresses_pane.street2 "Улица 2">
+<!ENTITY conify.org_unit.addresses_pane.city "Город">
+<!ENTITY conify.org_unit.addresses_pane.state "Штат">
+<!ENTITY conify.org_unit.addresses_pane.zip "Индекс">
+<!ENTITY conify.org_unit.addresses_pane.country "Страна">
+<!ENTITY conify.org_unit.addresses_pane.county "Графство">
+<!-- This is a highlighted label that is followed by the name of the organizational unit -->
+<!ENTITY conify.org_unit.status_bar "Редактирование сейчас">
+
+<!ENTITY conify.copy_status.title "Основной: Конфигурация: Копия статуса">
+<!ENTITY conify.copy_status.new_status.label "Новый статус">
+<!ENTITY conify.copy_status.new_status.name "Имя нового статуса">
+<!ENTITY conify.copy_status.new_status.save "Добавить">
+<!ENTITY conify.copy_status.save_changes "Сохранить изменения">
+<!ENTITY conify.copy_status.delete_selected "Удалить выбранные">
+
+<!ENTITY conify.marc_code_maps.title "Основной: конфигурация: Карты MARC кодов">
+<!ENTITY conify.marc_code_maps.audience_map.title "Список группы">
+<!ENTITY conify.marc_code_maps.audience_map.new.label "Список новой группы">
+<!ENTITY conify.marc_code_maps.new_code "Новый код">
+<!ENTITY conify.marc_code_maps.new_value "Новая величина">
+<!ENTITY conify.marc_code_maps.audience_map.description "Описание">
+<!ENTITY conify.marc_code_maps.delete_selected "Удалить отмеченные">
+<!ENTITY conify.marc_code_maps.save_changes "Сохранить изменения">
+
+<!ENTITY conify.marc_code_maps.bib_level.title "Карта Библиографического Уровня">
+<!ENTITY conify.marc_code_maps.bib_level.new.label "Новый Библиографический Уровень:">
+<!ENTITY conify.marc_code_maps.add "Добавить">
+
+<!ENTITY conify.marc_code_maps.item_form.title "Карта формы  единицы">
+<!ENTITY conify.marc_code_maps.item_form.new.label "Новая форма единицы">
+
+<!ENTITY conify.marc_code_maps.item_type.title "Карта  типа единицы">
+<!ENTITY conify.marc_code_maps.item_type.new.label "Новый тип библ. единицы">
+
+<!ENTITY conify.marc_code_maps.language.title "Карта языка">
+<!ENTITY conify.marc_code_maps.language.new.label "Новый язык">
+
+<!ENTITY conify.marc_code_maps.literary_form.title "Литературная форма карты">
+<!ENTITY conify.marc_code_maps.literary_form.new.label "Новая литературная форма">
+
+<!ENTITY conify.marc_code_maps.video.title "Карта формата видеозаписи">
+<!ENTITY conify.marc_code_maps.video.new.label "Новый Формат видеозаписи">
+<!-- perm_list.html Entities -->
+
+<!ENTITY conify.perm_list.permission_list.title "Основной :: Полномочия :: Список доступа">
+<!ENTITY conify.perm_list.new_code.label "Новый код">
+<!ENTITY conify.perm_list.add_button.label "Добавить">
+<!ENTITY conify.perm_list.save_changes.label "Сохранить изменения">
+<!ENTITY conify.perm_list.delete_selected.label "Удалить выбранные">
+<!ENTITY conify.perm_list.new_permission.label "Новые Полномочия">
+<!-- grp_tree.html Entities --> 
+ 
+<!ENTITY conify.grp_tree.group_tree.title "Основной :: Полномочия :: Дерево группы">
+<!ENTITY conify.grp_tree.permission_groups.label "Группы Полномочий">
+<!ENTITY conify.grp_tree.group_config.label "Состав группы">
+<!ENTITY conify.grp_tree.group_name.label "Имя группы">
+<!ENTITY conify.grp_tree.description.label "Описание">
+<!ENTITY conify.grp_tree.permission_interval.label "Интервал Полномочия">
+<!ENTITY conify.grp_tree.editing_permission.label "Редактирование Полномочий">
+<!ENTITY conify.grp_tree.parent_group.label "Родительская группа">
+<!ENTITY conify.grp_tree.user_group.label "Группа пользователя">
+<!ENTITY conify.grp_tree.save_button.label "Сохранить">
+<!ENTITY conify.grp_tree.delete_button.label "Удалить">
+<!ENTITY conify.grp_tree.new_child_button.label "Новое потомство">
+<!ENTITY conify.grp_tree.group_permissions.title "Полномочия группы">
+<!ENTITY conify.grp_tree.new_mapping.label "Новая карта">
+<!ENTITY conify.grp_tree.permission.label "Полномочия:">
+<!ENTITY conify.grp_tree.depth.label "Глубина:">
+<!ENTITY conify.grp_tree.grantable.label "Вознаграждаемый">
+<!ENTITY conify.grp_tree.add_mapping_button.label "Добавить в карту">
+<!ENTITY conify.grp_tree.save_changes.label "Сохранить изменения">
+<!ENTITY conify.grp_tree.remove_selected.label "Удалить выбранные">

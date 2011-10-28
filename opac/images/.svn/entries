@@ -1,0 +1,102 @@
+8
+
+dir
+9740
+svn://svn.open-ils.org/ILS/branches/rel_1_2_2/Open-ILS/web/opac/images
+svn://svn.open-ils.org/ILS
+
+
+
+2007-06-28T02:14:48.169343Z
+7491
+erickson
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+dcc99617-32d9-48b4-a31d-7c20da2025e4
+
+small-rss.png
+file
+
+
+
+
+2008-05-31T01:06:12.000000Z
+2d119f2e0ee303123462da1a6ac514d8
+2007-06-28T02:14:48.169343Z
+7491
+erickson
+has-props
+
+main_logo.jpg
+file
+
+
+
+
+2008-05-31T01:06:12.000000Z
+c9dbae05ec5fd872e1fa8ff8d547413f
+2007-03-12T00:35:09.000000Z
+7057
+erickson
+has-props
+
+slimtree
+dir
+
+tor
+dir
+
+orgtree
+dir
+
+small_logo.jpg
+file
+
+
+
+
+2008-05-31T01:06:12.000000Z
+58aae9ffd57c7554212cf18bdea3c393
+2007-03-12T00:35:09.000000Z
+7057
+erickson
+has-props
+
+eg_tiny_logo.jpg
+file
+
+
+
+
+2008-05-31T01:06:12.000000Z
+19b7a2095842250f21d0279fda68d6c0
+2007-05-18T17:15:43.000000Z
+7337
+erickson
+has-props
+
+progressbar_green.gif
+file
+
+
+
+
+2008-05-31T01:06:12.000000Z
+fb4a9ba2949035eb170974d08394a1e5
+2006-03-17T17:54:06.000000Z
+3390
+erickson
+has-props
+
