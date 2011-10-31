@@ -799,7 +799,7 @@ function uEditBuildAddrFields(patron, address) {
             }
         },
         { 
-            required : true,
+            required : false,
             object    : address, 
             key        : 'country', 
             errkey    : 'ue_bad_addr_country',

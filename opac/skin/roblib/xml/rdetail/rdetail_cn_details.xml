@@ -10,7 +10,7 @@
 					<table class='data_grid data_grid_center' style='width: 100%'>
 						<thead>
 							<tr>
-								<td width='33%'>&rdetail.cn.barcode;</td>
+								<!-- <td width='33%'>&rdetail.cn.barcode;</td> -->
 								<td>&common.status;</td>
 								<td>&rdetail.cn.location;</td>
 								<td name='age_protect_label' class='hide_me'>&rdetail.cn.hold.age;</td>
@@ -23,8 +23,8 @@
 
 							<tr name='copies_row'>
 
-								<td>
-									<span name='barcode'> </span>
+								<td class='hide_me'>
+									<span name='barcode' class='hide_me'> </span>
 									<a class='hide_me classic_link copy_more_info' name='details_link'>&rdetail.cn.more;</a>
 									<a class='hide_me classic_link copy_more_info' name='less_details_link'>&rdetail.cn.less;</a>
 									<a class='hide_me classic_link copy_more_info' name='copy_hold_link' 
